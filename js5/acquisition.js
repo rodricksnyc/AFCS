@@ -2060,7 +2060,7 @@ else if
 
           $('#getFile6').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/plane0.jpg',
+              url: '/images5/plane0.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -2078,7 +2078,7 @@ else if
 
        $('#getFile7').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/plane2.jpg',
+              url: '/images5/plane2.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -2096,7 +2096,7 @@ else if
 
       $('#getFile8').on('click', function () {
                $.ajax({
-                 url: 'http://www.elizabethrodricks.com/images5/plane6.jpg',
+                 url: '/images5/plane6.jpg',
                  method: 'GET',
                  xhrFields: {
                    responseType: 'blob'
@@ -2113,7 +2113,7 @@ else if
              });
          $('#getFile9').on('click', function () {
                       $.ajax({
-                        url: 'http://www.elizabethrodricks.com/images5/plane.jpg',
+                        url: '/images5/plane.jpg',
                         method: 'GET',
                         xhrFields: {
                           responseType: 'blob'
@@ -2131,7 +2131,7 @@ else if
 
             $('#getFile10').on('click', function () {
                      $.ajax({
-                       url: 'http://www.elizabethrodricks.com/images5/plane8.jpg',
+                       url: '/images5/plane8.jpg',
                        method: 'GET',
                        xhrFields: {
                          responseType: 'blob'
@@ -2149,7 +2149,7 @@ else if
 
            $('#getFile11').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/cargo.jpg',
+               url: '/images5/cargo.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2167,7 +2167,7 @@ else if
 
            $('#getFile12').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/plane5.jpg',
+               url: '/images5/plane5.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2184,7 +2184,7 @@ else if
            });
            $('#getFile13').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/plane9.jpg',
+               url: '/images5/plane9.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2201,7 +2201,7 @@ else if
            });
            $('#getFile14').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/plane11.jpg',
+               url: '/images5/plane11.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2218,7 +2218,7 @@ else if
            });
            $('#getFile15').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/plane4.jpg',
+               url: '/images5/plane4.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'

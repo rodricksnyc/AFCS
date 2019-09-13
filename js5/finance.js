@@ -2,10 +2,6 @@ $(document).ready(function () {
 
   $(".preloader-wrap").fadeOut(0);
 
-  //aos animations
-  // AOS.init();
-
-  $("a").css({"cursor":"grab"});
 
 
   $('a[href^="#veryTop"]').on('click', function(event) {
@@ -2524,7 +2520,7 @@ bigPic10.onclick = function() {
 
         $('#getFile6').on('click', function () {
           $.ajax({
-            url: 'http://www.elizabethrodricks.com/images5/plane0.jpg',
+            url: '/images5/plane0.jpg',
             method: 'GET',
             xhrFields: {
               responseType: 'blob'
@@ -2542,7 +2538,7 @@ bigPic10.onclick = function() {
 
      $('#getFile7').on('click', function () {
           $.ajax({
-            url: 'http://www.elizabethrodricks.com/images5/plane2.jpg',
+            url: '/images5/plane2.jpg',
             method: 'GET',
             xhrFields: {
               responseType: 'blob'
@@ -2560,7 +2556,7 @@ bigPic10.onclick = function() {
 
     $('#getFile8').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/plane6.jpg',
+               url: '/images5/plane6.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2577,7 +2573,7 @@ bigPic10.onclick = function() {
            });
        $('#getFile9').on('click', function () {
                     $.ajax({
-                      url: 'http://www.elizabethrodricks.com/images5/plane.jpg',
+                      url: '/images5/plane.jpg',
                       method: 'GET',
                       xhrFields: {
                         responseType: 'blob'
@@ -2594,7 +2590,7 @@ bigPic10.onclick = function() {
                   });
           $('#getFile10').on('click', function () {
                    $.ajax({
-                     url: 'http://www.elizabethrodricks.com/images5/plane8.jpg',
+                     url: '/images5/plane8.jpg',
                      method: 'GET',
                      xhrFields: {
                        responseType: 'blob'
@@ -2612,7 +2608,7 @@ bigPic10.onclick = function() {
 
          $('#getFile11').on('click', function () {
            $.ajax({
-             url: 'http://www.elizabethrodricks.com/images5/cargo.jpg',
+             url: '/images5/cargo.jpg',
              method: 'GET',
              xhrFields: {
                responseType: 'blob'
@@ -2630,7 +2626,7 @@ bigPic10.onclick = function() {
 
          $('#getFile12').on('click', function () {
            $.ajax({
-             url: 'http://www.elizabethrodricks.com/images5/plane5.jpg',
+             url: '/images5/plane5.jpg',
              method: 'GET',
              xhrFields: {
                responseType: 'blob'
@@ -2647,7 +2643,7 @@ bigPic10.onclick = function() {
          });
          $('#getFile13').on('click', function () {
            $.ajax({
-             url: 'http://www.elizabethrodricks.com/images5/plane9.jpg',
+             url: '/images5/plane9.jpg',
              method: 'GET',
              xhrFields: {
                responseType: 'blob'
@@ -2664,7 +2660,7 @@ bigPic10.onclick = function() {
          });
          $('#getFile14').on('click', function () {
            $.ajax({
-             url: 'http://www.elizabethrodricks.com/images5/plane11.jpg',
+             url: '/images5/plane11.jpg',
              method: 'GET',
              xhrFields: {
                responseType: 'blob'
@@ -2681,7 +2677,7 @@ bigPic10.onclick = function() {
          });
          $('#getFile15').on('click', function () {
            $.ajax({
-             url: 'http://www.elizabethrodricks.com/images5/plane4.jpg',
+             url: '/images5/plane4.jpg',
              method: 'GET',
              xhrFields: {
                responseType: 'blob'
@@ -2696,37 +2692,6 @@ bigPic10.onclick = function() {
              }
            });
          });
-
-
-
-        //switch calendar to day view
-
-        $('.dayEvent').on('click', function () {
-          $('.hideDate').show();
-          $('.goAway').hide();
-
-
-        });
-
-        $('.monthEvent').on('click', function () {
-          $('.hideDate').hide();
-          $('.goAway').show();
-
-
-        });
-
-
-        $('.showMonth').on('click', function () {
-          $('.hideAtFirst').show();
-          $('.showAtFirst').hide();
-
-
-        });
-
-        $('.dayList').on('click', function () {
-          $('.hideAtFirst').hide();
-          $('.showAtFirst').show();
-        });
 
 
 

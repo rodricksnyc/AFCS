@@ -2365,7 +2365,7 @@ setTimeout(function(){
 
                       $('#getFile').on('click', function () {
                         $.ajax({
-                          url: 'http://www.elizabethrodricks.com/images5/carousel5.JPG',
+                          url: '/images5/carousel5.JPG',
                           method: 'GET',
                           xhrFields: {
                             responseType: 'blob'
@@ -2383,7 +2383,7 @@ setTimeout(function(){
 
                       $('#getFile2').on('click', function () {
                         $.ajax({
-                          url: 'http://www.elizabethrodricks.com/images5/carousel1.JPG',
+                          url: '/images5/carousel1.JPG',
                           method: 'GET',
                           xhrFields: {
                             responseType: 'blob'
@@ -2400,7 +2400,7 @@ setTimeout(function(){
                       });
                       $('#getFile3').on('click', function () {
                         $.ajax({
-                          url: 'http://www.elizabethrodricks.com/images5/carousel2.JPG',
+                          url: '/images5/carousel2.JPG',
                           method: 'GET',
                           xhrFields: {
                             responseType: 'blob'
@@ -2418,7 +2418,7 @@ setTimeout(function(){
 
                       $('#getFile4').on('click', function () {
                         $.ajax({
-                          url: 'http://www.elizabethrodricks.com/images5/carousel3.JPG',
+                          url: '/images5/carousel3.JPG',
                           method: 'GET',
                           xhrFields: {
                             responseType: 'blob'
@@ -2436,7 +2436,7 @@ setTimeout(function(){
 
                       $('#getFile5').on('click', function () {
                         $.ajax({
-                          url: 'http://www.elizabethrodricks.com/images5/carousel4.JPG',
+                          url: '/images5/carousel4.JPG',
                           method: 'GET',
                           xhrFields: {
                             responseType: 'blob'

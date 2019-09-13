@@ -568,7 +568,7 @@ $('.whiteLink.videos').on('click' , function() {
 
   $('#getFile6').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/about.jpg',
+      url: '/images5/about.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -585,7 +585,7 @@ $('.whiteLink.videos').on('click' , function() {
   });
   $('#getFile7').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/about4.jpg',
+      url: '/images5/about4.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -603,7 +603,7 @@ $('.whiteLink.videos').on('click' , function() {
 
   $('#getFile8').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/about1.jpg',
+      url: '/images5/about1.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -620,7 +620,7 @@ $('.whiteLink.videos').on('click' , function() {
   });
   $('#getFile9').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/about3.jpg',
+      url: '/images5/about3.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -637,7 +637,7 @@ $('.whiteLink.videos').on('click' , function() {
   });
   $('#getFile10').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/about5.jpg',
+      url: '/images5/about5.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -655,7 +655,7 @@ $('.whiteLink.videos').on('click' , function() {
 
   $('#getFile11').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/about6.jpg',
+      url: '/images5/about6.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -673,7 +673,7 @@ $('.whiteLink.videos').on('click' , function() {
 
   $('#getFile12').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/about2.jpg',
+      url: '/images5/about2.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -690,7 +690,7 @@ $('.whiteLink.videos').on('click' , function() {
   });
   $('#getFile13').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/plane9.jpg',
+      url: '/images5/plane9.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -707,7 +707,7 @@ $('.whiteLink.videos').on('click' , function() {
   });
   $('#getFile14').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/plane11.jpg',
+      url: '/images5/plane11.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'
@@ -724,7 +724,7 @@ $('.whiteLink.videos').on('click' , function() {
   });
   $('#getFile15').on('click', function () {
     $.ajax({
-      url: 'http://www.elizabethrodricks.com/images5/plane4.jpg',
+      url: '/images5/plane4.jpg',
       method: 'GET',
       xhrFields: {
         responseType: 'blob'

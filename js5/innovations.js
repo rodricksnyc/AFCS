@@ -369,7 +369,7 @@ function(){
 
           $('#getFile16').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/scram-jet.jpg',
+              url: '/images5/scram-jet.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -387,7 +387,7 @@ function(){
 
        $('#getFile17').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/stealth.jpg',
+              url: '/images5/stealth.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -405,7 +405,7 @@ function(){
 
       $('#getFile18').on('click', function () {
                $.ajax({
-                 url: 'http://www.elizabethrodricks.com/images5/micro.jpg',
+                 url: '/images5/micro.jpg',
                  method: 'GET',
                  xhrFields: {
                    responseType: 'blob'
@@ -422,7 +422,7 @@ function(){
              });
          $('#getFile19').on('click', function () {
                       $.ajax({
-                        url: 'http://www.elizabethrodricks.com/images5/arsenal.jpg',
+                        url: '/images5/arsenal.jpg',
                         method: 'GET',
                         xhrFields: {
                           responseType: 'blob'
@@ -439,7 +439,7 @@ function(){
                     });
             $('#getFile20').on('click', function () {
                      $.ajax({
-                       url: 'http://www.elizabethrodricks.com/images5/wind.jpg',
+                       url: '/images5/wind.jpg',
                        method: 'GET',
                        xhrFields: {
                          responseType: 'blob'
@@ -457,7 +457,7 @@ function(){
 
            $('#getFile21').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/RPA.jpg',
+               url: '/images5/RPA.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -475,7 +475,7 @@ function(){
 
            $('#getFile22').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/test-pilot.jpg',
+               url: '/images5/test-pilot.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -492,7 +492,7 @@ function(){
            });
            $('#getFile23').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/nasa.jpg',
+               url: '/images5/nasa.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -509,7 +509,7 @@ function(){
            });
            $('#getFile24').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/rocket-innovations.jpg',
+               url: '/images5/rocket-innovations.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -526,7 +526,7 @@ function(){
            });
            $('#getFile25').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/gps.jpg',
+               url: '/images5/gps.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -544,7 +544,7 @@ function(){
 
            $('#getFile26').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/cyber-attack.jpg',
+               url: '/images5/cyber-attack.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -562,7 +562,7 @@ function(){
 
            $('#getFile27').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/router.jpg',
+               url: '/images5/router.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -581,7 +581,7 @@ function(){
 
            $('#getFile28').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/super.jpg',
+               url: '/images5/super.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'

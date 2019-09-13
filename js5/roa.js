@@ -740,7 +740,7 @@ bigPic5.onclick = function() {
 
 $('#getFileC1').on('click', function () {
   $.ajax({
-    url: 'http://www.elizabethrodricks.com/images5/careers-slider1.jpg',
+    url: '/images5/careers-slider1.jpg',
     method: 'GET',
     xhrFields: {
       responseType: 'blob'
@@ -758,7 +758,7 @@ $('#getFileC1').on('click', function () {
 
 $('#getFileC2').on('click', function () {
   $.ajax({
-    url: 'http://www.elizabethrodricks.com/images5/careers-slider2.jpg',
+    url: '/images5/careers-slider2.jpg',
     method: 'GET',
     xhrFields: {
       responseType: 'blob'
@@ -775,7 +775,7 @@ $('#getFileC2').on('click', function () {
 });
 $('#getFileC3').on('click', function () {
   $.ajax({
-    url: 'http://www.elizabethrodricks.com/images5/careers-slider4.jpg',
+    url: '/images5/careers-slider4.jpg',
     method: 'GET',
     xhrFields: {
       responseType: 'blob'
@@ -793,7 +793,7 @@ $('#getFileC3').on('click', function () {
 
 $('#getFileC4').on('click', function () {
   $.ajax({
-    url: 'http://www.elizabethrodricks.com/images5/careers-slider6.jpg',
+    url: '/images5/careers-slider6.jpg',
     method: 'GET',
     xhrFields: {
       responseType: 'blob'
@@ -811,7 +811,7 @@ $('#getFileC4').on('click', function () {
 
 $('#getFileC5').on('click', function () {
   $.ajax({
-    url: 'http://www.elizabethrodricks.com/images5/careers-slider7.jpg',
+    url: '/images5/careers-slider7.jpg',
     method: 'GET',
     xhrFields: {
       responseType: 'blob'
@@ -829,7 +829,7 @@ $('#getFileC5').on('click', function () {
 
     $('#getFileC6').on('click', function () {
       $.ajax({
-        url: 'http://www.elizabethrodricks.com/images5/careers-slider8.jpg',
+        url: '/images5/careers-slider8.jpg',
         method: 'GET',
         xhrFields: {
           responseType: 'blob'
@@ -846,8 +846,6 @@ $('#getFileC5').on('click', function () {
     });
 
 
-
-//radio button values from form: append to div
 
 
 

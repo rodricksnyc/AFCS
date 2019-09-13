@@ -2144,7 +2144,7 @@ $('.moveThis').mouseover(function(){
 
           $('#getFile16').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/Space_03.jpg',
+              url: '/images5/Space_03.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -2162,7 +2162,7 @@ $('.moveThis').mouseover(function(){
 
        $('#getFile17').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/Space_02.jpg',
+              url: '/images5/Space_02.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -2180,7 +2180,7 @@ $('.moveThis').mouseover(function(){
 
       $('#getFile18').on('click', function () {
                $.ajax({
-                 url: 'http://www.elizabethrodricks.com/images5/Space_07.jpg',
+                 url: '/images5/Space_07.jpg',
                  method: 'GET',
                  xhrFields: {
                    responseType: 'blob'
@@ -2197,7 +2197,7 @@ $('.moveThis').mouseover(function(){
              });
          $('#getFile19').on('click', function () {
                       $.ajax({
-                        url: 'http://www.elizabethrodricks.com/images5/Space_01.jpg',
+                        url: '/images5/Space_01.jpg',
                         method: 'GET',
                         xhrFields: {
                           responseType: 'blob'
@@ -2214,7 +2214,7 @@ $('.moveThis').mouseover(function(){
                     });
             $('#getFile20').on('click', function () {
                      $.ajax({
-                       url: 'http://www.elizabethrodricks.com/images5/Space_05.jpg',
+                       url: '/images5/Space_05.jpg',
                        method: 'GET',
                        xhrFields: {
                          responseType: 'blob'
@@ -2232,7 +2232,7 @@ $('.moveThis').mouseover(function(){
 
            $('#getFile21').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/Space_08.jpg',
+               url: '/images5/Space_08.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2250,7 +2250,7 @@ $('.moveThis').mouseover(function(){
 
            $('#getFile22').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/Space_10.jpg',
+               url: '/images5/Space_10.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2267,7 +2267,7 @@ $('.moveThis').mouseover(function(){
            });
            $('#getFile23').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/Space_04.jpg',
+               url: '/images5/Space_04.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2284,7 +2284,7 @@ $('.moveThis').mouseover(function(){
            });
            $('#getFile24').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/Space_09.jpg',
+               url: '/images5/Space_09.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2301,7 +2301,7 @@ $('.moveThis').mouseover(function(){
            });
            $('#getFile25').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/Space_06.jpg',
+               url: '/images5/Space_06.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'

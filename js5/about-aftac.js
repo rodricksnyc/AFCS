@@ -2139,7 +2139,7 @@ $('.moveThis').mouseover(function(){
 
           $('#getFile16').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/aftac9.jpg',
+              url: '/images5/aftac9.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -2157,7 +2157,7 @@ $('.moveThis').mouseover(function(){
 
        $('#getFile17').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/aftac10.jpg',
+              url: '/images5/aftac10.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -2175,7 +2175,7 @@ $('.moveThis').mouseover(function(){
 
       $('#getFile18').on('click', function () {
                $.ajax({
-                 url: 'http://www.elizabethrodricks.com/images5/aftac11.jpg',
+                 url: '/images5/aftac11.jpg',
                  method: 'GET',
                  xhrFields: {
                    responseType: 'blob'
@@ -2192,7 +2192,7 @@ $('.moveThis').mouseover(function(){
              });
          $('#getFile19').on('click', function () {
                       $.ajax({
-                        url: 'http://www.elizabethrodricks.com/images5/aftac12.jpg',
+                        url: '/images5/aftac12.jpg',
                         method: 'GET',
                         xhrFields: {
                           responseType: 'blob'
@@ -2209,7 +2209,7 @@ $('.moveThis').mouseover(function(){
                     });
             $('#getFile20').on('click', function () {
                      $.ajax({
-                       url: 'http://www.elizabethrodricks.com/images5/aftac13.jpg',
+                       url: '/images5/aftac13.jpg',
                        method: 'GET',
                        xhrFields: {
                          responseType: 'blob'
@@ -2227,7 +2227,7 @@ $('.moveThis').mouseover(function(){
 
            $('#getFile21').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/aftac14.jpg',
+               url: '/images5/aftac14.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2245,7 +2245,7 @@ $('.moveThis').mouseover(function(){
 
            $('#getFile22').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/aftac15.jpg',
+               url: '/images5/aftac15.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2262,7 +2262,7 @@ $('.moveThis').mouseover(function(){
            });
            $('#getFile23').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/aftac16.jpg',
+               url: '/images5/aftac16.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2279,7 +2279,7 @@ $('.moveThis').mouseover(function(){
            });
            $('#getFile24').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/aftac17.jpg',
+               url: '/images5/aftac17.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2296,7 +2296,7 @@ $('.moveThis').mouseover(function(){
            });
            $('#getFile25').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/aftac-people.jpg',
+               url: '/images5/aftac-people.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2314,7 +2314,7 @@ $('.moveThis').mouseover(function(){
 
            $('#getFile26').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/about-aftac2.jpg',
+               url: '/images5/about-aftac2.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2332,7 +2332,7 @@ $('.moveThis').mouseover(function(){
 
            $('#getFile27').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/about-aftac3.jpg',
+               url: '/images5/about-aftac3.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'

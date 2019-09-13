@@ -2084,7 +2084,7 @@ else if
 
        $('#getFile7').on('click', function () {
             $.ajax({
-              url: 'http://www.elizabethrodricks.com/images5/lifecareer2.jpg',
+              url: '/images5/lifecareer2.jpg',
               method: 'GET',
               xhrFields: {
                 responseType: 'blob'
@@ -2102,7 +2102,7 @@ else if
 
       $('#getFile8').on('click', function () {
                $.ajax({
-                 url: 'http://www.elizabethrodricks.com/images5/lifecareer3.jpg',
+                 url: '/images5/lifecareer3.jpg',
                  method: 'GET',
                  xhrFields: {
                    responseType: 'blob'
@@ -2119,7 +2119,7 @@ else if
              });
          $('#getFile9').on('click', function () {
                       $.ajax({
-                        url: 'http://www.elizabethrodricks.com/images5/lifecareer4.jpg',
+                        url: '/images5/lifecareer4.jpg',
                         method: 'GET',
                         xhrFields: {
                           responseType: 'blob'
@@ -2137,7 +2137,7 @@ else if
 
             $('#getFile10').on('click', function () {
                      $.ajax({
-                       url: 'http://www.elizabethrodricks.com/images5/lifecareer5.jpg',
+                       url: '/images5/lifecareer5.jpg',
                        method: 'GET',
                        xhrFields: {
                          responseType: 'blob'
@@ -2155,7 +2155,7 @@ else if
 
            $('#getFile11').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareer6.jpg',
+               url: '/images5/lifecareer6.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2173,7 +2173,7 @@ else if
 
            $('#getFile12').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareer7.jpg',
+               url: '/images5/lifecareer7.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2190,7 +2190,7 @@ else if
            });
            $('#getFile13').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareer8.jpg',
+               url: '/images5/lifecareer8.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2207,7 +2207,7 @@ else if
            });
            $('#getFile14').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareer9.jpg',
+               url: '/images5/lifecareer9.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2224,7 +2224,7 @@ else if
            });
            $('#getFile15').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareer-last.jpg',
+               url: '/images5/lifecareer-last.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2242,7 +2242,7 @@ else if
 
            $('#getFile16').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareers10.jpg',
+               url: '/images5/lifecareers10.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2260,7 +2260,7 @@ else if
 
            $('#getFile17').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareers11.jpg',
+               url: '/images5/lifecareers11.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2278,7 +2278,7 @@ else if
 
            $('#getFile18').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareers12.jpg',
+               url: '/images5/lifecareers12.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
@@ -2296,7 +2296,7 @@ else if
 
            $('#getFile19').on('click', function () {
              $.ajax({
-               url: 'http://www.elizabethrodricks.com/images5/lifecareers13.jpg',
+               url: '/images5/lifecareers13.jpg',
                method: 'GET',
                xhrFields: {
                  responseType: 'blob'
