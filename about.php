@@ -6718,7 +6718,7 @@
 
                   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
                   <script src="js5/about.js"></script>
-                  <script src="js5/download.js"></script>
+              
 
 
                   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3bg43h0KXd3qUnwUBHGgGCbSag3WLpY8&libraries=places"></script>

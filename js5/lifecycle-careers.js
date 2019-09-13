@@ -1776,7 +1776,7 @@ else if
             }
           });
 
-          $('#searchIt').click(function(e) {
+          $('.searchIt').click(function(e) {
             e.preventDefault();
             if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
               console.log('fuck')
