@@ -840,7 +840,7 @@ setTimeout(function(){
     else if
 
     (!$('#myCool').is('.bottomShadow')  && !$('#hiddenVideos').is('.bottomShadow') &&  $('#myCool').is('.cool', '.flexing-scroll') && $('#news').is('.myNews' , '.bottomShadow' , '.animated' , '.slideInRight')) {
-      console.log("fucker bitch")
+      console.log("so hard")
 
 
       console.log('news is leaving and videos coming back in')
@@ -887,7 +887,7 @@ setTimeout(function(){
 
     ($('#myCool').is('.bottomShadow', '.cool', '.flexing-scroll') && $('#hiddenVideos').is('.flexing-scroll') && !$('#news').is('.bottomShadow'))  {
 
-      console.log("my brain is fucked in the ass")
+      console.log("my brain is done")
 
       setTimeout(function(){
         $('#myCool').css('left', 'auto');
@@ -933,7 +933,7 @@ setTimeout(function(){
 
       ($('#myCool').is('.bottomShadow', '.cool', '.animated', '.slideInRight')  && $('#hiddenVideos').is('.flexing-scroll')) {
 
-        console.log("iam fucked")
+        console.log("iam done")
 
         setTimeout(function(){
           $('#myCool').css('left', 'auto');
@@ -977,7 +977,7 @@ setTimeout(function(){
 
         ($('#myCool').is('.cool', '.flexing-scroll') && $('#hiddenVideos').is('.bottomShadow' , '.animated' , '.slideInRight') && $('#news').is('.myNews', '.flexing-scroll')) {
 
-          console.log("sliding this bitch videos to left and sliding calendar back in fucker")
+          console.log("sliding this videos to left and sliding calendar back in")
           setTimeout(function(){
             $('#hiddenVideos').css('left', 'auto');
           }, 100);
@@ -1060,7 +1060,7 @@ setTimeout(function(){
 
           ($('#myCool').is('.cool' , '.flexing-scroll') && $('#news').is('.myNews' , '.flexing-scroll' , '.bottomShadow' , '.animated' , '.slideInRight') ) {
 
-            console.log('this is some bullshit')
+            console.log('this is some stuff')
 
             // setTimeout(function(){
             // $('#news').css('left', 'auto');
@@ -1156,7 +1156,7 @@ setTimeout(function(){
 
           ($('#myCool').is('.bottomShadow', '.cool', '.flexing-scroll')  && $('#news').is('.myNews' , '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-            console.log("iam fucked")
+            console.log("iam done")
 
             setTimeout(function(){
               $('#news').css('left', 'auto');
@@ -1244,7 +1244,7 @@ setTimeout(function(){
 
               ($('#myCool').is('.cool', '.flexing-scroll') && $('#hiddenVideos').is('.bottomShadow' , '.animated' , '.slideInRight') && $('#news').is('.myNews', '.flexing-scroll')) {
 
-                console.log("sliding this bitch videos to left and sliding calendar back in fucker")
+                console.log("sliding this videos to left and sliding calendar back in")
                 setTimeout(function(){
                   $('#hiddenVideos').css('left', 'auto');
                 }, 100);
@@ -1293,7 +1293,7 @@ setTimeout(function(){
 
                   $('#news').addClass('flexing-scroll')
 
-                  console.log('do this shi until you get it right')
+                  console.log('do this until you get it right')
 
                   setTimeout(function(){
 
@@ -1425,7 +1425,7 @@ setTimeout(function(){
 
                       ($('#myCool').is('.cool' , '.bottomShadow', '.flexing-scroll') && $('#news').is('.myNews', '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-                        console.log("fuck me in the ass")
+                        console.log("so very confused")
 
 
                         setTimeout(function(){
@@ -1462,7 +1462,7 @@ setTimeout(function(){
 
                       ($('#myCool').is('.cool' , '.bottomShadow', '.flexing-scroll') && !$('#news').is('.myNews', '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-                        console.log("this is fucking crazy")
+                        console.log("this is crazy")
 
 
                         setTimeout(function(){
@@ -1677,7 +1677,7 @@ setTimeout(function(){
 
                       ($('#myCool').is('.bottomShadow')  || $('#myCool').is('.bottomShadow', '.animated', '.slideInRight') && !$('#news').is('.bottomShadow')) {
 
-                        console.log("so fucking confused")
+                        console.log("confused")
 
 
                         setTimeout(function(){
@@ -1721,7 +1721,7 @@ setTimeout(function(){
 
                       (!$('#myCool').is('.bottomShadow') && $('#news').is('.flexing-scroll') && $('#hiddenVideos').is('.animated' , '.slideInRight')) {
 
-                        console.log('vidoes sliding left news sliding in the fucker')
+                        console.log('vidoes sliding left news sliding in')
 
                         setTimeout(function(){
                           $('#hiddenVideos').css('left', 'auto');
@@ -1769,7 +1769,7 @@ setTimeout(function(){
 
                       {
 
-                        console.log("calendarBitch")
+                        console.log("calendar")
                         setTimeout(function(){
                           $('#hiddenVideos').css('left', 'auto');
                           $('#myCool').css('left', 'auto');
@@ -1938,10 +1938,10 @@ setTimeout(function(){
                           $(".icon").addClass("addIt");
                         }, 400);
                         if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-                          console.log('fuck')
+                          console.log('hi')
                           $('.hideAgain2').addClass('away');
                         } else if (!$('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-                          console.log('fuck it')
+                          console.log('hi it')
                           $('.hideAgain2').removeClass('away');
                           // $('.hideAgain2').addClass('back');
                         }
@@ -1950,10 +1950,10 @@ setTimeout(function(){
                       $('.searchIt').click(function(e) {
                         e.preventDefault();
                         if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-                          console.log('fuck')
+                          console.log('hi')
                           $('.hideAgain2').addClass('away');
                         } else if (!$('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-                          console.log('fuck it')
+                          console.log('hi it')
                           $('.hideAgain2').removeClass('away');
                           // $('.hideAgain2').addClass('back');
                         }
@@ -2072,7 +2072,7 @@ setTimeout(function(){
                         $(this).addClass("darker");
                       });
                       $( 'ul.nav li' ).on( 'click', function() {
-                        console.log("wtf");
+                        console.log("what");
                         $( this ).parent().find( 'darker' ).removeClass( 'darker' );
                         $( this ).addClass( 'darker' );
                       });

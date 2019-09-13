@@ -3135,7 +3135,7 @@ input[type="checkbox"].styled:checked + label:after {
                     if (this.checked == true)  {
 
                       $('.fields1').addClass('selects');
-                      console.log('bitch')
+                      console.log('b')
 
                     }
 
@@ -3153,7 +3153,7 @@ input[type="checkbox"].styled:checked + label:after {
 
                     if (this.checked == true)  {
                       $('.fields2').addClass('selects');
-                      console.log('bitch')
+                      console.log('b2')
 
                     }
 
@@ -3170,7 +3170,7 @@ input[type="checkbox"].styled:checked + label:after {
 
                     if (this.checked == true)  {
                       $('.fields3').addClass('selects');
-                      console.log('bitch')
+                      console.log('b3')
 
                     }
 
@@ -3186,7 +3186,7 @@ input[type="checkbox"].styled:checked + label:after {
 
                     if (this.checked == true)  {
                       $('.fields4').addClass('selects');
-                      console.log('bitch')
+                      console.log('b4')
 
                     }
 
@@ -3202,7 +3202,7 @@ input[type="checkbox"].styled:checked + label:after {
 
                     if (this.checked == true)  {
                       $('.fields5').addClass('selects');
-                      console.log('bitch')
+                      console.log('b5')
 
                     }
 

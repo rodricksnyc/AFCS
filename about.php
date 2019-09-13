@@ -6718,7 +6718,7 @@
 
                   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
                   <script src="js5/about.js"></script>
-              
+
 
 
                   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3bg43h0KXd3qUnwUBHGgGCbSag3WLpY8&libraries=places"></script>
@@ -7178,7 +7178,7 @@
                     else if
 
                     (!$('#myCool').is('.bottomShadow')  && !$('#hiddenVideos').is('.bottomShadow') &&  $('#myCool').is('.cool', '.flexing-scroll') && $('#news').is('.myNews' , '.bottomShadow' , '.animated' , '.slideInRight')) {
-                      console.log("fucker bitch")
+                      console.log("moning this")
 
 
                       console.log('news is leaving and videos coming back in')
@@ -7225,7 +7225,7 @@
 
                     ($('#myCool').is('.bottomShadow', '.cool', '.flexing-scroll') && $('#hiddenVideos').is('.flexing-scroll') && !$('#news').is('.bottomShadow'))  {
 
-                      console.log("my brain is fucked in the ass")
+                      console.log("moving this and it's hard")
 
                       setTimeout(function(){
                         $('#myCool').css('left', 'auto');
@@ -7271,7 +7271,7 @@
 
                       ($('#myCool').is('.bottomShadow', '.cool', '.animated', '.slideInRight')  && $('#hiddenVideos').is('.flexing-scroll')) {
 
-                        console.log("iam fucked")
+                        console.log("this is not making sense")
 
                         setTimeout(function(){
                           $('#myCool').css('left', 'auto');
@@ -7315,7 +7315,7 @@
 
                         ($('#myCool').is('.cool', '.flexing-scroll') && $('#hiddenVideos').is('.bottomShadow' , '.animated' , '.slideInRight') && $('#news').is('.myNews', '.flexing-scroll')) {
 
-                          console.log("sliding this bitch videos to left and sliding calendar back in fucker")
+                          console.log("sliding this videos to left and sliding calendar back in")
                           setTimeout(function(){
                             $('#hiddenVideos').css('left', 'auto');
                           }, 100);
@@ -7398,7 +7398,7 @@
 
                           ($('#myCool').is('.cool' , '.flexing-scroll') && $('#news').is('.myNews' , '.flexing-scroll' , '.bottomShadow' , '.animated' , '.slideInRight') ) {
 
-                            console.log('this is some bullshit')
+                            console.log('this is very hard')
 
                             setTimeout(function(){
 
@@ -7450,7 +7450,7 @@
 
                           ($('#myCool').is('.bottomShadow', '.cool', '.flexing-scroll')  && $('#news').is('.myNews' , '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-                            console.log("iam fucked")
+                            console.log("not sure")
 
                             setTimeout(function(){
                               $('#news').css('left', 'auto');
@@ -7538,7 +7538,7 @@
 
                               ($('#myCool').is('.cool', '.flexing-scroll') && $('#hiddenVideos').is('.bottomShadow' , '.animated' , '.slideInRight') && $('#news').is('.myNews', '.flexing-scroll')) {
 
-                                console.log("sliding this bitch videos to left and sliding calendar back in fucker")
+                                console.log("sliding this videos to left and sliding calendar back in fucker")
                                 setTimeout(function(){
                                   $('#hiddenVideos').css('left', 'auto');
                                 }, 100);
@@ -7587,7 +7587,7 @@
 
                                   $('#news').addClass('flexing-scroll')
 
-                                  console.log('do this shi until you get it right')
+                                  console.log('do this until you get it right')
 
                                   setTimeout(function(){
 
@@ -7721,7 +7721,7 @@
 
                                       ($('#myCool').is('.cool' , '.bottomShadow', '.flexing-scroll') && $('#news').is('.myNews', '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-                                        console.log("fuck me in the ass")
+                                        console.log("no clue")
 
 
                                         setTimeout(function(){
@@ -7758,7 +7758,7 @@
 
                                       ($('#myCool').is('.cool' , '.bottomShadow', '.flexing-scroll') && !$('#news').is('.myNews', '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-                                        console.log("this is fucking crazy")
+                                        console.log("this is crazy")
 
 
                                         setTimeout(function(){
@@ -7862,7 +7862,7 @@
 
                                       ($('#news').is('.myNews' , '.bottomShadow', '.animated', '.slideInRight') && $('#hiddenVideos').is('.flexing-scroll') && !$('#myCool').is('.cool' , '.bottomShadow', '.animated' , '.slideInRight')) {
 
-                                        console.log('vidoes sliding left news sliding in the fucker')
+                                        console.log('vidoes sliding left news sliding in the')
 
                                         setTimeout(function(){
 
@@ -7972,7 +7972,7 @@
 
                                       ($('#myCool').is('.bottomShadow')  || $('#myCool').is('.bottomShadow', '.animated', '.slideInRight') && !$('#news').is('.bottomShadow')) {
 
-                                        console.log("so fucking confused")
+                                        console.log("so confused")
 
 
                                         setTimeout(function(){
@@ -8012,7 +8012,7 @@
 
                                       (!$('#myCool').is('.bottomShadow') && $('#news').is('.flexing-scroll') && $('#hiddenVideos').is('.animated' , '.slideInRight')) {
 
-                                        console.log('vidoes sliding left news sliding in the fucker')
+                                        console.log('vidoes sliding left news sliding in the')
 
                                         setTimeout(function(){
                                           $('#hiddenVideos').css('left', 'auto');
@@ -8055,7 +8055,7 @@
 
                                       {
 
-                                        console.log("calendarBitch")
+                                        console.log("calendar")
                                         setTimeout(function(){
                                           $('#hiddenVideos').css('left', 'auto');
                                           $('#myCool').css('left', 'auto');

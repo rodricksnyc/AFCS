@@ -613,10 +613,10 @@ $('.social').click(function(e) {
 		$(".icon").addClass("addIt");
 	}, 400);
 	if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-		console.log('fuck')
+		console.log('hi')
 		$('.hideAgain2').addClass('away');
 	} else if (!$('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-		console.log('fuck it')
+		console.log('hi it')
 		$('.hideAgain2').removeClass('away');
 		// $('.hideAgain2').addClass('back');
 	}
@@ -625,10 +625,10 @@ $('.social').click(function(e) {
 $('.searchIt').click(function(e) {
 	e.preventDefault();
 	if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-		console.log('fuck')
+		console.log('hi')
 		$('.hideAgain2').addClass('away');
 	} else if (!$('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-		console.log('fuck it')
+		console.log('hi it')
 		$('.hideAgain2').removeClass('away');
 		// $('.hideAgain2').addClass('back');
 	}
