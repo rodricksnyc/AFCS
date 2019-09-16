@@ -41,7 +41,6 @@
 
 <style>
 
-
 #slideUpLiner3 {
     height: 3px;
     width: 90px;
