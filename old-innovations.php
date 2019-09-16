@@ -829,7 +829,7 @@ a:focus {
 
                   <div class="toggled">
                     <p class="heavyWhite two">The game console’s price-to-performance ratio inspired one AFCS research team to place an order for 1,700 of them to go with the 336 they already have. The system will use 300 to 320 kilowatts at full bore and about 10 percent to 30 percent of that in standby, when most supercomputers are using 5 megawatts. However, much of the time the cluster will only be running the nodes it needs and it will be turned off when not in use. By taking advantage of a growing gaming market, the price performance is just $2 to $3 per gigaFLOPS.</p>
-                    <p class="heavyWhite two">The research team has been able to take advantage of about 60 percent of the PlayStations’ performance ability. Once complete, they are expecting to have a unit capable of 500 teraFLOPS or 500 trillion operations per second.</p>
+                    <p class="heavyWhite two">\</p>
                   </div>
                 </div>
                 </div>

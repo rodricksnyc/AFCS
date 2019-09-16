@@ -6017,13 +6017,13 @@
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-top transparent">
-
+                                      <a style="font-size:14px" href="innovations.php">
                                       <img src="images5/innovations.png" class="img-responsive i1 child">
                                       <div class="funThing new">
                                         <h1 id="topLine4" class="overlayText tlt00">INNOVATIONS</h1>
                                         <hr id="line" class="trans--grow hr1 grow10">
                                       </div>
-
+                                      </a>
                                     </div>
                                   </div>
 

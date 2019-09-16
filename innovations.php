@@ -37,6 +37,13 @@
 </head>
 <style>
 
+
+.slick-slider .slick-track .slick-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+}
+
 /* ==== Main CSS === */
 .img-fill{
   width: 100%;
@@ -91,16 +98,14 @@
   position:absolute;
   width:100%;
   height:100%;
-  top:300px;
+  top:325px;
   left:0px;
 
   line-height:100vh;
   text-align:center;
 }
 
-.Modern-Slider .item .img-fill img{
-  filter:blur(5px);
-}
+
 
 .Modern-Slider .item .info > div{
   display:inline-block!important;
@@ -122,7 +127,10 @@
   z-index:5;
 }
 
-.Modern-Slider .NextArrow:before{content:'\f105';}
+.Modern-Slider .NextArrow:before{
+  content:'\f105';
+  font-size:32px;
+}
 
 .Modern-Slider .PrevArrow{
   position:absolute;
@@ -139,7 +147,10 @@
   z-index:5;
 }
 
-.Modern-Slider .PrevArrow:before{content:'\f104';}
+.Modern-Slider .PrevArrow:before{
+  content:'\f104';
+  font-size:32px;
+}
 
 .Modern-Slider .slick-dots{
   position:absolute;
@@ -254,7 +265,7 @@
 }
 
 .Modern-Slider .item.slick-active{
-  animation:slide-in-right 1s both;
+  animation:slide-in-right .5s both;
 }
 
 
@@ -325,6 +336,161 @@
 .slick-initialized .slick-slide{display:block}
 .slick-loading .slick-slide{visibility:hidden}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+
+
+@media (max-width:1024px) {
+  .Modern-Slider .item h5{
+    font-size:14px;
+  }
+
+  .Modern-Slider .item h5.second{
+    font-size:14px;
+  }
+
+  .Modern-Slider .item h5.third{
+    font-size:14px;
+  }
+
+  .Modern-Slider .item h4{
+    font-size:30px;
+  }
+
+  .Modern-Slider .item h3{
+    font-size:30px;
+  }
+
+
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+  .Modern-Slider .item .img-fill .info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 160px;
+    left: 0px;
+    line-height: 100vh;
+    text-align: center;
+}
+.slick-slider .slick-track .slick-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: unset;
+    background-position: center;
+}
+
+.img-fill img {
+    min-height: 600px;
+    min-width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: none;
+}
+
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+  .Modern-Slider .item .img-fill .info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    left: 0px;
+    line-height: 100vh;
+    text-align: center;
+}
+
+
+.slick-slider .slick-track .slick-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: unset;
+    background-position: center;
+}
+
+.img-fill img {
+    min-height: 500px;
+    min-width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: none;
+}
+}
+
+
+@media (max-width:767px) {
+  .Modern-Slider .item .img-fill .info {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 160px;
+    left: 40px;
+    line-height: 100vh;
+    text-align: center;
+}
+
+
+.slick-slider .slick-track .slick-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: unset;
+    background-position: center;
+}
+
+.img-fill img {
+    min-height: 600px;
+    min-width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: none;
+}
+.Modern-Slider .item h5{
+  font-size:12px;
+  margin-top:10px;
+}
+
+.Modern-Slider .item h5.second{
+  font-size:12px;
+}
+
+.Modern-Slider .item h5.third{
+  font-size:12px;
+}
+
+.Modern-Slider .item h4{
+  font-size:18px;
+}
+
+.Modern-Slider .item h3{
+  font-size:18px;
+}
+
+
+.slick-slider, .slick-list, .slick-track {
+    height: 100%;
+    max-height: 600px !important;
+}
+
+
+.slick-slider {
+    overflow: hidden;
+    margin-top: 0em !important;
+}
+
+.slick-slider .slick-track .slick-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit:unset !important;
+}
+
+}
+
+
+
+
+
+
 </style>
 <a href="#bottom" id="top"></a>
 
@@ -615,11 +781,11 @@ $(document).ready(function(){
     slidesToShow:1,
     slidesToScroll:1,
     pauseOnHover:false,
-    dots:true,
+    dots:false,
     pauseOnDotsHover:true,
     cssEase:'linear',
    // fade:true,
-    draggable:false,
+    // draggable:true,
     prevArrow:'<button class="PrevArrow"></button>',
     nextArrow:'<button class="NextArrow"></button>',
   });
