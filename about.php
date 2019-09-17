@@ -122,7 +122,7 @@
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
-                <a style="font-size:14px;" href="">
+                <a style="font-size:14px;" href="students-and-graduates.php">
                   <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i3 child">
 
                   <div class="funThing" id="b33">
