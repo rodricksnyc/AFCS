@@ -15,7 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link type="image/png" href="http://new.marcomgroup.com/images5/afcs-favicon.png" rel="icon">
+	<link type="image/png" href="http://v4.afciviliancareers.com/images5/afcs-favicon.png" rel="icon">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
@@ -6452,7 +6452,7 @@ input[type="text"] {
           </span>
         </li>
         <li>
-          <a class="navyBlock" href="http://new.marcomgroup.com/roa.php">Register</a>
+          <a class="navyBlock" href="http://v4.afciviliancareers.com/roa.php">Register</a>
         </li>
       </ul>
     </div>
@@ -6465,8 +6465,8 @@ input[type="text"] {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://new.marcomgroup.com/index.php">
-        <img class="img-responsive navLogo" src="http://new.marcomgroup.com/images5/afcs-navbar.png">
+      <a class="navbar-brand" href="http://v4.afciviliancareers.com/index.php">
+        <img class="img-responsive navLogo" src="http://v4.afciviliancareers.com/images5/afcs-navbar.png">
       </a>
     </div>
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -6474,19 +6474,19 @@ input[type="text"] {
       <span id="box2">
         <ul class="nav navbar-nav makeToggle tabs" id="menu2">
           <li>
-            <a id="list1" class="active highlight fun darker" href="http://new.marcomgroup.com/index.php">Home</a>
+            <a id="list1" class="active highlight fun darker" href="http://v4.afciviliancareers.com/index.php">Home</a>
           </li>
           <li>
-            <a id="list2" class="highlight two thing" href="http://new.marcomgroup.com/about.php">About</a>
+            <a id="list2" class="highlight two thing" href="http://v4.afciviliancareers.com/about.php">About</a>
           </li>
           <li>
-            <a id="list3" class="highlight three thing" href="http://new.marcomgroup.com/careers.php">Careers</a>
+            <a id="list3" class="highlight three thing" href="http://v4.afciviliancareers.com/careers.php">Careers</a>
           </li>
           <li id="list4">
-            <a class="highlight four thing" href="http://new.marcomgroup.com/find-a-job.php">Find A Job</a>
+            <a class="highlight four thing" href="http://v4.afciviliancareers.com/find-a-job.php">Find A Job</a>
           </li>
           <li>
-            <a id="list5" class="highlight five thing" href="http://new.marcomgroup.com/contact.php">Contact</a>
+            <a id="list5" class="highlight five thing" href="http://v4.afciviliancareers.com/contact.php">Contact</a>
           </li>
 
         </span>

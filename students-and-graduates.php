@@ -160,18 +160,19 @@
   padding:2em;
 }
 .wrapper ul li:first-of-type {
-  margin-left: 300px;
+  margin-left: 500px;
 }
 
 h1.bigBlocks {
   color:white;
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-size:30px !important;
-  margin-top: 5px;
-  margin-bottom:10px;
+  margin-top: 0px;
+  margin-bottom:0px;
 }
 
 p.bigBlocks {
+  margin-top: 10px;
   color:white;
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-size:16px !important;
@@ -190,7 +191,7 @@ span.number {
 }
 
 .background {
-  background: url(/../images5/buff.jpg);
+  background: url(/../images5/buff-crop.jpg);
   background-size: cover;
   background-position: center center!important;
   background-repeat: no-repeat;
@@ -318,6 +319,23 @@ span.number {
   padding:2em;
 }
 
+.wrapper {
+  width: 100%;
+  height: 900px;
+}
+
+}
+
+@media (max-width:567px) {
+  .wrapper ul li:first-of-type {
+    margin-left: 1200px;
+  }
+
+
+  .wrapper {
+    width: 100%;
+    height: 900px;
+  }
 }
 
 </style>
@@ -348,52 +366,52 @@ span.number {
 </div>
     <div class="wrapper">
       <ul>
-        <li>
-          <span class="number transparent content-top">01</span>
-          <h1 class="bigBlocks transparent content-middle">BE AMAZING</h1>
+        <li id="one">
+          <h1 class="bigBlocks transparent content-top">BE THE ONE...</h1>
+          <h1 class="bigBlocks transparent content-middle">to make a difference</h1>
+          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipisc ipsum doelit, sed do eiusmod tempor incididunt ut labore etim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <hr id="line" class="trans--grow hr1">
+        </li>
+        <li id="two">
+          <h1 class="bigBlocks transparent content-top">BE THE ONE...</h1>
+          <h1 class="bigBlocks transparent content-middle">to defy expectations</h1>
+          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscin ipsum doelit, sed do eiusmod tempor incididunt ut labore etim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <hr id="line" class="trans--grow hr1">
+        </li>
+        <li id="three">
+          <h1 class="bigBlocks transparent content-top">BE THE ONE...</h1>
+          <h1 class="bigBlocks transparent content-middle">to make service a priority</h1>
+          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor ad minim veniam, quis nostrud exercitation ipsum doelit, sed do eiusmod tempor incididunt ut labore etim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <hr id="line" class="trans--grow hr1">
+        </li>
+        <li id="four">
+          <h1 class="bigBlocks transparent content-top">BE THE ONE...</h1>
+          <h1 class="bigBlocks transparent content-middle">to change the world</h1>
+          <p class="bigBlocks transparent content-bottom">Lorem ipsum doelit, sed do eiusmod tempor incididunt ut labore etim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ipsum doelit, sed do eiusmod tempor incididunt ut labore etim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <hr id="line" class="trans--grow hr1">
+        </li>
+        <li id="five">
+          <h1 class="bigBlocks transparent content-top">BE THE ONE...</h1>
+          <h1 class="bigBlocks transparent content-middle">to serve something greater than yourself</h1>
           <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <hr id="line" class="trans--grow hr1">
         </li>
-        <li>
-          <span class="number transparent content-top">02</span>
-          <h1 class="bigBlocks transparent content-middle">BE AMAZING</h1>
-          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <li id="six">
+          <h1 class="bigBlocks transparent content-top">BE THE ONE...</h1>
+          <h1 class="bigBlocks transparent content-middle">to invest your talent in protecting cyberspace</h1>
+          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisequat.</p>
           <hr id="line" class="trans--grow hr1">
         </li>
-        <li>
-          <span class="number transparent content-top">03</span>
-          <h1 class="bigBlocks transparent content-middle">BE AMAZING</h1>
-          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <li id="seven">
+          <h1 class="bigBlocks transparent content-top">BE THE ONE...</h1>
+          <h1 class="bigBlocks transparent content-middle">to defy expectations</h1>
+          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lnsequat ipsum doelit, sed do eiusmod tempor incididunt ut labore etim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <hr id="line" class="trans--grow hr1">
         </li>
-        <li>
-          <span class="number transparent content-top">04</span>
-          <h1 class="bigBlocks transparent content-middle">BE AMAZING</h1>
-          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <hr id="line" class="trans--grow hr1">
-        </li>
-        <li>
-          <span class="number transparent content-top">05</span>
-          <h1 class="bigBlocks transparent content-middle">BE AMAZING</h1>
-          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <hr id="line" class="trans--grow hr1">
-        </li>
-        <li>
-          <span class="number transparent content-top">06</span>
-          <h1 class="bigBlocks transparent content-middle">BE AMAZING</h1>
-          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <hr id="line" class="trans--grow hr1">
-        </li>
-        <li>
-          <span class="number transparent content-top">07</span>
-          <h1 class="bigBlocks transparent content-middle">BE AMAZING</h1>
-          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <hr id="line" class="trans--grow hr1">
-        </li>
-        <li>
-          <span class="number transparent content-top">08</span>
-          <h1 class="bigBlocks transparent content-middle">BE AMAZING</h1>
-          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <li id="eight">
+          <h1 class="bigBlocks transparent content-top">BE THE ONE...</h1>
+          <h1 class="bigBlocks transparent content-middle">to defy expectations</h1>
+          <p class="bigBlocks transparent content-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dat ipsum doelit, sed do eiusmod tempor incididunt ut labore etim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <hr id="line" class="trans--grow hr1">
         </li>
 
@@ -441,6 +459,8 @@ span.number {
 
 
       <script>
+
+  $( document ).ready(function() {
     jQuery(".wrapper ul").on( 'mousemove', function( event ) {{
 
 
@@ -448,15 +468,15 @@ span.number {
 			x: 0, // Current x-axis position of mouse
 		};
 
-		var containerItems = jQuery('.wrapper ul').width();
+		// var containerItems = jQuery('.wrapper ul').width();
 		var docWidth = jQuery(".wrapper ul").width();
 
-		var docMinWidth = jQuery(".wrapper ul").width();
+		// var docMinWidth = jQuery(".wrapper ul").width();
 
 		mouse.x = event.clientX || event.pageX;
 
 		mouse = mouse.x - 0;
-		var Translate = mouse * 200 / docWidth;
+		var Translate = mouse * 220 / docWidth;
 		//console.log(Translate);
 
 		jQuery('.wrapper ul').css({
@@ -468,47 +488,123 @@ span.number {
 	}
 	});
 
+});
 
 
+  $("#four").mouseenter(function(){
 
-
-
-  var currentBackground = 0;
-
-  var backgrounds = [];
-
-  backgrounds[0] = 'images5/buff.jpg';
-
-  backgrounds[1] = 'images5/gg-blanks.png';
-
-  backgrounds[2] = 'images5/lmale.png';
-
-  backgrounds[3] = 'images5/buff.jpg';
-
-  backgrounds[4] = 'images5/gg-blanks.png';
-
-  function changeBackground() {
-
-      currentBackground++;
-
-      if(currentBackground > 4) currentBackground = 0;
-
-      $('.background').fadeOut(1500,function() {
-          $('.background').css({
-              'background-image' : "url('" + backgrounds[currentBackground] + "')"
-          });
-          $('.background').fadeIn(1500);
-      });
-
-
-      setTimeout(changeBackground, 5000);
-  }
-
-  $(document).ready(function() {
-
-      setTimeout(changeBackground, 5000);
+      $('.background').fadeTo('slow', 0.3, function() {
+        $(this).css('background-image', "url('/../images5/gg-blanks-crop.png')");
+      }).fadeTo('slow', 1);
+      console.log('this is 3')
 
   });
+
+  $("#six").mouseenter(function(){
+
+    $('.background').fadeTo('slow', 0.3, function() {
+      $(this).css('background-image', "url('/../images5/lmale-crop.png')");
+    }).fadeTo('slow', 1);
+
+    console.log('this is 5')
+
+  });
+
+
+
+  $("#one").mouseenter(function(){
+
+    $('.background').fadeTo('slow', 0.3, function() {
+      $(this).css('background-image', "url('/../images5/buff-crop.jpg')");
+    }).fadeTo('slow', 1);
+
+    console.log('this is 7')
+
+  });
+
+
+
+    // var currentBackground = 0;
+    //
+    // var backgrounds = [];
+    //
+    // backgrounds[0] = 'images5/buff.jpg';
+    //
+    // backgrounds[1] = 'images5/gg-blanks.png';
+    // //
+    // // backgrounds[2] = 'images5/lmale.png';
+    // //
+    // // backgrounds[3] = 'images5/buff.jpg';
+    // //
+    // // backgrounds[4] = 'images5/gg-blanks.png';
+    //
+    // function changeBackground() {
+    //
+    //     currentBackground++;
+    //
+    //     if(currentBackground > 2) currentBackground = 0;
+    //
+    //     $('.background').fadeOut(1500,function() {
+    //         $('.background').css({
+    //             'background-image' : "url('" + backgrounds[currentBackground] + "')"
+    //         });
+    //         $('.background').fadeIn(1500);
+    //     });
+    //
+    //
+    //     setTimeout(changeBackground, 5000);
+    // }
+    //
+    // $(document).ready(function() {
+    //
+    //     setTimeout(changeBackground, 5000);
+    //
+    // });
+
+
+
+
+
+
+
+
+
+  // var currentBackground = 0;
+  //
+  // var backgrounds = [];
+  //
+  // backgrounds[0] = 'images5/buff.jpg';
+  //
+  // backgrounds[1] = 'images5/gg-blanks.png';
+  // //
+  // // backgrounds[2] = 'images5/lmale.png';
+  // //
+  // // backgrounds[3] = 'images5/buff.jpg';
+  // //
+  // // backgrounds[4] = 'images5/gg-blanks.png';
+  //
+  // function changeBackground() {
+  //
+  //     currentBackground++;
+  //
+  //     if(currentBackground > 2) currentBackground = 0;
+  //
+  //     $('.background').fadeOut(1500,function() {
+  //         $('.background').css({
+  //             'background-image' : "url('" + backgrounds[currentBackground] + "')"
+  //         });
+  //         $('.background').fadeIn(1500);
+  //     });
+  //
+  //
+  //     setTimeout(changeBackground, 5000);
+  // }
+  //
+  // $(document).ready(function() {
+  //
+  //     setTimeout(changeBackground, 5000);
+  //
+  // });
 
 
 
