@@ -771,9 +771,14 @@ include 'blog2/wp-load.php';
                 <h4 style='text-align:left;margin-bottom:10px;'><?php the_date();  ?></h4>
                 <div class="hideOnClick"><?php the_excerpt(); ?></div>
 
-                <div class='hideInitial'><?php the_content(); ?></div>
+                <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>">LEARN MORE</a></h2>
 
-                <?php echo "<h6 class='clickMe' style='color:white;text-align:center;margin-top:30px'>LEARN MORE</h6>"; ?>
+                <div class='hideInitial'>
+                  <?php the_content(); ?>
+
+                </div>
+
+
 
                 <?php echo "</div>"; ?>
                 <?php echo "</div>"; ?>
@@ -782,8 +787,8 @@ include 'blog2/wp-load.php';
               endforeach;
               ?>
 
-              <div class='circle'></div>
-              <div class="section"></div>
+              <!-- <div class='circle'></div>
+              <div class="section"></div> -->
             </div>
 
           </center>
@@ -977,133 +982,133 @@ include 'blog2/wp-load.php';
 
       calendar.render();
 
-      if ($(document).innerWidth() >= 1025) {
-
-        $('.main-news-box').click(function () {
-          if($(".hideInitial").is(':visible')) {
-
-            var par = $(this).parents('.expand');
-            par.find(".hideInitial").slideToggle();
-            // par.find(".clickMe").text('LEARN MORE');
-
-            par.find('.hideOnClick').show();
-
-            setTimeout(function() {
-              $('.circle').removeClass('circle2');
-            }, 400)
-
-            return false;
-
-          }
-
-          else if ($(".hideInitial").is(':hidden')){
-
-
-
-            var par = $(this).parents('.expand');
-            par.find(".hideInitial").slideToggle();
-
-
-            setTimeout(function() {
-              $('.circle').addClass('circle2');
-            }, 400)
-
-            // par.find(".clickMe").text('LESS');
-            par.find('.hideOnClick').hide();
-            return false;
-
-          }
-
-        });
-
-
-        $(".main-news-box a").mouseenter(function(){
-          $('a').click(function(e){
-            e.stopPropagation();
-          });
-
-         $('.circle').toggle();
-         $('#container2').css('cursor', 'auto');
-        });
-
-        $(".main-news-box a").mouseleave(function(){
-          $('.circle').toggle();
-          $('#container2').css('cursor', 'none');
-
-        });
-
-
-        $(".main-news-box a").attr("target", "_blank");
-
-
-
-        var container = document.getElementById("container2");
-        var circle = document.querySelector(".circle");
-
-
-         TweenMax.set(circle, { scale: 0, xPercent: -50, yPercent: -50 });
-
-        container.addEventListener("pointerenter", function(e) {
-          TweenMax.to(circle, 0.3, { scale: 1, opacity: 1 });
-          positionCircle(e);
-        });
-
-        container.addEventListener("pointerleave", function(e) {
-          TweenMax.to(circle, 0.3, { scale: 0, opacity: 0 });
-          positionCircle(e);
-        });
-
-        container.addEventListener("pointermove", function(e) {
-          positionCircle(e);
-        });
-
-        function positionCircle(e) {
-          var rect = container.getBoundingClientRect();
-          var relX = e.pageX - container.offsetLeft;
-          var relY = e.pageY - container.offsetTop;
-
-        TweenMax.to(circle, 0.3, { x: relX, y: relY });
-
-        }
-
-
-
-
-      }
-
-
+      // if ($(document).innerWidth() >= 1025) {
+      //
+      //   $('.main-news-box').click(function () {
+      //     if($(".hideInitial").is(':visible')) {
+      //
+      //       var par = $(this).parents('.expand');
+      //       par.find(".hideInitial").slideToggle();
+      //       // par.find(".clickMe").text('LEARN MORE');
+      //
+      //       par.find('.hideOnClick').show();
+      //
+      //       setTimeout(function() {
+      //         $('.circle').removeClass('circle2');
+      //       }, 400)
+      //
+      //       return false;
+      //
+      //     }
+      //
+      //     else if ($(".hideInitial").is(':hidden')){
+      //
+      //
+      //
+      //       var par = $(this).parents('.expand');
+      //       par.find(".hideInitial").slideToggle();
+      //
+      //
+      //       setTimeout(function() {
+      //         $('.circle').addClass('circle2');
+      //       }, 400)
+      //
+      //       // par.find(".clickMe").text('LESS');
+      //       par.find('.hideOnClick').hide();
+      //       return false;
+      //
+      //     }
+      //
+      //   });
+      //
+      //
+      //   $(".main-news-box a").mouseenter(function(){
+      //     $('a').click(function(e){
+      //       e.stopPropagation();
+      //     });
+      //
+      //    $('.circle').toggle();
+      //    $('#container2').css('cursor', 'auto');
+      //   });
+      //
+      //   $(".main-news-box a").mouseleave(function(){
+      //     $('.circle').toggle();
+      //     $('#container2').css('cursor', 'none');
+      //
+      //   });
+      //
+      //
+      //   $(".main-news-box a").attr("target", "_blank");
+      //
+      //
+      //
+      //   var container = document.getElementById("container2");
+      //   var circle = document.querySelector(".circle");
+      //
+      //
+      //    TweenMax.set(circle, { scale: 0, xPercent: -50, yPercent: -50 });
+      //
+      //   container.addEventListener("pointerenter", function(e) {
+      //     TweenMax.to(circle, 0.3, { scale: 1, opacity: 1 });
+      //     positionCircle(e);
+      //   });
+      //
+      //   container.addEventListener("pointerleave", function(e) {
+      //     TweenMax.to(circle, 0.3, { scale: 0, opacity: 0 });
+      //     positionCircle(e);
+      //   });
+      //
+      //   container.addEventListener("pointermove", function(e) {
+      //     positionCircle(e);
+      //   });
+      //
+      //   function positionCircle(e) {
+      //     var rect = container.getBoundingClientRect();
+      //     var relX = e.pageX - container.offsetLeft;
+      //     var relY = e.pageY - container.offsetTop;
+      //
+      //   TweenMax.to(circle, 0.3, { x: relX, y: relY });
+      //
+      //   }
+      //
+      //
+      //
+      //
+      // }
 
 
-      if ($(document).innerWidth() <= 1024) {
 
 
-        $('.clickMe').click(function () {
-          if($(".hideInitial").is(':visible')) {
-
-            var par = $(this).parents('.main-news-box');
-            par.find(".hideInitial").slideToggle();
-            par.find(".clickMe").text('LEARN MORE');
-            par.find('.hideOnClick').show();
-            return false;
-
-          }
-
-          else if ($(".hideInitial").is(':hidden')){
-
-            var par = $(this).parents('.main-news-box');
-            par.find(".hideInitial").slideToggle();
-            par.find(".clickMe").text('LESS');
-            par.find('.hideOnClick').hide();
-            return false;
-
-          }
-
-        });
-
-        $(".main-news-box a").attr("target", "_blank");
+      // if ($(document).innerWidth() <= 1024) {
 
 
-      }
+        // $('.clickMe').click(function () {
+        //   if($(".hideInitial").is(':visible')) {
+        //
+        //     var par = $(this).parents('.main-news-box');
+        //     par.find(".hideInitial").slideToggle();
+        //     par.find(".clickMe").text('LEARN MORE');
+        //     par.find('.hideOnClick').show();
+        //     return false;
+        //
+        //   }
+        //
+        //   else if ($(".hideInitial").is(':hidden')){
+        //
+        //     var par = $(this).parents('.main-news-box');
+        //     par.find(".hideInitial").slideToggle();
+        //     par.find(".clickMe").text('LESS');
+        //     par.find('.hideOnClick').hide();
+        //     return false;
+        //
+        //   }
+        //
+        // });
+        //
+        // $(".main-news-box a").attr("target", "_blank");
+
+
+      // }
 
 
 
