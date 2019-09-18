@@ -397,6 +397,18 @@ h1.acq {
 .pb100.mobile {
   margin-top:3em;
 }
+
+#slideUpLiner3 {
+    height: 3px;
+    width: 90px;
+    margin-bottom: 45px;
+    margin-top: 25px;
+}
+p.register.two {
+    margin-top: 0em !important;
+    margin-bottom: 1em !important;
+}
+
 }
 
 @media (max-width:480px) {

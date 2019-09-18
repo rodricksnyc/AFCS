@@ -384,8 +384,6 @@ include 'blog2/wp-load.php';
 
                   </div>
 
-
-
                   <?php echo "</div>"; ?>
                   <?php echo "</div>"; ?>
 
@@ -419,7 +417,7 @@ include 'blog2/wp-load.php';
 
                     <p class="small">The U.S. Air Force is the mightiest the world has ever known. It is admired and respected by friend and foe alike.</p>
                     <p class="small">But did you know it takes thousands of dedicated civilians to keep the Air Force powerful and effective?</p>
-                    <p class="small"><span style="font-weight:600">It&rsquo;s Time You Knew</span></p>
+                    <p class="small"><span class="time">It&rsquo;s Time You Knew</span></p>
                   </div>
 
 
@@ -441,7 +439,7 @@ include 'blog2/wp-load.php';
 
                       <p class="small">At 170,000 strong we are a force to be reckoned with filling roles from the routine to rocket science and everything in between. Together we work shoulder to shoulder with the men and women in uniform to keep the Air Force ready for action, ready for anything.</p>
                       <p class="small">We’re from all backgrounds and all walks of life investing our energy and skills with passion and dedication.  Our contributions as civilians are vital, supporting and sustaining the Air Force mission in air, space, and cyberspace.</p>
-                      <p class="small"><span style="font-weight:600">It&rsquo;s Time You Knew</span></p>
+                      <p class="small"><span class="time">It&rsquo;s Time You Knew</span></p>
                     </div>
 
                   </div>
@@ -460,7 +458,7 @@ include 'blog2/wp-load.php';
                       <div class="content-top transparent">
                         <p class="small">We also contribute to the well&ndash;being of every American in remarkable and even life&ndash;changing ways. Our projects explore the cutting edge of innovation and discovery and the results contribute to the safety and well&ndash;being of every American.</p>
                         <p class="small">It&rsquo;s time you knew about our commitment. Time you knew about our contribution. It’s time you knew about the Air Force Civilian Service.</p>
-                        <p class="small"><span style="font-weight:600">It&rsquo;s Time You Knew</span></p>
+                        <p class="small"><span class="time">It&rsquo;s Time You Knew</span></p>
                         <img src="images5/liner.jpg" id="slideUpLiner3">
                       </div>
 

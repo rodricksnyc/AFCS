@@ -92,7 +92,7 @@
   }
 
   .funThing {
-    bottom:11%;
+    bottom:20%;
   }
 
   .funThing.new3 {
