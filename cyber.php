@@ -34,14 +34,13 @@
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/finance.css">
-
-  <title>Air Force Civilian Service 4.0</title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
 </head>
 
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -50,15 +49,13 @@
     </div>
   </div>
 
-
   <div style="background: #262932 !important;" id="site-wrapper">
     <?php include("nav-include/navbar.php"); ?>
 
     <div id="tipModal">
-
-
     </div>
 
+  <a name='content'></a>
         <div class="container-fluid">
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
@@ -92,9 +89,6 @@
         </div>
 
 
-
-
-
   <section class="blocksTop">
       <center>
         <div class="container-fluid w800">
@@ -113,7 +107,6 @@
               <p class="small content-last transparent">Our Cyber and IT teams support complex, specialized hardware and software systems at more than 80 locations around the country and around the globe, guarding vital intelligence while keeping our data safe and flowing freely.</p>
 
               <p class="small content-secondLast transparent">Our IT and cyber systems are some of the most complex in the world and require the best and brightest thinkers and creative minds to help Air Force stay ahead of the threat. AFCS computer engineers, network specialists, data managers, security specialists, and cybersecurity pros are on the front lines every day in the ongoing battle to keep our systems, infrastructure, and digital information secure.</p>
-
 
 
             </div>
@@ -142,7 +135,6 @@
       </div>
     </center>
     </section>
-
 
 
   <section class="blocks2">

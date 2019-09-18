@@ -34,13 +34,12 @@
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/finance.css">
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
-
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 </head>
 
 <body>
-
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -49,15 +48,13 @@
     </div>
   </div>
 
-
   <div style="background: #0f1932 !important;" id="site-wrapper">
         <?php include("nav-include/navbar.php"); ?>
 
     <div id="tipModal">
-
-
     </div>
 
+    <a name='content'></a>
         <div class="container-fluid">
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">

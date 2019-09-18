@@ -8,7 +8,6 @@
 
   <link rel="stylesheet" href="css5/bootstrap-theme.min.css">
 
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
 
   <link rel="stylesheet" href="css/afcs-new.css">
@@ -31,12 +30,11 @@
 
   <link rel=stylesheet href="css/navbar.css">
   <title>Air Force Civilian Service 4.0</title>
-  <title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 </head>
 
-
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -53,8 +51,8 @@
   <div id="tipModal">
   </div>
 
-  <a href="#bottom" id="top"></a>
-
+<a name='content'></a>
+<a href="#bottom" id="top"></a>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 col-lg-12">
@@ -98,7 +96,7 @@
         <div class="centerBlocks">
           <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
             <div class="parent content-top transparent">
-              <a style="font-size:14px;" href="">
+              <a style="font-size:14px;" href="students-and-graduates.php">
                 <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i1 new child">
                 <div class="funThing" id="b31">
                   <h1 id="topLine3" class="overlayText tlt41">STUDENTS &</h1>
@@ -249,7 +247,7 @@
 
   <section id="blocks2" class="blocks2">
     <div class="container-fluid">
-      <div class="row heros">
+      <div id="hero" class="row heros">
 
         <div class="addShadow">
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
@@ -519,7 +517,7 @@
 
 
 
-<section id="blocks8" class="blocks8">
+<section id="blocks8" class="blocks88">
   <div class="container-fluid">
     <div class="row heros">
       <div id="addShadow2">
@@ -761,7 +759,7 @@
 
   <section id="blocks8" class="blocks8">
     <div class="container-fluid">
-      <div class="row heros">
+      <div class="row heros" id="hero">
 
         <div id="addShadow3">
 

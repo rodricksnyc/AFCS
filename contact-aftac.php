@@ -29,8 +29,7 @@
 
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
-
-  	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 </head>
 <style>
@@ -169,9 +168,6 @@ a.small{
   margin-bottom: .2em;
 }
 
-
-
-
 @media (max-width: 767px){
 .center2.bluish2 {
     -webkit-align-items: center;
@@ -251,10 +247,10 @@ a.small{
 
 }
 
-
 </style>
-<body>
 
+<body>
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -273,10 +269,10 @@ a.small{
     <div id="tipModal">
     </div>
 
+<a name='content'></a>
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
-
           <div id="hero-slider2">
             <div class="hero-slide" style="background-image: url('./images5/aftac_about_image.jpg');">
               <div class="container">

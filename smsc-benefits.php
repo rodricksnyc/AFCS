@@ -31,9 +31,7 @@
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/smsc.css">
 
-  </script>
-
-  <title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 </head>
 
 <style>
@@ -136,7 +134,7 @@
 
 
 <body>
-
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -150,10 +148,10 @@
     <a href="#veryBottom" id="veryTop"></a>
     <?php include("nav-include/acquisition-navbar.php"); ?>
 
-
     <div id="tipModal">
     </div>
 
+    <a name='content'></a>
     <div class="container-fluid" id="mt67">
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
@@ -242,10 +240,8 @@
         </div>
       </div>
 
-
         <div class="cursor"></div>
       </div>
-
 
   </div>
 </div>

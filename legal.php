@@ -23,7 +23,8 @@
 <link rel="stylesheet" href="css/afcs-new.css">
 <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
-<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 </head>
 <style>
@@ -88,6 +89,7 @@ a.small {
 
 
 <body>
+    <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -96,6 +98,7 @@ a.small {
     </div>
   </div>
 
+  <a name='content'></a>
 <div style="background: #0f1932 !important;" id="site-wrapper">
 <a href="#veryBottom" id="veryTop"></a>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">

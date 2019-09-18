@@ -32,22 +32,20 @@
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/history.css">
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-
-  <title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 </head>
 
 
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
-
       </div>
     </div>
   </div>
 
-  <a href="#bottom" id="top"></a>
+<a name='content'></a>
 
   <div style="background: #0f1932 !important;" id="site-wrapper">
     <a href="#veryBottom" id="veryTop"></a>
@@ -55,6 +53,8 @@
 
     <div id="tipModal">
     </div>
+
+
 
     <div class="swiper-container">
       <div class="swiper-wrapper">
@@ -136,10 +136,7 @@
 
       <!-- <div class="swiper-scrollbar"></div> -->
 
-
     </div>
-
-
 
     <?php include("footer-include/site-footer.php"); ?>
 
@@ -174,7 +171,7 @@
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3bg43h0KXd3qUnwUBHGgGCbSag3WLpY8&libraries=places"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
-  
+
   <script>
 
 

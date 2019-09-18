@@ -24,11 +24,10 @@
 <link rel="stylesheet" href="css/afcs-new.css">
 <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
 
-<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 </head>
 <style>
-
 
 .whiteList {
     color: white;
@@ -86,6 +85,7 @@ a.small {
 
 
 <body>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -112,7 +112,7 @@ a.small {
 
       <div id="anchorPoint"></div>
 
-
+      <a name='content'></a>
         <section class="blocksTop4" style="margin-top:10em;">
           <center>
 

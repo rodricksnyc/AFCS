@@ -13,8 +13,6 @@ include 'blog2/wp-load.php';
 
   <link rel="stylesheet" href="css5/bootstrap-theme.min.css">
 
-
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
 
   <link rel="stylesheet" href="css/afcs-new.css">
@@ -45,16 +43,13 @@ include 'blog2/wp-load.php';
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/aftac.css">
   <link rel=stylesheet href="css/aftac-landing.css">
-
-  <title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 </head>
 
 
-
-
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -69,16 +64,15 @@ include 'blog2/wp-load.php';
 
     <a href="#veryBottom" id="veryTop"></a>
 
-
     <?php include("nav-include/aftac-navbar.php"); ?>
 
     <div id="tipModal">
     </div>
 
+<a name='content'></a>
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
-
           <div id="hero-slider2">
             <div class="hero-slide" style="background-image: url('./images5/aftac.png');">
               <div class="container">

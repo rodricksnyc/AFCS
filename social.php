@@ -4,12 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css5/animate-edited.css">
 
-
   <link rel="stylesheet" href="css5/bootstrap-edited.css">
   <!-- <link rel="stylesheet" href="css5/bootstrap-theme.css"> -->
   <link rel="stylesheet" href="css5/bootstrap-theme.min.css">
   <!-- <link rel="stylesheet" href="css5/bootstrap.min.css"> -->
-
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
 
@@ -34,14 +32,13 @@
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/finance.css">
-
-  <title>Air Force Civilian Service 4.0</title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
 </head>
 
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -51,12 +48,13 @@
   </div>
 
 
-  <div style="background: #262932 !important;" id="site-wrapper">
+<div style="background: #262932 !important;" id="site-wrapper">
 <?php include("nav-include/navbar.php"); ?>
 
     <div id="tipModal">
     </div>
 
+<a name='content'></a>
         <div class="container-fluid">
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
@@ -88,9 +86,6 @@
             </div>
           </div>
         </div>
-
-
-
 
 
   <section class="blocksTop">

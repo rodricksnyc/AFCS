@@ -1,48 +1,29 @@
 <html>
-
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css5/animate-edited.css">
-
   <link rel="stylesheet" href="css5/bootstrap-edited.css">
-
   <link rel="stylesheet" href="css5/bootstrap-theme.min.css">
-
-
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
-
   <link rel="stylesheet" href="css/afcs-new.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
-
   <link rel="stylesheet" href="css5/normalize.css">
-
   <link type="image/png" href="images5/afcs-favicon.png" rel="icon">
-
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-
   <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-
-
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-    <link rel=stylesheet href="css/about.css">
+  <link rel=stylesheet href="css/about.css">
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/aftac.css">
-
-
-  </script>
-
-  	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
-
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 </head>
 <style>
 
@@ -81,14 +62,12 @@
     bottom: 34%;
 }
 
-
 @media (max-width:1024px) and (min-width:768px) {
   .i1, .i2, .i3 {
       margin-bottom: -2em;
   }
 
 }
-
 
 @media (max-width:767px) {
   .i1, .i2, .i3 {
@@ -116,36 +95,31 @@
 #b33 {
     bottom: 25% !important;
 }
-
 }
 
-
 </style>
-
 <body>
-
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
-
       </div>
     </div>
   </div>
 
+
   <a href="#bottom" id="top"></a>
   <div style="background: #0f1932 !important;" id="site-wrapper">
-
   <a href="#veryBottom" id="veryTop"></a>
-
   <?php include("nav-include/aftac-navbar.php"); ?>
 
     <div id="tipModal">
     </div>
 
+<a name='content'></a>
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
-
           <div id="hero-slider2">
             <div class="hero-slide" style="background-image: url('./images5/about-aftac-image.png');">
               <div class="container">
@@ -170,7 +144,6 @@
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -179,8 +152,6 @@
     <section id="blocksTop" class="blocksTop">
       <div class="container-fluid">
         <div class="row heros">
-
-
             <div class="centerBlocks">
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
@@ -227,9 +198,6 @@
 
               <div class="cursor"></div>
             </div>
-
-
-
         </div>
       </div>
     </section>
@@ -292,9 +260,6 @@
     </section> -->
 
 
-
-
-
 <section class="blocks02">
 <center>
   <div class="container-fluid w800">
@@ -347,8 +312,6 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
     </center>
 </section>
 
-
-
 <section class="blocks4">
 <center>
   <div class="container-fluid w800 frontier">
@@ -361,8 +324,6 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
         <p class="small content-middle transparent">Laboratories do significant research and analyze data and actual nuclear debris. For example, AFTAC supported Operation Tomodachi, the U.S. government’s response to the 9.0 earthquake and subsequent tsunami that hit Japan in March 2011.  The Fukushima Daiichi Nuclear Power Plant experienced a nuclear meltdown in three of the plant’s six nuclear reactors.  AFTAC personnel flew nine nuclear debris collection sorties and analyzed 660 samples from the affected Pacific peninsula.</p>
 
-
-
         <div class="content-bottom transparent">
 
           <h1 class="acq">Ciambrone<br>Radiochemistry Lab</h1>
@@ -370,19 +331,14 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           <p class="small">In 2014, AFTAC supplemented its extensive network of contracted laboratories by opening its own state-of-the-art 38,000 square foot Ciambrone Radiochemistry Lab to analyze and assess compliance with nuclear weapons testing in support of USAEDS and AFTAC’s Nuclear Debris Collection and Analysis Program</p>
 
           <p class="small">The Ciambrone Radiochemistry Laboratory is now the centerpiece of networked labs designed to analyze and identify radiological and nuclear debris from foreign nuclear explosions, as well as other materials, devices and debris. AFTAC’s Nuclear Debris Collection and Analysis Program is the U.S. Government’s main source for this kind of collection and analysis.</p>
-      </div>
+        </div>
 
       <div class="content-last transparent">
 
         <p class="small">In the aftermath of 9/11, the U.S. Government recognized a need to develop technical nuclear forensics (TNF) capabilities to ensure rapid analysis to understand and identify threats and inform tactical responses. The Ciamborne Radiochemistry Laboratory is part of that effort to meet vital national security requirements.</p>
 
-
-
       </div>
-
-
       </div>
-
     </div>
   </div>
 </center>
@@ -450,13 +406,13 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           </div>
 
           <div class="m-carousel__item eleven">
-            <img id="myImg11" class="m-carousel__image" data-flickity-lazyload="images5/about-aftac2.jpg" alt="Lab technicians working in a clean room">
-            <div class="custCaption11"><p class="endDescription">Lab technicians working in a clean room</p></div>
+            <img id="myImg11" class="m-carousel__image" data-flickity-lazyload="images5/about-aftac2.jpg" alt="Calibrating a remote sensing station">
+            <div class="custCaption11"><p class="endDescription">Calibrating a remote sensing station</p></div>
           </div>
 
           <div class="m-carousel__item twelve">
-            <img id="myImg12" class="m-carousel__image" data-flickity-lazyload="images5/about-aftac3.jpg" alt="Lab technicians working in a clean room">
-            <div class="custCaption12"><p class="endDescription">Lab technicians working in a clean room</p></div>
+            <img id="myImg12" class="m-carousel__image" data-flickity-lazyload="images5/about-aftac3.jpg" alt="Airmen and civilians working shoulder to shoulder">
+            <div class="custCaption12"><p class="endDescription">Airmen and civilians working shoulder to shoulder</p></div>
           </div>
 
         </div>
@@ -471,11 +427,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
 
 
-
-
-
 <div class="container-fluid">
-
   <div class="row">
     <div class="col-xs-12 col-lg-12">
       <div id="mymodel" class="model">
@@ -826,10 +778,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
     </div>
   </div>
 
-
 </div>
-
-
 
 
 <section class="blocks12">
@@ -845,7 +794,6 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
             <p class="small content-bottom transparent">At 170,000 strong AFCS is a force to be reckoned with. We fill positions in over 600 different occupations. Dedicated and confident, we work shoulder to shoulder with Airmen around the country and around the world, committed to the vital Air Force mission in air, space, and cyberspace.</p>
 
             <div class="content-last transparent">
-
 
               <p class="small">Together we are... <span style="font-weight:bold">Forces. Joined.</span></p>
 
@@ -6058,26 +6006,26 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
 
 
-                        <section class="blocks400">
-                            <center>
-                              <div style="max-width:960px" class="container-fluid">
-                                <div class="row heros">
-                                  <div class="col-xs-12 col-lg-12">
+  <section class="blocks400">
+    <center>
+      <div style="max-width:960px" class="container-fluid">
+        <div class="row heros">
+          <div class="col-xs-12 col-lg-12">
 
-                                    <div class="content-top transparent">
+            <div class="content-top transparent">
 
-                                      <img src="images5/about-aftac3.jpg" class="img-responsive" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-                        -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-                        box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
+              <img src="images5/about-aftac3.jpg" class="img-responsive" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
 
-                                    </div>
+            </div>
 
-                                  </div>
-                                </div>
-                              </div>
-                            </center>
-                        </section>
+          </div>
+        </div>
+      </div>
+    </center>
+  </section>
 
 <section class="blocks9">
 
@@ -6100,7 +6048,6 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 </section>
 
 
-
 <?php include("footer-include/aftac-footer.php"); ?>
 
 </div>
@@ -6113,7 +6060,7 @@ crossorigin="anonymous"></script>
 
 <!-- <script src="js5/bootstrap.js"></script> -->
 <script src="js5/bootstrap.min.js"></script>
-<script src="js5/aos.js"></script>
+<!-- <script src="js5/aos.js"></script> -->
 <!-- <script src="js5/slick.js"></script>
 <script src="js5/slick.min.js"></script> -->
 
@@ -6136,11 +6083,8 @@ crossorigin="anonymous"></script>
 <script src="js5/about-aftac.js"></script>
 <script src="js5/scrollTop.js"></script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3bg43h0KXd3qUnwUBHGgGCbSag3WLpY8&libraries=places">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY810Ql4ysaCFgHNFF2olzw3RpuNK1HbE&libraries=places">
 </script>
-
-
-
 
 
 <script>
@@ -6215,7 +6159,6 @@ $(document).ready(function() {
     });
   }
 });
-
 
 
 
@@ -6542,8 +6485,6 @@ $(document).ready(function() {
                                     }
 
 
-
-
                                     function changeMap(city) {
 
                                       var c = coords[city].split(',');
@@ -6555,8 +6496,6 @@ $(document).ready(function() {
 
 
 </script>
-
 </body>
-
 
 </html>

@@ -35,7 +35,7 @@
   <link rel=stylesheet href="css/navbar.css">
   <link rel="stylesheet" href="css/roa.css">
     <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+	  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
 </head>
@@ -167,14 +167,7 @@ input[type="checkbox"].styled:checked + label:after {
 </style>
 
 <body>
-
-  <!-- <div class="preloader-wrap">
-    <div class="preloader">
-      <div class="loader">
-
-      </div>
-    </div>
-  </div> -->
+<a href='#content' class='skipNav'>Skip to main content</a>
 
   <div style="background: #1f1e27 !important;" id="site-wrapper">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -329,7 +322,7 @@ input[type="checkbox"].styled:checked + label:after {
     <div id="tipModal">
     </div>
 
-
+<a name='content'></a>
       <div class="container-fluid">
         <div class="row bottomBoxShadow">
           <div class="col-xs-12 col-lg-12">

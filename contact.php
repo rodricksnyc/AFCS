@@ -4,15 +4,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css5/animate.css">
 
-
   <link rel="stylesheet" href="css5/bootstrap-edited.css">
   <!-- <link rel="stylesheet" href="css5/bootstrap-theme.css"> -->
   <link rel="stylesheet" href="css5/bootstrap-theme.min.css">
   <!-- <link rel="stylesheet" href="css5/bootstrap.min.css"> -->
 
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
-
 
   <link rel="stylesheet" href="css/afcs.css">
   <link rel=stylesheet href="css/about.css">
@@ -24,31 +21,31 @@
   <link type="image/png" href="images5/afcs-favicon.png" rel="icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-
 
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/acquisition.css">
   <link rel=stylesheet href="css/contact.css">
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-  <title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
 </head>
 
 <body>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <a href="#bottom" id="top"></a>
-
   <a href="#veryBottom" id="veryTop"></a>
   <div style="background: #262932 !important;" id="site-wrapper">
   <?php include("nav-include/index-navbar.php"); ?>
 
   <div id="tipModal">
-
   </div>
 
+
+
+<a name='content'></a>
   <div class="container-fluid">
     <div class="row bottomBoxShadow">
       <div class="col-xs-12 col-lg-12">

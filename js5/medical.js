@@ -1,79 +1,30 @@
 $(document).ready(function () {
 
-
-  $(document).ready(function(e) {
-
-      $('nav').hover(function() {
-          $('.navigation').stop().slideToggle('1000');
-      });
-
-  });
-
   $(".preloader-wrap").fadeOut(0);
 
-  $("a").css({"cursor":"grab"});
 
 
-  if ($(document).innerWidth() >= 992) {
+  $('a[href^="#veryTop"]').on('click', function(event) {
 
-    console.log("nav desktop")
-      $('nav.secondNav ul li a:not(:only-child)').click(function(e) {
-        $(this).siblings('.nav-dropdown').toggle();
+    var target = $(this.getAttribute('href'));
 
-        $('.nav-dropdown').not($(this).siblings()).hide();
-        e.stopPropagation();
-      });
+    if( target.length ) {
+      event.preventDefault();
+      $('html, body').stop().animate({
+        scrollTop: target.offset().top
+      }, 1000);
+    }
 
-      $('html').click(function() {
-        $('.nav-dropdown').hide();
-      });
-
-      $('#nav-toggle').click(function() {
-        $('nav.secondNav ul').slideToggle();
-      });
-
-      $('#nav-toggle').on('click', function() {
-        this.classList.toggle('active');
-      });
-
-}
-
-if ($(document).innerWidth() <= 991) {
-  console.log("nav mobile")
-
-
-  $('#nav-toggle').click(function() {
-    $('nav.secondNav ul.nav-list').slideToggle();
   });
-
-  $('#test').click(function() {
-    $('#testDrop').slideToggle();
-  });
-
-  $('#nuc').click(function() {
-    $('#nucDrop').slideToggle();
-  });
-
-  $('#maint').click(function() {
-    $('#maintDrop').slideToggle();
-  });
-
-  $('#rd').click(function() {
-    $('#rdDrop').slideToggle();
-  });
-
-  $('#sm').click(function() {
-    $('#smDrop').slideToggle();
-  });
-
-}
 
   //search bar
 
       $('#tipue_search_input').tipuesearch();
+
        $('input[type="text"]').val('');
 
        $('#delete').on('click', function(){
+
 
         console.log("efbewirbiwbeib")
 
@@ -88,74 +39,9 @@ if ($(document).innerWidth() <= 991) {
 
       })
 
-      //scroll magic
-      $('a[href^="#top"]').on('click', function(event) {
 
-        var target = $(this.getAttribute('href'));
+$('.videoWrapperACQ').fadeIn();
 
-        if( target.length ) {
-          event.preventDefault();
-          $('html, body').stop().animate({
-            scrollTop: target.offset().top
-          }, 1000);
-        }
-
-      });
-
-
-      $('a[href^="#newTop"]').on('click', function(event) {
-
-        var target = $(this.getAttribute('href'));
-
-        if( target.length ) {
-          event.preventDefault();
-          $('html, body').stop().animate({
-            scrollTop: target.offset().top
-          }, 1000);
-        }
-
-      });
-
-      $('a[href^="#locationTop"]').on('click', function(event) {
-
-        var target = $(this.getAttribute('href'));
-
-        if( target.length ) {
-          event.preventDefault();
-          $('html, body').stop().animate({
-            scrollTop: target.offset().top
-          }, 1000);
-        }
-
-      });
-
-      $('a[href^="#lastTop"]').on('click', function(event) {
-
-        var target = $(this.getAttribute('href'));
-
-        if( target.length ) {
-          event.preventDefault();
-          $('html, body').stop().animate({
-            scrollTop: target.offset().top
-          }, 1000);
-        }
-
-      });
-
-      $('a[href^="#veryTop"]').on('click', function(event) {
-
-        var target = $(this.getAttribute('href'));
-
-        if( target.length ) {
-          event.preventDefault();
-          $('html, body').stop().animate({
-            scrollTop: target.offset().top
-          }, 1000);
-        }
-
-      });
-
-//css transitions that slideUp in front of flickity slider images5
 
 
 $('.m-carousel').on('select.flickity', function( event, pointer, cellElement, cellIndex ) {
@@ -173,8 +59,6 @@ $('.m-carousel__item.seven').off();
 $('.m-carousel__item.eight').off();
 $('.m-carousel__item.nine').off();
 $('.m-carousel__item.ten').off();
-$('.m-carousel__item.eleven').off();
-$('.m-carousel__item.twelve').off();
 
   console.log("cccccccccccccccc")
 $('.m-carousel__item.one').hover(function() {
@@ -199,8 +83,6 @@ function(){
    $('.m-carousel__item.eight').off();
    $('.m-carousel__item.nine').off();
    $('.m-carousel__item.ten').off();
-   $('.m-carousel__item.eleven').off();
-   $('.m-carousel__item.twelve').off();
 
   console.log("wwwwwcccccccccccccccc")
   $('.m-carousel__item.two').hover(function(){
@@ -225,8 +107,6 @@ function(){
    $('.m-carousel__item.eight').off();
    $('.m-carousel__item.nine').off();
    $('.m-carousel__item.ten').off();
-   $('.m-carousel__item.eleven').off();
-   $('.m-carousel__item.twelve').off();
 
     console.log("hhhhhhcccccccccccccccc")
 $('.m-carousel__item.three').hover(function(){
@@ -252,8 +132,6 @@ function(){
    $('.m-carousel__item.eight').off();
    $('.m-carousel__item.nine').off();
    $('.m-carousel__item.ten').off();
-   $('.m-carousel__item.eleven').off();
-   $('.m-carousel__item.twelve').off();
 
   console.log("eeeeeeeecccccccccccccccc")
 $('.m-carousel__item.four').hover(function(){
@@ -281,8 +159,6 @@ if ($('.m-carousel__item.five').is('.is-selected'))   {
   $('.m-carousel__item.eight').off();
   $('.m-carousel__item.nine').off();
   $('.m-carousel__item.ten').off();
-  $('.m-carousel__item.eleven').off();
-  $('.m-carousel__item.twelve').off();
 
   console.log("676776767cccccccccccccccc")
 
@@ -310,8 +186,7 @@ if ($('.m-carousel__item.six').is('.is-selected'))   {
   $('.m-carousel__item.eight').off();
   $('.m-carousel__item.nine').off();
   $('.m-carousel__item.ten').off();
-  $('.m-carousel__item.eleven').off();
-  $('.m-carousel__item.twelve').off();
+
 
 
 
@@ -339,8 +214,7 @@ if ($('.m-carousel__item.seven').is('.is-selected'))   {
   $('.m-carousel__item.eight').off();
   $('.m-carousel__item.nine').off();
   $('.m-carousel__item.ten').off();
-  $('.m-carousel__item.eleven').off();
-  $('.m-carousel__item.twelve').off();
+
 
 $('.m-carousel__item.seven').hover(function(){
   $(".custCaption7").slideDown();
@@ -362,11 +236,11 @@ if ($('.m-carousel__item.eight').is('.is-selected'))   {
   $('.m-carousel__item.four').off();
   $('.m-carousel__item.five').off();
   $('.m-carousel__item.six').off();
+
   $('.m-carousel__item.seven').off();
+
   $('.m-carousel__item.nine').off();
   $('.m-carousel__item.ten').off();
-  $('.m-carousel__item.eleven').off();
-  $('.m-carousel__item.twelve').off();
 
 
 $('.m-carousel__item.eight').hover(function(){
@@ -388,11 +262,11 @@ if ($('.m-carousel__item.nine').is('.is-selected'))   {
   $('.m-carousel__item.four').off();
   $('.m-carousel__item.five').off();
   $('.m-carousel__item.six').off();
+
   $('.m-carousel__item.seven').off();
+
   $('.m-carousel__item.eight').off();
   $('.m-carousel__item.ten').off();
-  $('.m-carousel__item.eleven').off();
-  $('.m-carousel__item.twelve').off();
 
 
 $('.m-carousel__item.nine').hover(function(){
@@ -415,11 +289,11 @@ if ($('.m-carousel__item.ten').is('.is-selected'))   {
   $('.m-carousel__item.four').off();
   $('.m-carousel__item.five').off();
   $('.m-carousel__item.six').off();
+
   $('.m-carousel__item.seven').off();
+
   $('.m-carousel__item.eight').off();
   $('.m-carousel__item.nine').off();
-  $('.m-carousel__item.eleven').off();
-  $('.m-carousel__item.twelve').off();
 
 
 
@@ -433,62 +307,23 @@ function(){
 }
 
 
-if ($('.m-carousel__item.eleven').is('.is-selected'))   {
-
-  $('.m-carousel__item.one').off();
-  $('.m-carousel__item.two').off();
-  $('.m-carousel__item.three').off();
-  $('.m-carousel__item.four').off();
-  $('.m-carousel__item.five').off();
-  $('.m-carousel__item.six').off();
-  $('.m-carousel__item.seven').off();
-  $('.m-carousel__item.eight').off();
-  $('.m-carousel__item.nine').off();
-  $('.m-carousel__item.ten').off();
-  $('.m-carousel__item.twelve').off();
-
-$('.m-carousel__item.eleven').hover(function(){
-  $(".custCaption11").slideDown();
-},
-function(){
-  $(".custCaption11").slideUp();
-});
-
-}
-
-if ($('.m-carousel__item.twelve').is('.is-selected'))   {
-
-  $('.m-carousel__item.one').off();
-  $('.m-carousel__item.two').off();
-  $('.m-carousel__item.three').off();
-  $('.m-carousel__item.four').off();
-  $('.m-carousel__item.five').off();
-  $('.m-carousel__item.six').off();
-  $('.m-carousel__item.seven').off();
-  $('.m-carousel__item.eight').off();
-  $('.m-carousel__item.nine').off();
-  $('.m-carousel__item.ten').off();
-  $('.m-carousel__item.eleven').off();
-
-$('.m-carousel__item.twelve').hover(function(){
-  $(".custCaption12").slideDown();
-},
-function(){
-  $(".custCaption12").slideUp();
-});
-
-}
-
-
-
-
 });
 
 
+
+  //calendar
+  // $(function () {
+  //   $('#datetimepicker1').datetimepicker();
+  // });
+  //
+  // $(function () {
+  //   $('#datetimepicker1').datetimepicker();
+  // });
 
 
   //my vertical carousel for videos
   $('.carousel .vertical .item').each(function(){
+
 
     var next = $(this).next();
     if (!next.length) {
@@ -580,6 +415,7 @@ function(){
       let self = this;
       // Start the stuff. This could be your init file.
       console.log('this is started');
+
 
 
     },
@@ -838,7 +674,7 @@ else if ($('hiddenVideos').is('.bottomShadow', '.flexing-scroll') && $('#news').
     else if
 
   (!$('#myCool').is('.bottomShadow')  && !$('#hiddenVideos').is('.bottomShadow') &&  $('#myCool').is('.cool', '.flexing-scroll') && $('#news').is('.myNews' , '.bottomShadow' , '.animated' , '.slideInRight')) {
-        console.log("very hard")
+        console.log("fucker bitch")
 
 
         console.log('news is leaving and videos coming back in')
@@ -885,7 +721,7 @@ else if ($('hiddenVideos').is('.bottomShadow', '.flexing-scroll') && $('#news').
 
   ($('#myCool').is('.bottomShadow', '.cool', '.flexing-scroll') && $('#hiddenVideos').is('.flexing-scroll') && !$('#news').is('.bottomShadow'))  {
 
-    console.log("my brain is not working")
+    console.log("my brain is fucked in the ass")
 
     setTimeout(function(){
     $('#myCool').css('left', 'auto');
@@ -933,7 +769,7 @@ else if
 
 ($('#myCool').is('.bottomShadow', '.cool', '.animated', '.slideInRight')  && $('#hiddenVideos').is('.flexing-scroll')) {
 
-console.log("hard")
+console.log("iam fucked")
 
 setTimeout(function(){
 $('#myCool').css('left', 'auto');
@@ -977,7 +813,7 @@ else if
 
 ($('#myCool').is('.cool', '.flexing-scroll') && $('#hiddenVideos').is('.bottomShadow' , '.animated' , '.slideInRight') && $('#news').is('.myNews', '.flexing-scroll')) {
 
-console.log("sliding this videos to left and sliding calendar back in")
+console.log("sliding this bitch videos to left and sliding calendar back in fucker")
   setTimeout(function(){
   $('#hiddenVideos').css('left', 'auto');
   }, 100);
@@ -1060,7 +896,7 @@ else if
 
     ($('#myCool').is('.cool' , '.flexing-scroll') && $('#news').is('.myNews' , '.flexing-scroll' , '.bottomShadow' , '.animated' , '.slideInRight') ) {
 
-      console.log('this is some hard stuff')
+      console.log('this is some bullshit')
 
       setTimeout(function(){
         $('#myCool').css('left', 'auto');
@@ -1113,7 +949,7 @@ if
 
 ($('#myCool').is('.bottomShadow', '.cool', '.flexing-scroll')  && $('#news').is('.myNews' , '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-console.log("harder")
+console.log("iam fucked")
 
 setTimeout(function(){
 $('#news').css('left', 'auto');
@@ -1201,7 +1037,7 @@ else if
 
 ($('#myCool').is('.cool', '.flexing-scroll') && $('#hiddenVideos').is('.bottomShadow' , '.animated' , '.slideInRight') && $('#news').is('.myNews', '.flexing-scroll')) {
 
-console.log("sliding this videos to left and sliding calendar back in")
+console.log("sliding this bitch videos to left and sliding calendar back in fucker")
   setTimeout(function(){
   $('#hiddenVideos').css('left', 'auto');
   }, 100);
@@ -1250,7 +1086,7 @@ else if  ($('#myCool').is('.bottomShadow', '.cool', '.flexing-scroll') && $('#ne
 
   $('#news').addClass('flexing-scroll')
 
-   console.log('do this until you get it right')
+   console.log('do this shi until you get it right')
 
     setTimeout(function(){
 
@@ -1388,7 +1224,7 @@ else if
 
   ($('#myCool').is('.cool' , '.bottomShadow', '.flexing-scroll') && $('#news').is('.myNews', '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-  console.log("very very hard")
+  console.log("fuck me in the ass")
 
 
   setTimeout(function(){
@@ -1425,7 +1261,7 @@ else if
 
   ($('#myCool').is('.cool' , '.bottomShadow', '.flexing-scroll') && !$('#news').is('.myNews', '.bottomShadow' , '.animated' , '.slideInRight')) {
 
-  console.log("this is crazy")
+  console.log("this is fucking crazy")
 
 
   setTimeout(function(){
@@ -1525,7 +1361,7 @@ else if
 
 ($('#news').is('.myNews' , '.bottomShadow', '.animated', '.slideInRight') && $('#hiddenVideos').is('.flexing-scroll') && !$('#myCool').is('.cool' , '.bottomShadow', '.animated' , '.slideInRight')) {
 
-  console.log('vidoes sliding left news sliding in the')
+  console.log('vidoes sliding left news sliding in the fucker')
 
   setTimeout(function(){
 
@@ -1635,7 +1471,7 @@ else if
 
 ($('#myCool').is('.bottomShadow')  || $('#myCool').is('.bottomShadow', '.animated', '.slideInRight') && !$('#news').is('.bottomShadow')) {
 
-console.log("so confused")
+console.log("so fucking confused")
 
 
 setTimeout(function(){
@@ -1675,7 +1511,7 @@ else if
 
 (!$('#myCool').is('.bottomShadow') && $('#news').is('.flexing-scroll') && $('#hiddenVideos').is('.animated' , '.slideInRight')) {
 
-    console.log('vidoes sliding left news sliding in the')
+    console.log('vidoes sliding left news sliding in the fucker')
 
   setTimeout(function(){
   $('#hiddenVideos').css('left', 'auto');
@@ -1718,7 +1554,7 @@ else if
 
 {
 
-console.log("calendar")
+console.log("calendarBitch")
   setTimeout(function(){
   $('#hiddenVideos').css('left', 'auto');
   $('#myCool').css('left', 'auto');
@@ -1829,76 +1665,94 @@ else if
 
   });
 
-  //navigation bar animations aka the top header menu animations
-  $('.social').click(function(e) {
-    e.preventDefault();
-    $('.makeToggle').hide();
-    $('.icon').addClass('easeIt').animate({ width: 'show' }, 600);
-
-    setTimeout(function(){
-      $(".icon").addClass("addIt");
-    }, 400);
-    if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-      console.log('hi')
-      $('.hideAgain2').addClass('away');
-    } else if (!$('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-      console.log('hi it')
-      $('.hideAgain2').removeClass('away');
-      // $('.hideAgain2').addClass('back');
-    }
-  });
-
-  $('.searchIt').click(function(e) {
-    e.preventDefault();
-    if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-      console.log('hi')
-      $('.hideAgain2').addClass('away');
-    } else if (!$('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
-      console.log('hi it')
-      $('.hideAgain2').removeClass('away');
-      // $('.hideAgain2').addClass('back');
-    }
-  });
-
-  $('.hideAgain').click(function(e){
-    e.preventDefault();
-    setTimeout(function(){
-      $(".icon").removeClass("addIt");
-    }, 400);
-    $('.fas.fa-search').removeClass('searchGray');
-    $('#removeIt').show();
-    $('.icon').animate({ width: 'hide' }, {"height" : "0px"}, 1000);
-    $('.bubble').animate({ width: 'hide' }, {"height" : "0px"}, 800);
-    $(".makeToggle").delay('600').fadeIn();
-  })
-  $('.searchIt').click(function() {
-    $('#removeIt').hide();
-    $('.fas.fa-search').addClass('searchGray')
-    $('.makeToggle').hide();
-    $('.bubble').animate({ width: 'show' }, 800);
-  });
-  $('.hideAgain2').click(function(){
-    $('.fas.fa-search').removeClass('searchGray')
-    $('#removeIt').show();
-    $('.bubble').animate({ width: 'hide' }, {"height" : "0px"}, 800);
-    $(".makeToggle").delay('600').fadeIn();
-  })
 
 
-  $('.searchIt').mouseenter(function() {
-    $('.fas.fa-search').addClass('searchWhite')
+          //flickity carousel
+          var elem = document.querySelector('.m-carousel')
+          if(elem) {
+            var flkty = new Flickity( elem, {
+              wrapAround: true,
+              pageDots: false,
+              adaptiveHeight: false,
+              lazyLoad: 2,
+              arrowShape:'M27.1,46.45a5.07,5.07,0,0,0,0,7.12L55.74,82.21a5.08,5.08,0,0,0,7.14,0h0a5,5,0,0,0,0-7.14l-25-25,25-25a5.07,5.07,0,0,0,0-7.14h0a5,5,0,0,0-7.14,0Z'
+            });
+          }
 
-  })
 
-  $('.searchIt').mouseleave(function() {
+          //navigation bar animations aka the top header menu animations
+          $('.social').click(function(e) {
+            e.preventDefault();
+            $('.makeToggle').hide();
+            $('.icon').addClass('easeIt').animate({ width: 'show' }, 600);
 
-    $('.fas.fa-search').removeClass('searchWhite')
+            setTimeout(function(){
+              $(".icon").addClass("addIt");
+            }, 400);
+            if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
 
-  })
+              $('.hideAgain2').addClass('away');
+            } else if (!$('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
+
+              $('.hideAgain2').removeClass('away');
+              // $('.hideAgain2').addClass('back');
+            }
+          });
+
+          $('.searchIt').click(function(e) {
+            e.preventDefault();
+            if ($('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
+
+              $('.hideAgain2').addClass('away');
+            } else if (!$('#funStuff').hasClass('icon noShow2 easeIt addIt')) {
+
+              $('.hideAgain2').removeClass('away');
+              // $('.hideAgain2').addClass('back');
+            }
+          });
+
+          $('.hideAgain').click(function(e){
+            e.preventDefault();
+            setTimeout(function(){
+              $(".icon").removeClass("addIt");
+            }, 400);
+            $('.fas.fa-search').removeClass('searchGray');
+            $('#removeIt').show();
+            $('#secondSearch').hide();
+            $('.icon').animate({ width: 'hide' }, {"height" : "0px"}, 1000);
+            $('.bubble').animate({ width: 'hide' }, {"height" : "0px"}, 800);
+            $(".makeToggle").delay('600').fadeIn();
+          })
+          $('.searchIt').click(function() {
+            $('#removeIt').hide();
+            $('#secondSearch').show();
+            $('.fas.fa-search').addClass('searchGray')
+            $('.makeToggle').hide();
+            $('.bubble').animate({ width: 'show' }, 800);
+          });
+          $('.hideAgain2').click(function(){
+            $('.fas.fa-search').removeClass('searchGray')
+            $('#removeIt').show();
+            $('#secondSearch').hide();
+            $('.bubble').animate({ width: 'hide' }, {"height" : "0px"}, 800);
+            $(".makeToggle").delay('600').fadeIn();
+          })
+
+
+          $('.searchIt').mouseenter(function() {
+            $('.fas.fa-search').addClass('searchWhite')
+
+          })
+
+          $('.searchIt').mouseleave(function() {
+
+            $('.fas.fa-search').removeClass('searchWhite')
+
+          })
 
 
 
-$('.moveThis').mouseover(function(){
+          $('.moveThis').mouseover(function(){
             setTimeout(function() {
               $('.block1').addClass('block1Thing');
               $('.block1').addClass('animated fadeInUp');
@@ -2070,10 +1924,6 @@ $('.moveThis').mouseover(function(){
           //
           //   }
 
-
-
-
-
           setTimeout(function() {
             $('#menu2').append('<li class="slide-line"></li>');
             $('#menu2 li.slide-line').show();
@@ -2121,7 +1971,6 @@ $('.moveThis').mouseover(function(){
           });
 
 
-
           jQuery('#menu2 > li a.highlight').first().trigger("click");
           $("a.highlight").on("click", function(e) {
             $("a.highlight").removeClass("darker");
@@ -2134,82 +1983,102 @@ $('.moveThis').mouseover(function(){
             $( this ).addClass( 'darker' );
           });
 
-          //ajax calls for the image downloads
 
 
-          $('#getFile16').on('click', function () {
-            $.ajax({
-              url: '/images5/aftac9.jpg',
-              method: 'GET',
-              xhrFields: {
-                responseType: 'blob'
-              },
-              success: function (data) {
-                var a = document.createElement('a');
-                var url = window.URL.createObjectURL(data);
-                a.href = url;
-                a.download = 'images5/Space_03.jpg';
-                a.click();
-                window.URL.revokeObjectURL(url);
-              }
-            });
-          });
+                  //ajax calls for the image downloads
 
-       $('#getFile17').on('click', function () {
-            $.ajax({
-              url: '/images5/aftac10.jpg',
-              method: 'GET',
-              xhrFields: {
-                responseType: 'blob'
-              },
-              success: function (data) {
-                var a = document.createElement('a');
-                var url = window.URL.createObjectURL(data);
-                a.href = url;
-                a.download = 'images5/Space_02.jpg';
-                a.click();
-                window.URL.revokeObjectURL(url);
-              }
-            });
-          });
 
-      $('#getFile18').on('click', function () {
-               $.ajax({
-                 url: '/images5/aftac11.jpg',
-                 method: 'GET',
-                 xhrFields: {
-                   responseType: 'blob'
-                 },
-                 success: function (data) {
-                   var a = document.createElement('a');
-                   var url = window.URL.createObjectURL(data);
-                   a.href = url;
-                   a.download = 'images5/Space_07.jpg';
-                   a.click();
-                   window.URL.revokeObjectURL(url);
-                 }
-               });
-             });
-         $('#getFile19').on('click', function () {
-                      $.ajax({
-                        url: '/images5/aftac12.jpg',
-                        method: 'GET',
-                        xhrFields: {
-                          responseType: 'blob'
-                        },
-                        success: function (data) {
-                          var a = document.createElement('a');
-                          var url = window.URL.createObjectURL(data);
-                          a.href = url;
-                          a.download = 'images5/Space_01.jpg';
-                          a.click();
-                          window.URL.revokeObjectURL(url);
-                        }
-                      });
+                  $('#getFile6').on('click', function () {
+                    $.ajax({
+                      url: '/images5/medical0.jpg',
+                      method: 'GET',
+                      xhrFields: {
+                        responseType: 'blob'
+                      },
+                      success: function (data) {
+                        var a = document.createElement('a');
+                        var url = window.URL.createObjectURL(data);
+                        a.href = url;
+                        a.download = 'images5/plane0.jpg';
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                      }
                     });
-            $('#getFile20').on('click', function () {
+                  });
+
+               $('#getFile7').on('click', function () {
+                    $.ajax({
+                      url: '/images5/medical1.jpg',
+                      method: 'GET',
+                      xhrFields: {
+                        responseType: 'blob'
+                      },
+                      success: function (data) {
+                        var a = document.createElement('a');
+                        var url = window.URL.createObjectURL(data);
+                        a.href = url;
+                        a.download = 'images5/plane2.jpg';
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                      }
+                    });
+                  });
+
+              $('#getFile8').on('click', function () {
+                       $.ajax({
+                         url: '/images5/medical2.jpg',
+                         method: 'GET',
+                         xhrFields: {
+                           responseType: 'blob'
+                         },
+                         success: function (data) {
+                           var a = document.createElement('a');
+                           var url = window.URL.createObjectURL(data);
+                           a.href = url;
+                           a.download = 'images5/plane6.jpg';
+                           a.click();
+                           window.URL.revokeObjectURL(url);
+                         }
+                       });
+                     });
+                 $('#getFile9').on('click', function () {
+                              $.ajax({
+                                url: '/images5/medical3.jpg',
+                                method: 'GET',
+                                xhrFields: {
+                                  responseType: 'blob'
+                                },
+                                success: function (data) {
+                                  var a = document.createElement('a');
+                                  var url = window.URL.createObjectURL(data);
+                                  a.href = url;
+                                  a.download = 'images5/plane.jpg';
+                                  a.click();
+                                  window.URL.revokeObjectURL(url);
+                                }
+                              });
+                            });
+                    $('#getFile10').on('click', function () {
+                             $.ajax({
+                               url: '/images5/medical4.jpg',
+                               method: 'GET',
+                               xhrFields: {
+                                 responseType: 'blob'
+                               },
+                               success: function (data) {
+                                 var a = document.createElement('a');
+                                 var url = window.URL.createObjectURL(data);
+                                 a.href = url;
+                                 a.download = 'images5/plane8.jpg';
+                                 a.click();
+                                 window.URL.revokeObjectURL(url);
+                               }
+                             });
+                           });
+
+                   $('#getFile11').on('click', function () {
                      $.ajax({
-                       url: '/images5/aftac13.jpg',
+                       url: '/images5/medical5.jpg',
                        method: 'GET',
                        xhrFields: {
                          responseType: 'blob'
@@ -2218,173 +2087,141 @@ $('.moveThis').mouseover(function(){
                          var a = document.createElement('a');
                          var url = window.URL.createObjectURL(data);
                          a.href = url;
-                         a.download = 'images5/Space_05.jpg';
+                         a.download = 'images5/cargo.jpg';
                          a.click();
                          window.URL.revokeObjectURL(url);
                        }
                      });
                    });
 
-           $('#getFile21').on('click', function () {
-             $.ajax({
-               url: '/images5/aftac14.jpg',
-               method: 'GET',
-               xhrFields: {
-                 responseType: 'blob'
-               },
-               success: function (data) {
-                 var a = document.createElement('a');
-                 var url = window.URL.createObjectURL(data);
-                 a.href = url;
-                 a.download = 'images5/Space_08.jpg';
-                 a.click();
-                 window.URL.revokeObjectURL(url);
-               }
-             });
-           });
+                   $('#getFile12').on('click', function () {
+                     $.ajax({
+                       url: '/images5/medical6.jpg',
+                       method: 'GET',
+                       xhrFields: {
+                         responseType: 'blob'
+                       },
+                       success: function (data) {
+                         var a = document.createElement('a');
+                         var url = window.URL.createObjectURL(data);
+                         a.href = url;
+                         a.download = 'images5/plane5.jpg';
+                         a.click();
+                         window.URL.revokeObjectURL(url);
+                       }
+                     });
+                   });
+                   $('#getFile13').on('click', function () {
+                     $.ajax({
+                       url: '/images5/medical7.jpg',
+                       method: 'GET',
+                       xhrFields: {
+                         responseType: 'blob'
+                       },
+                       success: function (data) {
+                         var a = document.createElement('a');
+                         var url = window.URL.createObjectURL(data);
+                         a.href = url;
+                         a.download = 'images5/plane9.jpg';
+                         a.click();
+                         window.URL.revokeObjectURL(url);
+                       }
+                     });
+                   });
+                   $('#getFile14').on('click', function () {
+                     $.ajax({
+                       url: '/images5/plane11.jpg',
+                       method: 'GET',
+                       xhrFields: {
+                         responseType: 'blob'
+                       },
+                       success: function (data) {
+                         var a = document.createElement('a');
+                         var url = window.URL.createObjectURL(data);
+                         a.href = url;
+                         a.download = 'images5/plane11.jpg';
+                         a.click();
+                         window.URL.revokeObjectURL(url);
+                       }
+                     });
+                   });
+                   $('#getFile15').on('click', function () {
+                     $.ajax({
+                       url: '/images5/plane4.jpg',
+                       method: 'GET',
+                       xhrFields: {
+                         responseType: 'blob'
+                       },
+                       success: function (data) {
+                         var a = document.createElement('a');
+                         var url = window.URL.createObjectURL(data);
+                         a.href = url;
+                         a.download = 'images5/plane4.jpg';
+                         a.click();
+                         window.URL.revokeObjectURL(url);
+                       }
+                     });
+                   });
 
-           $('#getFile22').on('click', function () {
-             $.ajax({
-               url: '/images5/aftac15.jpg',
-               method: 'GET',
-               xhrFields: {
-                 responseType: 'blob'
-               },
-               success: function (data) {
-                 var a = document.createElement('a');
-                 var url = window.URL.createObjectURL(data);
-                 a.href = url;
-                 a.download = 'images5/Space_10.jpg';
-                 a.click();
-                 window.URL.revokeObjectURL(url);
-               }
-             });
-           });
-           $('#getFile23').on('click', function () {
-             $.ajax({
-               url: '/images5/aftac16.jpg',
-               method: 'GET',
-               xhrFields: {
-                 responseType: 'blob'
-               },
-               success: function (data) {
-                 var a = document.createElement('a');
-                 var url = window.URL.createObjectURL(data);
-                 a.href = url;
-                 a.download = 'images5/Space_04.jpg';
-                 a.click();
-                 window.URL.revokeObjectURL(url);
-               }
-             });
-           });
-           $('#getFile24').on('click', function () {
-             $.ajax({
-               url: '/images5/aftac17.jpg',
-               method: 'GET',
-               xhrFields: {
-                 responseType: 'blob'
-               },
-               success: function (data) {
-                 var a = document.createElement('a');
-                 var url = window.URL.createObjectURL(data);
-                 a.href = url;
-                 a.download = 'images5/Space_09.jpg';
-                 a.click();
-                 window.URL.revokeObjectURL(url);
-               }
-             });
-           });
-           $('#getFile25').on('click', function () {
-             $.ajax({
-               url: '/images5/aftac-people.jpg',
-               method: 'GET',
-               xhrFields: {
-                 responseType: 'blob'
-               },
-               success: function (data) {
-                 var a = document.createElement('a');
-                 var url = window.URL.createObjectURL(data);
-                 a.href = url;
-                 a.download = 'images5/Space_06.jpg';
-                 a.click();
-                 window.URL.revokeObjectURL(url);
-               }
-             });
-           });
 
-           $('#getFile26').on('click', function () {
-             $.ajax({
-               url: '/images5/about-aftac2.jpg',
-               method: 'GET',
-               xhrFields: {
-                 responseType: 'blob'
-               },
-               success: function (data) {
-                 var a = document.createElement('a');
-                 var url = window.URL.createObjectURL(data);
-                 a.href = url;
-                 a.download = 'images5/Space_06.jpg';
-                 a.click();
-                 window.URL.revokeObjectURL(url);
-               }
-             });
-           });
-
-           $('#getFile27').on('click', function () {
-             $.ajax({
-               url: '/images5/about-aftac3.jpg',
-               method: 'GET',
-               xhrFields: {
-                 responseType: 'blob'
-               },
-               success: function (data) {
-                 var a = document.createElement('a');
-                 var url = window.URL.createObjectURL(data);
-                 a.href = url;
-                 a.download = 'images5/Space_06.jpg';
-                 a.click();
-                 window.URL.revokeObjectURL(url);
-               }
-             });
-           });
 
         //flickity modal 1
 
         var model = document.getElementById('mymodel');
+
+
         var img = document.getElementById('myImg');
         var modelImg = document.getElementById("img01");
         var captionText = document.getElementById("caption");
         img.onclick = function(){
+
+
           model.style.display = "block";
           modelImg.src = this.src;
           captionText.innerHTML = this.alt;
+
           $('.flickity-button-icon').hide();
           $('.navbar').hide();
-
+          $(".moveThis").hide();
+          $(".moveThis2").hide();
+          $(".moveThis3").hide();
+          $(".scrollMagic").hide();
 
         }
 
 
         var span = document.getElementsByClassName("closeThis")[0];
         var bigPic = document.getElementsByClassName("bigClose")[0];
+
         span.onclick = function() {
-        model.style.display = "none";
+          model.style.display = "none";
 
           $('.flickity-button-icon').show();
           $('.navbar').show();
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
 
         }
 
         bigPic.onclick = function() {
           model.style.display = "none";
+
           $('.flickity-button-icon').show();
           $('.navbar').show();
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
 
         }
 
         //flickity modal 2
 
         var model2 = document.getElementById('mymodel2');
+
+
         var img2 = document.getElementById('myImg2');
         var model2Img = document.getElementById("img02");
         var caption2Text = document.getElementById("caption2");
@@ -2398,6 +2235,10 @@ $('.moveThis').mouseover(function(){
           $('.flickity-button-icon').hide();
           $('.navbar').hide();
 
+          $(".moveThis").hide();
+          $(".moveThis2").hide();
+          $(".moveThis3").hide();
+          $(".scrollMagic").hide();
         }
 
         var span2 = document.getElementsByClassName("closeThis2")[0];
@@ -2408,13 +2249,25 @@ $('.moveThis').mouseover(function(){
 
           $('.flickity-button-icon').show();
           $('.navbar').show();
+
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
+
         }
 
-          bigPic2.onclick = function() {
+
+        bigPic2.onclick = function() {
           model2.style.display = "none";
 
           $('.flickity-button-icon').show();
           $('.navbar').show();
+
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
 
         }
 
@@ -2437,7 +2290,10 @@ $('.moveThis').mouseover(function(){
 
           $('.flickity-button-icon').hide();
           $('.navbar').hide();
-
+          $(".moveThis").hide();
+          $(".moveThis2").hide();
+          $(".moveThis3").hide();
+          $(".scrollMagic").hide();
         }
 
         var span3 = document.getElementsByClassName("closeThis3")[0];
@@ -2449,6 +2305,10 @@ $('.moveThis').mouseover(function(){
           $('.flickity-button-icon').show();
           $('.navbar').show();
 
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
         }
 
         bigPic3.onclick = function() {
@@ -2457,6 +2317,10 @@ $('.moveThis').mouseover(function(){
           $('.flickity-button-icon').show();
           $('.navbar').show();
 
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
         }
 
         //flickity modal 4
@@ -2476,7 +2340,10 @@ $('.moveThis').mouseover(function(){
 
           $('.flickity-button-icon').hide();
           $('.navbar').hide();
-
+          $(".moveThis").hide();
+          $(".moveThis2").hide();
+          $(".moveThis3").hide();
+          $(".scrollMagic").hide();
         }
 
         var span4 = document.getElementsByClassName("closeThis4")[0];
@@ -2488,6 +2355,12 @@ $('.moveThis').mouseover(function(){
           $('.flickity-button-icon').show();
           $('.navbar').show();
 
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
+
+
         }
 
         bigPic4.onclick = function() {
@@ -2495,6 +2368,11 @@ $('.moveThis').mouseover(function(){
 
           $('.flickity-button-icon').show();
           $('.navbar').show();
+
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
 
         }
 
@@ -2515,7 +2393,10 @@ $('.moveThis').mouseover(function(){
 
           $('.flickity-button-icon').hide();
           $('.navbar').hide();
-
+          $(".moveThis").hide();
+          $(".moveThis2").hide();
+          $(".moveThis3").hide();
+          $(".scrollMagic").hide();
 
         }
 
@@ -2529,7 +2410,10 @@ $('.moveThis').mouseover(function(){
           $('.flickity-button-icon').show();
           $('.navbar').show();
 
-
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
         }
 
         bigPic5.onclick = function() {
@@ -2539,10 +2423,15 @@ $('.moveThis').mouseover(function(){
           $('.flickity-button-icon').show();
           $('.navbar').show();
 
+          $(".moveThis").show();
+          $(".moveThis2").show();
+          $(".moveThis3").show();
+          $(".scrollMagic").show();
         }
 
 // //flickity modal 6
 var model6 = document.getElementById('mymodel6');
+
 
 var img6 = document.getElementById('myImg6');
 var model6Img = document.getElementById("img06");
@@ -2556,19 +2445,27 @@ img6.onclick = function(){
 
   $('.flickity-button-icon').hide();
   $('.navbar').hide();
-
+  $(".moveThis").hide();
+  $(".moveThis2").hide();
+  $(".moveThis3").hide();
+  $(".scrollMagic").hide();
 
 }
 
 var span6 = document.getElementsByClassName("closeThis6")[0];
 var bigPic6 = document.getElementsByClassName("bigClose6")[0];
 
-  span6.onclick = function() {
+span6.onclick = function() {
   model6.style.display = "none";
+
 
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
 bigPic6.onclick = function() {
@@ -2578,17 +2475,20 @@ bigPic6.onclick = function() {
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
-//flickity modal 7
-var model7 = document.getElementById('mymodel7');
 
+// //flickity modal 7
+var model7 = document.getElementById('mymodel7');
 
 var img7 = document.getElementById('myImg7');
 var model7Img = document.getElementById("img07");
 var caption7Text = document.getElementById("caption7");
 img7.onclick = function(){
-
 
   model7.style.display = "block";
   model7Img.src = this.src;
@@ -2596,6 +2496,10 @@ img7.onclick = function(){
 
   $('.flickity-button-icon').hide();
   $('.navbar').hide();
+  $(".moveThis").hide();
+  $(".moveThis2").hide();
+  $(".moveThis3").hide();
+  $(".scrollMagic").hide();
 
 }
 
@@ -2603,22 +2507,31 @@ var span7 = document.getElementsByClassName("closeThis7")[0];
 var bigPic7 = document.getElementsByClassName("bigClose7")[0];
 
 span7.onclick = function() {
-model7.style.display = "none";
+  model7.style.display = "none";
 
 
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
 bigPic7.onclick = function() {
-model7.style.display = "none";
+  model7.style.display = "none";
 
 
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
+
 
 //flickity modal 8
 
@@ -2637,6 +2550,10 @@ img8.onclick = function(){
 
   $('.flickity-button-icon').hide();
   $('.navbar').hide();
+  $(".moveThis").hide();
+  $(".moveThis2").hide();
+  $(".moveThis3").hide();
+  $(".scrollMagic").hide();
 
 }
 
@@ -2645,22 +2562,35 @@ var bigPic8 = document.getElementsByClassName("bigClose8")[0];
 
 span8.onclick = function() {
 model8.style.display = "none";
+
+
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
-  bigPic8.onclick = function() {
+bigPic8.onclick = function() {
   model8.style.display = "none";
+
+
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
 //flickity modal 9
 
 
 var model9 = document.getElementById('mymodel9');
+
 
 var img9 = document.getElementById('myImg9');
 var model9Img = document.getElementById("img09");
@@ -2674,32 +2604,46 @@ img9.onclick = function(){
 
   $('.flickity-button-icon').hide();
   $('.navbar').hide();
+  $(".moveThis").hide();
+  $(".moveThis2").hide();
+  $(".moveThis3").hide();
+  $(".scrollMagic").hide();
 
 }
 
 var span9 = document.getElementsByClassName("closeThis9")[0];
 var bigPic9 = document.getElementsByClassName("bigClose9")[0];
 
-  span9.onclick = function() {
+span9.onclick = function() {
   model9.style.display = "none";
+
 
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
-  bigPic9.onclick = function() {
+bigPic9.onclick = function() {
   model9.style.display = "none";
+
 
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
-//flickity modal 9
-
+//flickity modal 10
 
 var model10 = document.getElementById('mymodel10');
+
 
 var img10 = document.getElementById('myImg10');
 var model10Img = document.getElementById("img10");
@@ -2713,109 +2657,43 @@ img10.onclick = function(){
 
   $('.flickity-button-icon').hide();
   $('.navbar').hide();
+  $(".moveThis").hide();
+  $(".moveThis2").hide();
+  $(".moveThis3").hide();
+  $(".scrollMagic").hide();
 
 }
 
 var span10 = document.getElementsByClassName("closeThis10")[0];
 var bigPic10 = document.getElementsByClassName("bigClose10")[0];
 
-  span10.onclick = function() {
+span10.onclick = function() {
   model10.style.display = "none";
 
+
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
-  bigPic10.onclick = function() {
+bigPic10.onclick = function() {
   model10.style.display = "none";
 
-  $('.flickity-button-icon').show();
-  $('.navbar').show();
-
-}
-
-//flickity modal 11
-
-var model11 = document.getElementById('mymodel11');
-var img11 = document.getElementById('myImg11');
-var model11Img = document.getElementById("img11");
-var caption11Text = document.getElementById("caption11");
-img11.onclick = function(){
-
-  model11.style.display = "block";
-  model11Img.src = this.src;
-  caption11Text.innerHTML = this.alt;
-
-  $('.flickity-button-icon').hide();
-  $('.navbar').hide();
-
-}
-
-var span11 = document.getElementsByClassName("closeThis10")[0];
-var bigPic11 = document.getElementsByClassName("bigClose11")[0];
-
-$('.closeThis10').on('click', function() {
-  $('.model11').hide();
-})
-
-
-span11.onclick = function() {
-model11.style.display = "none";
 
   $('.flickity-button-icon').show();
   $('.navbar').show();
 
+  $(".moveThis").show();
+  $(".moveThis2").show();
+  $(".moveThis3").show();
+  $(".scrollMagic").show();
 }
 
-  bigPic11.onclick = function() {
-  model11.style.display = "none";
 
-  $('.flickity-button-icon').show();
-  $('.navbar').show();
-
-}
-
-//flickity modal 11
-
-var model12 = document.getElementById('mymodel12');
-var img12 = document.getElementById('myImg12');
-var model12Img = document.getElementById("img12");
-var caption12Text = document.getElementById("caption12");
-img12.onclick = function(){
-
-  model12.style.display = "block";
-  model12Img.src = this.src;
-  caption12Text.innerHTML = this.alt;
-
-  $('.flickity-button-icon').hide();
-  $('.navbar').hide();
-
-}
-
-var span12 = document.getElementsByClassName("closeThis10")[0];
-var bigPic12 = document.getElementsByClassName("bigClose12")[0];
-
-$('.closeThis10').on('click', function() {
-  $('.model12').hide();
-})
-
-
-span11.onclick = function() {
-model11.style.display = "none";
-
-  $('.flickity-button-icon').show();
-  $('.navbar').show();
-
-}
-
-  bigPic12.onclick = function() {
-  model12.style.display = "none";
-
-  $('.flickity-button-icon').show();
-  $('.navbar').show();
-
-}
 
 
 

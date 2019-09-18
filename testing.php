@@ -28,7 +28,8 @@
   <link rel=stylesheet href="css/testing.css">
 
 <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+
 </head>
 <style>
 
@@ -54,7 +55,7 @@
 
 
 <body>
-
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -72,6 +73,7 @@
     <div id="tipModal">
     </div>
 
+  <a name='content'></a>
         <div class="container-fluid" id="mt67">
           <div class="row">
             <div class="col-xs-12 col-lg-12">
@@ -242,13 +244,13 @@
                   <div style="-webkit-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);-moz-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);">
                     <div class="m-carousel">
                       <div class="m-carousel__item one">
-                        <img id="myImg" class="m-carousel__image" data-flickity-lazyload="images5/test-benefits1.jpg" alt="Senior Airman Jennifer Peterson (left) and Staff Sgt. Jeremiah Phelps prepare to move Mark 84 bombs inside a hardened structure April 21, 2010, at Ellsworth Air Force Base, S.D.">
-                        <div class="custCaption1"><p class="endDescription">Senior Airman Jennifer Peterson (left) and Staff Sgt. Jeremiah Phelps prepare to move Mark 84 bombs inside a hardened structure April 21, 2010, at Ellsworth Air Force Base, S.D.</p></div>
+                        <img id="myImg" class="m-carousel__image" data-flickity-lazyload="images5/test-benefits1.jpg" alt="Senior Airman Jennifer Peterson (left) and Staff Sgt. Jeremiah Phelps prepare to move Mark 84 bombs inside a hardened structure April 21, 2010, at Ellsworth Air Force Base, S.D. Both Airmen are assigned to the 28th Munitions Squadron as conventional maintenance crew chiefs. (U.S. Air Force photo/Airman 1st Class Corey Hook)">
+                        <div class="custCaption1"><p class="endDescription">Senior Airman Jennifer Peterson (left) and Staff Sgt. Jeremiah Phelps prepare to move Mark 84 bombs inside a hardened structure April 21, 2010, at Ellsworth Air Force Base, S.D. Both Airmen are assigned to the 28th Munitions Squadron as conventional maintenance crew chiefs. (U.S. Air Force photo/Airman 1st Class Corey Hook)</p></div>
                       </div>
 
                       <div class="m-carousel__item two">
-                        <img id="myImg2" class="m-carousel__image" data-flickity-lazyload="images5/test-benefits2.jpg" alt="OVER CALIFORNIA -- An F/A-22 Raptor, flown by Maj. John Teichert, releases a guided bomb unit-32 1,000-pound joint direct attack munitions at supersonic speed for the first time near California's Panamint Mountain range">
-                        <div class="custCaption2"><p class="endDescription">OVER CALIFORNIA -- An F/A-22 Raptor, flown by Maj. John Teichert, releases a guided bomb unit-32 1,000-pound joint direct attack munitions at supersonic speed for the first time near California's Panamint Mountain range</p></div>
+                        <img id="myImg2" class="m-carousel__image" data-flickity-lazyload="images5/test-benefits2.jpg" alt="OVER CALIFORNIA -- An F/A-22 Raptor, flown by Maj. John Teichert, releases a guided bomb unit-32 1,000-pound joint direct attack munitions at supersonic speed for the first time near California's Panamint Mountain range. Major Teichert is a test pilot assigned to the 411th Flight Test Squadron at Edwards Air Force Base, Calif. (U.S. Air Force photo by Darin Russell)">
+                        <div class="custCaption2"><p class="endDescription">OVER CALIFORNIA -- An F/A-22 Raptor, flown by Maj. John Teichert, releases a guided bomb unit-32 1,000-pound joint direct attack munitions at supersonic speed for the first time near California's Panamint Mountain range. Major Teichert is a test pilot assigned to the 411th Flight Test Squadron at Edwards Air Force Base, Calif. (U.S. Air Force photo by Darin Russell)</p></div>
                       </div>
 
                       <div class="m-carousel__item three">
@@ -257,8 +259,8 @@
                       </div>
 
                       <div class="m-carousel__item four">
-                        <img id="myImg4" class="m-carousel__image" data-flickity-lazyload="images5/test-benefits3.jpg" alt="The GBU-43/B Massive Ordnance Air Blast bomb sits at an air base in Southwest Asia waiting to be used should it become necessary. The MOAB is also called "The Mother of all Bombs" by scientists and the community alike">
-                        <div class="custCaption4"><p class="endDescription">The GBU-43/B Massive Ordnance Air Blast bomb sits at an air base in Southwest Asia waiting to be used should it become necessary. The MOAB is also called "The Mother of all Bombs" by scientists and the community alike</p></div>
+                        <img id="myImg4" class="m-carousel__image" data-flickity-lazyload="images5/test-benefits3.jpg" alt="The GBU-43/B Massive Ordnance Air Blast bomb sits at an air base in Southwest Asia waiting to be used should it become necessary. The MOAB is also called "The Mother of all Bombs" by scientists and the community alike.">
+                        <div class="custCaption4"><p class="endDescription">The GBU-43/B Massive Ordnance Air Blast bomb sits at an air base in Southwest Asia waiting to be used should it become necessary. The MOAB is also called "The Mother of all Bombs" by scientists and the community alike.</p></div>
                       </div>
 
                       <div class="m-carousel__item five">

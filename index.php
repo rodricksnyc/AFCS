@@ -32,17 +32,16 @@ include 'blog2/wp-load.php';
   <link rel="stylesheet" href="css/homepage-styles.css">
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
-  <title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 </head>
 
-
-
 <body>
+    <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
-
       </div>
     </div>
   </div>
@@ -54,6 +53,8 @@ include 'blog2/wp-load.php';
     <div id="tipModal">
     </div>
 
+
+<a name='content'></a>
     <div id="bigThing">
       <div class="container-fluid">
         <div class="row">

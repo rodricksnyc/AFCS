@@ -10,7 +10,6 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
 
-
   <link rel="stylesheet" href="css/afcs-new.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
@@ -31,9 +30,7 @@
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/smsc.css">
 
-  </script>
-
-  <title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 </head>
 
 <style>
@@ -99,7 +96,7 @@
 
 
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -117,6 +114,7 @@
     <div id="tipModal">
     </div>
 
+  <a name='content'></a>
     <div class="container-fluid" id="mt67">
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
@@ -142,7 +140,6 @@
                 </div>
               </div>
             </div>
-
 
           </div>
         </div>
@@ -258,8 +255,6 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
   </div>
 </center>
 </section>
-
-
 
 
 

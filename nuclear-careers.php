@@ -22,14 +22,14 @@
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/acquisition.css">
   <link rel=stylesheet href="css/nuclear.css">
 
 <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+
 </head>
 
 <style>
@@ -161,11 +161,10 @@ h1.acq.two, h1.acq {
 }
 
 
-
 </style>
 
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -183,6 +182,7 @@ h1.acq.two, h1.acq {
     <div id="tipModal">
     </div>
 
+<a name='content'></a>
     <div class="container-fluid" id="mt67">
       <div class="row">
         <div class="col-xs-12 col-lg-12">
@@ -406,7 +406,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
         <div class="row heros">
           <div class="col-xs-12 col-lg-12">
             <div class="content-top transparent">
-              <h1 class="acq two">Professional Growth</h1>
+              <h1 class="acq">Professional Growth</h1>
               <p class="small">To help you on your way to a long and varied career, AFNWC offers extensive educational opportunities including on-site training, the chance to attend educational events and programs, and even tuition reimbursement and funding for advanced degrees. To help in planning your career, you will have access to extensive career path planning tools and guidance.</p>
             </div>
 
@@ -607,7 +607,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
 <section class="blocks500">
   <center>
-    <div class="container-fluid w800">
+    <div class="container-fluid w800" style="padding-top:40px;">
       <div class="row heros">
 
         <div class="col-xs-12 col-lg-12">

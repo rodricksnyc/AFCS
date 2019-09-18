@@ -36,13 +36,13 @@
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/finance.css">
 
-  <title>Air Force Civilian Service 4.0</title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
 </head>
 
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -56,9 +56,9 @@
     <?php include("nav-include/navbar.php"); ?>
 
     <div id="tipModal">
-
     </div>
 
+  <a name='content'></a>
         <div class="container-fluid">
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
@@ -163,7 +163,7 @@
 
          </div>
 
-           <h1 class="acq small content-last transparent">But Wait, There's More.</h1>
+           <h1 class="acq small content-last transparent" style="margin-bottom:1em;">But Wait, There's More.</h1>
 
 
            <div class="content-secondLast transparent">
@@ -204,7 +204,7 @@
               <li class="whiteList">Use text searches for AFCS job announcements on <u>airforce.usajobs.gov</u></li>
             </ul>
 
-            <p class="new3">Committed to Physical, Mental, and Social Well Being</p>
+            <p class="new3" style="margin-top:2em;">Committed to Physical, Mental, and Social Well Being</p>
          </div>
 
 
@@ -234,43 +234,43 @@
       <div class="topBoxShadow">
         <div class="m-carousel">
           <div class="m-carousel__item one">
-            <img id="myImg" class="m-carousel__image" data-flickity-lazyload="images5/medical0.jpg" alt="LANGLEY AIR FORCE BASE, Va. (AFPN) -- Earl Harris adjusts the wing fold of the aerial regional-scale environmental survey of Mars airplane in the NASA 12-foot low-speed tunnel here. The tunnel will test the airplane for stability in various wind conditions and validate its aerodynamics. Mr. Harris is a mechanical engineering technician with the National Aeronautics and Space Administration. (U.S Air Force photo by Staff Sgt. Eric T. Sheler)">
-            <div class="custCaption1"><p class="endDescription">LANGLEY AIR FORCE BASE, Va. (AFPN) -- Earl Harris adjusts the wing fold of the aerial regional-scale environmental survey of Mars airplane in the NASA 12-foot low-speed tunnel here. The tunnel will test the airplane for stability in various wind conditions and validate its aerodynamics. Mr. Harris is a mechanical engineering technician with the National Aeronautics and Space Administration. (U.S Air Force photo by Staff Sgt. Eric T. Sheler)</p></div>
+            <img id="myImg" class="m-carousel__image" data-flickity-lazyload="images5/medical0.jpg" alt="Patient with eye test machine">
+            <div class="custCaption1"><p class="endDescription">Patient with eye test machine</p></div>
           </div>
 
           <div class="m-carousel__item two">
-            <img id="myImg2" class="m-carousel__image" data-flickity-lazyload="images5/medical1.jpg" alt="Pre-test checks for NASA material sample, ATA Instrumentation Technician Doyle Jones performs a continuity check on the instrumentation inside the Orion Crew Exploration Vehicle heat shield material candidate model prior to a test run in H2. (Photo by Rick Goodfriend)">
-            <div class="custCaption2"><p class="endDescription">Pre-test checks for NASA material sample, ATA Instrumentation Technician Doyle Jones performs a continuity check on the instrumentation inside the Orion Crew Exploration Vehicle heat shield material candidate model prior to a test run in H2. (Photo by Rick Goodfriend)</p></div>
+            <img id="myImg2" class="m-carousel__image" data-flickity-lazyload="images5/medical1.jpg" alt="Doctor consults with patient">
+            <div class="custCaption2"><p class="endDescription">Doctor consults with patient</p></div>
           </div>
 
           <div class="m-carousel__item three">
-            <img id="myImg3" class="m-carousel__image" data-flickity-lazyload="images5/medical2.jpg" alt="Martin Leahy, performed voltage and continuity tests on a Tactical Satellite (TacSat-3) on July 17, 2008. Leahy is a  field engineer, with ATA Aerospace, at  the Space Vehicle Directorate of Air Force Research  Laboratory at Kirtland, Air Force Base, NM.  The TacSat-3 standardization and test mission payload features low-cost/modular interface and a Hyper Spectral Image Sensor/Processor.">
-            <div class="custCaption3"><p class="endDescription">Martin Leahy, performed voltage and continuity tests on a Tactical Satellite (TacSat-3) on July 17, 2008. Leahy is a  field engineer, with ATA Aerospace, at  the Space Vehicle Directorate of Air Force Research  Laboratory at Kirtland, Air Force Base, NM.  The TacSat-3 standardization and test mission payload features low-cost/modular interface and a Hyper Spectral Image Sensor/Processor.</p></div>
+            <img id="myImg3" class="m-carousel__image" data-flickity-lazyload="images5/medical2.jpg" alt="Nurse Gonzales">
+            <div class="custCaption3"><p class="endDescription">Nurse Gonzales</p></div>
           </div>
 
           <div class="m-carousel__item four">
-            <img id="myImg4" class="m-carousel__image" data-flickity-lazyload="images5/medical3.jpg" alt="">
-            <div class="custCaption4"><p class="endDescription"></p></div>
+            <img id="myImg4" class="m-carousel__image" data-flickity-lazyload="images5/medical3.jpg" alt="Newborn & parents with medical team">
+            <div class="custCaption4"><p class="endDescription">Newborn & parents with medical team</p></div>
           </div>
 
           <div class="m-carousel__item five">
-            <img id="myImg5" class="m-carousel__image" data-flickity-lazyload="images5/medical4.jpg" alt="The 45th Space Wing supported SpaceX’s successful launch of a Falcon 9 Dragon spacecraft headed to the International Space Station from Space Launch Complex 40 at Cape Canaveral Air Force Station, Fla., July 18, 2016. At about eight minutes after the launch, SpaceX successfully landed the Falcon 9 first-stage booster at Landing Zone 1 on Cape Canaveral AFS. This Falcon 9 Dragon launch was the 13th major launch operation for the Eastern Range this year, and marks the ninth contracted mission by SpaceX under NASA’s commercial resupply services contract. (Courtesy photo/SpaceX)">
-            <div class="custCaption5"><p class="endDescription">The 45th Space Wing supported SpaceX’s successful launch of a Falcon 9 Dragon spacecraft headed to the International Space Station from Space Launch Complex 40 at Cape Canaveral Air Force Station, Fla., July 18, 2016. At about eight minutes after the launch, SpaceX successfully landed the Falcon 9 first-stage booster at Landing Zone 1 on Cape Canaveral AFS. This Falcon 9 Dragon launch was the 13th major launch operation for the Eastern Range this year, and marks the ninth contracted mission by SpaceX under NASA’s commercial resupply services contract. (Courtesy photo/SpaceX)</p></div>
+            <img id="myImg5" class="m-carousel__image" data-flickity-lazyload="images5/medical4.jpg" alt="Lab technician drawing blood from a donor">
+            <div class="custCaption5"><p class="endDescription">Lab technician drawing blood from a donor</p></div>
           </div>
 
           <div class="m-carousel__item six">
-            <img id="myImg6" class="m-carousel__image" data-flickity-lazyload="images5/medical5.jpg" alt="B-2 enroute to Utah Test Range for a 32 JDAM wep sep test. F-16 chase with Mr. Don Weiss as pilot, Ms. Bobbi Garcia as photog. Date: Aug 14, 2003.">
-            <div class="custCaption6"><p class="endDescription">B-2 enroute to Utah Test Range for a 32 JDAM wep sep test. F-16 chase with Mr. Don Weiss as pilot, Ms. Bobbi Garcia as photog. Date: Aug 14, 2003.</p></div>
+            <img id="myImg6" class="m-carousel__image" data-flickity-lazyload="images5/medical5.jpg" alt="Pre-natal care">
+            <div class="custCaption6"><p class="endDescription">Pre-natal care</p></div>
           </div>
 
           <div class="m-carousel__item seven">
-            <img id="myImg6" class="m-carousel__image" data-flickity-lazyload="images5/medical6.jpg" alt="B-2 enroute to Utah Test Range for a 32 JDAM wep sep test. F-16 chase with Mr. Don Weiss as pilot, Ms. Bobbi Garcia as photog. Date: Aug 14, 2003.">
-            <div class="custCaption6"><p class="endDescription">B-2 enroute to Utah Test Range for a 32 JDAM wep sep test. F-16 chase with Mr. Don Weiss as pilot, Ms. Bobbi Garcia as photog. Date: Aug 14, 2003.</p></div>
+            <img id="myImg7" class="m-carousel__image" data-flickity-lazyload="images5/medical6.jpg" alt="Dental surgery being performed">
+            <div class="custCaption7"><p class="endDescription">Dental surgery being performed</p></div>
           </div>
 
           <div class="m-carousel__item eight">
-            <img id="myImg6" class="m-carousel__image" data-flickity-lazyload="images5/medical7.jpg" alt="B-2 enroute to Utah Test Range for a 32 JDAM wep sep test. F-16 chase with Mr. Don Weiss as pilot, Ms. Bobbi Garcia as photog. Date: Aug 14, 2003.">
-            <div class="custCaption6"><p class="endDescription">B-2 enroute to Utah Test Range for a 32 JDAM wep sep test. F-16 chase with Mr. Don Weiss as pilot, Ms. Bobbi Garcia as photog. Date: Aug 14, 2003.</p></div>
+            <img id="myImg8" class="m-carousel__image" data-flickity-lazyload="images5/medical7.jpg" alt="Tending Eye Injury">
+            <div class="custCaption8"><p class="endDescription">Tending Eye Injury</p></div>
           </div>
 
 
@@ -308,7 +308,7 @@
               <div class="spaceBetween">
                 <div style="width:80%;" id="caption"></div>
 
-                <div><button type="button" id="getFileC1">Download</button></div>
+                <div><button type="button" id="getFile6">Download</button></div>
               </div>
             </div>
           </div>
@@ -340,7 +340,7 @@
                 <div style="width:80%;" id="caption2"></div>
 
 
-                <div><button type="button" id="getFileC2">Download</button></div>
+                <div><button type="button" id="getFile7">Download</button></div>
               </div>
             </div>
           </div>
@@ -371,7 +371,7 @@
               <div class="spaceBetween">
                 <div style="width:80%;" id="caption3"></div>
 
-                <div><button type="button" id="getFileC3">Download</button></div>
+                <div><button type="button" id="getFile8">Download</button></div>
               </div>
             </div>
           </div>
@@ -401,14 +401,13 @@
               <div class="spaceBetween">
                 <div style="width:80%;" id="caption4"></div>
 
-                <div><button type="button" id="getFileC4">Download</button></div>
+                <div><button type="button" id="getFile9">Download</button></div>
               </div>
             </div>
           </div>
         </center>
       </div>
     </div>
-
 
   </div>
 
@@ -432,7 +431,7 @@
               <div class="spaceBetween">
                 <div style="width:80%;" id="caption5"></div>
 
-                <div><button type="button" id="getFileC5">Download</button></div>
+                <div><button type="button" id="getFile10">Download</button></div>
               </div>
             </div>
           </div>
@@ -461,7 +460,7 @@
               <div class="spaceBetween">
                 <div style="width:80%;" id="caption6"></div>
 
-                <div><button type="button" id="getFileC6">Download</button></div>
+                <div><button type="button" id="getFile11">Download</button></div>
               </div>
             </div>
           </div>
@@ -491,7 +490,7 @@
               <div class="spaceBetween">
                 <div style="width:80%;" id="caption7"></div>
 
-                <div><button type="button" id="getFile22">Download</button></div>
+                <div><button type="button" id="getFile12">Download</button></div>
               </div>
             </div>
           </div>
@@ -519,7 +518,7 @@
               <div class="spaceBetween">
                 <div style="width:80%;" id="caption8"></div>
 
-                <div><button type="button" id="getFile23">Download</button></div>
+                <div><button type="button" id="getFile13">Download</button></div>
               </div>
             </div>
           </div>
@@ -548,7 +547,7 @@
                 <div style="width:80%;" id="caption9"></div>
 
 
-                <div><button type="button" id="getFile24">Download</button></div>
+                <div><button type="button" id="getFile14">Download</button></div>
               </div>
             </div>
           </div>
@@ -576,7 +575,7 @@
               <div class="spaceBetween">
                 <div style="width:80%;" id="caption10"></div>
 
-                <div><button type="button" id="getFile25">Download</button></div>
+                <div><button type="button" id="getFile15">Download</button></div>
               </div>
             </div>
           </div>
@@ -638,9 +637,6 @@
 </section>
 
 
-
-
-
   <section class="blocks9">
       <div class="container-fluid blacker3">
         <div class="row heros">
@@ -698,7 +694,7 @@
   <script src="tipuesearch/tipuesearch.js"></script>
 
 
-  <script src="js5/finance.js"></script>
+  <script src="js5/medical.js"></script>
   <script src="js5/scrollTop.js"></script>
 
 

@@ -22,14 +22,13 @@
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-
 <link rel=stylesheet href="css/maintenance.css">
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/acquisition.css">
 
 <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 </head>
 
 <style>
@@ -89,7 +88,7 @@ h1.acq.two, h1.acq {
 </style>
 
 <body>
-
+<a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -107,6 +106,7 @@ h1.acq.two, h1.acq {
     <div id="tipModal">
     </div>
 
+<a name='content'></a>
     <div class="container-fluid" id="mt67">
       <div class="row">
         <div class="col-xs-12 col-lg-12">

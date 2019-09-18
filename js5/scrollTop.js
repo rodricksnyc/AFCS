@@ -449,7 +449,7 @@ if ($('.modalBlock').hasClass('active2')) {
 
 
 if ($(".modal").css("display") !== "block") {
-console.log('what the flying fuck')
+console.log('what the flying')
 
 $('.modalBlock').addClass('active2');
 // $('.modal').animate({ opacity: .97 }, 1600);
@@ -686,7 +686,7 @@ if ($('.blocks1').hasClass('active2')) {
 if ($('.blocks2').hasClass('active2')) {
 
   setTimeout(function() {
-    $('.addShadow').addClass('topShadow');
+    $('#hero').addClass('topShadow');
   }, 1800);
 
   setTimeout(function() {
@@ -1460,6 +1460,8 @@ if ($('.blocks8').hasClass('active2')) {
 
     $('#blocks8').addClass('topShadow');
 
+      $('#hero').addClass('topShadow');
+
   }, 1500);
 
   setTimeout(function() {
@@ -2061,6 +2063,9 @@ if ($('.blocks88').hasClass('active2')) {
   }, 1500);
 
 
+    setTimeout(function() {
+      $('#addShadow2').addClass('bottomBoxShadow');
+    }, 1800);
 
   setTimeout(function() {
   $('.blocks88 .content-top').removeClass('transparent').addClass('animated fadeInUp')
@@ -2131,6 +2136,29 @@ if ($('.blocks88').hasClass('active2')) {
     });
 
   }, 700)
+
+  setTimeout(function() {
+    $('.blocks88 .content-last').removeClass('transparent').addClass('animated fadeInUp')
+
+    var $tlt02 = $('.tlt03').textillate({
+      autoStart: true,
+      selector: '.tlt03',
+      loop: false,
+      minDisplayTime: 1000,
+      initialDelay: 200,
+      in: {
+        effect: 'fadeInLeft',
+        delayScale: 5,
+        delay: 15,
+        sync: false,
+        shuffle: true,
+        reverse: false,
+        callback: function () {}
+      },
+      type: 'char'
+    });
+
+  }, 1100)
 
 
 

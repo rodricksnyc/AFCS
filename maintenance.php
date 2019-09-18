@@ -16,19 +16,18 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
   <link href="css5/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css5/normalize.css">
-<link type="image/png" href="images5/afcs-favicon.png" rel="icon">
+  <link type="image/png" href="images5/afcs-favicon.png" rel="icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-
 
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/acquisition.css">
   <link rel=stylesheet href="css/maintenance.css">
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 </head>
 
 <style>
@@ -42,11 +41,10 @@
 }
 
 
-
 </style>
 
 <body>
-
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -64,6 +62,7 @@
     <div id="tipModal">
     </div>
 
+  <a name='content'></a>
     <div class="container-fluid" id="mt67">
       <div class="row">
         <div class="col-xs-12 col-lg-12">

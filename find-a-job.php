@@ -4,12 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css5/animate.css">
 
-
   <link rel="stylesheet" href="css5/bootstrap-edited.css">
 
   <link rel="stylesheet" href="css5/bootstrap-theme.min.css">
   <!-- <link rel="stylesheet" href="css5/bootstrap.min.css"> -->
-
 
   <link rel="stylesheet" href="css/afcs.css">
   <link rel=stylesheet href="css/about.css">
@@ -20,7 +18,6 @@
   <link rel="stylesheet" href="css5/normalize.css">
   <link type="image/png" href="images5/afcs-favicon.png" rel="icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -34,7 +31,7 @@
   <link rel=stylesheet href="css/acquisition.css">
   <link rel=stylesheet href="css/find-a-job.css">
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-  <title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
 </head>
@@ -83,165 +80,17 @@
 </style>
 <body>
 
+<a href='#content' class='skipNav'>Skip to main content</a>
   <a href="#bottom" id="top"></a>
 
   <div style="background: #1f1e27 !important;" id="site-wrapper">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid hideNav">
-        <div class="collapse navbar-collapse navbar-right two" id="searchIt">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="searchIt">
-              <a class="grayBlock" href="#">
-                <i class="fas fa-search"></i>
-              </a>
-            </li>
-            <li><span id="thisSlided" class="bubble noShow">
-              <form class="navbar-form navbar-right" role="search">
-                <div class="horizontal">
-                  <div id="barTop" class="con hideAgain2">
-                    <div class="bar top"></div>
-                    <div class="bar middle"></div>
-                    <div class="bar bottom"></div>
-                  </div>
-                  <div class="form-group">
-                    <div class="tipue_search_group">
-                      <div class="horizontalDiv">
-                        <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" placeholder="Search" title="At least 3 characters" required>
-                      </input>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </span>
-        </li>
-        <li>
-          <a class="navyBlock" href="roa.php">Register</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.php">
-        <img class="img-responsive navLogo" src="images5/afcs-navbar.png">
-      </a>
-    </div>
-    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-
-      <span id="box2">
-        <ul class="nav navbar-nav makeToggle tabs" id="menu2">
-          <li>
-            <a id="list1" class="highlight one thing" href="index.php">Home</a>
-          </li>
-          <li>
-            <a id="list2" class="highlight two thing" href="about.php">About</a>
-          </li>
-          <li>
-            <a id="list3" class="highlight three thing" href="careers.php">Careers</a>
-          </li>
-          <li id="list4">
-            <a class="active highlight four fun darker" href="find-a-job.php">Find A Job</a>
-          </li>
-          <li>
-            <a id="list5" class="highlight five thing" href="contact.php">Contact</a>
-          </li>
-
-        </span>
-        <span class='nope'>
-          <div class="spreadAcross">
-            <li>
-              <a href="https://www.facebook.com/AirForceCivilianService/" target="_blank" alt="AFCS Facebook page" class="social-head">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a class="social-head" href="https://www.linkedin.com/company/air-force-civilian-service" target="_blank" alt="AFCS LinkedIn page">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-              </li>
-              <li>
-                <a class="social-head" href="https://www.instagram.com/afcivilian/" target="_blank" alt="AFCS Instagram">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a class="social-head" href="https://twitter.com/afcivilian/" target="_blank" alt="AFCS Twitter">
-                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a class="social-head" href="https://www.youtube.com/channel/UC1L_oa0A2iMfJFuNa44EcFQ" target="_blank" alt="AFCS YouTube link">
-                  <i class="fa fa-youtube-square" aria-hidden="true"></i>
-                </a>
-              </li>
-            </div>
-
-            <ul class="nav navbar-nav makeToggle tabs">
-              <form class="ml15">
-                <div class="tipue_search_group">
-                  <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" placeholder="Search" title="At least 3 characters" required="">
-                </div>
-              </form>
-              <br>
-              <li class="allAcross">
-                <a id="liRegister" class="highlight three thing" href="roa.php">Register</a>
-              </li>
-            </ul>
-          </span>
-
-          <li class="social">
-            <a id="liSocial" class="blacker" href="#">Social</a>
-          </li>
-        </ul>
-
-        <span id="funStuff" class="icon noShow2">
-          <ul class="nav navbar-nav">
-            <li style="list-style-type:none !important">
-              <a href="#">
-                <div class="con hideAgain">
-                  <div class="bar top"></div>
-                  <div class="bar middle"></div>
-                  <div class="bar bottom"></div>
-                </div>
-              </a>
-            </li>
-            <li class="blackLine" style="list-style-type:none !important"></li>
-            <li style="list-style-type:none !important">
-              <a href="https://www.facebook.com/AirForceCivilianService/" target="_blank" alt="AFCS Facebook page" class="social-head"><i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li style="list-style-type:none !important">
-              <a class="social-head" href="https://www.linkedin.com/company/air-force-civilian-service" target="_blank" alt="AFCS LinkedIn page"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </li>
-            <li style="list-style-type:none !important">
-              <a class="social-head" href="https://www.instagram.com/afcivilian/" target="_blank" alt="AFCS Instagram"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li style="list-style-type:none !important">
-              <a class="social-head" href="https://twitter.com/afcivilian/" target="_blank" alt="AFCS Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            </li>
-            <li style="list-style-type:none !important">
-              <a class="social-head" href="https://www.youtube.com/channel/UC1L_oa0A2iMfJFuNa44EcFQ" target="_blank" alt="AFCS YouTube link"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </span>
-      </div>
-    </div>
-
-  </nav>
-
+    <?php include("nav-include/job-navbar.php"); ?>
 
   <div id="tipModal">
-
-
   </div>
 
+
+<a name='content'></a>
   <div class="container-fluid">
     <div class="row mt3">
       <center>
@@ -260,9 +109,7 @@
 </div>
 
 
-
 <div class="bottomBoxShadow" id="map-canvas"></div>
-
 
 <div id="fsModal100" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -289,7 +136,6 @@
 
                     <img src="images5/liner.jpg" id="slideUpLiner3" style="margin-top:5em">
                   </div>
-
 
                 </div>
               </div>
@@ -413,289 +259,7 @@
     </center>
   </section>
 
-  <footer class="site-footer" style="background-color: #0c0f1c;">
-    <center>
-      <br><br>
-
-      <div class="largeFooter">
-
-        <div class="spaceAround" style="max-width:1200px;">
-
-          <div class="flexCol">
-            <ul class="footer-links">
-              <li class="smaller2"><a class="whiteLink two" href="index.php"><strong>Home</strong></a></li>
-              <li class="smaller"><a class="whiteLink" href="index.php#topHomeAnchor">News</a></li>
-              <li class="smaller"><a class="whiteLink" href="index.php#topHomeAnchor">Events</a></li>
-              <li class="smaller"><a class="whiteLink" href="index.php#topHomeAnchor">Videos</a></li>
-              <br>
-              <li class="smaller2"><a class="whiteLink two" href="about.php"><strong>About Us</strong></a></li>
-              <li class="smaller"><a class="whiteLink" href="acquisition.php">Acquisition Force</a></li>
-              <li class="smaller"><a class="whiteLink" href="aftac.php">AFTAC</a></li>
-              <li class="smaller"><a class="whiteLink" href="about.php#diversityAnchor">Diversity & Inclusion</a></li>
-              <li class="smaller"><a class="whiteLink" href="about.php#location">Locations</a></li>
-              <li class="smaller"><a class="whiteLink" href="history.php">History</a></li>
-              <li class="smaller"><a class="whiteLink" href="innovations.php">AFCS Innovations</a></li>
-              <li class="smaller"><a class="whiteLink" href="about.php#anchorPointTop">Video Gallery</a></li>
-
-              <!-- <li class="smaller"><img src="images5/liner.jpg" id="slideUpLiner2"></li> -->
-
-            </ul>
-          </div>
-
-          <div class="flexCol">
-
-            <ul class="footer-links">
-              <li class="smaller2"><a class="whiteLink two" href="careers.php"><strong>Careers</strong></a></li>
-              <li class="smaller"><a class="whiteLink" href="careers.php#occupations">Occupations</a></li>
-              <li class="smaller"><a class="whiteLink" href="#top" id="bottom">Job App</a></li>
-              <li class="smaller"><a class="whiteLink" href="students-and-graduates.php">Students & Recent Grads</a></li>
-              <li class="smaller"><a class="whiteLink" href="careers.php#careerLastAnchor">Veterans</a></li>
-              <li class="smaller"><a class="whiteLink" href="careers.php#careerLastAnchor">Military Spouses</a></li>
-              <li class="smaller"><a class="whiteLink" href="careers.php#careerLastAnchor">Persons W/ Disabilities</a></li>
-              <li class="smaller"><a class="whiteLink" href="careers.php#careerLastAnchor">Why AFCS</a></li>
-              <li class="smaller"><a class="whiteLink" href="careers.php#careerSecondAnchor">Work Life Balance</a></li>
-              <li class="smaller"><a class="whiteLink" id="openBlock" href="careers.php#careerSecondAnchor">Training</a></li>
-              <li class="smaller"><a class="whiteLink" id="openBlock" href="careers.php#careerSecondAnchor">Job Security</a></li>
-              <li class="smaller"><a class="whiteLink" id="openBlock" href="careers.php#careerSecondAnchor">Opportunity</a></li>
-              <li class="smaller"><a class="whiteLink" href="careers.php#careerSecondAnchor">Federal Benefits</a></li>
-            </ul>
-
-          </div>
-          <div class="flexCol">
-            <ul class="footer-links">
-              <li class="smaller2"><a class="whiteLink two" href="#top" id="bottom"><strong>Find A Job</strong></a></li>
-              <li class="smaller"><a class="whiteLink" href="#top" id="bottom">Job Map</a></li>
-              <li class="smaller"><a class="whiteLink" href="#lastTop" id="lastBottom">How to Apply</a></li>
-              <br>
-
-              <li class="smaller2"><a class="whiteLink two" href="contact.php"><strong>Contact Us</strong></a></li>
-              <li class="smaller"><a class="whiteLink" href="contact.php#linksAnchor">Links</a></li>
-              <li class="smaller"><a class="whiteLink" href="legal.php">Legal</a></li>
-
-              <li class="smaller"><img src="images5/hashtag.png" class="img-responsive afcsWhite"></li>
-
-
-            </ul>
-          </div>
-          <div class="flexCol">
-            <ul>
-
-
-              <li class="smaller3"><a class="whiteLink" href="https://www.facebook.com/AirForceCivilianService/" target="_blank"><i id="bottomFoot" class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-
-              <li class="smaller3"><a class="whiteLink" href="https://www.linkedin.com/company/2619961/" target="_blank"><i id="bottomFoot" class="fa fa-linkedin-square"></i></a></li>
-
-              <li class="smaller3"><a class="whiteLink" href="https://www.instagram.com/afcivilian/" target="_blank"><i id="bottomFoot" class="fab fa-instagram"></i></a></li>
-
-              <li class="smaller3"><a class="whiteLink" href="https://twitter.com/afcivilian/" target="_blank"><i id="bottomFoot" class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-
-              <li class="smaller3"><a class="whiteLink" href="https://www.youtube.com/channel/UC1L_oa0A2iMfJFuNa44EcFQ" target="_blank"><i id="bottomFoot" class="fa fa-youtube-square"></i></a></li>
-            </ul>
-
-          </div>
-
-        </div>
-
-
-      </div>
-
-
-
-      <div class="mobileFooter">
-        <div class="flexStart">
-          <img src="images5/hashtag.png" class="img-responsive afcsHidden">
-        </div>
-
-        <div style="padding-top:2em;" class="container">
-          <div class="row">
-            <div class="col-md-3">
-
-              <div class="accordion" id="accordionExample">
-
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h4 style="color:white !important;" class="panel-title">
-                      <a id="footerB" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        HOME
-                      </a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul style="padding-top:1em;">
-                        <li class="smaller3"><a class="whiteLink" href="index.php#topHomeAnchor">News</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="index.php#topHomeAnchor">Events</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="index.php#topHomeAnchor">Videos</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h4 style="color:white !important;" class="panel-title">
-                      <a id="footerB" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        ABOUT US
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul>
-                        <li class="smaller3"><a class="whiteLink" href="acquisition.php">Acquisition Force</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="aftac.php">AFTAC</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="about.php#diversityAnchor">Diversity & Inclusion</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="about.php#location">Locations</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="history.php">History</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="innovations.php">AFCS Innovations</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="about.php#anchorPointTop">Video Gallery</a></li>
-
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h4 style="color:white !important;" class="panel-title">
-                      <a id="footerB" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        CAREERS
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul>
-                        <li class="smaller3"><a class="whiteLink" href="careers.php#occupations">Occupations</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="#top" id="bottom">Job App</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="students-and-graduates.php">Students & Recent Grads</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="careers.php#careerLastAnchor">Veterans</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="careers.php#careerLastAnchor">Military Spouses</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="careers.php#careerLastAnchor">Persons W/ Disabilities</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="careers.php#careerLastAnchor">Why AFCS</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="careers.php#careerSecondAnchor">Work Life Balance</a></li>
-                        <li class="smaller3"><a id="openBlock" class="whiteLink" href="careers.php#careerSecondAnchor">Training</a></li>
-                        <li class="smaller3"><a id="openBlock" class="whiteLink" href="careers.php#careerSecondAnchor">Job Security</a></li>
-                        <li class="smaller3"><a id="openBlock" class="whiteLink" href="careers.php#careerSecondAnchor">Opportunity</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="careers.php#careerSecondAnchor">Federal Benefits</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="card">
-                  <div class="card-header" id="headingFour">
-                    <h4 style="color:white !important;" class="panel-title">
-                      <a id="footerB" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        FIND A JOB
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul>
-                        <li class="smaller3"><a class="whiteLink" href="#top" id="bottom">Job Map</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="#lastTop" id="lastBottom">How to Apply</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-header" id="headingFive">
-                    <h4 style="color:white !important;" class="panel-title">
-                      <a id="footerB" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        CONTACT US
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul>
-                        <li class="smaller3"><a class="whiteLink" href="contact.php#linksAnchor">Links</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="legal.php">Legal</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-header" id="headingSix">
-                    <h4 style="color:white !important;" class="panel-title">
-                      <a id="footerB" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        SOCIAL
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul>
-                        <li class="smaller3"><a class="whiteLink" href="https://www.facebook.com/AirForceCivilianService/" target="_blank">Facebook</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="https://www.linkedin.com/company/2619961/" target="_blank">LinkedIn</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="https://www.instagram.com/afcivilian/" target="_blank">Instagram</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="https://twitter.com/afcivilian/" target="_blank" >Twitter</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="https://www.youtube.com/channel/UC1L_oa0A2iMfJFuNa44EcFQ" target="_blank">YouTube</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="card">
-                  <div class="card-header" id="headingSeven">
-                    <h4 style="color:white !important;" class="panel-title">
-                      <a id="footerB" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        LEGAL
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul>
-                        <li class="smaller3"><a class="whiteLink" href="https://prhome.defense.gov/NoFear/" target="_blank">No FEAR Act</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="privacy.php">Privacy</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="regulatory.php">Regulatory</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="accessibility.php">Accessibility</a></li>
-                        <li class="smaller3"><a class="whiteLink" href="https://www.usa.gov/" target="_blank">USA.gov</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="middleTablet two">
-          <img src="images5/aflogo.png" class="smallAF">
-          <p><em>Official United States Air Force Website. The Air Force Civilian Service is an Equal Opportunity Employer.</em></p>
-        </div>
-      </div>
-    </center>
-
-    <div class="row bottomFoot">
-      <div class="col-lg-11 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-1">
-        <center>
-          <div style="display:flex;align-items:center;max-width:1100px;">
-            <img src="images5/aflogo.png" class="smallAF">
-            <p style="padding-top:10px;font-size:13px;text-align:left">Official United States Air Force Website. The Air Force Civilian Service is an Equal Opportunity Employer.</p>
-
-            <div style="display:flex;justify-content:flex-end;margin-top:2px;">
-              <a class="whiteLink bottom" href="https://prhome.defense.gov/NoFear/" target="_blank" id="same">No FEAR Act</a>
-              <a class="whiteLink bottom" href="privacy.php">Privacy</a>
-              <a class="whiteLink bottom" href="regulatory.php">Regulatory</a>
-              <a class="whiteLink bottom" href="accessibility.php">Accessibility</a>
-              <a class="whiteLink bottom" href="https://www.usa.gov/" target="_blank">USA.gov</a>
-            </div>
-          </div>
-        </center>
-      </div>
-    </div>
-
-  </footer>
-
+<?php include("footer-include/job-footer.php"); ?>
 </div>
 
 

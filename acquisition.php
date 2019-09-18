@@ -24,11 +24,8 @@
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/acquisition.css">
-
-
-
 <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-	<title><?php echo "Air Force Civilian Service 4.0"; ?></title>
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 </head>
 
 <style>
@@ -102,15 +99,12 @@
     left:19% !important;
   }
 
-
 }
-
-
 
 </style>
 
 <body>
-
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -120,7 +114,7 @@
   </div>
 
 <a href="#bottom" id="top"></a>
-
+<a name='content'></a>
   <div style="background: #0f1932 !important;" id="site-wrapper">
     <a href="#veryBottom" id="veryTop"></a>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
