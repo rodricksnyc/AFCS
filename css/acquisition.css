@@ -348,6 +348,18 @@ h1.slicker {
 }
 
 @media (max-width: 767px) {
+
+
+  .center2 {
+      margin-top: 0em !important;
+  }
+
+  h1.acq.two {
+      font-size: 1.8em !important;
+      font-weight: 400 !important;
+      margin-bottom: 20px;
+  }
+
   .funThing {
   bottom: 25%;
   }

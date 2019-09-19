@@ -1554,9 +1554,16 @@ we are on the videos part here */
   }
 
   #hiddenVideos {
-    padding-top:0em;
-    height:1600px;
+    padding-top:2em;
+    height:auto;
+
   }
+
+
+.close, .close3, .close4, .close4.two, .close10, .close11, .close12 {
+    padding: .2em 0em 1em 1em !important;
+    opacity: 1 !important;
+}
 
   .upDown2 {
     display: flex;

@@ -468,6 +468,22 @@ p.small:last-of-type {
     margin-bottom: .2em;
 }
 
+.slideThisPlease {
+    background: #0c0f1c !important;
+
+}
+
+.clickMe {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline;
+    font-size: 14px;
+
+    color: white !important;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* .circle {
   display:none;
 } */

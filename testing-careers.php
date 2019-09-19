@@ -759,7 +759,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
             function initialize(locations) {
 
                 var icon = {
-                    url: "http://elizabethrodricks.com/images5/blue-marker.png",
+                    url: "images5/blue-marker.png",
                     scaledSize: new google.maps.Size(30, 46)
                 };
 

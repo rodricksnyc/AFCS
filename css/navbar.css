@@ -168,6 +168,12 @@ nav.secondNav ul li ul li a {
     background: #e7e7e7;
 }
 
+.nav > li {
+    position: relative;
+    display: block;
+    height: 40px;
+}
+
 }
 
 

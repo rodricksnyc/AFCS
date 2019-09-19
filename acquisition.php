@@ -6987,7 +6987,7 @@ var myVar1 = 1;
 
 
     var icon = {
-      url: "http://elizabethrodricks.com/images5/blue-marker.png", // url
+      url: "images5/blue-marker.png", // url
       scaledSize: new google.maps.Size(30, 46)
     };
 

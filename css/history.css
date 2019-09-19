@@ -74,6 +74,10 @@ h3.swipe {
 
 }
 
+.swiper-pagination {
+  display:none;
+}
+
 .swiper-scrollbar {
   display:none;
 }

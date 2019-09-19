@@ -716,7 +716,7 @@ include 'blog2/wp-load.php';
         <div class="container">
           <div class="row">
 
-            <div class="col-lg-1 col-lg-offset-11 col-md-offset-11 col-md-1 col-sm-offset-11 col-sm-1 col-xs-offset-11 col-xs-1">
+            <div class="col-lg-1 col-lg-offset-11 col-md-offset-11 col-md-1 col-sm-offset-11 col-sm-1 col-xs-offset-10 col-xs-1">
               <div style="opacity:1 !important;cursor: pointer !important;" class="close"></div>
             </div>
 

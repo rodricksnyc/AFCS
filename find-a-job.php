@@ -459,7 +459,7 @@ $.ajax({
     function initialize(locations) {
 
       var icon = {
-        url: "http://elizabethrodricks.com/images5/blue-marker.png",
+        url: "images5/blue-marker.png",
         scaledSize: new google.maps.Size(30, 46)
       };
 

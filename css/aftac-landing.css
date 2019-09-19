@@ -508,6 +508,16 @@ h3 {
 
 @media (max-width:767px) {
 
+  .clickMe {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: white !important;
+    text-align: center;
+    margin-top: 0px;
+}
+
   .i1, .i2, .i3 {
     margin-top:0em;
   }

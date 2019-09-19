@@ -423,6 +423,9 @@ markers1 = [
 
 
 function initialize() {
+
+
+if ($(document).innerWidth() >= 768) {
   var center = new google.maps.LatLng(37.850033, -99.6500523);
   var mapOptions = {
     zoom: 5,
@@ -519,6 +522,111 @@ function initialize() {
   for (i = 0; i < markers1.length; i++) {
     addMarker(markers1[i]);
   }
+
+}
+
+  if ($(document).innerWidth() <= 767) {
+
+    var center = new google.maps.LatLng(35.4278212,-97.4169838);
+    var mapOptions = {
+      zoom: 8,
+      icon: {
+
+        url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+
+      },
+      center: center,
+      styles: [
+        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+        {
+          featureType: 'administrative.locality',
+          elementType: 'labels.text.fill',
+          stylers: [{color: '#d59563'}]
+        },
+        {
+          featureType: 'poi',
+          elementType: 'labels.text.fill',
+          stylers: [{color: '#d59563'}]
+        },
+        {
+          featureType: 'poi.park',
+          elementType: 'geometry',
+          stylers: [{color: '#263c3f'}]
+        },
+        {
+          featureType: 'poi.park',
+          elementType: 'labels.text.fill',
+          stylers: [{color: '#6b9a76'}]
+        },
+        {
+          featureType: 'road',
+          elementType: 'geometry',
+          stylers: [{color: '#38414e'}]
+        },
+        {
+          featureType: 'road',
+          elementType: 'geometry.stroke',
+          stylers: [{color: '#212a37'}]
+        },
+        {
+          featureType: 'road',
+          elementType: 'labels.text.fill',
+          stylers: [{color: '#9ca5b3'}]
+        },
+        {
+          featureType: 'road.highway',
+          elementType: 'geometry',
+          stylers: [{color: '#746855'}]
+        },
+        {
+          featureType: 'road.highway',
+          elementType: 'geometry.stroke',
+          stylers: [{color: '#1f2835'}]
+        },
+        {
+          featureType: 'road.highway',
+          elementType: 'labels.text.fill',
+          stylers: [{color: '#f3d19c'}]
+        },
+        {
+          featureType: 'transit',
+          elementType: 'geometry',
+          stylers: [{color: '#2f3948'}]
+        },
+        {
+          featureType: 'transit.station',
+          elementType: 'labels.text.fill',
+          stylers: [{color: '#d59563'}]
+        },
+        {
+          featureType: 'water',
+          elementType: 'geometry',
+          stylers: [{color: '#17263c'}]
+        },
+        {
+          featureType: 'water',
+          elementType: 'labels.text.fill',
+          stylers: [{color: '#515c6d'}]
+        },
+        {
+          featureType: 'water',
+          elementType: 'labels.text.stroke',
+          stylers: [{color: '#17263c'}]
+        }
+      ],
+      // mapTypeId: google.maps.MapTypeId.TERRAIN
+    };
+
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    for (i = 0; i < markers1.length; i++) {
+      addMarker(markers1[i]);
+    }
+
+
+  }
+
 }
 
 function addMarker(marker) {
@@ -530,7 +638,7 @@ function addMarker(marker) {
 
 
   var icon = {
-    url: "http://elizabethrodricks.com/images5/blue-marker.png", // url
+    url: "images5/blue-marker.png", // url
     scaledSize: new google.maps.Size(30, 46)
   };
 

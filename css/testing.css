@@ -6,6 +6,14 @@
   font-size:6em !important;
 }
 
+.whiteList {
+    color: white;
+    list-style-type: disc !important;
+    font-size: 18px !important;
+    text-align: left;
+    margin-left: -.2em;
+}
+
 .topText {
     font-weight: 600;
     margin-bottom: 8px;
@@ -105,7 +113,7 @@ a.small {
 .whiteList {
     color: white;
     list-style-type: disc !important;
-    font-size: 19px !important;
+    font-size: 16px !important;
     text-align: left;
     margin-left: -.2em;
 }
