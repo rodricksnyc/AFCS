@@ -172,7 +172,7 @@
       </figure>
       <div class="content">
         <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>STEALTH TECHNOLOGY</p>
-        <span class="caption">The B-2 Spirit is a multi-role bomber capable of delivering both conventional and nuclear munitions. The revolutionary blending of low-observable technologies with high aerodynamic efficiency and large payload gives the B-2 important advantages over existing bombers. Its stealthy features provide it with greater freedom of action at high altitudes, thus increasing its range and offering a better field of view for the aircraft's sensors. Its unrefueled range is approximately 6,000 nautical miles (9,600 kilometers). The F-35 Lightning II is a fifth-generation, single-seat, single-engine, stealth multi-role fighter that can perform close air support, tactical bombing, and air defense missions. The F-35 has three different models: a conventional takeoff and landing variant; a short takeoff and vertical-landing variant; and a carrier-based variant. The F-35 is intended to be the world's premier strike aircraft through 2040, with close- and long-range air-to-air capability second only to that of the F-22 Raptor. The F-22 Raptor is a single seat, twin-engine, fifth-generation fighter aircraft. Its combination of stealth, supercruise, maneuverability, and integrated avionics, coupled with improved supportability, represents an exponential leap in warfighting capabilities. The Raptor performs both air-to-air and air-to-ground missions allowing full realization of operational concepts vital to the 21st century Air Force.</span>
+        <span class="caption">The B-2 Spirit is a multi-role bomber capable of delivering both conventional and nuclear munitions. The revolutionary blending of low-observable technologies with high aerodynamic efficiency and large payload gives the B-2 important advantages over existing bombers. The F-35 Lightning II is a fifth-generation, single-seat, single-engine, stealth multi-role fighter that can perform close air support, tactical bombing, and air defense missions. The F-22 Raptor is a single seat, twin-engine, fifth-generation fighter aircraft. Its combination of stealth, supercruise, maneuverability, and integrated avionics, coupled with improved supportability, represents an exponential leap in warfighting capabilities. The Raptor performs both air-to-air and air-to-ground missions allowing full realization of operational concepts vital to the 21st century Air Force.</span>
       </div>
     </div>
     <div class="swiper-slide">
@@ -181,7 +181,7 @@
       </figure>
       <div class="content">
           <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>Micro Air Vehicles, Robotic Birds & Ornithopters</p>
-        <span class="caption">Engineers at Wright-Patterson AFB have found that designing micro air vehicles – or MAVs – is nothing like shrinking an F-16. At a mere six inches in length, Robotic Birds pack sensors, receivers, and power supplies that enable them to fly, hover, and rest virtually unnoticed – making them ideal vehicles for gathering intelligence. Motion capture – MOCAP – is an important support technology. Commonly used in video game development to record and digitize movement, MOCAP is now being employed by Air Force researchers to teach computers to fly remotely and to track air and land vehicles. Speaking of research, it doesn’t get “battier” than Air Force efforts to advance MAV capabilities. While MAVs are successfully being used in Afghanistan and Iraq, their wings are unsuited for maneuvering in tight spaces and harsh weather. So, researchers are modelling the next generation of MAVs on the sophisticated wings of bats, which actually change shape during flight, enabling them to remain airborne and flexible in difficult conditions. These Ornithopters (wing-flapping aircraft) will smoothly navigate turbulent weather and complex environments like forests, buildings, caves, and tunnels.</span>
+        <span class="caption">Engineers at Wright-Patterson AFB have found that designing micro air vehicles – or MAVs – is nothing like shrinking an F-16. At a mere six inches in length, Robotic Birds pack sensors, receivers, and power supplies that enable them to fly, hover, and rest virtually unnoticed – making them ideal vehicles for gathering intelligence. Motion capture – MOCAP – is an important support technology. Commonly used in video game development to record and digitize movement, MOCAP is now being employed by Air Force researchers to teach computers to fly remotely and to track air and land vehicles. Speaking of research, it doesn’t get “battier” than Air Force efforts to advance MAV capabilities. While MAVs are successfully being used in Afghanistan and Iraq, their wings are unsuited for maneuvering in tight spaces and harsh weather.</span>
       </div>
     </div>
     <div class="swiper-slide">
@@ -199,9 +199,20 @@
       </figure>
       <div class="content">
         <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>WIND TUNNELS</p>
-        <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+        <span class="caption">U.S. Air Force wind tunnels put aircraft, propulsion systems, and space craft through their paces. Arnold Engineering Development Center (AEDC) is the most advanced and largest complex of flight simulation test facilities in the world. The center operates 58 aerodynamic and propulsion wind tunnels, rocket and turbine engine test cells, space environmental chambers, arc heaters, ballistic ranges, and other specialized units. Twenty-seven of the center’s test units have capabilities unmatched elsewhere in the United States; 14 are unique in the world. Facilities can simulate flight conditions from sea level to an altitude of 300 miles and from subsonic velocities to Mach 2.0.</span>
       </div>
     </div>
+
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(../images5/RPA.jpg)">
+        <img src="images5/RPA.jpg" class="entity-img" />
+      </figure>
+      <div class="content">
+        <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>RPAs</p>
+        <span class="caption">Remotely piloted vehicles (RPAs), known as Predator and Reaper, have flown in on the winds of change. In 2010, for the first time in its history, the Air Force bought more RPAs than manned air vehicles. These highly sophisticated aircraft for combat and reconnaissance are highly sought-after weapons systems, so too are the unsung pilots and intelligence analysts directing these RPAs from sites sometimes half a world away. Whether noiselessly observing an unsuspecting enemy or watching over our soldiers, these pilots’ abilities and psyches are every bit as engaged and challenged as those of their comrades in traditional aircraft.</span>
+      </div>
+    </div>
+
   </div>
   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev swiper-button-white"></div>
@@ -244,11 +255,20 @@
       </div>
     </div>
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/wind.jpg)">
+        <img src="images5/arsenal.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Bernadette	Newman</p>
+        <p class="title">Wind Tunnels</p>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <figure class="slide-bgimg" style="background-image:url(../images5/RPA.jpg)">
+        <img src="images5/RPA.jpg" class="entity-img" />
+      </figure>
+      <div class="content">
+        <p class="title">RPAs</p>
       </div>
     </div>
   </div>
