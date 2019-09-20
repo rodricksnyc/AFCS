@@ -126,171 +126,171 @@
           <img src="images5/strip2.png" class="strip"><div class="sliderText"><h3 class="swipe">March 16</h3><h1 class="swipe">1926</h1><p class="swipe">Dr. Robert H. Goddard launches the world’s first liquid-fueled rocket at Auburn, Massachusetts.</p><img src="images5/1926.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1927">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 20</h3><h1 class="swipe">1927</h1><p class="swipe">The first solo non-stop transatlantic flight is completed by Charles A. Lindbergh in the Ryan NYP monoplane Spirit of St. Louis, flying from New York to Paris in 33 hours and 32 minutes.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 20</h3><h1 class="swipe">1927</h1><p class="swipe">The first solo non-stop transatlantic flight is completed by Charles A. Lindbergh in the Ryan NYP monoplane Spirit of St. Louis, flying from New York to Paris in 33 hours and 32 minutes.</p><img src="images5/1926.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1932">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 25</h3><h1 class="swipe">1932</h1><p class="swipe">Amelia Earhart becomes the first woman to complete a nonstop transcontinental flight. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 25</h3><h1 class="swipe">1932</h1><p class="swipe">Amelia Earhart becomes the first woman to complete a nonstop transcontinental flight. </p><img src="images5/1932.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1933">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">July 15</h3><h1 class="swipe">1933</h1><p class="swipe">Famed aviator Wiley Post, flying the Lockheed Vega Winnie Mae, becomes the first person to fly around the world solo. The 15,596-mile trip takes 7 days, 18 hours, and 49 minutes at an average speed of 134.5 miles per hour.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">July 15</h3><h1 class="swipe">1933</h1><p class="swipe">Famed aviator Wiley Post, flying the Lockheed Vega Winnie Mae, becomes the first person to fly around the world solo. The 15,596-mile trip takes 7 days, 18 hours, and 49 minutes at an average speed of 134.5 miles per hour.</p><img src="images5/1932.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1941">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">March 21</h3><h1 class="swipe">1941</h1><p class="swipe">The first black flying unit, the 99th Pursuit Squadron, is activated. As part of the 332nd Pursuit Squadron, it will later become known as the Tuskegee Airmen. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">March 21</h3><h1 class="swipe">1941</h1><p class="swipe">The first black flying unit, the 99th Pursuit Squadron, is activated. As part of the 332nd Pursuit Squadron, it will later become known as the Tuskegee Airmen. </p><img src="images5/1941.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1941">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">June 20</h3><h1 class="swipe">1941</h1><p class="swipe">The United States Army Air Forces are formed.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">June 20</h3><h1 class="swipe">1941</h1><p class="swipe">The United States Army Air Forces are formed.</p><img src="images5/1941.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1942">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">March 9</h3><h1 class="swipe">1942</h1><p class="swipe">The War Department is reorganized into three autonomous forces: Army Air Forces, Ground Forces, and Services of Supply.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">March 9</h3><h1 class="swipe">1942</h1><p class="swipe">The War Department is reorganized into three autonomous forces: Army Air Forces, Ground Forces, and Services of Supply.</p><img src="images5/1941.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1942">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 18</h3><h1 class="swipe">1942</h1><p class="swipe">Lt. Col. Jimmy Doolittle leads the “Doolittle Raiders” in B-25s on first U.S. bomb run over Japan in World War II.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 18</h3><h1 class="swipe">1942</h1><p class="swipe">Lt. Col. Jimmy Doolittle leads the “Doolittle Raiders” in B-25s on first U.S. bomb run over Japan in World War II.</p><img src="images5/1941.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1942">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">October 1</h3><h1 class="swipe">1942</h1><p class="swipe">The Bell P-59 “Airacomet,” America's first jet-propelled airplane, makes its initial flight at Edwards AFB, California.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">October 1</h3><h1 class="swipe">1942</h1><p class="swipe">The Bell P-59 “Airacomet,” America's first jet-propelled airplane, makes its initial flight at Edwards AFB, California.</p><img src="images5/1941.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1943">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 5</h3><h1 class="swipe">1943</h1><p class="swipe">Women's Airforce Service Pilots (WASP) forms, headed by Jacqueline Cochran.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 5</h3><h1 class="swipe">1943</h1><p class="swipe">Women's Airforce Service Pilots (WASP) forms, headed by Jacqueline Cochran.</p><img src="images5/1941.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1944">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">March 9</h3><h1 class="swipe">1944</h1><p class="swipe">B-17s of the Eighth Air Force conduct the first daylight bombing raid on Berlin.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">March 9</h3><h1 class="swipe">1944</h1><p class="swipe">B-17s of the Eighth Air Force conduct the first daylight bombing raid on Berlin.</p><img src="images5/1944.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1944">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 14</h3><h1 class="swipe">1944</h1><p class="swipe">Col. Floyd Wood, Maj. Harry Wexler, and Lt. Frank Record, flying a Douglas A-20 “Havoc,” are the first to fly into the heart of a hurricane to obtain meteorological data.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 14</h3><h1 class="swipe">1944</h1><p class="swipe">Col. Floyd Wood, Maj. Harry Wexler, and Lt. Frank Record, flying a Douglas A-20 “Havoc,” are the first to fly into the heart of a hurricane to obtain meteorological data.</p><img src="images5/1944.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1945">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 8</h3><h1 class="swipe">1945</h1><p class="swipe">VE Day: The war in Europe ends. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 8</h3><h1 class="swipe">1945</h1><p class="swipe">VE Day: The war in Europe ends. </p><img src="images5/1945.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1945">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 6</h3><h1 class="swipe">1945</h1><p class="swipe">The “Little Boy” atomic bomb is dropped on Hiroshima, Japan, from the B-29 "Enola Gay," commanded by Col. Paul Tibbets, Jr. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 6</h3><h1 class="swipe">1945</h1><p class="swipe">The “Little Boy” atomic bomb is dropped on Hiroshima, Japan, from the B-29 "Enola Gay," commanded by Col. Paul Tibbets, Jr. </p><img src="images5/1945.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1945">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 2</h3><h1 class="swipe">1945</h1><p class="swipe">VJ Day: Japan signs the instrument of surrender on board the USS Missouri in Tokyo Bay, marking the end of World War II. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 2</h3><h1 class="swipe">1945</h1><p class="swipe">VJ Day: Japan signs the instrument of surrender on board the USS Missouri in Tokyo Bay, marking the end of World War II. </p><img src="images5/1945.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1947">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 18</h3><h1 class="swipe">1947</h1><p class="swipe">The birth of the United States Air Force. Stuart Symington becomes the first Secretary of the Air Force. Air activities transfered from the Army to the Air Force. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 18</h3><h1 class="swipe">1947</h1><p class="swipe">The birth of the United States Air Force. Stuart Symington becomes the first Secretary of the Air Force. Air activities transfered from the Army to the Air Force. </p><img src="images5/1947.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1947">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">October 14</h3><h1 class="swipe">1947</h1><p class="swipe">The first supersonic flight is made by Capt. Charles E. “Chuck” Yeager in the rocket-powered Bell XS-1 (later redesignated X-1) over Edwards AFB, California.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">October 14</h3><h1 class="swipe">1947</h1><p class="swipe">The first supersonic flight is made by Capt. Charles E. “Chuck” Yeager in the rocket-powered Bell XS-1 (later redesignated X-1) over Edwards AFB, California.</p><img src="images5/1947.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1948">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 26</h3><h1 class="swipe">1948</h1><p class="swipe">The Air Force announces a policy of racial integration – the first service to do so – well before President Harry Truman’s Executive Order on equal opportunity in July 1948.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 26</h3><h1 class="swipe">1948</h1><p class="swipe">The Air Force announces a policy of racial integration – the first service to do so – well before President Harry Truman’s Executive Order on equal opportunity in July 1948.</p><img src="images5/1947.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1949">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 25</h3><h1 class="swipe">1949</h1><p class="swipe">The United States Air Force adopts blue uniforms.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 25</h3><h1 class="swipe">1949</h1><p class="swipe">The United States Air Force adopts blue uniforms.</p><img src="images5/1949.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1949">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">March 2</h3><h1 class="swipe">1949</h1><p class="swipe">The B-50A “Lucky Lady II” completes the first nonstop around-the-world flight: 23,452 miles in 94 hours, 1 minute. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">March 2</h3><h1 class="swipe">1949</h1><p class="swipe">The B-50A “Lucky Lady II” completes the first nonstop around-the-world flight: 23,452 miles in 94 hours, 1 minute. </p><img src="images5/1949.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1950">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">November 8</h3><h1 class="swipe">1950</h1><p class="swipe">1st Lt. Russell Brown, Jr., in an F-80 “Shooting Star,” downs a MiG-15 in Korean War, the first all-jet aerial combat. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">November 8</h3><h1 class="swipe">1950</h1><p class="swipe">1st Lt. Russell Brown, Jr., in an F-80 “Shooting Star,” downs a MiG-15 in Korean War, the first all-jet aerial combat. </p><img src="images5/1950.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1951">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 20</h3><h1 class="swipe">1951</h1><p class="swipe">Capt. James Jabara (USAF) becomes the first jet “ace.” </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 20</h3><h1 class="swipe">1951</h1><p class="swipe">Capt. James Jabara (USAF) becomes the first jet “ace.” </p><img src="images5/1950.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1951">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 20</h3><h1 class="swipe">1951</h1><p class="swipe">The Air Force makes the first successful recovery of animals from rocket flight when a monkey and 11 mice survive an Aerobee flight to an altitude of 236,000 feet. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 20</h3><h1 class="swipe">1951</h1><p class="swipe">The Air Force makes the first successful recovery of animals from rocket flight when a monkey and 11 mice survive an Aerobee flight to an altitude of 236,000 feet. </p><img src="images5/1951.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1953">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">November 20</h3><h1 class="swipe">1953</h1><p class="swipe">NACA test pilot Scott Crossfield becomes the first pilot to exceed Mach 2. His Douglas D-588-II Skyrocket research plane is dropped from a Navy P2B-1S (B-29) at an altitude of 32,000 feet over Edwards AFB, California.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">November 20</h3><h1 class="swipe">1953</h1><p class="swipe">NACA test pilot Scott Crossfield becomes the first pilot to exceed Mach 2. His Douglas D-588-II Skyrocket research plane is dropped from a Navy P2B-1S (B-29) at an altitude of 32,000 feet over Edwards AFB, California.</p><img src="images5/1951.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1954">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 1</h3><h1 class="swipe">1954</h1><p class="swipe">President Dwight D. Eisenhower signs into law a bill creating the United States Air Force Academy.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 1</h3><h1 class="swipe">1954</h1><p class="swipe">President Dwight D. Eisenhower signs into law a bill creating the United States Air Force Academy.</p><img src="images5/1954.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1957">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 18</h3><h1 class="swipe">1957</h1><p class="swipe">Commanded by USAF Maj. Gen. Archie Old, Jr., three Boeing B-52 Stratofortresses complete a 24,325-mile round-the-world non-stop flight in 45 hours, 19 minutes, with an average speed of 534 miles per hour. It is the first globe-circling nonstop flight by jet aircraft. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 18</h3><h1 class="swipe">1957</h1><p class="swipe">Commanded by USAF Maj. Gen. Archie Old, Jr., three Boeing B-52 Stratofortresses complete a 24,325-mile round-the-world non-stop flight in 45 hours, 19 minutes, with an average speed of 534 miles per hour. It is the first globe-circling nonstop flight by jet aircraft. </p><img src="images5/1954.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1958">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 31</h3><h1 class="swipe">1958</h1><p class="swipe">Explorer I, the first U.S. satellite, is launched by the Army at Cape Canaveral, Florida. The satellite is launched on a Jupiter-C rocket and will later play a key role in the discovery of the Van Allen radiation belt around the Earth. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 31</h3><h1 class="swipe">1958</h1><p class="swipe">Explorer I, the first U.S. satellite, is launched by the Army at Cape Canaveral, Florida. The satellite is launched on a Jupiter-C rocket and will later play a key role in the discovery of the Van Allen radiation belt around the Earth. </p><img src="images5/1954.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1959">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">February 28</h3><h1 class="swipe">1959</h1><p class="swipe">The Air Force successfully launches the Discoverer I satellite into polar orbit from Vandenburg AFB, California.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">February 28</h3><h1 class="swipe">1959</h1><p class="swipe">The Air Force successfully launches the Discoverer I satellite into polar orbit from Vandenburg AFB, California.</p><img src="images5/1954.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1960">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 16</h3><h1 class="swipe">1960</h1><p class="swipe">USAF Captain Joseph W. Kittinger, Jr., makes the highest parachute jump and longest free fall ever recorded. He steps from the gondola of a high-altitude balloon at 102,800 feet over Tularosa, New Mexico, and waits four and a half minutes before opening his parachute. He free-falls 84,700 feet, reaching a speed of 614 miles per hours. He lands unharmed 13 minutes and 45 seconds after jumping.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 16</h3><h1 class="swipe">1960</h1><p class="swipe">USAF Captain Joseph W. Kittinger, Jr., makes the highest parachute jump and longest free fall ever recorded. He steps from the gondola of a high-altitude balloon at 102,800 feet over Tularosa, New Mexico, and waits four and a half minutes before opening his parachute. He free-falls 84,700 feet, reaching a speed of 614 miles per hours. He lands unharmed 13 minutes and 45 seconds after jumping.</p><img src="images5/1960.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1961">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 5</h3><h1 class="swipe">1961</h1><p class="swipe">Alan Shepard becomes the first American to fly in space aboard the “Freedom 7” Mercury capsule on a 15-minute suborbital flight.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 5</h3><h1 class="swipe">1961</h1><p class="swipe">Alan Shepard becomes the first American to fly in space aboard the “Freedom 7” Mercury capsule on a 15-minute suborbital flight.</p><img src="images5/1960.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1962">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 10-11</h3><h1 class="swipe">1962</h1><p class="swipe">Major Clyde P. Evely sets a recognized class record for great circle distance without landing (jet aircraft) of 12,532.28 miles from Kadena AB, Okinawa, to Madrid, Spain, in a Boeing B-52H Stratofortress. The record still stands. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 10-11</h3><h1 class="swipe">1962</h1><p class="swipe">Major Clyde P. Evely sets a recognized class record for great circle distance without landing (jet aircraft) of 12,532.28 miles from Kadena AB, Okinawa, to Madrid, Spain, in a Boeing B-52H Stratofortress. The record still stands. </p><img src="images5/1964.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1964">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 19</h3><h1 class="swipe">1964</h1><p class="swipe">The Hughes Syncom III satellite is launched by a Thor-Delta launch vehicle. After several weeks of maneuvers, it becomes the world's first geosynchronous satellite.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 19</h3><h1 class="swipe">1964</h1><p class="swipe">The Hughes Syncom III satellite is launched by a Thor-Delta launch vehicle. After several weeks of maneuvers, it becomes the world's first geosynchronous satellite.</p><img src="images5/1964.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1969">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">July 20</h3><h1 class="swipe">1969</h1><p class="swipe">Mankind sets foot on the moon for the first time. At 10:56 PM EDT, Apollo 11 astronaut Neil Armstrong puts his left foot on the lunar surface. He and lunar module pilot Col. Edwin “Buzz” Aldrin, Jr., USAF, spend just under three hours walking on the moon. Command module pilot Lt. Col. Michael Collins, USAF, remains in orbit. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">July 20</h3><h1 class="swipe">1969</h1><p class="swipe">Mankind sets foot on the moon for the first time. At 10:56 PM EDT, Apollo 11 astronaut Neil Armstrong puts his left foot on the lunar surface. He and lunar module pilot Col. Edwin “Buzz” Aldrin, Jr., USAF, spend just under three hours walking on the moon. Command module pilot Lt. Col. Michael Collins, USAF, remains in orbit. </p><img src="images5/1969.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1971">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">July 16</h3><h1 class="swipe">1971</h1><p class="swipe">Jeanne M. Holm becomes the first female general officer in the Air Force.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">July 16</h3><h1 class="swipe">1971</h1><p class="swipe">Jeanne M. Holm becomes the first female general officer in the Air Force.</p><img src="images5/1969.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1973">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 27</h3><h1 class="swipe">1973</h1><p class="swipe">Cease-fire agreements ending the war in Vietnam are signed in Paris. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 27</h3><h1 class="swipe">1973</h1><p class="swipe">Cease-fire agreements ending the war in Vietnam are signed in Paris. </p><img src="images5/1973.png" class="img-responsive"></div>
         </div>
         <div class="swiper-slide" data-title="1975">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 1</h3><h1 class="swipe">1975</h1><p class="swipe">USAF General Daniel “Chappie” James, Jr., becomes the first black officer to achieve four-star rank in the U.S. military.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 1</h3><h1 class="swipe">1975</h1><p class="swipe">USAF General Daniel “Chappie” James, Jr., becomes the first black officer to achieve four-star rank in the U.S. military.</p><img src="images5/1973.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1978">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">February 22</h3><h1 class="swipe">1978</h1><p class="swipe">The first test satellite in the Air Force’s Navstar Global Positioning System is launched into Earth orbit. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">February 22</h3><h1 class="swipe">1978</h1><p class="swipe">The first test satellite in the Air Force’s Navstar Global Positioning System is launched into Earth orbit. </p><img src="images5/1973.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1980">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 28</h3><h1 class="swipe">1980</h1><p class="swipe">The United States Air Force Academy graduates its first female cadets. Ninety-seven women are commissioned as Second Lieutenants. Lt. Kathleen Conly graduates eighth in her class. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">May 28</h3><h1 class="swipe">1980</h1><p class="swipe">The United States Air Force Academy graduates its first female cadets. Ninety-seven women are commissioned as Second Lieutenants. Lt. Kathleen Conly graduates eighth in her class. </p><img src="images5/1980.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1981">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 12</h3><h1 class="swipe">1981</h1><p class="swipe">The space shuttle orbiter Columbia, the world’s first reusable manned space vehicle, makes its first flight with astronauts John Young and Robert Crippen aboard.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 12</h3><h1 class="swipe">1981</h1><p class="swipe">The space shuttle orbiter Columbia, the world’s first reusable manned space vehicle, makes its first flight with astronauts John Young and Robert Crippen aboard.</p><img src="images5/1980.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1983">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">June 18</h3><h1 class="swipe">1983</h1><p class="swipe">The first American woman to go into space, Sally K. Ride, is aboard Challenger on the seventh space shuttle mission (STS-7). </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">June 18</h3><h1 class="swipe">1983</h1><p class="swipe">The first American woman to go into space, Sally K. Ride, is aboard Challenger on the seventh space shuttle mission (STS-7). </p><img src="images5/1983.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1989">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">June 10</h3><h1 class="swipe">1989</h1><p class="swipe">Captain Jacquelyn S. Parker becomes the first female pilot to graduate from the Air Force Test Pilot School at Edwards AFB, California. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">June 10</h3><h1 class="swipe">1989</h1><p class="swipe">Captain Jacquelyn S. Parker becomes the first female pilot to graduate from the Air Force Test Pilot School at Edwards AFB, California. </p><img src="images5/1989.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1990">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 7</h3><h1 class="swipe">1990</h1><p class="swipe">The United States begins Operation Desert Shield, the large-scale movement of U.S. forces to the Middle East in response to Iraq's 2 August invasion of Kuwait and threat to Saudi Arabia. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">August 7</h3><h1 class="swipe">1990</h1><p class="swipe">The United States begins Operation Desert Shield, the large-scale movement of U.S. forces to the Middle East in response to Iraq's 2 August invasion of Kuwait and threat to Saudi Arabia. </p><img src="images5/1989.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1991">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 17</h3><h1 class="swipe">1991</h1><p class="swipe">War begins in the Persian Gulf. Operation Desert Shield becomes Operation Desert Storm. More than 1,200 combat sorties are flown, and 106 cruise missiles are launched against targets in Iraq and Kuwait during the first 14 hours of the operation. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 17</h3><h1 class="swipe">1991</h1><p class="swipe">War begins in the Persian Gulf. Operation Desert Shield becomes Operation Desert Storm. More than 1,200 combat sorties are flown, and 106 cruise missiles are launched against targets in Iraq and Kuwait during the first 14 hours of the operation. </p><img src="images5/1991.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1994">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">February 10</h3><h1 class="swipe">1994</h1><p class="swipe">Lieutenant Jeannie Flynn, the first female selected for USAF combat pilot training, completes her F-15E training.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">February 10</h3><h1 class="swipe">1994</h1><p class="swipe">Lieutenant Jeannie Flynn, the first female selected for USAF combat pilot training, completes her F-15E training.</p><img src="images5/1994.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1995">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 27</h3><h1 class="swipe">1995</h1><p class="swipe">Air Force Space Command declares that the Global Positioning System (GPS) satellite constellation has achieved full operational capability. </p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">April 27</h3><h1 class="swipe">1995</h1><p class="swipe">Air Force Space Command declares that the Global Positioning System (GPS) satellite constellation has achieved full operational capability. </p><img src="images5/1994.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1996">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 4</h3><h1 class="swipe">1996</h1><p class="swipe">Operation Provide Promise, the longest sustained humanitarian airlift in history, officially ends after delivering 160,536 metric tons of relief cargo to Bosnia-Herzegovina since July 1992. The U.S. Air Force flew 4,597 of the 12,895 sorties. On 9 January there will be a commemorative final flight.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">January 4</h3><h1 class="swipe">1996</h1><p class="swipe">Operation Provide Promise, the longest sustained humanitarian airlift in history, officially ends after delivering 160,536 metric tons of relief cargo to Bosnia-Herzegovina since July 1992. The U.S. Air Force flew 4,597 of the 12,895 sorties. On 9 January there will be a commemorative final flight.</p><img src="images5/1996.png" class="img-responsive"></div>
         </div>
 
         <div class="swiper-slide" data-title="1997">
-          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 18</h3><h1 class="swipe">1997</h1><p class="swipe">The United States Air Force celebrates its 50th anniversary.</p><img src="images5/1907.png" class="img-responsive"></div>
+          <img src="images5/strip3.png" class="strip"><div class="sliderText"><h3 class="swipe">September 18</h3><h1 class="swipe">1997</h1><p class="swipe">The United States Air Force celebrates its 50th anniversary.</p><img src="images5/1996.png" class="img-responsive"></div>
         </div>
 
       </div>

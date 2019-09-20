@@ -133,6 +133,10 @@
   transform: translateX(-50px);
 }
 
+.title {
+  text-transform: uppercase;
+  margin-bottom:10px !important;
+}
 
 </style>
 
@@ -154,47 +158,47 @@
 <div class="swiper-container main-slider loading">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/scram-jet.jpg)">
+        <img src="images5/scram-jet.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Shaun Matthews</p>
-        <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+        <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>SCRAMJET X51A RIDER</p>
+        <span class="caption">The Air Force’s X-51A Wave Rider experimental aircraft is powered by a state-of-the-art supersonic combustion scramjet engine that, unlike a rocket, can capture and burn oxygen in the earth’s atmosphere instead of carrying it in a large tank. In May 2013, the X-51A set a flight time record by making the longest sustained scramjet-powered, air-breathing hypersonic flight to date, reaching Mach 5 – an astonishing one mile per second, or nearly 4,000 miles per hour and it continues to break records. Researchers believe scramjet technology will soon produce game-changing hypersonic applications. Imagine a flight from New York to Los Angeles in less than 45 minutes!</span>
       </div>
     </div>
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/stealth.jpg)">
+        <img src="images5/scram-jet.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Alexis Berry</p>
-        <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+        <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>STEALTH TECHNOLOGY</p>
+        <span class="caption">The B-2 Spirit is a multi-role bomber capable of delivering both conventional and nuclear munitions. The revolutionary blending of low-observable technologies with high aerodynamic efficiency and large payload gives the B-2 important advantages over existing bombers. Its stealthy features provide it with greater freedom of action at high altitudes, thus increasing its range and offering a better field of view for the aircraft's sensors. Its unrefueled range is approximately 6,000 nautical miles (9,600 kilometers). The F-35 Lightning II is a fifth-generation, single-seat, single-engine, stealth multi-role fighter that can perform close air support, tactical bombing, and air defense missions. The F-35 has three different models: a conventional takeoff and landing variant; a short takeoff and vertical-landing variant; and a carrier-based variant. The F-35 is intended to be the world's premier strike aircraft through 2040, with close- and long-range air-to-air capability second only to that of the F-22 Raptor. The F-22 Raptor is a single seat, twin-engine, fifth-generation fighter aircraft. Its combination of stealth, supercruise, maneuverability, and integrated avionics, coupled with improved supportability, represents an exponential leap in warfighting capabilities. The Raptor performs both air-to-air and air-to-ground missions allowing full realization of operational concepts vital to the 21st century Air Force.</span>
       </div>
     </div>
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/micro.jpg)">
+        <img src="images5/micro.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Billie	Pierce</p>
-        <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+          <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>Micro Air Vehicles, Robotic Birds & Ornithopters</p>
+        <span class="caption">Engineers at Wright-Patterson AFB have found that designing micro air vehicles – or MAVs – is nothing like shrinking an F-16. At a mere six inches in length, Robotic Birds pack sensors, receivers, and power supplies that enable them to fly, hover, and rest virtually unnoticed – making them ideal vehicles for gathering intelligence. Motion capture – MOCAP – is an important support technology. Commonly used in video game development to record and digitize movement, MOCAP is now being employed by Air Force researchers to teach computers to fly remotely and to track air and land vehicles. Speaking of research, it doesn’t get “battier” than Air Force efforts to advance MAV capabilities. While MAVs are successfully being used in Afghanistan and Iraq, their wings are unsuited for maneuvering in tight spaces and harsh weather. So, researchers are modelling the next generation of MAVs on the sophisticated wings of bats, which actually change shape during flight, enabling them to remain airborne and flexible in difficult conditions. These Ornithopters (wing-flapping aircraft) will smoothly navigate turbulent weather and complex environments like forests, buildings, caves, and tunnels.</span>
       </div>
     </div>
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/arsenal.jpg)">
+        <img src="images5/arsenal.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Trevor	Copeland</p>
-        <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+        <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>Air Force Arsenal</p>
+        <span class="caption">With 162 bombers, 2,286 fighter/attack aircraft, and 203 helicopters in total active inventory—not to mention 450 intercontinental ballistic missiles (ICBMs)—the United States Air Force is well-equipped to do some serious damage to the enemy. Our elite STEM civilian workforce researches and develops the next generation of weapons technology.</span>
       </div>
     </div>
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/wind.jpg)">
+        <img src="images5/wind.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Bernadette	Newman</p>
+        <p class="title">AIR <span style="color:#33ccff;">INNOVATIONS</span><br>WIND TUNNELS</p>
         <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
       </div>
     </div>
@@ -208,35 +212,35 @@
 <div class="swiper-container nav-slider loading">
   <div class="swiper-wrapper" role="navigation">
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/scram-jet.jpg)">
+        <img src="images5/scram-jet.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Shaun Matthews</p>
+        <p class="title">SCRAMJET X51A RIDER</span></p>
       </div>
     </div>
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/stealth.jpg)">
+        <img src="images5/stealth.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Alexis Berry</p>
+        <p class="title">STEALTH TECHNOLOGY</p>
       </div>
     </div>
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/micro.jpg)">
+        <img src="images5/micro.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Billie	Pierce</p>
+        <p class="title">Micro Air Vehicles, Robotic Birds & Ornithopters</p>
       </div>
     </div>
     <div class="swiper-slide">
-      <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk)">
-        <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk" class="entity-img" />
+      <figure class="slide-bgimg" style="background-image:url(../images5/arsenal.jpg)">
+        <img src="images5/arsenal.jpg" class="entity-img" />
       </figure>
       <div class="content">
-        <p class="title">Trevor	Copeland</p>
+        <p class="title">Air Force Arsenal</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -300,7 +304,7 @@ let mainSliderOptions = {
       loop: true,
       speed:1000,
       autoplay:{
-        delay:3000
+        delay:5000
       },
       loopAdditionalSlides: 10,
       grabCursor: true,

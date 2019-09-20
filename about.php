@@ -6011,36 +6011,37 @@
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-top transparent">
+                                        <a style="font-size:14px" href="innovations.php">
                                       <img src="images5/innovations.png" class="img-responsive i1 child">
                                       <div class="funThing new">
-                                        <h1 id="topLine4" class="overlayText tlt00 openIt2">INNOVATIONS</h1>
+                                        <h1 id="topLine4" class="overlayText tlt00">INNOVATIONS</h1>
                                         <hr id="line" class="trans--grow hr1 grow10">
                                       </div>
-
+                                      </a>
                                     </div>
                                   </div>
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-middle transparent">
-
+                                        <a style="font-size:14px" href="history.php">
                                       <img src="images5/poster-history.png" class="img-responsive i2 child">
                                       <div class="funThing">
-                                        <h1 id="topLine4" class="overlayText tlt01 openIt3">HISTORY</h1>
+                                        <h1 id="topLine4" class="overlayText tlt01">HISTORY</h1>
                                         <hr id="line" class="trans--grow hr1">
                                       </div>
-
+                                    </a>
                                     </div>
                                   </div>
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-bottom transparent">
-                                      <!-- <a style="font-size:14px" href="videos.php"> -->
+                                      <a style="font-size:14px" href="videos.php">
                                       <img src="images5/cell.png" class="img-responsive i3 child">
                                       <div class="funThing">
-                                        <h1 id="topLine4" class="overlayText tlt02 openIt">VIDEOS</h1>
+                                        <h1 id="topLine4" class="overlayText tlt02">VIDEOS</h1>
                                         <hr id="line" class="trans--grow hr1">
                                       </div>
-                                      <!-- </a> -->
+                                      </a>
                                     </div>
                                   </div>
 
