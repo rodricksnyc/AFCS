@@ -25,7 +25,7 @@
   <link rel=stylesheet href="css/videos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/swiper.css">
-<link rel=stylesheet href="css/innovations-slider.css">
+<!-- <link rel=stylesheet href="css/innovations-slider.css"> -->
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
     <link rel=stylesheet href="css/history.css">
@@ -6207,7 +6207,7 @@
                           <div id="hiddenVideos">
                             <div class="container">
                               <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-lg-1 col-lg-offset-11">
+                                <div class="col-lg-1 col-lg-offset-11 col-md-offset-11 col-md-1 col-sm-offset-11 col-sm-1 col-xs-offset-10 col-xs-1">
                                   <div class="close3"></div>
                                 </div>
                               </div>
@@ -6219,7 +6219,7 @@
                                 <div class="row">
                                   <div class="col-xs-12 col-sm-12 col-lg-12">
 
-                                    <div class="Modern-Slider">
+                                    <!-- <div class="Modern-Slider">
                                       <div class="item">
                                         <div class="img-fill">
                                           <img src="images5/scram-jet.jpg" alt="">
@@ -6442,7 +6442,7 @@
                                         </div>
                                       </div>
 
-                                    </div>
+                                    </div> -->
 
 
                                   </div>
@@ -6459,7 +6459,7 @@
                           <div id="news" class="myNews">
                             <div class="container">
                               <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-lg-1 col-lg-offset-11">
+                                <div class="col-lg-1 col-lg-offset-11 col-md-offset-11 col-md-1 col-sm-offset-11 col-sm-1 col-xs-offset-10 col-xs-1">
                                   <div class="close4"></div>
                                 </div>
                               </div>
@@ -6764,22 +6764,20 @@
 
                   //Innovations slick slider
 
-
-                  $(".Modern-Slider").slick({
-                    autoplay:false,
-                    autoplaySpeed:10000,
-                    speed:600,
-                    slidesToShow:1,
-                    slidesToScroll:1,
-                    pauseOnHover:false,
-                    dots:false,
-                    pauseOnDotsHover:true,
-
-                   // fade:true,
-                    // draggable:true,
-                    prevArrow:'<button class="PrevArrow"></button>',
-                    nextArrow:'<button class="NextArrow"></button>',
-                  });
+                  //
+                  // $(".Modern-Slider").slick({
+                  //   autoplay:false,
+                  //   autoplaySpeed:10000,
+                  //   speed:600,
+                  //   slidesToShow:1,
+                  //   slidesToScroll:1,
+                  //   pauseOnHover:false,
+                  //   dots:false,
+                  //   pauseOnDotsHover:true,
+                  //
+                  //   prevArrow:'<button class="PrevArrow"></button>',
+                  //   nextArrow:'<button class="NextArrow"></button>',
+                  // });
 
 
 
@@ -7168,7 +7166,7 @@
 
                     $('#blocks8').css('margin-bottom', '0');
 
-                    $('.Modern-Slider').slick('refresh');
+                    // $('.Modern-Slider').slick('refresh');
 
                     e.stopPropagation();
 
