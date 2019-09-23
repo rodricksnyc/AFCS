@@ -324,16 +324,91 @@ span.number {
 
 }
 
-@media (max-width:567px) {
-  .wrapper ul li:first-of-type {
-    margin-left: 1200px;
+
+@media (max-width:1024px) {
+  .background {
+      background: url(/../images5/buff-crop.jpg);
+      background-size: contain;
+      background-position: 0px 15% !important;
+      background-repeat: no-repeat;
+      background-attachment: unset;
+      /* display: table; */
+      width: 100%;
+      height: 600px;
+      position: absolute;
+      z-index: 0;
   }
 
 
+
+.wrapper ul li:first-of-type {
+  margin-left: 1230px;
+}
+
+
+}
+
+@media (min-width:992px) and (max-width:1024px) {
   .wrapper {
     width: 100%;
-    height: 900px;
-  }
+    height: 500px;
+    transform: translateY(-50%);
+    position: relative;
+    overflow: unset;
+    margin: 0 auto;
+    margin-top: 1000px;
+    padding-bottom:20em;
+    padding-top:20em;
+}
+
+
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+  .wrapper {
+    width: 100%;
+    height: 500px;
+    transform: translateY(-50%);
+    position: relative;
+    overflow: unset;
+    margin: 0 auto;
+    margin-top: 900px;
+    padding-bottom:20em;
+    padding-top:20em;
+}
+
+
+}
+
+
+
+
+@media (max-width:767px) {
+  .wrapper {
+    width: 100%;
+    height: 500px;
+    transform: translateY(-50%);
+    position: relative;
+    overflow: unset;
+    margin: 0 auto;
+    margin-top: 685px;
+    padding-bottom:20em;
+    padding-top:20em;
+}
+
+h1.bigBlocks {
+    color: white;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 26px !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wrapper ul li:first-of-type {
+  margin-left: 1200px;
+}
+
 }
 
 </style>
@@ -490,6 +565,9 @@ span.number {
 });
 
 
+
+  if ($(document).innerWidth() >= 1025) {
+
   $("#four").mouseenter(function(){
 
       $('.background').fadeTo('slow', 0.3, function() {
@@ -521,47 +599,50 @@ span.number {
 
   });
 
+}
 
 
-    // var currentBackground = 0;
-    //
-    // var backgrounds = [];
-    //
-    // backgrounds[0] = 'images5/buff.jpg';
-    //
-    // backgrounds[1] = 'images5/gg-blanks.png';
-    // //
-    // // backgrounds[2] = 'images5/lmale.png';
-    // //
-    // // backgrounds[3] = 'images5/buff.jpg';
-    // //
-    // // backgrounds[4] = 'images5/gg-blanks.png';
-    //
-    // function changeBackground() {
-    //
-    //     currentBackground++;
-    //
-    //     if(currentBackground > 2) currentBackground = 0;
-    //
-    //     $('.background').fadeOut(1500,function() {
-    //         $('.background').css({
-    //             'background-image' : "url('" + backgrounds[currentBackground] + "')"
-    //         });
-    //         $('.background').fadeIn(1500);
-    //     });
-    //
-    //
-    //     setTimeout(changeBackground, 5000);
-    // }
-    //
-    // $(document).ready(function() {
-    //
-    //     setTimeout(changeBackground, 5000);
-    //
-    // });
+  if ($(document).innerWidth() <= 1024) {
+
+    var currentBackground = 0;
+
+    var backgrounds = [];
+
+    backgrounds[0] = 'images5/buff-crop.jpg';
+
+    backgrounds[1] = 'images5/gg-blanks-crop.png';
+
+    backgrounds[2] = 'images5/lmale-crop.png';
+
+    backgrounds[3] = 'images5/buff-crop.jpg';
+
+    backgrounds[4] = 'images5/gg-blanks-crop.png';
+
+    function changeBackground() {
+
+        currentBackground++;
+
+        if(currentBackground > 2) currentBackground = 0;
+
+        $('.background').fadeOut(1500,function() {
+            $('.background').css({
+                'background-image' : "url('" + backgrounds[currentBackground] + "')"
+            });
+            $('.background').fadeIn(1500);
+        });
 
 
+        setTimeout(changeBackground, 5000);
+    }
 
+    $(document).ready(function() {
+
+        setTimeout(changeBackground, 5000);
+
+    });
+
+
+}
 
 
 

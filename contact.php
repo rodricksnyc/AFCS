@@ -38,7 +38,7 @@
   <a href="#bottom" id="top"></a>
   <a href="#veryBottom" id="veryTop"></a>
   <div style="background: #262932 !important;" id="site-wrapper">
-  <?php include("nav-include/index-navbar.php"); ?>
+  <?php include("nav-include/contact-navbar.php"); ?>
 
   <div id="tipModal">
   </div>

@@ -20,7 +20,7 @@
             <li class="smaller"><a class="whiteLink" href="about.php#location">Locations</a></li>
             <li class="smaller"><a class="whiteLink" href="history.php">History</a></li>
             <li class="smaller"><a class="whiteLink" href="innovations.php">AFCS Innovations</a></li>
-            <li class="smaller"><a class="whiteLink" href="about.php#anchorPointTop">Video Gallery</a></li>
+            <li class="smaller"><a class="whiteLink" href="videos.php">Video Gallery</a></li>
 
             <!-- <li class="smaller"><img src="images5/liner.jpg" id="slideUpLiner2"></li> -->
 
@@ -134,7 +134,7 @@
                       <li class="smaller3"><a class="whiteLink" href="about.php#location">Locations</a></li>
                       <li class="smaller3"><a class="whiteLink" href="history.php">History</a></li>
                       <li class="smaller3"><a class="whiteLink" href="innovations.php">AFCS Innovations</a></li>
-                      <li class="smaller3"><a class="whiteLink" href="about.php#anchorPointTop">Video Gallery</a></li>
+                      <li class="smaller3"><a class="whiteLink" href="videos.php">Video Gallery</a></li>
 
                     </ul>
                   </div>

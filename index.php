@@ -713,7 +713,7 @@ include 'blog2/wp-load.php';
           <!-- <script src="calendar-js/list-main.js"></script> -->
 
           <script src="js5/afcs-homepage2.js"></script>
-
+          
 
           <script src="tipuesearch/tipuesearch_set.js"></script>
           <script src="tipuesearch/tipuesearch_content.js"></script>

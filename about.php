@@ -6757,6 +6757,9 @@
                   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
                   <script src="js5/about.js"></script>
 
+
+
+
                   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
 
                   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY810Ql4ysaCFgHNFF2olzw3RpuNK1HbE&libraries=places"></script>
