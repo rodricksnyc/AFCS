@@ -32,13 +32,13 @@
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148601720-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', 'UA-148601720-1');
+gtag('config', 'UA-17154729-1');
 </script>
 
 <script>
@@ -46,7 +46,7 @@ gtag('config', 'UA-148601720-1');
    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-148601720-1', 'auto');
+   ga('create', 'UA-17154729-1', 'auto');
    ga('send', 'pageview');
  </script>
 
@@ -127,16 +127,16 @@ gtag('config', 'UA-148601720-1');
 
               <div class="content-secondLast transparent">
                 <p class="small noMargin">
-                  <a class="small strong" href="https://www.foia.af.mil/" target="_blank">Freedom of Information Act (FOIA)</a>
+                  <a class="small strong" href="https://www.foia.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Freedom of Information Act (FOIA) link', 'click', 'Contact Page');">Freedom of Information Act (FOIA)</a>
                 </p>
                 <p class="small noMargin">
-                  <a class="small strong" href="https://www.afinspectorgeneral.af.mil/" target="_blank">Air Force Inspector General (IG)</a>
+                  <a class="small strong" href="https://www.afinspectorgeneral.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Air Force Inspector General (IG) link', 'click', 'Contact Page');">Air Force Inspector General (IG)</a>
                 </p>
                 <p class="small noMargin">
-                  <a class="small strong" href="https://www.adr.af.mil/" target="_blank">Negotiation & Dispute Resolution</a>
+                  <a class="small strong" href="https://www.adr.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Negotiation & Dispute Resolution link', 'click', 'Contact Page');">Negotiation & Dispute Resolution</a>
                 </p>
                 <p class="small noMargin">
-                  <a class="small strong" href="accessibility.php">Accessibility Policy</a>
+                  <a class="small strong" href="accessibility.php" onclick="ga('send', 'event', 'Go to Accessibility Page', 'click', 'Contact Page');">Accessibility Policy</a>
                 </p>
                 <p class="small noMargin">
 
@@ -147,16 +147,16 @@ gtag('config', 'UA-148601720-1');
 
               <div class="content-thirdLast transparent">
                 <p class="small noMargin">
-                  <a class="small strong" href="https://www.defense.gov/our-story/" target="_blank">About Us (Department of Defense)</a>
+                  <a class="small strong" href="https://www.defense.gov/our-story/" target="_blank" onclick="ga('send', 'event', 'Go to About Us (Department of Defense) link', 'click', 'Contact Page');">About Us (Department of Defense)</a>
                 </p>
                 <p class="small noMargin">
-                  <a class="small strong" href="https://cmo.defense.gov/Home/" target="_blank">Department of Defense Annual Performance Plan and Report</a>
+                  <a class="small strong" href="https://cmo.defense.gov/Home/" target="_blank" onclick="ga('send', 'event', 'Go to Department of Defense Annual Performance Plan and Report link', 'click', 'Contact Page');">Department of Defense Annual Performance Plan and Report</a>
                 </p>
                 <p class="small noMargin">
-                  <a class="small strong" href="legal.php">Legal Policies</a>
+                  <a class="small strong" href="legal.php" onclick="ga('send', 'event', 'Go to Legal Page', 'click', 'Contact Page');">Legal Policies</a>
                 </p>
                 <p class="small noMargin">
-                  <a class="small strong" href="regulatory.php">Regulatory Guidance</a>
+                  <a class="small strong" href="regulatory.php" onclick="ga('send', 'event', 'Go to Regulatory Page', 'click', 'Contact Page');">Regulatory Guidance</a>
                 </p>
                 <!-- <p class="small noMargin">
                   <a class="small strong" href="https://www.nafjobs.org/" target="_blank">Additional Jobs at Air Force Bases</a>

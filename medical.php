@@ -37,13 +37,13 @@
   <link rel=stylesheet href="css/finance.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148601720-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-148601720-1');
+  gtag('config', 'UA-17154729-1');
 </script>
 
 <script>
@@ -51,7 +51,7 @@
    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-148601720-1', 'auto');
+   ga('create', 'UA-17154729-1', 'auto');
    ga('send', 'pageview');
  </script>
 
