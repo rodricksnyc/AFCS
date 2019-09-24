@@ -35,6 +35,25 @@ include 'blog2/wp-load.php';
 
 <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148601720-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-148601720-1');
+</script>
+
+<script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+   ga('create', 'UA-148601720-1', 'auto');
+   ga('send', 'pageview');
+ </script>
+
 </head>
 
 <body>
@@ -131,7 +150,7 @@ include 'blog2/wp-load.php';
                 <div class="parent content-top transparent">
                   <img src="images5/4-block.png" class="img-responsive i1 child">
                   <div class="funThing new" id="b30">
-                    <h1 id="topLine4" class="overlayText tlt1 openIt2">VIDEOS</h1>
+                    <h1 id="topLine4" class="overlayText tlt1 openIt2" onclick="ga('send', 'event', 'Open Videos', 'click', 'Index Page');">VIDEOS</h1>
                     <hr id="line" class="trans--grow hr1">
                   </div>
                 </div>
@@ -141,7 +160,7 @@ include 'blog2/wp-load.php';
                 <div class="parent content-middle transparent">
                   <img src="images5/5-block.png" class="img-responsive i2 child">
                   <div class="funThing" id="b30">
-                    <h1 id="topLine4" class="overlayText tlt2 openIt3">NEWS</h1>
+                    <h1 id="topLine4" class="overlayText tlt2 openIt3" onclick="ga('send', 'event', 'Open News', 'click', 'Index Page');">NEWS</h1>
                     <hr id="line" class="trans--grow hr1">
                   </div>
                 </div>
@@ -151,7 +170,7 @@ include 'blog2/wp-load.php';
                 <div class="parent content-bottom transparent">
                   <img src="images5/6-block.png" class="img-responsive i3 child">
                   <div class="funThing" id="b30">
-                    <h1 id="topLine4" class="overlayText tlt3 openIt">EVENTS</h1>
+                    <h1 id="topLine4" class="overlayText tlt3 openIt" onclick="ga('send', 'event', 'Open Events', 'click', 'Index Page');">EVENTS</h1>
                     <hr id="line" class="trans--grow hr1">
                   </div>
                 </div>
@@ -377,7 +396,7 @@ include 'blog2/wp-load.php';
                   <h4 style='text-align:left;margin-bottom:10px;'><?php the_date();  ?></h4>
                   <div class="hideOnClick"><?php the_excerpt(); ?></div>
 
-                  <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>">LEARN MORE</a></h2>
+                  <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>" onclick="ga('send', 'event', 'View Wordpress Post', 'click', 'Index Page');">LEARN MORE</a></h2>
 
                   <div class='hideInitial'>
                     <?php the_content(); ?>
@@ -713,7 +732,7 @@ include 'blog2/wp-load.php';
           <!-- <script src="calendar-js/list-main.js"></script> -->
 
           <script src="js5/afcs-homepage2.js"></script>
-          
+
 
           <script src="tipuesearch/tipuesearch_set.js"></script>
           <script src="tipuesearch/tipuesearch_content.js"></script>

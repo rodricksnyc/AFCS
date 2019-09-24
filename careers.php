@@ -31,6 +31,24 @@
   <link rel=stylesheet href="css/navbar.css">
   <title>Air Force Civilian Service 4.0</title>
   <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148601720-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148601720-1');
+</script>
+<script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+   ga('create', 'UA-148601720-1', 'auto');
+   ga('send', 'pageview');
+ </script>
 </head>
 
 <body>
@@ -96,7 +114,7 @@
         <div class="centerBlocks">
           <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
             <div class="parent content-top transparent">
-              <a style="font-size:14px;" href="students-and-graduates.php">
+              <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'Careers Page');">
                 <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i1 new child">
                 <div class="funThing" id="b31">
                   <h1 id="topLine3" class="overlayText tlt41">STUDENTS &</h1>
@@ -252,7 +270,7 @@
         <div class="addShadow">
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-top transparent">
-              <a href="acm.php" style="font-size:14px;">
+              <a href="acm.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to ACM Page', 'click', 'Careers Page');">
                 <img src="images5/acq-her.png" class="img-responsive i1 child">
                 <div class="funThing new2" id="b30">
                   <h1 id="topLine5" class="overlayText tlt5">ACQUISITION</h1>
@@ -266,7 +284,7 @@
 
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-middle transparent">
-              <a href="administrative.php" style="font-size:14px;">
+              <a href="administrative.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Administrative Page', 'click', 'Careers Page');">
                 <img src="images5/admin.png" class="img-responsive i2 child">
                 <div class="funThing" id="b30">
                   <h1 id="topLine5" class="overlayText tlt6">ADMINISTRATIVE</h1>
@@ -279,7 +297,7 @@
 
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-bottom transparent">
-              <a href="aircraft.php" style="font-size:14px;">
+              <a href="aircraft.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Aircraft Page', 'click', 'Careers Page');">
                 <img src="images5/aircraft-new.png" class="img-responsive i3 child">
                 <div class="funThing" id="b30">
                   <h1 id="topLine5" class="overlayText tlt7">AIRCRAFT</h1>
@@ -292,7 +310,7 @@
 
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-last transparent">
-              <a href="veterinarian.php" style="font-size:14px;">
+              <a href="veterinarian.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Veterinarian Page', 'click', 'Careers Page');">
                 <img src="images5/vet.png" class="img-responsive i88 child">
                 <div class="funThing" id="b30">
                   <h1 id="topLine5" class="overlayText tlt8">ANIMAL CARE &</h1>
@@ -320,7 +338,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-top transparent">
-            <a href="auditing.php" style="font-size:14px;">
+            <a href="auditing.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Audit Page', 'click', 'Careers Page');">
               <img src="images5/audit.png" class="img-responsive i1 child">
               <div class="funThing new2" id="b30">
                 <h1 id="topLine2" class="overlayText tlt9">AUDITING</h1>
@@ -333,7 +351,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-middle transparent">
-            <a href="chaplain.php" style="font-size:14px;">
+            <a href="chaplain.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Chaplain Page', 'click', 'Careers Page');">
               <img src="images5/chaplain-square.png" class="img-responsive i2 child">
               <div class="funThing" id="b30">
                 <h1 id="topLine2" class="overlayText tlt10">CHAPLAIN</h1>
@@ -346,7 +364,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-bottom transparent">
-            <a href="engineering.php" style="font-size:14px;">
+            <a href="engineering.php" style="font-size:14px;" onclick="ga('send', 'event', 'Engineering', 'click', 'Careers Page');">
               <img src="images5/civil-e.png" class="img-responsive i2 child">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt11">CIVIL</h1>
@@ -360,7 +378,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-last transparent">
-          <a href="cyber.php" style="font-size:14px;">
+          <a href="cyber.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Cyber Page', 'click', 'Careers Page');">
             <img src="images5/cyber.png" class="img-responsive i3 child">
             <div class="funThing" id="b30">
               <h1 id="topLine5" class="overlayText tlt12">CYBER &</h1>
@@ -386,7 +404,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-top transparent">
-          <a href="finance.php" style="font-size:14px;">
+          <a href="finance.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Finance Page', 'click', 'Careers Page');">
             <img src="images5/finance-cropped.png" class="img-responsive i88 child">
             <div class="funThing new2" id="b30">
               <h1 id="topLine5" class="overlayText tlt13">FINANCE &</h1>
@@ -399,7 +417,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-middle transparent">
-          <a href="fire.php" style="font-size:14px;">
+          <a href="fire.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Fire Page', 'click', 'Careers Page');">
             <img src="images5/fire.png" class="img-responsive i1 child">
             <div class="funThing" id="b30">
               <h1 id="topLine5" class="overlayText tlt14">FIRE</h1>
@@ -412,7 +430,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-bottom transparent">
-          <a href="history-and-museums.php" style="font-size:14px;">
+          <a href="history-and-museums.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to History and Museums Page', 'click', 'Careers Page');">
             <img src="images5/history-square.png" class="img-responsive i1 child">
             <div class="funThing" id="b30">
               <h1 id="topLine5" class="overlayText tlt15">HISTORY &</h1>
@@ -426,7 +444,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-last transparent">
-          <a href="international.php" style="font-size:14px;">
+          <a href="international.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to International Page', 'click', 'Careers Page');">
             <img src="images5/international-square.png" class="img-responsive i1 child">
             <div class="funThing" id="b30">
               <h1 id="topLine5" class="overlayText tlt16">INTERNATIONAL</h1>
@@ -452,7 +470,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-top transparent">
-            <a href="law.php" style="font-size:14px;">
+            <a href="law.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Law Page', 'click', 'Careers Page');">
               <img src="images5/law.png" class="img-responsive i2 child">
               <div class="funThing new2" id="b30">
                 <h1 id="topLine5" class="overlayText tlt14">LAW</h1>
@@ -468,7 +486,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
 
           <div class="parent content-middle transparent">
-            <a href="logistics.php" style="font-size:14px;">
+            <a href="logistics.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Logistics Page', 'click', 'Careers Page');">
               <img src="images5/logistics.png" class="img-responsive i3 child">
               <div class="funThing" id="b30">
                 <h1 id="topLine2" class="overlayText tlt15">LOGISTICS</h1>
@@ -482,7 +500,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
 
           <div class="parent content-bottom transparent">
-            <a href="medical.php" style="font-size:14px;">
+            <a href="medical.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Medical Page', 'click', 'Careers Page');">
               <img src="images5/mental.png" class="img-responsive i88 child">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt16">MEDICAL &</h1>
@@ -496,7 +514,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-last transparent">
-            <a href="pilot.php" style="font-size:14px;">
+            <a href="pilot.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Pilot Page', 'click', 'Careers Page');">
               <img src="images5/pilot.png" class="img-responsive i1 child">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt17">PILOT &</h1>
@@ -524,7 +542,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-top transparent">
-            <a href="trades.php" style="font-size:14px;">
+            <a href="trades.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Skilled Trades Page', 'click', 'Careers Page');">
               <img src="images5/trades.png" class="img-responsive i2 child">
               <div class="funThing new2" id="b30">
                 <h1 id="topLine2" class="overlayText tlt00">SKILLED TRADES</h1>
@@ -536,7 +554,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-middle transparent">
-            <a href="stem.php" style="font-size:14px;">
+            <a href="stem.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to STEM Page', 'click', 'Careers Page');">
               <img src="images5/stem-square.png" class="img-responsive i3 child">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt01">STEM</h1>
@@ -549,7 +567,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-bottom transparent">
-            <a href="social.php" style="font-size:14px;">
+            <a href="social.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Social Services Page', 'click', 'Careers Page');">
               <img src="images5/social-services.png" class="img-responsive i88 child">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt02">SOCIAL</h1>
@@ -564,7 +582,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-last transparent">
-            <a href="weather.php" style="font-size:14px;">
+            <a href="weather.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Weather Page', 'click', 'Careers Page');">
               <img src="images5/weather-square.png" class="img-responsive i88 child">
               <div class="funThing" id="b30">
                 <h1 id="topLine2" class="overlayText tlt03">WEATHER</h1>

@@ -400,6 +400,13 @@ h1.acq.two {
   font-size: 1em;
   font-weight:900 !important;
 }
+
+.whiteStrong:hover {
+  color:white;
+  text-decoration:underline;
+  font-size: 1em;
+  font-weight:900 !important;
+}
 li.whiteList {
     height: auto !important;
 }

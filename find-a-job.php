@@ -33,7 +33,24 @@
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
 <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148601720-1"></script> 
+ <script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
+gtag('config', 'UA-148601720-1');
+</script>
+
+<script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+   ga('create', 'UA-148601720-1', 'auto');
+   ga('send', 'pageview');
+ </script>
 </head>
 
 <style>
@@ -191,7 +208,7 @@
         <div class="col-xs-12 col-lg-12">
 
           <h1 class="acq content-top transparent">How to Apply</h1>
-          <p class="small content-middle transparent">All AFCS job opportunities are also listed on the Federal Government’s official one-stop source for Federal jobs and employment information, USAJOBS. Access AFCS job opportunities at <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank">airforce.usajobs.gov.</a></p>
+          <p class="small content-middle transparent">All AFCS job opportunities are also listed on the Federal Government’s official one-stop source for Federal jobs and employment information, USAJOBS. Access AFCS job opportunities at <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'Go to USAJobs Page', 'click', 'Find A Job Page');">airforce.usajobs.gov.</a></p>
 
           <p class="small content-bottom transparent">Follow the steps below to determine if you are qualified and eligible, and apply for a position with AFCS.</p>
 
@@ -207,13 +224,13 @@
             <p class="small">Like any employer, AFCS expects you to be “qualified” when you apply for a position, but unlike some employers, you must also be “eligible.” What’s the difference? It’s actually pretty simple.</p>
           </div>
 
-          <p class="small content-thirdLast transparent">“Qualification” is based on education and/or experience. As with any other employer, you will need to have certain educational and/or work experience in order to be qualified for a given position. For example, if you want a job as a doctor, you need to have completed medical school and fulfilled the related requirements. The kinds of background needed are always clearly detailed in the Job Opportunity Announcement listed at <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank">airforce.usajobs.gov.</a> Be sure you meet those expectations before you decide to apply.</p>
+          <p class="small content-thirdLast transparent">“Qualification” is based on education and/or experience. As with any other employer, you will need to have certain educational and/or work experience in order to be qualified for a given position. For example, if you want a job as a doctor, you need to have completed medical school and fulfilled the related requirements. The kinds of background needed are always clearly detailed in the Job Opportunity Announcement listed at <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'Go to USAJobs Page', 'click', 'Find A Job Page');">airforce.usajobs.gov.</a> Be sure you meet those expectations before you decide to apply.</p>
           <p class="small content-fourthLast transparent">However, even if you are completely “qualified” for a job, you may not actually be “eligible.” In the Federal jobs environment, “eligibility” refers to Federal regulatory requirements that determine who can apply for specific jobs.</p>
 
           <div class="content-fifthLast transparent">
             <p class="small">Each AFCS Job Opportunity Announcement will carefully spell out who is eligible to apply in the “Who May Apply” section. Further details on who may apply can be found in the “Other Information” and “How to Apply” sections. It is very important to review these requirements carefully. If you do not meet the requirements listed, you may not apply for the job.</p>
 
-            <p class="small2">For additional information on this subject please review the "<a class="whiteStrong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank">Air Force Civilian Employment Eligibility Guide.</a>""</p>
+            <p class="small2">For additional information on this subject please review the "<a class="whiteStrong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank" onclick="ga('send', 'event', 'AF Civilian Employment Eligibility Guide PDF', 'click', 'Find A Job Page');">Air Force Civilian Employment Eligibility Guide.</a>""</p>
           </div>
 
         </div>
@@ -238,7 +255,7 @@
             <ul class="whiteList content-last transparent">
               <li class="whiteList">Our Jobs Discovery App will line up your education, skills, and experience with positions that need people with your background. You might be surprised at the variety of options you discover.</li>
               <li class="whiteList">Our Jobs Map lets you find positions that are available at every base and installation in the United States and around the world. </li>
-              <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" target="_blank" href="https://airforce.usajobs.gov/">airforce.usajobs.gov</a></li>
+              <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" target="_blank" href="https://airforce.usajobs.gov/" onclick="ga('send', 'event', 'Second USAJOBS link', 'click', 'Find A Job Page');">airforce.usajobs.gov</a></li>
             </ul>
 
             <h1 class="acq two content-secondLast transparent">Step 2: Read the Job Announcement</h1>
@@ -247,7 +264,7 @@
             </div>
             <div class="content-fourthLast transparent">
               <h1 class="acq two">Step 3: Apply for the Job</h1>
-              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="whiteStrong" target="_blank" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/">USAJOBS.gov</a>.</p>
+              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="whiteStrong" target="_blank" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" onclick="ga('send', 'event', 'Third USAJOBs link', 'click', 'Find A Job Page');">USAJOBS.gov</a>.</p>
 
 
               <img src="images5/liner.jpg" id="slideUpLiner3">

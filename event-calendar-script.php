@@ -10,7 +10,6 @@ if(!isset($events)) {
 ?>
 
 
-
 <?php if ($events->have_posts()) : ?>
 
     events: [

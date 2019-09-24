@@ -32,6 +32,25 @@
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
 
   <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148601720-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148601720-1');
+</script>
+<script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+   ga('create', 'UA-148601720-1', 'auto');
+   ga('send', 'pageview');
+ </script>
+
 </head>
 
 
@@ -91,7 +110,7 @@
           <div class="centerBlocks">
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
-                <a style="font-size:14px;" href="acquisition.php">
+                <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition Page', 'click', 'About Page');">
                   <img id="mobileSmall" src="images5/career-slide1.png" class="img-responsive i1 child">
                   <div class="funThing new" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">ACQUISITION</h1>
@@ -104,7 +123,7 @@
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-middle transparent">
-                <a style="font-size:14px;" href="aftac.php">
+                <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Page', 'click', 'About Page');">
                   <img id="mobileSmall" src="images5/career-slide2.png" class="img-responsive i2 child">
                   <div class="funThing" id="b33">
                     <h1 id="topLine4" class="overlayText tlt42">AFTAC</h1>
@@ -116,7 +135,7 @@
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
-                <a style="font-size:14px;" href="students-and-graduates.php">
+                <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'About Page');">
                   <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i3 child">
 
                   <div class="funThing" id="b33">
@@ -6011,7 +6030,7 @@
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-top transparent">
-                                        <a style="font-size:14px" href="innovations.php">
+                                        <a style="font-size:14px" href="innovations.php" onclick="ga('send', 'event', 'Go to Innovations Page', 'click', 'About Page');">
                                       <img src="images5/innovations.png" class="img-responsive i1 child">
                                       <div class="funThing new">
                                         <h1 id="topLine4" class="overlayText tlt00">INNOVATIONS</h1>
@@ -6023,7 +6042,7 @@
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-middle transparent">
-                                        <a style="font-size:14px" href="history.php">
+                                        <a style="font-size:14px" href="history.php" onclick="ga('send', 'event', 'Go to History Page', 'click', 'About Page');">
                                       <img src="images5/poster-history.png" class="img-responsive i2 child">
                                       <div class="funThing">
                                         <h1 id="topLine4" class="overlayText tlt01">HISTORY</h1>
@@ -6035,7 +6054,7 @@
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-bottom transparent">
-                                      <a style="font-size:14px" href="videos.php">
+                                      <a style="font-size:14px" href="videos.php" onclick="ga('send', 'event', 'Go to Videos Page', 'click', 'About Page');">
                                       <img src="images5/cell.png" class="img-responsive i3 child">
                                       <div class="funThing">
                                         <h1 id="topLine4" class="overlayText tlt02">VIDEOS</h1>
