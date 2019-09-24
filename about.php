@@ -80,7 +80,7 @@
         <div class="col-xs-12 col-lg-12">
           <div id="hero-slider2">
 
-            <div class="hero-slide" style="background-image: url('./images5/aboutslider.png');">
+            <div class="hero-slide" style="background-image: url('./images5/aboutslider.png');" alt="About Landing Image - 2 members of the Air Force">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12">
@@ -110,8 +110,8 @@
           <div class="centerBlocks">
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
-                <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition Page', 'click', 'About Page');">
-                  <img id="mobileSmall" src="images5/career-slide1.png" class="img-responsive i1 child">
+                <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition Page', 'click', 'About Page');" alt="Acquisition Force Button Image - scramjet X-51 wave rider">
+                  <img id="mobileSmall" src="images5/career-slide1.png" class="img-responsive i1 child" alt="Acquisition Force Link Button Image - scramjet X-51 wave rider">
                   <div class="funThing new" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">ACQUISITION</h1>
                     <h1 id="topLine4" class="overlayText tlt41">FORCE</h1>
@@ -123,8 +123,8 @@
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-middle transparent">
-                <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Page', 'click', 'About Page');">
-                  <img id="mobileSmall" src="images5/career-slide2.png" class="img-responsive i2 child">
+                <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Page', 'click', 'About Page');" alt="AFTAC Link Button Image - 1 lab technician posing in front of an array of computing and analytic equipment">
+                  <img id="mobileSmall" src="images5/career-slide2.png" class="img-responsive i2 child" alt="AFTAC Link Button Image - 1 lab technician posing in front of an array of computing and analytic equipment">
                   <div class="funThing" id="b33">
                     <h1 id="topLine4" class="overlayText tlt42">AFTAC</h1>
                     <hr id="line" class="trans--grow hr1">
@@ -135,8 +135,8 @@
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
-                <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'About Page');">
-                  <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i3 child">
+                <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'About Page');" alt="Students and Graduates Link Button Image -  a student studying in front of her computer">
+                  <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i3 child" alt="Students and Graduates Link Button Image -  a student studying in front of her computer">
 
                   <div class="funThing" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">STUDENTS &</h1>
@@ -5967,7 +5967,7 @@
 
                                   <div class="content-top transparent">
 
-                                    <img src="images5/about-diversity.png" class="img-responsive" style="-webkit-box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);-moz-box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);">
+                                    <img src="images5/about-diversity.png" class="img-responsive" alt="Diversity image - a group of students sitting on a bunch" style="-webkit-box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);-moz-box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);">
 
 
                                   </div>
@@ -6030,8 +6030,8 @@
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-top transparent">
-                                        <a style="font-size:14px" href="innovations.php" onclick="ga('send', 'event', 'Go to Innovations Page', 'click', 'About Page');">
-                                      <img src="images5/innovations.png" class="img-responsive i1 child">
+                                        <a style="font-size:14px" href="innovations.php" onclick="ga('send', 'event', 'Go to Innovations Page', 'click', 'About Page');" alt="Innovations Link Button Image - Rockets taking off">
+                                      <img src="images5/innovations.png" class="img-responsive i1 child" alt="Innovations Link Button Image - Rockets taking off">
                                       <div class="funThing new">
                                         <h1 id="topLine4" class="overlayText tlt00">INNOVATIONS</h1>
                                         <hr id="line" class="trans--grow hr1 grow10">
@@ -6042,20 +6042,20 @@
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-middle transparent">
-                                        <a style="font-size:14px" href="history.php" onclick="ga('send', 'event', 'Go to History Page', 'click', 'About Page');">
-                                      <img src="images5/poster-history.png" class="img-responsive i2 child">
+                                      <a style="font-size:14px" href="history.php" onclick="ga('send', 'event', 'Go to History Page', 'click', 'About Page');" alt="History Link Button Image - 1941 The first black flying unit, 99th Pursuit Squadron">
+                                      <img src="images5/poster-history.png" class="img-responsive i2 child" alt="History Link Button Image - 1941 The first black flying unit, 99th Pursuit Squadron">
                                       <div class="funThing">
                                         <h1 id="topLine4" class="overlayText tlt01">HISTORY</h1>
                                         <hr id="line" class="trans--grow hr1">
                                       </div>
-                                    </a>
+                                      </a>
                                     </div>
                                   </div>
 
                                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                                     <div class="parent content-bottom transparent">
-                                      <a style="font-size:14px" href="videos.php" onclick="ga('send', 'event', 'Go to Videos Page', 'click', 'About Page');">
-                                      <img src="images5/cell.png" class="img-responsive i3 child">
+                                      <a style="font-size:14px" href="videos.php" onclick="ga('send', 'event', 'Go to Videos Page', 'click', 'About Page');" alt="Videos Link Button Image - Nuclear Engineering image">
+                                      <img src="images5/cell.png" class="img-responsive i3 child" alt="Videos Link Button Image - Nuclear Engineering image">
                                       <div class="funThing">
                                         <h1 id="topLine4" class="overlayText tlt02">VIDEOS</h1>
                                         <hr id="line" class="trans--grow hr1">

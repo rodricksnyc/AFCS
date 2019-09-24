@@ -33,7 +33,7 @@
           </span>
         </li>
         <li>
-          <a class="navyBlock" href="roa.php">Register</a>
+          <a class="navyBlock" href="https://www.afciviliancareers.com/afciviliancareers">Register</a>
         </li>
       </ul>
     </div>
@@ -106,7 +106,7 @@
               </form>
               <br>
               <li class="allAcross">
-                <a id="liRegister" class="highlight three thing" href="roa.php">Register</a>
+                <a id="liRegister" class="highlight three thing" href="https://www.afciviliancareers.com/afciviliancareers">Register</a>
               </li>
             </ul>
           </span>

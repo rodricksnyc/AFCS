@@ -147,7 +147,7 @@ gtag('config', 'UA-17154729-1');
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-top transparent">
-                  <a style="font-size:14px" href="acquisition.php">
+                  <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'Testing Benefits page');">
                   <img src="images5/acqhome.png" class="img-responsive i6 child">
                   <div class="funThing new3">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
@@ -160,7 +160,7 @@ gtag('config', 'UA-17154729-1');
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-middle transparent">
-                  <a style="font-size:14px" href="testing-careers.php">
+                  <a style="font-size:14px" href="testing-careers.php" onclick="ga('send', 'event', 'Go to Testing Careers', 'click', 'Testing Benefits page');">
                   <img src="images5/careers-button.png" class="img-responsive i7 child">
                   <div class="funThing">
                     <!-- <h1 id="topLine5" class="overlayText tlt101">NUCLEAR</h1> -->
@@ -173,7 +173,7 @@ gtag('config', 'UA-17154729-1');
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-last transparent">
-                  <a style="font-size:14px" href="testing-locations.php">
+                  <a style="font-size:14px" href="testing-locations.php" onclick="ga('send', 'event', 'Go to Testing Locations', 'click', 'Testing Benefits page');">
                   <img src="images5/locations-button.png" class="img-responsive i5 child">
                     <div class="funThing">
                       <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
@@ -295,12 +295,12 @@ gtag('config', 'UA-17154729-1');
         <div class="row heros">
           <div class="col-xs-12 col-lg-12">
             <div class="content-top transparent">
-              <p class="small">For more detailed information on benefits, visit the <a class="small strong" href="https://www.opm.gov/healthcare-insurance/" target="_blank">U.S. Office of Personnel Management’s benefits page</a>.</p>
+              <p class="small">For more detailed information on benefits, visit the <a class="small strong" href="https://www.opm.gov/healthcare-insurance/" target="_blank" onclick="ga('send', 'event', 'Go to OPM', 'click', 'Testing Benefits page');">U.S. Office of Personnel Management’s benefits page</a>.</p>
                 <p class="small"><span class="strong">Acquisition Demonstration Project:</span> Competitive Compensation</p>
             </div>
 
             <div class="content-middle transparent">
-            <p class="small">If you’re familiar with federal careers, you probably know about the General Schedule, or GS, pay system. The Air Force and Department of Defense (DoD) needed a more flexible option that would allow us to attract the highest caliber individuals to join our team. That option is the <a class="small strong" href="http://acqdemo.hci.mil/" target="_blank">Acquisition Demonstration Project</a> – or “Acq Demo.” Unlike the GS system, there are three career paths to consider: Business Management and Technical Management Professional (NH), Technical Management Support (NJ) and Administrative Support (NK).</p>
+            <p class="small">If you’re familiar with federal careers, you probably know about the General Schedule, or GS, pay system. The Air Force and Department of Defense (DoD) needed a more flexible option that would allow us to attract the highest caliber individuals to join our team. That option is the <a class="small strong" href="http://acqdemo.hci.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Acq Demo', 'click', 'Testing Benefits page');">Acquisition Demonstration Project</a> – or “Acq Demo.” Unlike the GS system, there are three career paths to consider: Business Management and Technical Management Professional (NH), Technical Management Support (NJ) and Administrative Support (NK).</p>
 
             </div>
 
@@ -554,9 +554,9 @@ gtag('config', 'UA-17154729-1');
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Benefits page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Benefits page');">Back to Occupations</a>
             </div>
 
           </div>

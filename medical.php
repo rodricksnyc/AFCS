@@ -170,8 +170,6 @@
 
               <h1 class="acq small content-top transparent">Find Balance</h1>
 
-
-
           <p class="small content-middle transparent"><span class="strong">Preventive care is a priority. Equipment is the very latest. Treat patients without restrictions on time.</span></p>
 
           <div class="content-bottom transparent">
@@ -195,9 +193,6 @@
 
              <p class="small noMargin"><span class="strong">And, there's no need to carry malpractice insurance</span></p>
            </div>
-
-
-
 
 
            <div class="content-thirdLast transparent">
@@ -665,9 +660,9 @@
             </div>
 
             <div class="bluish3 content-middle transparent">
-              <div class="bluishButton"><a class="white" href="roa.html">Register</a></div>
+              <div class="bluishButton"><a class="white" href="roa.html" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Medical page');">Register</a></div>
               <div class="bluishButton new">
-                <a class="white" href="careers.html#occupations">Back to Occupations</a>
+                <a class="white" href="careers.html#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Medical page');">Back to Occupations</a>
               </div>
 
             </div>

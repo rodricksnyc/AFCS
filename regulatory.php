@@ -142,10 +142,10 @@ a.small {
                   <div class="content-middle transparent">
                     <ul class="whiteList">
                       <li class="whiteList"><a class="small strong" href="#top" id="bottom"><u>Air Force Civilian Employment Overseas: The Exceptional Family Member Program (EFMP)</u><a></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/AFD-100409-007.pdf" target="_blank">Disabled Veterans Affirmative Action Program (DVAAP) Plan Link</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank">Air Force Civilian Employment Eligibility Guide</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/AFD-100409-007.pdf" target="_blank" onclick="ga('send', 'event', 'Disabled Veterans Affirmative Action Program (DVAAP) Plan PDF', 'click', 'Regulatory page');">Disabled Veterans Affirmative Action Program (DVAAP) Plan Link</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank" onclick="ga('send', 'event', 'Air Force Civilian Employment Eligibility Guide PDF', 'click', 'Regulatory page');">Air Force Civilian Employment Eligibility Guide</a></u></li>
                       <li class="whiteList"><a class="small strong" href="#lastTop" id="lastBottom"><u>Disabled Veterans</u></a></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/AFPC_ART_info.pdf" target="_blank">General Information for Air Reserve Technician (ART) Positions Link</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/AFPC_ART_info.pdf" target="_blank" onclick="ga('send', 'event', 'General Information for Air Reserve Technician (ART) Positions Link PDF', 'click', 'Regulatory page');">General Information for Air Reserve Technician (ART) Positions Link</a></u></li>
                     </ul>
                   </div>
                   <br>
@@ -160,25 +160,30 @@ a.small {
                     <br>
                     <div class="content-secondLast transparent">
                     <ul class="whiteList">
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/CONUS%20to%20CONUS.pdf" target="_blank">CONUS to CONUS (Continental United States) Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/CONUS%20to%20F%20OCONUS.pdf" target="_blank">CONUS to Foreign OCONUS Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/CONUS%20to%20NON-FOREIGN%20OCONUS.pdf" target="_blank">CONUS to Non Foreign OCONUS (Outside Continental United States) Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/FIRST_DUTY.pdf" target="_blank">First Duty Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/F%20OCONUS%20to%20CONUS.pdf" target="_blank">Foreign OCONUS to CONUS Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/F_OCONUS_to_F_OCONUS.pdf" target="_blank">Foreign OCONUS to Foreign OCONUS Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/F_OCONUS_to_NF_OCONUS.pdf" target="_blank">Foreign OCONUS to Non-Foreign OCONUS Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/NF_OCONUS_to_CONUS.pdf" target="_blank">Non Foreign OCONUS to CONUS Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/NF_OCONUS_to_F_OCONUS.pdf" target="_blank">Non-Foreign OCONUS to Foreign OCONUS Civilian PCS Briefing</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/NF_OCONUS_to_NF_OCONUS.pdf" target="_blank">Non-Foreign OCONUS to Non-Foreign OCONUS Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/CONUS%20to%20CONUS.pdf" target="_blank" onclick="ga('send', 'event', 'CONUS to CONUS (Continental United States) Civilian PCS Briefing PDF', 'click', 'Regulatory page');">CONUS to CONUS (Continental United States) Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/CONUS%20to%20F%20OCONUS.pdf" target="_blank" onclick="ga('send', 'event', 'CONUS to Foreign OCONUS Civilian PCS Briefing PDF', 'click', 'Regulatory page');">CONUS to Foreign OCONUS Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/CONUS%20to%20NON-FOREIGN%20OCONUS.pdf" target="_blank" onclick="ga('send', 'event', 'CONUS to Non Foreign OCONUS (Outside Continental United States) Civilian PCS Briefing PDF', 'click', 'Regulatory page');">CONUS to Non Foreign OCONUS (Outside Continental United States) Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/FIRST_DUTY.pdf" target="_blank" onclick="ga('send', 'event', 'First Duty Civilian PCS Briefing PDF', 'click', 'Regulatory page');">First Duty Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/F%20OCONUS%20to%20CONUS.pdf" target="_blank" onclick="ga('send', 'event', 'Foreign OCONUS to CONUS Civilian PCS Briefing', 'click', 'Regulatory page');">Foreign OCONUS to CONUS Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/F_OCONUS_to_F_OCONUS.pdf" target="_blank" onclick="ga('send', 'event', 'Foreign OCONUS to Foreign OCONUS Civilian PCS Briefing', 'click', 'Regulatory page');">Foreign OCONUS to Foreign OCONUS Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/F_OCONUS_to_NF_OCONUS.pdf" target="_blank" onclick="ga('send', 'event', 'Foreign OCONUS to Non-Foreign OCONUS Civilian PCS Briefing', 'click', 'Regulatory page');">Foreign OCONUS to Non-Foreign OCONUS Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/NF_OCONUS_to_CONUS.pdf" target="_blank" onclick="ga('send', 'event', 'Non Foreign OCONUS to CONUS Civilian PCS Briefing', 'click', 'Regulatory page');">Non Foreign OCONUS to CONUS Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/NF_OCONUS_to_F_OCONUS.pdf" target="_blank" onclick="ga('send', 'event', 'Non-Foreign OCONUS to Foreign OCONUS Civilian PCS Briefing', 'click', 'Regulatory page');">Non-Foreign OCONUS to Foreign OCONUS Civilian PCS Briefing</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/NF_OCONUS_to_NF_OCONUS.pdf" target="_blank" onclick="ga('send', 'event', 'Non-Foreign OCONUS to Non-Foreign OCONUS Civilian PCS Briefing', 'click', 'Regulatory page');">Non-Foreign OCONUS to Non-Foreign OCONUS Civilian PCS Briefing</a></u></li>
 
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/Civilian_PCS_Handbook_2018.pdf" target="_blank">Civilian PCS Handbook 2018</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/DECLARATION%20OF%20PARENT%20%20DEPENDENCY%20-%20CERTIFICATION.pdf" target="_blank">Declaration of Parent Dependency - Certification</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/DUAL%20FEDERAL%20EMPLOYEE%20(updated%20August%202018).pdf" target="_blank">Dual Federal Employee (updated August 2018)</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/NEW%20CONUS%20EMPLOYMENT%20AGREEMENT%20v2.pdf" target="_blank">New CONUS Employment Agreement v2</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/Civilian_PCS_Handbook_2018.pdf" target="_blank" onclick="ga('send', 'event', 'Civilian PCS Handbook 2018', 'click', 'Regulatory page');">Civilian PCS Handbook 2018</a></u></li>
 
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/POV%20INSTRUCTIONS%20FOR%20EMPLOYEE.pdf" target="_blank">POV (Privately Owned Vehicle) Instructions for Employee</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/Tab%202%20-%20PCS%20Required%20Documents%20List%20v3.pdf" target="_blank">Tab 2 - PCS Required Documents List v3</a></u></li>
-                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/RETIREMENT%20&%20SEPARATIONS%20PCS%20Briefing%20-%201%20Jan%202019.pdf" target="_blank">Retirement and Separations PCS Briefing 2019</a></u></li>
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/DECLARATION%20OF%20PARENT%20%20DEPENDENCY%20-%20CERTIFICATION.pdf" target="_blank" onclick="ga('send', 'event', 'Declaration of Parent Dependency - Certification', 'click', 'Regulatory page');">Declaration of Parent Dependency - Certification</a></u></li>
+
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/DUAL%20FEDERAL%20EMPLOYEE%20(updated%20August%202018).pdf" target="_blank" onclick="ga('send', 'event', 'Dual Federal Employee (updated August 2018)', 'click', 'Regulatory page');">Dual Federal Employee (updated August 2018)</a></u></li>
+
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/NEW%20CONUS%20EMPLOYMENT%20AGREEMENT%20v2.pdf" target="_blank" onclick="ga('send', 'event', 'New CONUS Employment Agreement v2', 'click', 'Regulatory page');">New CONUS Employment Agreement v2</a></u></li>
+
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/POV%20INSTRUCTIONS%20FOR%20EMPLOYEE.pdf" target="_blank" onclick="ga('send', 'event', 'POV (Privately Owned Vehicle) Instructions for Employee', 'click', 'Regulatory page');">POV (Privately Owned Vehicle) Instructions for Employee</a></u></li>
+
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/Tab%202%20-%20PCS%20Required%20Documents%20List%20v3.pdf" target="_blank" onclick="ga('send', 'event', 'Tab 2 - PCS Required Documents List v3', 'click', 'Regulatory page');">Tab 2 - PCS Required Documents List v3</a></u></li>
+
+                      <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/RETIREMENT%20&%20SEPARATIONS%20PCS%20Briefing%20-%201%20Jan%202019.pdf" target="_blank" onclick="ga('send', 'event', 'Retirement and Separations PCS Briefing 2019', 'click', 'Regulatory page');">Retirement and Separations PCS Briefing 2019</a></u></li>
 
 
 
@@ -292,7 +297,7 @@ a.small {
                   </div>
 
                   <div class="content-middle transparent">
-                    <p class="whiteList"><span class="strong">Important information</span> for applicants with family members with special medical or educational needs: Applicants who have family members with special medical or educational needs should review the DoD Instruction 1315.19 at <a class="stronger" href="https://www.esd.whs.mil/dd/" target="_blank">this link</a> for information regarding living and working in an overseas area.</p>
+                    <p class="whiteList"><span class="strong">Important information</span> for applicants with family members with special medical or educational needs: Applicants who have family members with special medical or educational needs should review the DoD Instruction 1315.19 at <a class="stronger" href="https://www.esd.whs.mil/dd/" target="_blank" onclick="ga('send', 'event', 'DoD Instruction 1315.19', 'click', 'Regulatory page');">this link</a> for information regarding living and working in an overseas area.</p>
 
                     <p class="whiteList">The Exceptional Family Member Program (EFMP) provides comprehensive and coordinated community support, housing, educational, medical, and personnel services to families with special needs. An exceptional family member is a child or adult dependent with any physical, emotional, developmental, or intellectual disorder that requires special treatment, therapy, education, training or counseling.</p>
 
@@ -331,7 +336,7 @@ a.small {
               <div class="content-bottom transparent">
 
                 <p class="whiteList">E6.2.1.3.3. “If an employee brings a family member to an overseas location who requires medical or dental care, the employee will be responsible for obtaining and paying for such care. Access for civilian employees and their families to military medical and dental treatment facilities is on a space-available and reimbursable basis only.”</p>
-                <p class="whiteList">For information on overseas DoD Dependent Schools and Educational and Developmental Intervention Services, go to <a class="stronger" href="https://www.dodea.edu/index.cfm" target="_blank">this link.</a></p>
+                <p class="whiteList">For information on overseas DoD Dependent Schools and Educational and Developmental Intervention Services, go to <a class="stronger" href="https://www.dodea.edu/index.cfm" target="_blank" onclick="ga('send', 'event', 'DoD Dependent Schools and Educational and Developmental Intervention Services', 'click', 'Regulatory page');">this link.</a></p>
 
                 </div>
 
@@ -394,9 +399,9 @@ a.small {
                 </div>
 
                 <div class="bluish3 content-middle transparent">
-                  <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
-                  <div class="bluishButton"><a class="white" href="careers.php">Careers</a></div>
-                  <div class="bluishButton"><a class="white" href="find-a-job.php">Find A Job</a></div>
+                  <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Regulatory page');">Register</a></div>
+                  <div class="bluishButton"><a class="white" href="careers.php" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Regulatory page');">Careers</a></div>
+                  <div class="bluishButton"><a class="white" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job page', 'click', 'Regulatory page');">Find A Job</a></div>
                 </div>
               </div>
             </div>

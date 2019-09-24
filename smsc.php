@@ -172,7 +172,7 @@
       <div class="centerBlocks">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-top transparent">
-          <a style="font-size:14px;" href="acquisition.php">
+          <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'SMSC page');">
           <img src="images5/acqhome-smsc.png" class="img-responsive i1 child">
           <div class="funThing new new2">
             <h1 id="topLine5" class="overlayText tlt31">ACQUISITION</h1>
@@ -184,7 +184,7 @@
       </div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-middle transparent">
-          <a style="font-size:14px;" href="smsc-careers.php">
+          <a style="font-size:14px;" href="smsc-careers.php" onclick="ga('send', 'event', 'Go to SMSC Careers, 'click', 'SMSC page');">
           <img src="images5/careers-button.png" class="img-responsive i2 child">
           <div class="funThing">
             <h1 id="topLine2" class="overlayText tlt32">CAREERS</h1>
@@ -196,7 +196,7 @@
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-bottom transparent">
-          <a style="font-size:14px;" href="smsc-benefits.php">
+          <a style="font-size:14px;" href="smsc-benefits.php" onclick="ga('send', 'event', 'Go to SMSC Benefits', 'click', 'SMSC page');">
           <img src="images5/smsc-benefits.png" class="img-responsive i3 child">
           <div class="funThing new2">
             <h1 id="topLine2" class="overlayText tlt33">BENEFITS</h1>
@@ -210,7 +210,7 @@
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
 
         <div class="parent content-last transparent">
-          <a style="font-size:14px;" href="smsc-locations.php">
+          <a style="font-size:14px;" href="smsc-locations.php" onclick="ga('send', 'event', 'Go to SMSC Locations', 'click', 'SMSC page');">
           <img src="images5/locations-button.png" class="img-responsive i88 child">
           <div class="funThing">
             <h1 id="topLine2" class="overlayText tlt34">LOCATIONS</h1>
@@ -301,8 +301,8 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
         <p class="register" style="margin-bottom:0px !important;" class="small">Register here and we’ll keep you informed about the latest job openings.</p>
       </div>
       <div class="center2 bluish2 content-middle transparent">
-        <div class="bluishButton two"><a class="white" href="roa.php">Register</a></div>
-        <div class="bluishButton two"><a class="white" href="acquisition.php">Acquisition Home</a></div>
+        <div class="bluishButton two"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC page');">Register</a></div>
+        <div class="bluishButton two"><a class="white" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'SMSC page');">Acquisition Home</a></div>
       </div>
     </div>
   </div>
@@ -757,9 +757,9 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
       <div class="center2 bluish2 content-middle transparent">
         <div class="bluishButton two">
-          <a class="white" href="roa.php">Register</a>
+          <a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC page');">Register</a>
         </div>
-        <div class="bluishButton two"><a class="white" href="acquisition.php">Acquisition Home</a></div>
+        <div class="bluishButton two"><a class="white" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'SMSC page');">Acquisition Home</a></div>
 
       </div>
 

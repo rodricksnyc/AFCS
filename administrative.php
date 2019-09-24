@@ -151,9 +151,9 @@
             </div>
 
             <div class="bluish3 content-middle transparent">
-              <div class="bluishButton"><a class="white" href="roa.html">Register</a></div>
+              <div class="bluishButton"><a class="white" href="roa.html" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Administrative Page');">Register</a></div>
               <div class="bluishButton new">
-                <a class="white" href="careers.html#occupations">Back to Occupations</a>
+                <a class="white" href="careers.html#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Administrative Page');">Back to Occupations</a>
               </div>
 
             </div>

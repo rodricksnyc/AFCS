@@ -168,7 +168,7 @@ a.small {
                     <h1 class="acq two">Accessibility Aids: Plug-ins and File Viewer</h1>
                     <br>
                     <ul class="whiteList">
-                      <li class="whiteList">Adobe Reader<br>Use Adobe Acrobat to read Portable Document Format (PDF) files.<br><a class="stronger" href="https://get.adobe.com/reader/" target="_blank">Download Adobe Reader</a></li>
+                      <li class="whiteList">Adobe Reader<br>Use Adobe Acrobat to read Portable Document Format (PDF) files.<br><a class="stronger" href="https://get.adobe.com/reader/" target="_blank" onclick="ga('send', 'event', 'Go to Download Adobe Reader link', 'click', 'Accessibility Page');">Download Adobe Reader</a></li>
                     </ul>
 
                   </div>
@@ -193,13 +193,13 @@ a.small {
 
                   <div class="content-top transparent">
                     <ul class="whiteList">
-                      <li class="whiteList">Flash Player<br>Use Adobe Flash player to view Video.<br><a class="stronger" href="https://get.adobe.com/flashplayer/" target="_blank">Download Macromedia Flash Player</a></li>
+                      <li class="whiteList">Flash Player<br>Use Adobe Flash player to view Video.<br><a class="stronger" href="https://get.adobe.com/flashplayer/" target="_blank" onclick="ga('send', 'event', 'Go to Download Adobe Flash Player link', 'click', 'Accessibility Page');">Download Macromedia Flash Player</a></li>
                     </ul>
                   </div>
 
                   <div class="content-middle transparent">
                     <ul class="whiteList">
-                      <li class="whiteList">Accessible FormNet Software<br>GSA's forms server uses the Accessible FormNet Software.<br><a class="stronger" href="https://www.gsa.gov/?contentId=12455&bodyOnly=true&contentType=GSA_BASIC" target="_blank">Download Accessible FormNet software</a></li>
+                      <li class="whiteList">Accessible FormNet Software<br>GSA's forms server uses the Accessible FormNet Software.<br><a class="stronger" href="https://www.gsa.gov/?contentId=12455&bodyOnly=true&contentType=GSA_BASIC" target="_blank" onclick="ga('send', 'event', 'Go to Download Accessible FormNet software link', 'click', 'Accessibility Page');">Download Accessible FormNet software</a></li>
                     </ul>
                     <br>
                     <h1 class="acq two">What to do if you have trouble</h1>
@@ -231,9 +231,9 @@ a.small {
                   </div>
 
                   <div class="bluish3 content-middle transparent">
-                    <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
-                    <div class="bluishButton"><a class="white" href="careers.php">Careers</a></div>
-                    <div class="bluishButton"><a class="white" href="find-a-job.php">Find A Job</a></div>
+                    <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to Register page', 'click', 'Accessibility Page');">Register</a></div>
+                    <div class="bluishButton"><a class="white" href="careers.php" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Accessibility Page');">Careers</a></div>
+                    <div class="bluishButton"><a class="white" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job page', 'click', 'Accessibility Page');">Find A Job</a></div>
                   </div>
                 </div>
               </div>

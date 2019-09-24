@@ -292,7 +292,7 @@ a.small{
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/aftac_about_image.jpg');">
+            <div class="hero-slide" style="background-image: url('./images5/about-aftac-image.png');">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
@@ -329,7 +329,7 @@ a.small{
             <div class="centerBlocks">
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
-                <a style="font-size:14px;" href="aftac.php">
+                <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC home page', 'click', 'Contact AFTAC page');">
                   <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i1 child">
                   <div class="funThing new" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">AFTAC</h1>
@@ -344,7 +344,7 @@ a.small{
 
           <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-middle transparent">
-                <a style="font-size:14px;" href="about-aftac.php">
+                <a style="font-size:14px;" href="about-aftac.php" onclick="ga('send', 'event', 'Go to About AFTAC page', 'click', 'Contact AFTAC page');">
                   <img id="mobileSmall" src="images5/aftac-careers.png" class="img-responsive i2 child">
                   <div class="funThing" id="b33">
                     <h1 id="topLine3" class="overlayText tlt42">ABOUT</h1>
@@ -357,7 +357,7 @@ a.small{
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
-                <a style="font-size:14px;" href="aftac-careers.php">
+                <a style="font-size:14px;" href="aftac-careers.php" onclick="ga('send', 'event', 'Go to AFTAC Careers page', 'click', 'Contact AFTAC page');">
                   <img id="mobileSmall" src="images5/contact-aftac.png" class="img-responsive i3 child">
 
                   <div class="funThing" id="b33">
@@ -456,19 +456,35 @@ a.small{
 
                   <div class="content-middle transparent">
                     <p class="small noMargin">
-                      <a class="small strong" href="https://www.foia.af.mil/" target="_blank">Freedom of Information Act (FOIA)</a>
+                      <a class="small strong" href="https://www.foia.af.mil/" target="_blank" onclick="ga('send', 'event', 'Open Freedom of Information Act (FOIA) link', 'click', 'Contact AFTAC page');">Freedom of Information Act (FOIA)</a>
                     </p>
                     <p class="small noMargin">
-                      <a class="small strong" href="https://www.afinspectorgeneral.af.mil/" target="_blank">Air Force Inspector General (IG)</a>
+                      <a class="small strong" href="https://www.afinspectorgeneral.af.mil/" target="_blank" onclick="ga('send', 'event', 'Open Air Force Inspector General (IG) link', 'click', 'Contact AFTAC page');">Air Force Inspector General (IG)</a>
                     </p>
                     <p class="small noMargin">
-                      <a class="small strong" href="https://www.adr.af.mil/" target="_blank">Negotiation & Dispute Resolution</a>
+                      <a class="small strong" href="https://www.adr.af.mil/" target="_blank" onclick="ga('send', 'event', 'Open Negotiation & Dispute Resolution link', 'click', 'Contact AFTAC page');">Negotiation & Dispute Resolution</a>
                     </p>
                     <p class="small noMargin">
-                      <a class="small strong" href="" target="_blank">Accessibility Policy</a>
+                      <a class="small strong" href="accessibility.php" onclick="ga('send', 'event', 'Go to Accessibility Page', 'click', 'Contact AFTAC page');">Accessibility Policy</a>
                     </p>
                     <p class="small noMargin">
-                      <a class="small strong" href="" target="_blank">Webmaster</a>
+                      <a class="small strong" href="mailto:techsupport@afciviliancareers.com?Subject='AF Civilian Careers Website Question/Issue'">Webmaster</a>
+                    </p>
+
+                    <p class="small noMargin">
+                      <a class="small strong" href="https://www.defense.gov/our-story/" target="_blank" onclick="ga('send', 'event', 'Open About Us (DoD) link', 'click', 'Contact AFTAC page');">About Us (DoD)</a>
+                    </p>
+
+                    <p class="small noMargin">
+                      <a class="small strong" href="https://cmo.defense.gov/Home/" target="_blank" onclick="ga('send', 'event', 'Open DoD Annual Performance Plan and Report link', 'click', 'Contact AFTAC page');">DoD Annual Performance Plan and Report</a>
+                    </p>
+
+                    <p class="small noMargin">
+                      <a class="small strong" href="legal.php" onclick="ga('send', 'event', 'Go to Legal Page', 'click', 'Contact AFTAC page');">Legal Policies</a>
+                    </p>
+
+                    <p class="small noMargin">
+                      <a class="small strong" href="regulatory.php" onclick="ga('send', 'event', 'Go to Regulatory Page', 'click', 'Contact AFTAC page');">Regulatory Guidance</a>
                     </p>
 
                   </div>
@@ -497,8 +513,8 @@ a.small{
       </div>
 
       <div class="center2 bluish2 content-middle transparent">
-        <div class="bluishButton two"><a class="white" href="roa.php">Register</a></div>
-        <div class="bluishButton two"><a class="white" href="careers.php#occupations">Back to Occupations</a></div>
+        <div class="bluishButton two"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA Page', 'click', 'Contact AFTAC page');">Register</a></div>
+        <div class="bluishButton two"><a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers Page', 'click', 'Contact AFTAC page');">Back to Occupations</a></div>
 
       </div>
 

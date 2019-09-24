@@ -173,7 +173,7 @@ h1.acq.two, h1.acq {
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-top transparent">
-                  <a style="font-size:14px" href="acquisition.php">
+                  <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition Home page', 'click', 'Lifecycle Benefits page');">
                   <img src="images5/acqhome.png" class="img-responsive i6 child">
                   <div class="funThing new3">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
@@ -186,7 +186,7 @@ h1.acq.two, h1.acq {
 
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-middle transparent">
-                  <a style="font-size:14px" href="lifecycle-careers.php">
+                  <a style="font-size:14px" href="lifecycle-careers.php" onclick="ga('send', 'event', 'Go to Lifecycle Careers page', 'click', 'Lifecycle Benefits page');">
                   <img src="images5/careers-button.png" class="img-responsive i7 child">
                   <div class="funThing">
 
@@ -212,7 +212,7 @@ h1.acq.two, h1.acq {
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-last transparent">
-                  <a style="font-size:14px" href="lifecycle-locations.php">
+                  <a style="font-size:14px" href="lifecycle-locations.php" onclick="ga('send', 'event', 'Go to Lifecycle Locations page', 'click', 'Lifecycle Benefits page');">
                   <img src="images5/locations-button.png" class="img-responsive i5 child">
                     <div class="funThing">
                       <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
@@ -290,7 +290,7 @@ h1.acq.two, h1.acq {
                 <div class="col-xs-12 col-lg-12">
                   <div class="content-top transparent">
                     <h1 class="acq">Work-Life Balance</h1>
-                    <p class="small mb0">Are you ready to balance a rewarding career protecting your nation with a fulfilling personal life? At AFTC, we offer resources and tools that help you enjoy everything you put into your work – and your time away from it, as well. These are just some of the work-life benefits offered by the Air Force, regardless of your location:</p>
+                    <p class="small">Are you ready to balance a rewarding career protecting your nation with a fulfilling personal life? At AFTC, we offer resources and tools that help you enjoy everything you put into your work – and your time away from it, as well. These are just some of the work-life benefits offered by the Air Force, regardless of your location:</p>
                   </div>
                   <div class="content-middle transparent">
                       <p class="small"><u class="strong">Flexible Work Schedules:</u> Helping you balance time between work and family.</p>
@@ -319,9 +319,9 @@ h1.acq.two, h1.acq {
               </div>
 
               <div class="bluish3 content-middle transparent">
-                <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+                <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Lifecycle Benefits page');">Register</a></div>
                 <div class="bluishButton new">
-                  <a class="white" href="careers.php#occupations">Back to Occupations</a>
+                  <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Lifecycle Benefits page');">Back to Occupations</a>
                 </div>
 
               </div>

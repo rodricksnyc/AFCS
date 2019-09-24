@@ -407,6 +407,27 @@ h1.acq.two {
   font-size: 1em;
   font-weight:900 !important;
 }
+.whiteStrong:active {
+  color:white;
+  text-decoration:underline;
+  font-size: 1em;
+  font-weight:900 !important;
+}
+
+.whiteStrong:visited {
+  color:white;
+  text-decoration:underline;
+  font-size: 1em;
+  font-weight:900 !important;
+}
+
+.whiteStrong:focus {
+  color:white;
+  text-decoration:underline;
+  font-size: 1em;
+  font-weight:900 !important;
+}
+
 li.whiteList {
     height: auto !important;
 }

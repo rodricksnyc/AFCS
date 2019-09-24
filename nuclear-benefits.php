@@ -209,7 +209,7 @@ a.small {
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-top transparent">
-                  <a style="font-size:14px" href="acquisition.php">
+                  <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisitions page', 'click', 'Nuclear Benefits page');">
                   <img src="images5/acqhome.png" class="img-responsive i6 child">
                   <div class="funThing new3">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
@@ -222,7 +222,7 @@ a.small {
 
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-middle transparent">
-                  <a style="font-size:14px" href="nuclear-careers.php">
+                  <a style="font-size:14px" href="nuclear-careers.php" onclick="ga('send', 'event', 'Go to Nuclear Careers page', 'click', 'Nuclear Benefits page');">
                   <img src="images5/careers-button.png" class="img-responsive i7 child">
                   <div class="funThing">
                     <!-- <h1 id="topLine5" class="overlayText tlt101">NUCLEAR</h1> -->
@@ -248,7 +248,7 @@ a.small {
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-last transparent">
-                  <a style="font-size:14px" href="nuclear-locations.php">
+                  <a style="font-size:14px" href="nuclear-locations.php" onclick="ga('send', 'event', 'Go to Nuclear Locations page', 'click', 'Nuclear Benefits page');">
                   <img src="images5/locations-button.png" class="img-responsive i5 child">
                     <div class="funThing">
                       <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
@@ -381,9 +381,9 @@ a.small {
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Nuclear Benefits page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Nuclear Benefits page');">Back to Occupations</a>
             </div>
 
           </div>

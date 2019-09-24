@@ -171,8 +171,8 @@ a.small {
                   <div class="content-thirdLast transparent">
                     <h1 class="acq two">Other Links</h1>
                     <ul class="whiteList" style="margin-bottom:45px;">
-                      <li class="whiteList"><a class="small strong" href="regulatory.php"><u>Regulatory Guidance</u></a></li>
-                      <li class="whiteList"><a class="small strong" href="accessibility.php"><u>Accessibility Policy</u></a></li>
+                      <li class="whiteList"><a class="small strong" href="regulatory.php" onclick="ga('send', 'event', 'Go to Regulatory page', 'click', 'Privacy page');"><u>Regulatory Guidance</u></a></li>
+                      <li class="whiteList"><a class="small strong" href="accessibility.php" onclick="ga('send', 'event', 'Go to Accessibility page', 'click', 'Privacy page');"><u>Accessibility Policy</u></a></li>
                     </ul>
 
                   <img src="images5/liner.jpg" id="slideUpLiner3">

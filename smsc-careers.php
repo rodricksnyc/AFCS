@@ -207,7 +207,7 @@
       <div class="centerBlocks">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
         <div class="parent content-top transparent">
-          <a style="font-size:14px;" href="acquisition.php">
+          <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition page', 'click', 'SMSC Careers page');">
           <img src="images5/acqhome-smsc.png" class="img-responsive i1 child">
           <div class="funThing new3">
             <h1 id="topLine5" class="overlayText tlt31">ACQUISITION</h1>
@@ -221,7 +221,7 @@
 
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
         <div class="parent content-bottom transparent">
-          <a style="font-size:14px;" href="smsc-benefits.php">
+          <a style="font-size:14px;" href="smsc-benefits.php" onclick="ga('send', 'event', 'Go to SMSC Benefits', 'click', 'SMSC Careers page');">
           <img src="images5/smsc-benefits.png" class="img-responsive i3 child">
           <div class="funThing">
             <h1 id="topLine2" class="overlayText tlt33">BENEFITS</h1>
@@ -235,7 +235,7 @@
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
 
         <div class="parent content-last transparent">
-          <a style="font-size:14px;" href="smsc-locations.php">
+          <a style="font-size:14px;" href="smsc-locations.php" onclick="ga('send', 'event', 'Go to SMSC Locations', 'click', 'SMSC Careers page');">
           <img src="images5/locations-button.png" class="img-responsive i88 child">
           <div class="funThing">
             <h1 id="topLine2" class="overlayText tlt34">LOCATIONS</h1>
@@ -340,9 +340,9 @@
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'SMSC Careers page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'SMSC Careers page');">Back to Occupations</a>
             </div>
 
           </div>
@@ -415,14 +415,12 @@
               <p class="small mb0">Representatives of the STEM disciplines are in abundance at AFTC working in aerospace, computer/software, electrical/electronic mechanical specialties, and general engineering. These positions require creative problem-solving skills on critical, real-life projects that define the cutting-edge of flight test technology.</p>
             </div>
 
-
            </div>
           </div>
         </div>
 
     </center>
 </section>
-
 
 
 <section class="blocks">
@@ -526,9 +524,9 @@
         </div>
 
         <div class="bluish3 content-middle transparent">
-          <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+          <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'SMSC Careers page');">Register</a></div>
           <div class="bluishButton new">
-            <a class="white" href="careers.php#occupations">Back to Occupations</a>
+            <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'SMSC Careers page');">Back to Occupations</a>
           </div>
 
         </div>
@@ -581,7 +579,7 @@
       <div class="row heros">
         <div class="col-xs-12 col-lg-12">
           <div class="content-top transparent">
-            <p class="small">All AFCS job opportunities are also listed on the Federal Government’s official one-stop source for Federal jobs and employment information, USAJOBS.  Access AFCS Acquisition job opportunities at <a class="small strong" href="https://airforce.usajobs.gov" target="_blank">https://airforce.usajobs.gov.</a></p>
+            <p class="small">All AFCS job opportunities are also listed on the Federal Government’s official one-stop source for Federal jobs and employment information, USAJOBS.  Access AFCS Acquisition job opportunities at <a class="small strong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'First USAJOBS link', 'click', 'SMSC Careers page');">https://airforce.usajobs.gov.</a></p>
 
             <p class="small">Follow the steps below to determine if you are qualified and eligible, and apply for a position with AFCS.</p>
 
@@ -598,7 +596,7 @@
             <h1 class="acq two">Qualification vs Eligibility</h1>
             <p class="small">Like any employer, AFCS expects you to be “qualified” when you apply for a position, but unlike some employers, you must also be “eligible.” What’s the difference? It’s actually pretty simple.</p>
 
-            <p class="small">“Qualification” is based on education and/or experience. As with any other employer, you will need to have certain educational and/or work experience in order to be qualified for a given position. For example, if you want a job as a doctor, you need to have completed medical school and fulfilled the related requirements. The kinds of background needed are always clearly detailed in the Job Opportunity Announcement listed at <a class="whiteStrong" href="airforce.usajobs.gov" target="_blank">airforce.usajobs.gov.</a> Be sure you meet those expectations before you decide to apply.</p>
+            <p class="small">“Qualification” is based on education and/or experience. As with any other employer, you will need to have certain educational and/or work experience in order to be qualified for a given position. For example, if you want a job as a doctor, you need to have completed medical school and fulfilled the related requirements. The kinds of background needed are always clearly detailed in the Job Opportunity Announcement listed at <a class="whiteStrong" href="airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'Second USAJOBS link', 'click', 'SMSC Careers page');">airforce.usajobs.gov.</a> Be sure you meet those expectations before you decide to apply.</p>
             <p class="small">However, even if you are completely “qualified” for a job, you may not actually be “eligible.” In the Federal jobs environment, “eligibility” refers to Federal regulatory requirements that determine who can apply for specific jobs.</p>
 
           </div>
@@ -606,7 +604,7 @@
           <div class="content-last transparent">
             <p class="small">Each AFCS Job Opportunity Announcement will carefully spell out who is eligible to apply in the “Who May Apply” section. Further details on who may apply can be found in the “Other Information” and “How to Apply” sections. It is very important to review these requirements carefully. If you do not meet the requirements listed, you may not apply for the job.</p>
 
-            <p class="small" style="margin-bottom:0px;">For additional information on this subject please review the "<a class="whiteStrong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank">Air Force Civilian Employment Eligibility Guide.</a>"</p>
+            <p class="small" style="margin-bottom:0px;">For additional information on this subject please review the "<a class="whiteStrong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank" onclick="ga('send', 'event', 'Air Force Civilian Employment Eligibility Guide', 'click', 'SMSC Careers page');">Air Force Civilian Employment Eligibility Guide.</a>"</p>
           </div>
 
         </div>
@@ -630,7 +628,7 @@
             <ul class="whiteList content-last transparent">
               <li class="whiteList">Our Jobs Discovery App will line up your education, skills, and experience with positions that need people with your background. You might be surprised at the variety of options you discover.</li>
               <li class="whiteList">Our Jobs Map lets you find positions that are available at every base and installation in the United States and around the world. </li>
-              <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" target="_blank">airforce.usajobs.gov</a></li>
+              <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" href="airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'Third USAJOBS link', 'click', 'SMSC Careers page');">airforce.usajobs.gov</a></li>
             </ul>
 
             <h1 class="acq two content-secondLast transparent">Step 2: Read the Job Announcement</h1>
@@ -641,7 +639,7 @@
 
             <div class="content-fourthLast transparent">
               <h1 class="acq two">Step 3: Apply for the Job</h1>
-              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="whiteStrong" target="_blank" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/">USAJOBS.gov</a>.</p>
+              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="whiteStrong" target="_blank" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" target="_blank" onclick="ga('send', 'event', 'Fourth USAJOBS link', 'click', 'SMSC Careers page');">USAJOBS.gov</a>.</p>
 
               <img src="images5/liner.jpg" id="slideUpLiner3">
 
@@ -667,9 +665,9 @@
 
       <div class="center2 bluish2 content-middle transparent">
         <div class="bluishButton two">
-          <a class="white" href="roa.php">Register</a>
+          <a class="white" href="https://www.afciviliancareers.com/afciviliancareers" target="_blank" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC Careers page');">Register</a>
         </div>
-        <div class="bluishButton two"><a class="white" href="acquisition.php">Acquisition Home</a></div>
+        <div class="bluishButton two"><a class="white" href="acquisition.php" target="_blank" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'SMSC Careers page');">Acquisition Home</a></div>
 
       </div>
 

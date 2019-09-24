@@ -177,7 +177,7 @@ gtag('config', 'UA-17154729-1');
           <div class="centerBlocks">
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
-                <a style="font-size:14px;" href="about-aftac.php">
+                <a style="font-size:14px;" href="about-aftac.php" onclick="ga('send', 'event', 'Go to About AFTAC page', 'click', 'AFTAC Home');">
                   <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i1 child">
                   <div class="funThing new" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">ABOUT</h1>
@@ -192,7 +192,7 @@ gtag('config', 'UA-17154729-1');
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-middle transparent">
-                <a style="font-size:14px;" href="aftac-careers.php">
+                <a style="font-size:14px;" href="aftac-careers.php" onclick="ga('send', 'event', 'Go to AFTAC Careers page', 'click', 'AFTAC Home');">
                   <img id="mobileSmall" src="images5/aftac-careers.png" class="img-responsive i2 child">
                   <div class="funThing" id="b33">
                     <h1 id="topLine3" class="overlayText tlt42">CAREERS</h1>
@@ -205,7 +205,7 @@ gtag('config', 'UA-17154729-1');
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
-                <a style="font-size:14px;" href="contact-aftac.php">
+                <a style="font-size:14px;" href="contact-aftac.php" onclick="ga('send', 'event', 'Go to Contact AFTAC page', 'click', 'AFTAC Home');">
                   <img id="mobileSmall" src="images5/contact-aftac.png" class="img-responsive i3 child">
 
                   <div class="funThing" id="b33">
@@ -702,7 +702,7 @@ gtag('config', 'UA-17154729-1');
                 <img src="images5/afrl-news.png" class="img-responsive i1 child">
                 <div class="funThing new">
 
-                  <h1 id="topLine4" class="overlayText tlt41 openNews">NEWS</h1>
+                  <h1 id="topLine4" class="overlayText tlt41 openNews" onclick="ga('send', 'event', 'Open AFTAC News', 'click', 'AFTAC Home');">NEWS</h1>
                   <hr id="line" class="trans--grow hr1">
                 </div>
 
@@ -714,7 +714,7 @@ gtag('config', 'UA-17154729-1');
 
                 <img src="images5/afrl-events.png" class="img-responsive i2 child">
                 <div class="funThing">
-                  <h1 id="topLine4" class="overlayText tlt42 openEvents">EVENTS</h1>
+                  <h1 id="topLine4" class="overlayText tlt42 openEvents" onclick="ga('send', 'event', 'Open AFTAC Events', 'click', 'AFTAC Home');">EVENTS</h1>
                   <hr id="line" class="trans--grow hr1">
                 </div>
 
@@ -828,7 +828,7 @@ gtag('config', 'UA-17154729-1');
                 </div>
 
                 <div class="center2 bluish2 content-middle transparent">
-                  <div class="bluishButton two"><a class="white" href="roa.php">Register</a></div>
+                  <div class="bluishButton two"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers">Register</a></div>
                   <div class="bluishButton two"><a class="white" href="careers.php#occupations">Back to Occupations</a></div>
 
                 </div>

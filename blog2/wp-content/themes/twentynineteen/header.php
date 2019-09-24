@@ -6452,7 +6452,7 @@ input[type="text"] {
           </span>
         </li>
         <li>
-          <a class="navyBlock" href="http://v4.afciviliancareers.com/roa.php">Register</a>
+          <a class="navyBlock" href="http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers">Register</a>
         </li>
       </ul>
     </div>
@@ -6526,7 +6526,7 @@ input[type="text"] {
             </form>
             <br><br>
             <li class="allAcross">
-              <a id="liRegister" class="highlight three thing" href="roa.php">Register</a>
+              <a id="liRegister" class="highlight three thing" href="https://www.afciviliancareers.com/afciviliancareers">Register</a>
             </li>
           </ul>
         </span>

@@ -156,7 +156,7 @@ h1.acq.two, h1.acq {
 
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-top transparent">
-                  <a style="font-size:14px" href="acquisition.php">
+                  <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'Testing Careers page');">
                   <img src="images5/acqhome.png" class="img-responsive i6 child">
                   <div class="funThing new3">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
@@ -171,7 +171,7 @@ h1.acq.two, h1.acq {
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
 
                 <div class="parent content-bottom transparent">
-                    <a style="font-size:14px" href="testing-benefits.php">
+                    <a style="font-size:14px" href="testing-benefits.php" onclick="ga('send', 'event', 'Go to Testing Benefits', 'click', 'Testing Careers page');">
                     <img src="images5/benefits-button-square.png" class="img-responsive i8 child">
                     <div class="funThing">
                       <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
@@ -183,7 +183,7 @@ h1.acq.two, h1.acq {
 
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-last transparent">
-                  <a style="font-size:14px" href="testing-locations.php">
+                  <a style="font-size:14px" href="testing-locations.php" onclick="ga('send', 'event', 'Go to Testing Locations', 'click', 'Testing Careers page');">
                   <img src="images5/locations-button.png" class="img-responsive i5 child">
                     <div class="funThing">
                       <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
@@ -392,7 +392,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
             </div>
 
             <div class="content-last transparent">
-              <p class="small" style="margin-bottom:0px;">Financial and budget managers and analysts use solid economic and accounting principles and practices to ensure programs are progressing properly and that business practices comply with federal financial regulations. These jobs require financial and budget management experience from the private or public sector. </p>
+              <p class="small" style="margin-bottom:0px;">Financial and budget managers and analysts use solid economic and accounting principles and practices to ensure programs are progressing properly and that business practices comply with federal financial regulations. These jobs require financial and budget management experience from the private or public sector.</p>
 
               <p class="small bt">Information Technology</p>
               <p class="small">Rapidly changing IT principles, concepts and methods present a challenge to any organization. AFTC is no exception.</p>
@@ -423,9 +423,9 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
             </div>
 
           </div>
@@ -534,9 +534,9 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
             </div>
 
           </div>
@@ -588,7 +588,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           <div class="row heros">
             <div class="col-xs-12 col-lg-12">
               <div class="content-top transparent">
-              <p class="small">All AFCS job opportunities are also listed on the Federal Government’s official one-stop source for Federal jobs and employment information, USAJOBS.  Access AFCS Acquisition job opportunities at <a class="small strong" href="https://airforce.usajobs.gov" target="_blank">https://airforce.usajobs.gov.</a></p>
+              <p class="small">All AFCS job opportunities are also listed on the Federal Government’s official one-stop source for Federal jobs and employment information, USAJOBS.  Access AFCS Acquisition job opportunities at <a class="small strong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'First USAJOBS link', 'click', 'Testing Careers page');">https://airforce.usajobs.gov.</a></p>
 
               <p class="small">Follow the steps below to determine if you are qualified and eligible, and apply for a position with AFCS.</p>
 
@@ -605,7 +605,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
                 <h1 class="acq two">Qualification vs Eligibility</h1>
                 <p class="small">Like any employer, AFCS expects you to be “qualified” when you apply for a position, but unlike some employers, you must also be “eligible.” What’s the difference? It’s actually pretty simple.</p>
 
-                <p class="small">“Qualification” is based on education and/or experience. As with any other employer, you will need to have certain educational and/or work experience in order to be qualified for a given position. For example, if you want a job as a doctor, you need to have completed medical school and fulfilled the related requirements. The kinds of background needed are always clearly detailed in the Job Opportunity Announcement listed at <a class="whiteStrong" href="airforce.usajobs.gov" target="_blank">airforce.usajobs.gov.</a> Be sure you meet those expectations before you decide to apply.</p>
+                <p class="small">“Qualification” is based on education and/or experience. As with any other employer, you will need to have certain educational and/or work experience in order to be qualified for a given position. For example, if you want a job as a doctor, you need to have completed medical school and fulfilled the related requirements. The kinds of background needed are always clearly detailed in the Job Opportunity Announcement listed at <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank">airforce.usajobs.gov.</a> Be sure you meet those expectations before you decide to apply.</p>
                 <p class="small">However, even if you are completely “qualified” for a job, you may not actually be “eligible.” In the Federal jobs environment, “eligibility” refers to Federal regulatory requirements that determine who can apply for specific jobs.</p>
 
               </div>
@@ -613,7 +613,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
               <div class="content-last transparent">
                 <p class="small">Each AFCS Job Opportunity Announcement will carefully spell out who is eligible to apply in the “Who May Apply” section. Further details on who may apply can be found in the “Other Information” and “How to Apply” sections. It is very important to review these requirements carefully. If you do not meet the requirements listed, you may not apply for the job.</p>
 
-                <p class="small" style="margin-bottom:0px;">For additional information on this subject please review the "<a class="whiteStrong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank">Air Force Civilian Employment Eligibility Guide.</a>"</p>
+                <p class="small" style="margin-bottom:0px;">For additional information on this subject please review the "<a class="whiteStrong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank" onclick="ga('send', 'event', 'Air Force Civilian Employment Eligibility Guide PDF', 'click', 'Testing Careers page');">Air Force Civilian Employment Eligibility Guide.</a>"</p>
               </div>
 
             </div>
@@ -635,9 +635,9 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           <p class="small content-bottom transparent">This site provides several ways to help you find the right AFCS job. Use one of our helpful search tools:<p>
 
             <ul class="whiteList content-last transparent">
-              <li class="whiteList">Our Jobs Discovery App will line up your education, skills, and experience with positions that need people with your background. You might be surprised at the variety of options you discover.</li>
+              <li class="whiteList">Our <a class="white" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job', 'click', 'Testing Careers page');">Jobs Discovery App</a> will line up your education, skills, and experience with positions that need people with your background. You might be surprised at the variety of options you discover.</li>
               <li class="whiteList">Our Jobs Map lets you find positions that are available at every base and installation in the United States and around the world. </li>
-              <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" target="_blank">airforce.usajobs.gov</a></li>
+              <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'Second USAJOBS link', 'click', 'Testing Careers page');">airforce.usajobs.gov</a></li>
             </ul>
             <br>
 
@@ -649,7 +649,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
             <div class="content-fourthLast transparent">
               <h1 class="acq two">Step 3: Apply for the Job</h1>
-              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="whiteStrong" target="_blank" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/">USAJOBS.gov</a>.</p>
+              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="whiteStrong" target="_blank" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" onclick="ga('send', 'event', 'Third USAJOBS link', 'click', 'Testing Careers page');">USAJOBS.gov</a>.</p>
 
             <img src="images5/liner.jpg" id="slideUpLiner3">
 
@@ -672,9 +672,9 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
             </div>
 
           </div>

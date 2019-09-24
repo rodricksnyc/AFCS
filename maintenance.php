@@ -118,7 +118,7 @@ gtag('config', 'UA-17154729-1');
 
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-top transparent">
-                  <a style="font-size:14px" href="acquisition.php">
+                  <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition page', 'click', 'Maintenance page');">
                   <img src="images5/acqhome.png" class="img-responsive i6 child">
                   <div style="left: 12% !important;" class="funThing">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
@@ -131,7 +131,7 @@ gtag('config', 'UA-17154729-1');
 
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-middle transparent">
-                  <a style="font-size:14px" href="maintenance-careers.php">
+                  <a style="font-size:14px" href="maintenance-careers.php" onclick="ga('send', 'event', 'Go to Maintenance Careers page', 'click', 'Maintenance page');">
                   <img src="images5/careers-button.png" class="img-responsive i7 child">
                   <div style="left: 12% !important;" class="funThing">
                     <!-- <h1 id="topLine5" class="overlayText tlt101">NUCLEAR</h1> -->
@@ -145,7 +145,7 @@ gtag('config', 'UA-17154729-1');
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
 
                 <div class="parent content-bottom transparent">
-                    <a style="font-size:14px" href="maintenance-benefits.php">
+                    <a style="font-size:14px" href="maintenance-benefits.php" onclick="ga('send', 'event', 'Go to Maintenance Benefits page', 'click', 'Maintenance page');">
                     <img src="images5/benefits-button-square.png" class="img-responsive i8 child">
                     <div style="left: 12% !important;" class="funThing">
                       <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
@@ -157,7 +157,7 @@ gtag('config', 'UA-17154729-1');
 
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-last transparent">
-                  <a style="font-size:14px" href="maintenance-locations.php">
+                  <a style="font-size:14px" href="maintenance-locations.php" onclick="ga('send', 'event', 'Go to Maintenance Locations page', 'click', 'Maintenance page');">
                   <img src="images5/locations-button.png" class="img-responsive i5 child">
                     <div style="left: 12% !important;" class="funThing">
                       <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
@@ -635,9 +635,9 @@ gtag('config', 'UA-17154729-1');
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Maintenance page');">Back to Occupations</a>
             </div>
 
           </div>

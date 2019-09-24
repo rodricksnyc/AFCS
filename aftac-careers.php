@@ -321,7 +321,7 @@ a.small{
 
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-top transparent">
-                  <a style="font-size:14px;" href="aftac.php">
+                  <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Home page', 'click', 'AFTAC Careers Page');">
                   <img src="images5/aftac-home.png" class="img-responsive i6 child">
                   <div style="left: 12% !important;" class="funThing">
                     <h1 id="topLine5" class="overlayText tlt100">AFTAC</h1>
@@ -334,7 +334,7 @@ a.small{
 
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-middle transparent">
-                  <a style="font-size:14px;" href="#top" id="bottom">
+                  <a style="font-size:14px;" href="#newTop" id="newBottom">
                   <img src="images5/nuclear-small.png" class="img-responsive i7 child">
                   <div style="left: 12% !important;" class="funThing">
                     <h1 id="topLine2" class="overlayText tlt101">OCCUPATIONS</h1>
@@ -437,7 +437,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
         <p class="small content-top transparent">At AFCS and AFTAC we value the strength that comes from our diverse perspectives and abilities and from our different backgrounds and experiences. This is essential to our creativity and success.</p>
 
-        <a href="#newBottom" id="newTop"></a>
+
 
         <p class="small content-middle transparent">We rely on inspired thinking from any and every member of our team and cultivate multicultural viewpoints, varied education, and life experiences to fuel innovation in every field of operation essential to the Air Force mission.</p>
 
@@ -449,6 +449,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
   </div>
 </center>
 </section>
+<a href="#newBottom" id="newTop"></a>
 
 <section class="blocks300">
     <center>
@@ -496,8 +497,8 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
             <div class="parent content-top transparent">
               <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i1 child">
               <div id="funTwo" class="funThing new3">
-                <h1 id="topLine3" class="overlayText tlt00 openIt22">PROGRAM</h1>
-                <h1 id="topLine4" class="overlayText tlt00 openIt22">MANAGEMENT</h1>
+                <h1 id="topLine3" class="overlayText tlt00 openIt22" onclick="ga('send', 'event', 'Open Program Management', 'click', 'AFTAC Careers Page');">PROGRAM</h1>
+                <h1 id="topLine4" class="overlayText tlt00 openIt22" onclick="ga('send', 'event', 'Open Program Management', 'click', 'AFTAC Careers Page');">MANAGEMENT</h1>
                 <hr id="line" class="trans--grow hr1">
               </div>
             </div>
@@ -508,8 +509,8 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
             <div class="parent content-middle transparent">
               <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i2 child">
               <div id="funTwo" class="funThing">
-                <h1 id="topLine3" class="overlayText tlt01 openIt33">SCIENTISTS</h1>
-                <h1 id="topLine4" class="overlayText tlt01 openIt33">& ENGINEERS</h1>
+                <h1 id="topLine3" class="overlayText tlt01 openIt33" onclick="ga('send', 'event', 'Open Scientists and Engineers', 'click', 'AFTAC Careers Page');">SCIENTISTS</h1>
+                <h1 id="topLine4" class="overlayText tlt01 openIt33" onclick="ga('send', 'event', 'Open Scientists and Engineers', 'click', 'AFTAC Careers Page');">& ENGINEERS</h1>
                 <hr id="line" class="trans--grow hr1">
               </div>
             </div>
@@ -519,8 +520,8 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
             <div class="parent content-bottom transparent">
               <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i3 child">
               <div id="funTwo" class="funThing one">
-                <h1 id="topLine3" class="overlayText tlt02 openIt1">COMMUNICATIONS</h1>
-                <h1 id="topLine4" class="overlayText tlt02 openIt1">& IT</h1>
+                <h1 id="topLine3" class="overlayText tlt02 openIt1" onclick="ga('send', 'event', 'Open Communications and IT', 'click', 'AFTAC Careers Page');">COMMUNICATIONS</h1>
+                <h1 id="topLine4" class="overlayText tlt02 openIt1" onclick="ga('send', 'event', 'Open Communications and IT', 'click', 'AFTAC Careers Page');">& IT</h1>
                 <hr id="line" class="trans--grow hr1">
               </div>
             </div>
@@ -700,7 +701,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
             <div class="content-last transparent">
 
-              <p class="small mb0">For additional information on this subject please review the "<a class="small" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank">Air Force Civilian Employment Eligibility Guide.</a>"</p>
+              <p class="small mb0">For additional information on this subject please review the "<a class="small" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank" onclick="ga('send', 'event', 'Open Air Force Civilian Employment Eligibility Guide PDF', 'click', 'AFTAC Careers Page');">Air Force Civilian Employment Eligibility Guide.</a>"</p>
 
             </div>
 
@@ -721,7 +722,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
               <h1 class="acq">Step 1: Find the Right Job for You</h1>
               <p class="small">AFCS jobs are categorized as entry, mid, and senior levels, and are associated with different qualifications and pay grade levels.   And, there are special categories of job opportunities, including jobs for students and recent graduates, veterans, military spouses, and individuals with disabilities.</p>
 
-              <p class="small">Use text searches for AFTAC job announcements at <a class="small" href="http://airforce.usajobs.gov/" target="_blank">airforce.usajobs.gov</a></p>
+            <p class="small">Use text searches for AFTAC job announcements at <a class="small" href="http://airforce.usajobs.gov/" target="_blank" onclick="ga('send', 'event', 'Open First USAJOBS Link', 'click', 'AFTAC Careers Page');">airforce.usajobs.gov</a></p>
 
             </div>
             <div class="content-middle transparent">
@@ -731,7 +732,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
             </div>
             <div class="content-bottom transparent">
               <h1 class="acq">Step 3: Apply for the Job</h1>
-              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="small" href="https://www.usajobs.gov/" target="_blank">USAJOBS.gov.</a></p>
+              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="small" href="https://www.usajobs.gov/" target="_blank" onclick="ga('send', 'event', 'Open Second USAJOBS Link', 'click', 'AFTAC Careers Page');">USAJOBS.gov.</a></p>
 
 
             <img src="images5/liner.jpg" id="slideUpLiner3">
@@ -829,7 +830,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
                                 <p class="small"><span class="strong">Recreational Activities:</span> Easy access to various activities and facilities at Patrick AFB and numerous recreational and cultural destinations in the surrounding areas.</p>
 
-                                <p class="small">For more detailed information on benefits, visit the <a class="small" href="https://www.opm.gov/healthcare-insurance/" target="_blank">U.S. Office of Personnel Management’s benefits page.</a></p>
+                                <p class="small">For more detailed information on benefits, visit the <a class="small" href="https://www.opm.gov/healthcare-insurance/" target="_blank" onclick="ga('send', 'event', 'Open OPM link', 'click', 'AFTAC Careers Page');">U.S. Office of Personnel Management’s benefits page.</a></p>
 
                               </div>
 
@@ -874,8 +875,8 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
       </div>
 
       <div class="center2 bluish2 content-middle transparent">
-        <div class="bluishButton two"><a class="white" href="roa.php">Register</a></div>
-        <div class="bluishButton two"><a class="white" href="careers.php#occupations">Back to Occupations</a></div>
+        <div class="bluishButton two"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'AFTAC Careers Page');">Register</a></div>
+        <div class="bluishButton two"><a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'AFTAC Careers Page');">Back to Occupations</a></div>
 
       </div>
 

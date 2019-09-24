@@ -153,7 +153,7 @@ a.small {
           </span>
         </li>
         <li>
-          <a class="navyBlock" href="roa.php">Register</a>
+          <a class="navyBlock" href="https://www.afciviliancareers.com/afciviliancareers">Register</a>
         </li>
       </ul>
     </div>
@@ -226,7 +226,7 @@ a.small {
             </li>
 
             <li class="allAcross">
-              <a id="liRegister" class="highlight three thing" href="roa.php">Register</a>
+              <a id="liRegister" class="highlight three thing" href="https://www.afciviliancareers.com/afciviliancareers">Register</a>
             </li>
           </ul>
         </span>
@@ -374,7 +374,7 @@ a.small {
                   </div>
 
                   <div class="content-middle transparent">
-                    <p class="whiteList">Interested in knowing the Web policies of the Department of Defense? You can read the <a class="small strong" href="https://dodcio.defense.gov/DoD-Web-Policy/" target="_blank">policies here</a>.</p>
+                    <p class="whiteList">Interested in knowing the Web policies of the Department of Defense? You can read the <a class="small strong" href="https://dodcio.defense.gov/DoD-Web-Policy/" target="_blank" onclick="ga('send', 'event', 'DoD Web Policy link', 'click', 'Legal page');">policies here</a>.</p>
 
                     <p class="small whiteList">If you have any questions or comments about the information presented here, please <a class="small strong" href="contact.php">Contact Us</a>.</p>
                     <img src="images5/liner.jpg" id="slideUpLiner3">
@@ -398,9 +398,9 @@ a.small {
                 </div>
 
                 <div class="bluish3 content-middle transparent">
-                  <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
-                  <div class="bluishButton"><a class="white" href="careers.php">Careers</a></div>
-                  <div class="bluishButton"><a class="white" href="find-a-job.php">Find A Job</a></div>
+                  <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Legal page');">Register</a></div>
+                  <div class="bluishButton"><a class="white" href="careers.php" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Legal page');">Careers</a></div>
+                  <div class="bluishButton"><a class="white" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find a Job', 'click', 'Legal page');">Find A Job</a></div>
                 </div>
               </div>
             </div>

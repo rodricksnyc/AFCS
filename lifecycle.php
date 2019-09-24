@@ -173,7 +173,7 @@ gtag('config', 'UA-17154729-1');
 
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-top transparent">
-                  <a style="font-size:14px" href="acquisition.php">
+                  <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition page', 'click', 'Lifecycle page');">
                   <img src="images5/acqhome.png" class="img-responsive i6 child">
                   <div style="left: 12% !important;" class="funThing">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
@@ -186,7 +186,7 @@ gtag('config', 'UA-17154729-1');
 
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-middle transparent">
-                  <a style="font-size:14px" href="lifecycle-careers.php">
+                  <a style="font-size:14px" href="lifecycle-careers.php" onclick="ga('send', 'event', 'Go to Lifecycle Careers page', 'click', 'Lifecycle page');">
                   <img src="images5/careers-button.png" class="img-responsive i7 child">
                   <div style="left: 12% !important;" class="funThing">
 
@@ -200,7 +200,7 @@ gtag('config', 'UA-17154729-1');
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
 
                 <div class="parent content-bottom transparent">
-                    <a style="font-size:14px" href="lifecycle-benefits.php">
+                    <a style="font-size:14px" href="lifecycle-benefits.php" onclick="ga('send', 'event', 'Go to Lifecycle Benefits page', 'click', 'Lifecycle page');">
                     <img src="images5/benefits-button-square.png" class="img-responsive i8 child">
                     <div style="left: 12% !important;" class="funThing">
                       <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
@@ -212,7 +212,7 @@ gtag('config', 'UA-17154729-1');
 
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-last transparent">
-                  <a style="font-size:14px" href="lifecycle-locations.php">
+                  <a style="font-size:14px" href="lifecycle-locations.php" onclick="ga('send', 'event', 'Go to Lifecycle Locations page', 'click', 'Lifecycle page');">
                   <img src="images5/locations-button.png" class="img-responsive i5 child">
                     <div style="left: 12% !important;" class="funThing">
 
@@ -307,9 +307,9 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Lifecycle page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Lifecycle page');">Back to Occupations</a>
             </div>
 
           </div>
@@ -727,9 +727,9 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="roa.php">Register</a></div>
+            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Lifecycle page');">Register</a></div>
             <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations">Back to Occupations</a>
+              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Lifecycle page');">Back to Occupations</a>
             </div>
 
           </div>

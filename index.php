@@ -396,7 +396,7 @@ gtag('config', 'UA-17154729-1');
                   <h4 style='text-align:left;margin-bottom:10px;'><?php the_date();  ?></h4>
                   <div class="hideOnClick"><?php the_excerpt(); ?></div>
 
-                  <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>" onclick="ga('send', 'event', 'View Wordpress Post', 'click', 'Index Page');">LEARN MORE</a></h2>
+                  <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>">LEARN MORE</a></h2>
 
                   <div class='hideInitial'>
                     <?php the_content(); ?>
