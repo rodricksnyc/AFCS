@@ -173,7 +173,7 @@
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
 
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/careers-background.png');">
+            <div class="hero-slide" style="background-image: url('./images5/careers-background.png');" role="img" aria-label="Space & Missile Systems Center Careers Landing Image - a woman smiling in a suit">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
@@ -208,7 +208,7 @@
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
         <div class="parent content-top transparent">
           <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition page', 'click', 'SMSC Careers page');">
-          <img src="images5/acqhome-smsc.png" class="img-responsive i1 child">
+          <img src="images5/acqhome-smsc.png" class="img-responsive i1 child" alt="Acquisition Home Link Button Image">
           <div class="funThing new3">
             <h1 id="topLine5" class="overlayText tlt31">ACQUISITION</h1>
             <h1 id="topLine2" class="overlayText tlt31">HOME</h1>
@@ -222,7 +222,7 @@
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
         <div class="parent content-bottom transparent">
           <a style="font-size:14px;" href="smsc-benefits.php" onclick="ga('send', 'event', 'Go to SMSC Benefits', 'click', 'SMSC Careers page');">
-          <img src="images5/smsc-benefits.png" class="img-responsive i3 child">
+          <img src="images5/smsc-benefits.png" class="img-responsive i3 child" alt="Space & Missile Systems Center Benefits Link Button Image">
           <div class="funThing">
             <h1 id="topLine2" class="overlayText tlt33">BENEFITS</h1>
 
@@ -236,7 +236,7 @@
 
         <div class="parent content-last transparent">
           <a style="font-size:14px;" href="smsc-locations.php" onclick="ga('send', 'event', 'Go to SMSC Locations', 'click', 'SMSC Careers page');">
-          <img src="images5/locations-button.png" class="img-responsive i88 child">
+          <img src="images5/locations-button.png" class="img-responsive i88 child" alt="Space & Missile Systems Center Locations Link Button Image">
           <div class="funThing">
             <h1 id="topLine2" class="overlayText tlt34">LOCATIONS</h1>
 
@@ -245,7 +245,6 @@
           </a>
         </div>
       </div>
-
 
         <div class="cursor"></div>
       </div>

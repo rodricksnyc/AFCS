@@ -122,7 +122,7 @@ h1.acq.two, h1.acq {
           <div class="row">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/careers-background.png');">
+                <div class="hero-slide" style="background-image: url('./images5/careers-background.png');" role="img" aria-label="Air Force Test Center Careers Landing Image - an African American woman smiling">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">
@@ -157,7 +157,7 @@ h1.acq.two, h1.acq {
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-top transparent">
                   <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'Testing Careers page');">
-                  <img src="images5/acqhome.png" class="img-responsive i6 child">
+                  <img src="images5/acqhome.png" class="img-responsive i6 child" alt="Acquisition Home Link Button Image">
                   <div class="funThing new3">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
                     <h1 id="topLine2" class="overlayText tlt100">HOME</h1>
@@ -172,7 +172,7 @@ h1.acq.two, h1.acq {
 
                 <div class="parent content-bottom transparent">
                     <a style="font-size:14px" href="testing-benefits.php" onclick="ga('send', 'event', 'Go to Testing Benefits', 'click', 'Testing Careers page');">
-                    <img src="images5/benefits-button-square.png" class="img-responsive i8 child">
+                    <img src="images5/benefits-button-square.png" class="img-responsive i8 child" alt="Air Force Test Center Benefits Link Button Image">
                     <div class="funThing">
                       <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
                       <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow10">
@@ -184,7 +184,7 @@ h1.acq.two, h1.acq {
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-last transparent">
                   <a style="font-size:14px" href="testing-locations.php" onclick="ga('send', 'event', 'Go to Testing Locations', 'click', 'Testing Careers page');">
-                  <img src="images5/locations-button.png" class="img-responsive i5 child">
+                  <img src="images5/locations-button.png" class="img-responsive i5 child" alt="Air Force Test Center Locations Link Button Image">
                     <div class="funThing">
                       <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
                       <h1 id="topLine2" class="overlayText tlt104">LOCATIONS</h1>

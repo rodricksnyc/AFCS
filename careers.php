@@ -75,7 +75,7 @@
     <div class="row">
       <div class="col-md-12 col-lg-12">
         <div id="hero-slider2" >
-          <div class="hero-slide" style="background-image: url('./images5/career-man1.png');">
+          <div class="hero-slide" style="background-image: url('./images5/career-man1.png');" role="img" aria-label="Careers Landing Image - a man smiling with a suit">
             <div class="container">
               <div class="row hero-content acq">
                 <div class="col-sm-12 moveLeft">
@@ -115,7 +115,7 @@
           <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
             <div class="parent content-top transparent">
               <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'Careers Page');">
-                <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i1 new child">
+                <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i1 new child" alt="Students and Graduates Link Button Image - a students studying with a computer">
                 <div class="funThing" id="b31">
                   <h1 id="topLine3" class="overlayText tlt41">STUDENTS &</h1>
                   <h1 id="topLine4" class="overlayText tlt41">GRADUATES</h1>
@@ -130,7 +130,7 @@
           <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
             <div class="parent content-middle transparent">
               <a style="font-size:14px;" href="#slideDown" id="slideUp">
-                <img id="mobileSmall" src="images5/baby-benefits.png" class="img-responsive i2 new child">
+                <img id="mobileSmall" src="images5/baby-benefits.png" class="img-responsive i2 new child" alt="Benefits Link Button Image - a baby smiling">
                 <div class="funThing" id="b31">
 
                   <h1 id="topLine4" class="overlayText tlt42">BENEFITS</h1>
@@ -143,8 +143,7 @@
           <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
             <div class="parent content-bottom transparent">
               <a style="font-size:14px;" href="#slideDown" id="slideUp">
-                <img id="mobileSmall" src="images5/why-afcs.png" class="img-responsive i3 new child">
-
+                <img id="mobileSmall" src="images5/why-afcs.png" class="img-responsive i3 new child" alt="Why AFCS? Link Button Image - a woman smiling">
                 <div class="funThing" id="b31">
                   <h1 id="topLine4" class="overlayText tlt41">WHY AFCS</h1>
                   <hr id="line" class="trans--grow hr1">
@@ -171,8 +170,8 @@
         <div class="centerBlocks">
           <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
             <div class="parent content-top transparent">
-              <a style="font-size:14px;" href="">
-              <img src="images5/students-graduates.png" class="img-responsive i1 child">
+              <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'Careers Page');">
+              <img src="images5/students-graduates.png" class="img-responsive i1 child" alt="Students and Graduates Link Button Image - a students studying with a computer">
               <div class="funThing" style="left:18%">
                 <h1 id="topLine3" class="overlayText tlt1">STUDENTS &</h1>
                 <h1 id="topLine4" class="overlayText tlt1">GRADUATES</h1>
@@ -187,7 +186,7 @@
 
             <div class="parent content-middle transparent">
               <a style="font-size:14px;" href="#slideDown" id="slideUp">
-              <img src="images5/baby-benefits.png" class="img-responsive i2 child">
+              <img src="images5/baby-benefits.png" class="img-responsive i2 child" alt="Benefits Link Button Image - a baby smiling">
               <div class="funThing">
                 <h1 id="topLine4" class="overlayText tlt2">BENEFITS</h1>
                 <hr id="line" class="trans--grow hr1">
@@ -202,7 +201,7 @@
 
             <div class="parent content-bottom transparent">
               <a style="font-size:14px;" href="#slideDown" id="slideUp">
-              <img src="images5/why-afcs.png" class="img-responsive i3 child">
+              <img src="images5/why-afcs.png" class="img-responsive i3 child" alt="Why AFCS? Link Button Image - a woman smiling">
               <div class="funThing">
                 <h1 id="topLine4" class="overlayText tlt3">WHY AFCS</h1>
                 <hr id="line" class="trans--grow hr1">
@@ -271,7 +270,7 @@
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-top transparent">
               <a href="acm.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to ACM Page', 'click', 'Careers Page');">
-                <img src="images5/acq-her.png" class="img-responsive i1 child">
+                <img src="images5/acq-her.png" class="img-responsive i1 child" alt="Acquisition Contract and Management Link Button Image">
                 <div class="funThing new2" id="b30">
                   <h1 id="topLine5" class="overlayText tlt5">ACQUISITION</h1>
                   <h1 id="topLine5" class="overlayText tlt5">CONTRACT &</h1>
@@ -285,7 +284,7 @@
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-middle transparent">
               <a href="administrative.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Administrative Page', 'click', 'Careers Page');">
-                <img src="images5/admin.png" class="img-responsive i2 child">
+                <img src="images5/admin.png" class="img-responsive i2 child" alt="Administrative Management Link Button Image">
                 <div class="funThing" id="b30">
                   <h1 id="topLine5" class="overlayText tlt6">ADMINISTRATIVE</h1>
                   <h1 id="topLine2" class="overlayText tlt6">& MANAGEMENT</h1>
@@ -298,7 +297,7 @@
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-bottom transparent">
               <a href="aircraft.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Aircraft Page', 'click', 'Careers Page');">
-                <img src="images5/aircraft-new.png" class="img-responsive i3 child">
+                <img src="images5/aircraft-new.png" class="img-responsive i3 child" alt="Aircraft Maintenance Link Button Image">
                 <div class="funThing" id="b30">
                   <h1 id="topLine5" class="overlayText tlt7">AIRCRAFT</h1>
                   <h1 id="topLine2" class="overlayText tlt7">MAINTENANCE</h1>
@@ -311,7 +310,7 @@
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-last transparent">
               <a href="veterinarian.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Veterinarian Page', 'click', 'Careers Page');">
-                <img src="images5/vet.png" class="img-responsive i88 child">
+                <img src="images5/vet.png" class="img-responsive i88 child" alt="Animal Care and Veterinarian Link Button Image">
                 <div class="funThing" id="b30">
                   <h1 id="topLine5" class="overlayText tlt8">ANIMAL CARE &</h1>
                   <h1 id="topLine2" class="overlayText tlt8">VETERINARIAN</h1>
@@ -320,7 +319,6 @@
               </a>
             </div>
           </div>
-
 
           <div class="cursor"></div>
         </div>
@@ -339,7 +337,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-top transparent">
             <a href="auditing.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Audit Page', 'click', 'Careers Page');">
-              <img src="images5/audit.png" class="img-responsive i1 child">
+              <img src="images5/audit.png" class="img-responsive i1 child" alt="Auditing Link Button Image">
               <div class="funThing new2" id="b30">
                 <h1 id="topLine2" class="overlayText tlt9">AUDITING</h1>
 
@@ -352,7 +350,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-middle transparent">
             <a href="chaplain.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Chaplain Page', 'click', 'Careers Page');">
-              <img src="images5/chaplain-square.png" class="img-responsive i2 child">
+              <img src="images5/chaplain-square.png" class="img-responsive i2 child" alt="Chaplain Link Button Image">
               <div class="funThing" id="b30">
                 <h1 id="topLine2" class="overlayText tlt10">CHAPLAIN</h1>
                 <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
@@ -365,7 +363,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-bottom transparent">
             <a href="engineering.php" style="font-size:14px;" onclick="ga('send', 'event', 'Engineering', 'click', 'Careers Page');">
-              <img src="images5/civil-e.png" class="img-responsive i2 child">
+              <img src="images5/civil-e.png" class="img-responsive i2 child" alt="Civil Engineering Link Button Image">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt11">CIVIL</h1>
                 <h1 id="topLine2" class="overlayText tlt11">ENGINEERING</h1>
@@ -379,7 +377,7 @@
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-last transparent">
           <a href="cyber.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Cyber Page', 'click', 'Careers Page');">
-            <img src="images5/cyber.png" class="img-responsive i3 child">
+            <img src="images5/cyber.png" class="img-responsive i3 child" alt="Cyber and Information Technology Link Button Image">
             <div class="funThing" id="b30">
               <h1 id="topLine5" class="overlayText tlt12">CYBER &</h1>
               <h1 id="topLine5" class="overlayText tlt12">INFORMATION</h1>
@@ -405,7 +403,7 @@
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-top transparent">
           <a href="finance.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Finance Page', 'click', 'Careers Page');">
-            <img src="images5/finance-cropped.png" class="img-responsive i88 child">
+            <img src="images5/finance-cropped.png" class="img-responsive i88 child" alt="Finance and Accounting Link Button Image">
             <div class="funThing new2" id="b30">
               <h1 id="topLine5" class="overlayText tlt13">FINANCE &</h1>
               <h1 id="topLine2" class="overlayText tlt13">ACCOUNTING</h1>
@@ -418,7 +416,7 @@
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-middle transparent">
           <a href="fire.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Fire Page', 'click', 'Careers Page');">
-            <img src="images5/fire.png" class="img-responsive i1 child">
+            <img src="images5/fire.png" class="img-responsive i1 child" alt="Fire Protection Link Button Image">
             <div class="funThing" id="b30">
               <h1 id="topLine5" class="overlayText tlt14">FIRE</h1>
               <h1 id="topLine2" class="overlayText tlt14">PROTECTION</h1>
@@ -431,7 +429,7 @@
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-bottom transparent">
           <a href="history-and-museums.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to History and Museums Page', 'click', 'Careers Page');">
-            <img src="images5/history-square.png" class="img-responsive i1 child">
+            <img src="images5/history-square.png" class="img-responsive i1 child" alt="History and Museums Link Button Image">
             <div class="funThing" id="b30">
               <h1 id="topLine5" class="overlayText tlt15">HISTORY &</h1>
               <h1 id="topLine2" class="overlayText tlt15">MUSEUMS</h1>
@@ -445,7 +443,7 @@
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
         <div class="parent content-last transparent">
           <a href="international.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to International Page', 'click', 'Careers Page');">
-            <img src="images5/international-square.png" class="img-responsive i1 child">
+            <img src="images5/international-square.png" class="img-responsive i1 child" alt="International Affairs Link Button Image">
             <div class="funThing" id="b30">
               <h1 id="topLine5" class="overlayText tlt16">INTERNATIONAL</h1>
               <h1 id="topLine2" class="overlayText tlt16">AFFAIRS</h1>
@@ -471,7 +469,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-top transparent">
             <a href="law.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Law Page', 'click', 'Careers Page');">
-              <img src="images5/law.png" class="img-responsive i2 child">
+              <img src="images5/law.png" class="img-responsive i2 child" alt="Law Enforcement and Security Link Button Image">
               <div class="funThing new2" id="b30">
                 <h1 id="topLine5" class="overlayText tlt14">LAW</h1>
                 <h1 id="topLine5" class="overlayText tlt14">ENFORCEMENT</h1>
@@ -487,7 +485,7 @@
 
           <div class="parent content-middle transparent">
             <a href="logistics.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Logistics Page', 'click', 'Careers Page');">
-              <img src="images5/logistics.png" class="img-responsive i3 child">
+              <img src="images5/logistics.png" class="img-responsive i3 child" alt="Logistics Link Button Image">
               <div class="funThing" id="b30">
                 <h1 id="topLine2" class="overlayText tlt15">LOGISTICS</h1>
                 <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
@@ -501,7 +499,7 @@
 
           <div class="parent content-bottom transparent">
             <a href="medical.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Medical Page', 'click', 'Careers Page');">
-              <img src="images5/mental.png" class="img-responsive i88 child">
+              <img src="images5/mental.png" class="img-responsive i88 child" alt="Medical and Mental Health Link Button Image">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt16">MEDICAL &</h1>
                 <h1 id="topLine2" class="overlayText tlt16">MENTAL HEALTH</h1>
@@ -515,7 +513,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-last transparent">
             <a href="pilot.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Pilot Page', 'click', 'Careers Page');">
-              <img src="images5/pilot.png" class="img-responsive i1 child">
+              <img src="images5/pilot.png" class="img-responsive i1 child" alt="Pilot and Simulator Instructors Link Button Image">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt17">PILOT &</h1>
                 <h1 id="topLine5" class="overlayText tlt17">SIMULATOR</h1>
@@ -543,7 +541,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-top transparent">
             <a href="trades.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Skilled Trades Page', 'click', 'Careers Page');">
-              <img src="images5/trades.png" class="img-responsive i2 child">
+              <img src="images5/trades.png" class="img-responsive i2 child" alt="Skilled Trades Link Button Image">
               <div class="funThing new2" id="b30">
                 <h1 id="topLine2" class="overlayText tlt00">SKILLED TRADES</h1>
                 <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
@@ -555,7 +553,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-middle transparent">
             <a href="stem.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to STEM Page', 'click', 'Careers Page');">
-              <img src="images5/stem-square.png" class="img-responsive i3 child">
+              <img src="images5/stem-square.png" class="img-responsive i3 child" alt="STEM Disciplines Link Button Image">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt01">STEM</h1>
                 <h1 id="topLine2" class="overlayText tlt01">DISCIPLINES</h1>
@@ -568,7 +566,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-bottom transparent">
             <a href="social.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Social Services Page', 'click', 'Careers Page');">
-              <img src="images5/social-services.png" class="img-responsive i88 child">
+              <img src="images5/social-services.png" class="img-responsive i88 child" alt="Social Services Link Button Image">
               <div class="funThing" id="b30">
                 <h1 id="topLine5" class="overlayText tlt02">SOCIAL</h1>
                 <h1 id="topLine2" class="overlayText tlt02">SERVICES</h1>
@@ -583,7 +581,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-last transparent">
             <a href="weather.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Weather Page', 'click', 'Careers Page');">
-              <img src="images5/weather-square.png" class="img-responsive i88 child">
+              <img src="images5/weather-square.png" class="img-responsive i88 child" alt="Weather Link Button Image">
               <div class="funThing" id="b30">
                 <h1 id="topLine2" class="overlayText tlt03">WEATHER</h1>
 
@@ -751,7 +749,7 @@
 
             <div class="content-bottom transparent">
 
-              <img src="images5/liner.jpg" id="slideUpLiner3">
+              <img src="images5/liner.jpg" id="slideUpLiner3" style="margin-bottom:25px;">
 
             </div>
 
@@ -783,7 +781,7 @@
 
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
             <div class="parent content-top transparent">
-              <img id="mobileSmall" src="images5/work-life-balance.png" class="img-responsive i1 new child">
+              <img id="mobileSmall" src="images5/work-life-balance.png" class="img-responsive i1 new child" alt="Work-Life Balance Link Button Image - a parnet playing with their child">
               <div class="funThing new">
                 <h1 id="topLine3" class="overlayText tlt00 openIt22">WORK-LIFE</h1>
                 <h1 id="topLine4" class="overlayText tlt00 openIt22">BALANCE</h1>
@@ -795,7 +793,7 @@
 
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
             <div class="parent content-middle transparent">
-              <img id="mobileSmall" src="images5/baby-benefits.png" class="img-responsive i2 new child">
+              <img id="mobileSmall" src="images5/baby-benefits.png" class="img-responsive i2 new child" alt="Federal Benefits Link Button Image - a baby smiling">
               <div class="funThing">
                 <h1 id="topLine3" class="overlayText tlt01 openIt33">FEDERAL</h1>
                 <h1 id="topLine4" class="overlayText tlt01 openIt33">BENEFITS</h1>
@@ -806,7 +804,7 @@
 
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
             <div class="parent content-bottom transparent">
-              <img id="mobileSmall" src="images5/professional-growth.png" class="img-responsive i3 new child">
+              <img id="mobileSmall" src="images5/professional-growth.png" class="img-responsive i3 new child" alt="Professional Growth Link Button Image">
               <div class="funThing">
                 <h1 id="topLine3" class="overlayText tlt02 openIt1">PROFESSIONAL</h1>
                 <h1 id="topLine4" class="overlayText tlt02 openIt1">GROWTH</h1>
@@ -1000,7 +998,7 @@
           <div id="addShadow3" class="centerBlocks">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
-                <img src="images5/veterans.png" class="img-responsive i1 new child">
+                <img src="images5/veterans.png" class="img-responsive i1 new child" alt="Veterans Link Button Image -  military boots in front of a US flag">
                 <div class="funThing new">
 
                   <h1 id="topLine4" class="overlayText tlt41 openIt2">VETERANS</h1>
@@ -1010,7 +1008,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
               <div class="parent content-middle transparent">
-                <img src="images5/military.png" class="img-responsive i2 new child">
+                <img src="images5/military.png" class="img-responsive i2 new child" alt="Military Spouses Link Button Image - a military man with his wife">
                 <div class="funThing">
                   <h1 id="topLine3" class="overlayText tlt42 openIt3">MILITARY</h1>
                   <h1 id="topLine4" class="overlayText tlt42 openIt3">SPOUSES</h1>
@@ -1020,7 +1018,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
-                <img src="images5/disabilities.png" class="img-responsive i3 new child">
+                <img src="images5/disabilities.png" class="img-responsive i3 new child" alt="Persons with Disabilities Link Button Image -  a man in a wheelchair in front of a flag">
                 <div class="funThing">
                   <h1 id="topLine3" class="overlayText tlt43 openIt">PERSONS WITH</h1>
                   <h1 id="topLine4" class="overlayText tlt43 openIt">DISABILITIES</h1>

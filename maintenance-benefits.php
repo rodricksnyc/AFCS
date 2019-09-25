@@ -130,7 +130,7 @@ h1.acq.two, h1.acq {
       <div class="row">
         <div class="col-xs-12 col-lg-12">
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/benefits-background.png');">
+            <div class="hero-slide" style="background-image: url('./images5/benefits-background.png');" role="img" aria-label="Air Force Sustainment Center Benefits Landing Image - doctor with a lab coat">
               <div class="row hero-content acq">
                 <div class="col-sm-12 moveLeft">
                   <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
@@ -163,7 +163,7 @@ h1.acq.two, h1.acq {
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-top transparent">
                   <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquistion Home page', 'click', 'Maintenance page');">
-                  <img src="images5/acqhome.png" class="img-responsive i6 child">
+                  <img src="images5/acqhome.png" class="img-responsive i6 child" alt="Acquisition Home Link Button Image">
                   <div class="funThing new3">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
                     <h1 id="topLine2" class="overlayText tlt100">HOME</h1>
@@ -176,7 +176,7 @@ h1.acq.two, h1.acq {
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-middle transparent">
                   <a style="font-size:14px" href="maintenance-careers.php" onclick="ga('send', 'event', 'Go to Maintenance Careers page', 'click', 'Maintenance page');">
-                  <img src="images5/careers-button.png" class="img-responsive i7 child">
+                  <img src="images5/careers-button.png" class="img-responsive i7 child" alt="Air Force Sustainment Center Careers Link Button Image">
                   <div class="funThing">
                     <!-- <h1 id="topLine5" class="overlayText tlt101">NUCLEAR</h1> -->
                     <h1 id="topLine2" class="overlayText tlt101">CAREERS</h1>
@@ -186,23 +186,11 @@ h1.acq.two, h1.acq {
                 </div>
               </div>
 
-              <!-- <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
-
-                <div class="parent content-bottom transparent">
-                    <a style="font-size:14px" href="maintenance-benefits.php">
-                    <img src="images5/benefits-button-square.png" class="img-responsive i8 child">
-                    <div style="left: 12% !important;" class="funThing">
-                      <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
-                      <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow10">
-                    </div>
-                  </a>
-                </div>
-              </div> -->
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
                 <div class="parent content-last transparent">
                   <a style="font-size:14px" href="maintenance-locations.php" onclick="ga('send', 'event', 'Go to Maintenance Locations page', 'click', 'Maintenance page');">
-                  <img src="images5/locations-button.png" class="img-responsive i5 child">
+                  <img src="images5/locations-button.png" class="img-responsive i5 child" alt="Air Force Sustainment Center Locations Link Button Image">
                     <div class="funThing">
                       <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
                       <h1 id="topLine2" class="overlayText tlt104">LOCATIONS</h1>

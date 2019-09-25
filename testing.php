@@ -97,7 +97,7 @@ gtag('config', 'UA-17154729-1');
           <div class="row">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/test-main.png');">
+                <div class="hero-slide" style="background-image: url('./images5/test-main.png');" role="img" aria-label="Air Force Test Center Landing Image">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">
@@ -132,7 +132,7 @@ gtag('config', 'UA-17154729-1');
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-top transparent">
                   <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'Testing page');">
-                  <img src="images5/acqhome.png" class="img-responsive i6 child">
+                  <img src="images5/acqhome.png" class="img-responsive i6 child" alt="Acquisition Home Link Button Image">
                   <div style="left: 12% !important;" class="funThing">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
                     <h1 id="topLine2" class="overlayText tlt100">HOME</h1>
@@ -145,7 +145,7 @@ gtag('config', 'UA-17154729-1');
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-middle transparent">
                   <a style="font-size:14px" href="testing-careers.php" onclick="ga('send', 'event', 'Go to Testing Careers', 'click', 'Testing page');">
-                  <img src="images5/careers-button.png" class="img-responsive i7 child">
+                  <img src="images5/careers-button.png" class="img-responsive i7 child" alt="Air Force Test Center Careers Link Button Image">
                   <div style="left: 12% !important;" class="funThing">
                     <!-- <h1 id="topLine5" class="overlayText tlt101">NUCLEAR</h1> -->
                     <h1 id="topLine2" class="overlayText tlt101">CAREERS</h1>
@@ -159,7 +159,7 @@ gtag('config', 'UA-17154729-1');
 
                 <div class="parent content-bottom transparent">
                     <a style="font-size:14px" href="testing-benefits.php" onclick="ga('send', 'event', 'Go to Testing Benefits', 'click', 'Testing page');">
-                    <img src="images5/benefits-button-square.png" class="img-responsive i8 child">
+                    <img src="images5/benefits-button-square.png" class="img-responsive i8 child" alt="Air Force Test Center Benefits Link Button Image">
                     <div style="left: 12% !important;" class="funThing">
                       <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
                       <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow10">
@@ -171,7 +171,7 @@ gtag('config', 'UA-17154729-1');
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-last transparent">
                   <a style="font-size:14px" href="testing-locations.php" onclick="ga('send', 'event', 'Go to Testing Locations', 'click', 'Testing page');">
-                  <img src="images5/locations-button.png" class="img-responsive i5 child">
+                  <img src="images5/locations-button.png" class="img-responsive i5 child" alt="Air Force Test Center Locations Link Button Image">
                     <div style="left: 12% !important;" class="funThing">
                       <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
                       <h1 id="topLine2" class="overlayText tlt104">LOCATIONS</h1>

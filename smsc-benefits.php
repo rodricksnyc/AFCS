@@ -176,7 +176,7 @@
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
 
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/benefits-background.png');">
+            <div class="hero-slide" style="background-image: url('./images5/benefits-background.png');" role="img" aria-label="Space & Missile Systems Center Benefits Landing Image - a doctor in a lab coat">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
@@ -211,7 +211,7 @@
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
         <div class="parent content-top transparent">
           <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition page', 'click', 'SMSC Benefits page');">
-          <img src="images5/acqhome-smsc.png" class="img-responsive i1 child">
+          <img src="images5/acqhome-smsc.png" class="img-responsive i1 child" alt="Acquisition Home Link Button Image">
           <div class="funThing new3">
             <h1 id="topLine5" class="overlayText tlt31">ACQUISITION</h1>
             <h1 id="topLine2" class="overlayText tlt31">HOME</h1>
@@ -223,7 +223,7 @@
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
         <div class="parent content-middle transparent">
           <a style="font-size:14px;" href="smsc-careers.php" onclick="ga('send', 'event', 'Go to SMSC Careers page', 'click', 'SMSC Benefits page');">
-          <img src="images5/careers-button.png" class="img-responsive i2 child">
+          <img src="images5/careers-button.png" class="img-responsive i2 child" alt="Space & Missile Systems Center Careers Link Button Image">
           <div class="funThing">
             <h1 id="topLine2" class="overlayText tlt32">CAREERS</h1>
             <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
@@ -232,24 +232,11 @@
         </div>
       </div>
 
-      <!-- <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
-        <div class="parent content-bottom transparent">
-          <a style="font-size:14px;" href="smsc-benefits.php">
-          <img src="images5/benefits-button-square.png" class="img-responsive i3 child">
-          <div class="funThing new2">
-            <h1 id="topLine2" class="overlayText tlt33">BENEFITS</h1>
-
-            <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
-          </div>
-          </a>
-        </div>
-      </div> -->
-
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
 
         <div class="parent content-last transparent">
           <a style="font-size:14px;" href="smsc-locations.php" onclick="ga('send', 'event', 'Go to SMSC Locations page', 'click', 'SMSC Benefits page');">
-          <img src="images5/locations-button.png" class="img-responsive i88 child">
+          <img src="images5/locations-button.png" class="img-responsive i88 child" alt="Space & Missile Systems Center Locations Link Button Image">
           <div class="funThing">
             <h1 id="topLine2" class="overlayText tlt34">LOCATIONS</h1>
 

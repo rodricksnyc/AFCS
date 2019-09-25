@@ -146,7 +146,7 @@ gtag('config', 'UA-17154729-1');
           <div class="row">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/acq-background.png');" alt="Acquisition Force Landing Image - a man in a suit smiling">
+                <div class="hero-slide" style="background-image: url('./images5/acq-background.png');" role="img" aria-label="Acquisition Force Landing Image - a man in a suit smiling">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

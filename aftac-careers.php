@@ -284,7 +284,7 @@ a.small{
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/aftac-career-image.png');" alt="Air Force Technical Applications Center Careers Landing Image - 1 lab technicians in front of analytic equipment">
+            <div class="hero-slide" style="background-image: url('./images5/aftac-career-image.png');" role="img" aria-label="Air Force Technical Applications Center Careers Landing Image - 1 lab technicians in front of analytic equipment">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">

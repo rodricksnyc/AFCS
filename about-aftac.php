@@ -138,7 +138,7 @@
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/about-aftac-image.png');" alt="Air Force Technical Applications Center About Landing Image - 3 lab technicians posing in front of an array of computing and analytic equipment">
+            <div class="hero-slide" style="background-image: url('./images5/about-aftac-image.png');" role="img" aria-label="Air Force Technical Applications Center About Landing Image - 3 lab technicians posing in front of an array of computing and analytic equipment">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
