@@ -83,7 +83,7 @@
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/trades-main.png');">
+                <div class="hero-slide" style="background-image: url('./images5/trades-main.png');" role="img" aria-label="Skilled Trades Landing Image - a man with glasses">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

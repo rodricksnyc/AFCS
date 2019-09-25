@@ -77,7 +77,7 @@
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/cyber-main.png');">
+                <div class="hero-slide" style="background-image: url('./images5/cyber-main.png');" role="img" aria-label="Cyber and Information Technology Landing Image - a woman wearing a hijab, smiling">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

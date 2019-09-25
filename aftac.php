@@ -93,7 +93,7 @@ gtag('config', 'UA-17154729-1');
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/aftac.png');">
+            <div class="hero-slide" style="background-image: url('./images5/aftac.png');" role="img" aria-label="Air Force Technical Applications Center Landing Image - 1 lab technician posing in front of an array of computing and analytic equipment">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
@@ -117,7 +117,7 @@ gtag('config', 'UA-17154729-1');
               </div>
             </div>
 
-            <div class="hero-slide" style="background-image: url('./images5/aftac2.png');">
+            <div class="hero-slide" style="background-image: url('./images5/aftac2.png');" role="img" aria-label="Air Force Technical Applications Center Landing Image - testing in a clean room">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
@@ -140,7 +140,7 @@ gtag('config', 'UA-17154729-1');
                 </div>
               </div>
             </div>
-            <div class="hero-slide" style="background-image: url('./images5/aftac3.png');">
+            <div class="hero-slide" style="background-image: url('./images5/aftac3.png');" role="img" aria-label="Air Force Technical Applications Center Landing Image Lab technician calibrating analytic and testing equipment">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
@@ -173,12 +173,11 @@ gtag('config', 'UA-17154729-1');
       <div class="container-fluid">
         <div class="row heros">
 
-
           <div class="centerBlocks">
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
                 <a style="font-size:14px;" href="about-aftac.php" onclick="ga('send', 'event', 'Go to About AFTAC page', 'click', 'AFTAC Home');">
-                  <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i1 child">
+                  <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i1 child" alt="About AFTAC Link Button Image - 3 lab technicians posing in front of an array of computing and analytic equipment">
                   <div class="funThing new" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">ABOUT</h1>
                     <h1 id="topLine4" class="overlayText tlt41">AFTAC</h1>
@@ -193,7 +192,7 @@ gtag('config', 'UA-17154729-1');
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-middle transparent">
                 <a style="font-size:14px;" href="aftac-careers.php" onclick="ga('send', 'event', 'Go to AFTAC Careers page', 'click', 'AFTAC Home');">
-                  <img id="mobileSmall" src="images5/aftac-careers.png" class="img-responsive i2 child">
+                  <img id="mobileSmall" src="images5/aftac-careers.png" class="img-responsive i2 child" alt="Careers at AFTAC Link Button Image - 1 lab technicians posing in front of an array of computing and analytic equipment">
                   <div class="funThing" id="b33">
                     <h1 id="topLine3" class="overlayText tlt42">CAREERS</h1>
                     <h1 id="topLine4" class="overlayText tlt42">AT AFTAC</h1>
@@ -206,7 +205,7 @@ gtag('config', 'UA-17154729-1');
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
                 <a style="font-size:14px;" href="contact-aftac.php" onclick="ga('send', 'event', 'Go to Contact AFTAC page', 'click', 'AFTAC Home');">
-                  <img id="mobileSmall" src="images5/contact-aftac.png" class="img-responsive i3 child">
+                  <img id="mobileSmall" src="images5/contact-aftac.png" class="img-responsive i3 child" alt="Contact AFTAC Link Button Image - 2 lab technicians">
 
                   <div class="funThing" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">CONTACT</h1>

@@ -508,7 +508,7 @@ gtag('config', 'UA-17154729-1');
   <div class="Modern-Slider">
     <div class="item">
       <div class="img-fill">
-        <img src="images5/scram-jet.jpg" alt="">
+        <img src="images5/scram-jet.jpg" alt="Artist rendering: Scramjet X51A Wave Rider aircraft">
         <div class="info">
           <div>
             <h3>AIR INNOVATIONS</h3>
@@ -522,7 +522,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/stealth.jpg" alt="">
+        <img src="images5/stealth.jpg" alt="Photo: B2 bomber with F-22 fighter">
         <div class="info">
           <div>
             <h3>AIR INNOVATIONS</h3>
@@ -537,7 +537,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/micro.jpg" alt="">
+        <img src="images5/micro.jpg" alt="Flying bat that illustrates experimental flight research">
         <div class="info">
           <div>
             <h3>AIR INNOVATIONS</h3>
@@ -551,7 +551,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/arsenal.jpg" alt="">
+        <img src="images5/arsenal.jpg" alt="Photo: Airman securing munitions">
         <div class="info">
           <div>
             <h3>AIR INNOVATIONS</h3>
@@ -564,7 +564,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/wind.jpg" alt="">
+        <img src="images5/wind.jpg" alt="Photo: Technician standing in an enormous wind tunnel">
         <div class="info">
           <div>
             <h3>AIR INNOVATIONS</h3>
@@ -578,7 +578,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/RPA.jpg" alt="">
+        <img src="images5/RPA.jpg" alt="Photo: Remotely Piloted Aircraft being serviced">
         <div class="info">
           <div>
             <h3>AIR INNOVATIONS</h3>
@@ -593,7 +593,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/test-pilot.jpg" alt="">
+        <img src="images5/test-pilot.jpg" alt="Photo: Four test pilots from the1950s and 1960s">
         <div class="info">
           <div>
             <h3>AIR INNOVATIONS</h3>
@@ -607,7 +607,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/nasa.jpg" alt="">
+        <img src="images5/nasa.jpg" alt="GPS satellites">
         <div class="info">
           <div>
             <h3>SPACE INNOVATIONS</h3>
@@ -622,7 +622,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/rockets-innovations.jpg" alt="">
+        <img src="images5/rockets-innovations.jpg" alt="Photo: Rocket launch">
         <div class="info">
           <div>
             <h3>SPACE INNOVATIONS</h3>
@@ -637,7 +637,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/space-weather.jpg" alt="">
+        <img src="images5/space-weather.jpg" alt="Artist rendering: Weather satellite in orbit">
         <div class="info">
           <div>
             <h3>SPACE INNOVATIONS</h3>
@@ -653,7 +653,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/gps.jpg" alt="">
+        <img src="images5/gps.jpg" alt="Artist rendering: Satellite in orbit around the earth">
         <div class="info">
           <div>
             <h3>SPACE INNOVATIONS</h3>
@@ -669,7 +669,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/cyber-attack.jpg" alt="">
+        <img src="images5/cyber-attack.jpg" alt="Artist rendering: multiple interconnected laptop computers with “alert” icons in each">
         <div class="info">
           <div>
             <h3>CYBER INNOVATIONS</h3>
@@ -684,7 +684,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/nano.jpg" alt="">
+        <img src="images5/nano.jpg" alt="Photo: microscopic view of crystals">
         <div class="info">
           <div>
             <h3>CYBER INNOVATIONS</h3>
@@ -700,7 +700,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/router.jpg" alt="">
+        <img src="images5/router.jpg" alt="Photo: Airman with wing mounted router">
         <div class="info">
           <div>
             <h3>CYBER INNOVATIONS</h3>
@@ -715,7 +715,7 @@ gtag('config', 'UA-17154729-1');
 
     <div class="item">
       <div class="img-fill">
-        <img src="images5/super.jpg" alt="">
+        <img src="images5/super.jpg" alt="Photo: Multiple rack-mounter Sony PlayStations">
         <div class="info">
           <div>
             <h3>CYBER INNOVATIONS</h3>

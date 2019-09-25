@@ -284,7 +284,7 @@ a.small{
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/aftac-career-image.png');">
+            <div class="hero-slide" style="background-image: url('./images5/aftac-career-image.png');" alt="Air Force Technical Applications Center Careers Landing Image - 1 lab technicians in front of analytic equipment">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
@@ -322,7 +322,7 @@ a.small{
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-top transparent">
                   <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Home page', 'click', 'AFTAC Careers Page');">
-                  <img src="images5/aftac-home.png" class="img-responsive i6 child">
+                  <img src="images5/aftac-home.png" class="img-responsive i6 child" alt="AFTAC Home Link Button Image - 3 lab technicians posing in front of an array of computing and analytic equipment">
                   <div style="left: 12% !important;" class="funThing">
                     <h1 id="topLine5" class="overlayText tlt100">AFTAC</h1>
                     <h1 id="topLine2" class="overlayText tlt100">HOME</h1>
@@ -335,7 +335,7 @@ a.small{
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-middle transparent">
                   <a style="font-size:14px;" href="#newTop" id="newBottom">
-                  <img src="images5/nuclear-small.png" class="img-responsive i7 child">
+                  <img src="images5/nuclear-small.png" class="img-responsive i7 child" alt="AFTAC Occupations Link Button Image">
                   <div style="left: 12% !important;" class="funThing">
                     <h1 id="topLine2" class="overlayText tlt101">OCCUPATIONS</h1>
                     <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
@@ -347,7 +347,7 @@ a.small{
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-bottom transparent">
                   <a style="font-size:14px;" href="#lastTop" id="lastBottom">
-                  <img src="images5/baby-benefits.png" class="img-responsive i8 child">
+                  <img src="images5/baby-benefits.png" class="img-responsive i8 child" alt="AFTAC Benefits Link Button Image - a baby smiling">
                   <div style="left: 12% !important;" class="funThing">
                     <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
                     <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow10">
@@ -359,7 +359,7 @@ a.small{
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
                 <div class="parent content-last transparent">
                   <a style="font-size:14px;" href="#locationTop">
-                  <img src="images5/space-square.png" class="img-responsive i5 child">
+                  <img src="images5/space-square.png" class="img-responsive i5 child" alt="AFTAC Find a Job Link Button Image">
                     <div style="left: 12% !important;" class="funThing">
                       <h1 id="topLine5" class="overlayText tlt104">FIND A</h1>
                       <h1 id="topLine2" class="overlayText tlt104">JOB</h1>
@@ -416,7 +416,7 @@ a.small{
 
             <div class="content-top transparent">
 
-              <img src="images5/about-diversity.png" class="img-responsive" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              <img src="images5/about-diversity.png" class="img-responsive" alt="Diversity images of a croup of students sitting down together" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
@@ -459,7 +459,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
             <div class="content-top transparent">
 
-              <img src="images5/aftac10.jpg" class="img-responsive" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              <img src="images5/aftac10.jpg" class="img-responsive" alt="Two lab technicians posing with equipment" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
@@ -495,7 +495,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
             <div class="parent content-top transparent">
-              <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i1 child">
+              <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i1 child" alt="Program Management Link Button Image">
               <div id="funTwo" class="funThing new3">
                 <h1 id="topLine3" class="overlayText tlt00 openIt22" onclick="ga('send', 'event', 'Open Program Management', 'click', 'AFTAC Careers Page');">PROGRAM</h1>
                 <h1 id="topLine4" class="overlayText tlt00 openIt22" onclick="ga('send', 'event', 'Open Program Management', 'click', 'AFTAC Careers Page');">MANAGEMENT</h1>
@@ -507,7 +507,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
             <div class="parent content-middle transparent">
-              <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i2 child">
+              <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i2 child" alt="Scientists and Engineers Link Button Image">
               <div id="funTwo" class="funThing">
                 <h1 id="topLine3" class="overlayText tlt01 openIt33" onclick="ga('send', 'event', 'Open Scientists and Engineers', 'click', 'AFTAC Careers Page');">SCIENTISTS</h1>
                 <h1 id="topLine4" class="overlayText tlt01 openIt33" onclick="ga('send', 'event', 'Open Scientists and Engineers', 'click', 'AFTAC Careers Page');">& ENGINEERS</h1>
@@ -518,7 +518,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
             <div class="parent content-bottom transparent">
-              <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i3 child">
+              <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i3 child" alt="Communications and IT Link Button Image">
               <div id="funTwo" class="funThing one">
                 <h1 id="topLine3" class="overlayText tlt02 openIt1" onclick="ga('send', 'event', 'Open Communications and IT', 'click', 'AFTAC Careers Page');">COMMUNICATIONS</h1>
                 <h1 id="topLine4" class="overlayText tlt02 openIt1" onclick="ga('send', 'event', 'Open Communications and IT', 'click', 'AFTAC Careers Page');">& IT</h1>
@@ -753,7 +753,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
                                 <div class="content-top transparent">
 
-                                  <img src="images5/aftac1.jpg" class="img-responsive" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+                                  <img src="images5/aftac1.jpg" class="img-responsive" alt="Research vessel at sea" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
                     -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
                     box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
@@ -850,7 +850,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
                             <div class="content-top transparent">
 
-                              <img src="images5/aftac6.jpg" class="img-responsive" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+                              <img src="images5/aftac6.jpg" class="img-responsive" alt="Helicopter delivering material" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
                 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
                 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 

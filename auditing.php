@@ -77,7 +77,7 @@
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/auditing-main.png');">
+                <div class="hero-slide" style="background-image: url('./images5/auditing-main.png');" role="img" aria-label="Auditing Landing Image - a woman smiling">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

@@ -75,7 +75,7 @@
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/acm.png');" alt="Acquisition Contract and Management Landing Image - a woman smiling with glasses">
+                <div class="hero-slide" style="background-image: url('./images5/acm.png');" role="img" aria-label="Acquisition Contract and Management Landing Image - a woman smiling with glasses">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

@@ -29,7 +29,7 @@
           </span>
         </li>
         <li>
-          <a class="navyBlock" href="roa.html">Register</a>
+          <a class="navyBlock" href="https://www.afciviliancareers.com/afciviliancareers">Register</a>
         </li>
       </ul>
     </div>

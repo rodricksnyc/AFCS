@@ -76,7 +76,7 @@ gtag('config', 'UA-17154729-1');
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/fire-main.png');">
+                <div class="hero-slide" style="background-image: url('./images5/fire-main.png');" role="img" aria-label="Fire Protection Landing Image - a female firefighter">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

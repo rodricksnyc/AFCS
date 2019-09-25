@@ -79,7 +79,7 @@ gtag('config', 'UA-17154729-1');
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/engineering.png');">
+                <div class="hero-slide" style="background-image: url('./images5/engineering.png');" role="img" aria-label="Civil Engineering Landing Image - a female engineer wearing a hard hat">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

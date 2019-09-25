@@ -138,7 +138,7 @@
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
           <div id="hero-slider2">
-            <div class="hero-slide" style="background-image: url('./images5/about-aftac-image.png');" alt="Air Force Technical Applications Center Landing Image - 3 lab technicians posing in front of an array of computing and analytic equipment">
+            <div class="hero-slide" style="background-image: url('./images5/about-aftac-image.png');" alt="Air Force Technical Applications Center About Landing Image - 3 lab technicians posing in front of an array of computing and analytic equipment">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12 moveLeft">
@@ -172,7 +172,7 @@
             <div class="centerBlocks">
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
-                <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Home page', 'click', 'About AFTAC Page');" alt="AFTAC Home Link Button Image - 3 lab technicians posing in front of an array of computing and analytic equipment">
+                <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Home page', 'click', 'About AFTAC Page');">
                   <img id="mobileSmall" src="images5/about-aftac.png" class="img-responsive i1 child" alt="AFTAC Home Link Button Image - 3 lab technicians posing in front of an array of computing and analytic equipment">
                   <div class="funThing new" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">AFTAC</h1>
@@ -187,7 +187,7 @@
 
           <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-middle transparent">
-                <a style="font-size:14px;" href="#newTop" id="newBottom" alt="Radiochemistry Lab Link Button Image - 1 lab technician posing in front of an array of computing and analytic equipment">
+                <a style="font-size:14px;" href="#newTop" id="newBottom">
                   <img id="mobileSmall" src="images5/aftac-careers.png" class="img-responsive i2 child" alt="Radiochemistry Lab Link Button Image - 1 lab technician posing in front of an array of computing and analytic equipment">
                   <div class="funThing" id="b33">
                     <h1 id="topLine3" class="overlayText tlt42">RADIO</h1>
@@ -200,7 +200,7 @@
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
-                <a style="font-size:14px;" href="#locationTop" id="locationBottom" alt="Location Button Link Image - 1 lab technician posing in front of an array of computing and analytic equipment">
+                <a style="font-size:14px;" href="#locationTop" id="locationBottom">
                   <img id="mobileSmall" src="images5/contact-aftac.png" class="img-responsive i3 child" alt="Location Button Link Image - 1 lab technician posing in front of an array of computing and analytic equipment">
                   <div class="funThing" id="b33">
                     <h1 id="topLine4" class="overlayText tlt41">LOCATION</h1>

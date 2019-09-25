@@ -15,10 +15,10 @@ var tipuesearch_replace = {'words': [
 // Weighting
 
 var tipuesearch_weight = {'weight': [
-     {'url': 'http://v4.afciviliancareers.com/afcs-homepage.html', 'score': 60},
-     {'url': 'http://v4.afciviliancareers.com/about.html', 'score': 60},
-     {'url': 'http://v4.afciviliancareers.com/careers.html', 'score': 60},
-     {'url': 'http://v4.afciviliancareers.com/contact.html', 'score': 20}
+     {'url': 'http://v4.afciviliancareers.com/index.php', 'score': 60},
+     {'url': 'http://v4.afciviliancareers.com/about.php', 'score': 60},
+     {'url': 'http://v4.afciviliancareers.com/careers.php', 'score': 60},
+     {'url': 'http://v4.afciviliancareers.com/contact.php', 'score': 20}
 ]};
 
 

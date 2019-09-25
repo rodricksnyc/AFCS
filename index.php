@@ -79,7 +79,7 @@ gtag('config', 'UA-17154729-1');
         <div class="row">
           <div class="col-xs-12 col-lg-12">
             <div id="hero-slider" class="mMobile">
-              <div class="hero-slide" style="background-image: url('./images5/glasses.jpg');">
+              <div class="hero-slide" style="background-image: url('./images5/glasses.jpg');" role="img" aria-label="First AFCS Landing Image - a woman smiling with glasses on">
                 <div class="container">
                   <div class="row hero-content first">
                     <div class="col-sm-12">
@@ -95,7 +95,7 @@ gtag('config', 'UA-17154729-1');
                 </div>
               </div>
 
-              <div class="hero-slide" style="background-image: url('./images5/bun-girl.png');">
+              <div class="hero-slide" style="background-image: url('./images5/bun-girl.png');" role="img" aria-label="Second AFCS Landing Image - an African American woman laughing">
                 <div class="container">
                   <div class="row hero-content first">
                     <div class="col-sm-12">
@@ -113,7 +113,7 @@ gtag('config', 'UA-17154729-1');
                   </div>
                 </div>
               </div>
-              <div class="hero-slide" style="background-image: url('./images5/beard.jpg');">
+              <div class="hero-slide" style="background-image: url('./images5/beard.jpg');" role="img" aria-label="Third AFCS Landing Image - a man with a beard a jacket thrown over his shoulder">
                 <div class="container">
                   <div class="row hero-content first">
                     <div class="col-sm-12">
@@ -148,7 +148,7 @@ gtag('config', 'UA-17154729-1');
             <div class="centerBlocks">
               <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
                 <div class="parent content-top transparent">
-                  <img src="images5/4-block.png" class="img-responsive i1 child">
+                  <img src="images5/4-block.png" class="img-responsive i1 child" alt="Videos Button Image - a male and a female smiling">
                   <div class="funThing new" id="b30">
                     <h1 id="topLine4" class="overlayText tlt1 openIt2" onclick="ga('send', 'event', 'Open Videos', 'click', 'Index Page');">VIDEOS</h1>
                     <hr id="line" class="trans--grow hr1">
@@ -158,7 +158,7 @@ gtag('config', 'UA-17154729-1');
 
               <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
                 <div class="parent content-middle transparent">
-                  <img src="images5/5-block.png" class="img-responsive i2 child">
+                  <img src="images5/5-block.png" class="img-responsive i2 child" alt="News Button Image - a rocket launching">
                   <div class="funThing" id="b30">
                     <h1 id="topLine4" class="overlayText tlt2 openIt3" onclick="ga('send', 'event', 'Open News', 'click', 'Index Page');">NEWS</h1>
                     <hr id="line" class="trans--grow hr1">
@@ -168,7 +168,7 @@ gtag('config', 'UA-17154729-1');
 
               <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
                 <div class="parent content-bottom transparent">
-                  <img src="images5/6-block.png" class="img-responsive i3 child">
+                  <img src="images5/6-block.png" class="img-responsive i3 child" alt="Events Button Image - booths at a convention center">
                   <div class="funThing" id="b30">
                     <h1 id="topLine4" class="overlayText tlt3 openIt" onclick="ga('send', 'event', 'Open Events', 'click', 'Index Page');">EVENTS</h1>
                     <hr id="line" class="trans--grow hr1">

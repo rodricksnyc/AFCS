@@ -100,7 +100,7 @@ gtag('config', 'UA-17154729-1');
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/international.jpg');">
+                <div class="hero-slide" style="background-image: url('./images5/international.jpg');" role="img" aria-label="International Affairs Landing Image - a man swith a suit smiling">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

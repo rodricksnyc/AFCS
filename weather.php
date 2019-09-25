@@ -88,7 +88,7 @@ gtag('config', 'UA-17154729-1');
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/weather2.jpg');">
+                <div class="hero-slide" style="background-image: url('./images5/weather2.jpg');" role="img" aria-label="Weather Landing Image - 1 man with a disability">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">

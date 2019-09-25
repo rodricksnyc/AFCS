@@ -80,7 +80,7 @@
         <div class="col-xs-12 col-lg-12">
           <div id="hero-slider2">
 
-            <div class="hero-slide" style="background-image: url('./images5/aboutslider.png');" alt="About Landing Image - 2 members of the Air Force">
+            <div class="hero-slide" style="background-image: url('./images5/aboutslider.png');" role="img" aria-label="About Landing Image - 2 members of the Air Force">
               <div class="container">
                 <div class="row hero-content acq">
                   <div class="col-sm-12">
@@ -110,7 +110,7 @@
           <div class="centerBlocks">
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-top transparent">
-                <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition Page', 'click', 'About Page');" alt="Acquisition Force Button Image - scramjet X-51 wave rider">
+                <a style="font-size:14px;" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition Page', 'click', 'About Page');">
                   <img id="mobileSmall" src="images5/career-slide1.png" class="img-responsive i1 child" alt="Acquisition Force Link Button Image - scramjet X-51 wave rider">
                   <div class="funThing new" id="b33">
                     <h1 id="topLine3" class="overlayText tlt41">ACQUISITION</h1>
@@ -123,7 +123,7 @@
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-middle transparent">
-                <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Page', 'click', 'About Page');" alt="AFTAC Link Button Image - 1 lab technician posing in front of an array of computing and analytic equipment">
+                <a style="font-size:14px;" href="aftac.php" onclick="ga('send', 'event', 'Go to AFTAC Page', 'click', 'About Page');">
                   <img id="mobileSmall" src="images5/career-slide2.png" class="img-responsive i2 child" alt="AFTAC Link Button Image - 1 lab technician posing in front of an array of computing and analytic equipment">
                   <div class="funThing" id="b33">
                     <h1 id="topLine4" class="overlayText tlt42">AFTAC</h1>
@@ -135,7 +135,7 @@
 
             <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
               <div class="parent content-bottom transparent">
-                <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'About Page');" alt="Students and Graduates Link Button Image -  a student studying in front of her computer">
+                <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'About Page');">
                   <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i3 child" alt="Students and Graduates Link Button Image -  a student studying in front of her computer">
 
                   <div class="funThing" id="b33">

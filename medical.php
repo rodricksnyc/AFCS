@@ -82,7 +82,7 @@
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/medical.png');">
+                <div class="hero-slide" style="background-image: url('./images5/medical.png');" role="img" aria-label="Medical and Mental Health Landing Image - a doctor with scrubs on">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">
@@ -660,9 +660,9 @@
             </div>
 
             <div class="bluish3 content-middle transparent">
-              <div class="bluishButton"><a class="white" href="roa.html" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Medical page');">Register</a></div>
+              <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareersl" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Medical page');">Register</a></div>
               <div class="bluishButton new">
-                <a class="white" href="careers.html#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Medical page');">Back to Occupations</a>
+                <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Medical page');">Back to Occupations</a>
               </div>
 
             </div>

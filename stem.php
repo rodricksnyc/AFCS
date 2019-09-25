@@ -79,7 +79,7 @@
           <div class="row bottomBoxShadow">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/stem.png');">
+                <div class="hero-slide" style="background-image: url('./images5/stem.png');" role="img" aria-label="Science, Technology, Engineering, and Math Landing Image - a woman in a hazmat suit">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">
@@ -130,9 +130,13 @@
 
               <p class="small content-secondLast transparent">At 16,000 strong, our team of STEM professionals is unrivaled in the breadth of their exploration and discovery—discoveries that impact the defense of the nation and the lives of each American. GPS, advanced meteorological equipment, special and exotic materials, and many other systems and innovations play an important role in convenience and safety of our daily lives.</p>
 
-              <p class="small content-thirdLast transparent">They work with advanced technology and on projects their counterparts in the private sector and academia only dream about—a real professional advantage—in realms as diverse as the environment to nuclear physics, from toxicology to geophysics, from mathematics to applied chemistry.</p>
+              <div class="content-thirdLast transparent">
 
-              <p class="small content-fourthLast transparent">Read about some of our many discoveries and innovations <a class="small strong" href="about.php#lastBottom">here</a>.</p>
+              <p class="small">They work with advanced technology and on projects their counterparts in the private sector and academia only dream about—a real professional advantage—in realms as diverse as the environment to nuclear physics, from toxicology to geophysics, from mathematics to applied chemistry.</p>
+
+              <p class="small">Read about some of our many discoveries and innovations <a class="small strong" href="about.php#lastBottom">here</a>.</p>
+
+            </div>
 
             </div>
           </div>

@@ -136,155 +136,8 @@ gtag('config', 'UA-17154729-1');
 <a name='content'></a>
   <div style="background: #0f1932 !important;" id="site-wrapper">
     <a href="#veryBottom" id="veryTop"></a>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid hideNav">
-        <div class="collapse navbar-collapse navbar-right two" id="searchIt">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="searchIt">
-             <a class="grayBlock" href="#">
-               <i class="fas fa-search"></i>
-              </a>
-              </li>
-              <li>
-                <span id="thisSlided" class="bubble noShow">
-                <form class="navbar-form navbar-right" role="search">
-                  <div class="horizontal">
-                    <div id="barTop" class="con hideAgain2">
-                      <div class="bar top"></div>
-                      <div class="bar middle"></div>
-                      <div class="bar bottom"></div>
-                    </div>
-                    <div class="form-group">
-                      <div class="tipue_search_group">
-                        <div class="horizontalDiv">
-                      <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" placeholder="Search" title="At least 3 characters" required>
-                        </input>
 
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </span>
-            </li>
-            <li>
-              <a class="navyBlock" href="https://www.afciviliancareers.com/afciviliancareers">Register</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.php">
-            <img class="img-responsive navLogo" src="images5/afcs-navbar.png">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-
-          <span id="box2">
-            <ul class="nav navbar-nav makeToggle tabs" id="menu2">
-              <li>
-                <a id="list1" class="highlight highlight one" href="index.php">Home</a>
-              </li>
-              <li>
-                <a id="list2" class="active highlight two fun darker" href="about.php">About</a>
-              </li>
-              <li>
-                <a id="list3" class="highlight three thing" href="careers.php">Careers</a>
-              </li>
-              <li id="list4">
-                <a class="highlight four thing" href="find-a-job.php">Find A Job</a>
-              </li>
-              <li>
-                <a id="list5" class="highlight five thing" href="contact.php">Contact</a>
-              </li>
-
-            </span>
-            <span class='nope'>
-              <div class="spreadAcross">
-                <li>
-                  <a href="https://www.facebook.com/AirForceCivilianService/" target="_blank" alt="AFCS Facebook page" class="social-head">
-                    <i class="fab fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a class="social-head" href="https://www.linkedin.com/company/air-force-civilian-service" target="_blank" alt="AFCS LinkedIn page">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                  </li>
-                  <li>
-                    <a class="social-head" href="https://www.instagram.com/afcivilian/" target="_blank" alt="AFCS Instagram">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-head" href="https://twitter.com/afcivilian/" target="_blank" alt="AFCS Twitter">
-                      <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-head" href="https://www.youtube.com/channel/UC1L_oa0A2iMfJFuNa44EcFQ" target="_blank" alt="AFCS YouTube link">
-                      <i class="fa fa-youtube-square" aria-hidden="true"></i>
-                    </a>
-                  </li>
-                </div>
-                <ul class="nav navbar-nav makeToggle tabs">
-                  <form class="ml15">
-                    <div class="tipue_search_group">
-                      <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" placeholder="Search" title="At least 3 characters" required="">
-                    </div>
-                  </form>
-                  <br>
-                  <li class="allAcross">
-                    <a id="liRegister" class="highlight three thing" href="https://www.afciviliancareers.com/afciviliancareers">Register</a>
-                  </li>
-                </ul>
-              </span>
-
-              <li class="social">
-                <a id="liSocial" class="blacker" href="#">Social</a>
-              </li>
-            </ul>
-
-            <span id="funStuff" class="icon noShow2">
-              <ul class="nav navbar-nav">
-                <li style="list-style-type:none !important">
-                  <a href="#">
-                    <div class="con hideAgain">
-                      <div class="bar top"></div>
-                      <div class="bar middle"></div>
-                      <div class="bar bottom"></div>
-                    </div>
-                  </a>
-                </li>
-                <li class="blackLine" style="list-style-type:none !important"></li>
-                <li style="list-style-type:none !important">
-                  <a href="https://www.facebook.com/AirForceCivilianService/" target="_blank" alt="AFCS Facebook page" class="social-head"><i class="fab fa-facebook"></i>
-                  </a>
-                </li>
-                <li style="list-style-type:none !important">
-                  <a class="social-head" href="https://www.linkedin.com/company/air-force-civilian-service" target="_blank" alt="AFCS LinkedIn page"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                </li>
-                <li style="list-style-type:none !important">
-                  <a class="social-head" href="https://www.instagram.com/afcivilian/" target="_blank" alt="AFCS Instagram"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li style="list-style-type:none !important">
-                  <a class="social-head" href="https://twitter.com/afcivilian/" target="_blank" alt="AFCS Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                </li>
-                <li style="list-style-type:none !important">
-                  <a class="social-head" href="https://www.youtube.com/channel/UC1L_oa0A2iMfJFuNa44EcFQ" target="_blank" alt="AFCS YouTube link"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
-                </li>
-              </ul>
-            </span>
-          </div>
-        </div>
-
-      </nav>
+      <?php include("nav-include/acquisition-home.php"); ?>
 
     <div id="tipModal">
     </div>
@@ -293,7 +146,7 @@ gtag('config', 'UA-17154729-1');
           <div class="row">
             <div class="col-xs-12 col-lg-12">
               <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/acq-background.png');">
+                <div class="hero-slide" style="background-image: url('./images5/acq-background.png');" alt="Acquisition Force Landing Image - a man in a suit smiling">
                   <div class="container">
                     <div class="row hero-content acq">
                       <div class="col-sm-12">
@@ -326,7 +179,7 @@ gtag('config', 'UA-17154729-1');
                       <div id="addTheShadow" class="centerBlocks hideOnTablet">
                         <div class="parent content-top transparent">
                           <a style="font-size:14px" href="testing.php" onclick="ga('send', 'event', 'Go to Testing page', 'click', 'Acquisition Page');">
-                          <img src="images5/testing.png" class="img-responsive i6 child">
+                          <img src="images5/testing.png" class="img-responsive i6 child" alt="Testing Link Button Image">
                           <div style="left: 12% !important;" class="funThing">
                             <h1 id="topLine2" class="overlayText tlt100">TESTING</h1>
                             <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
@@ -337,7 +190,7 @@ gtag('config', 'UA-17154729-1');
 
                         <div class="parent content-middle transparent">
                           <a style="font-size:14px" href="nuclear.php" onclick="ga('send', 'event', 'Go to Nuclear page', 'click', 'Acquisition Page');">
-                          <img src="images5/nuclear-square.png" class="img-responsive i7 child">
+                          <img src="images5/nuclear-square.png" class="img-responsive i7 child" alt="Nuclear Arms Link Button Image">
                           <div style="left: 12% !important;" class="funThing">
                             <h1 id="topLine5" class="overlayText tlt101">NUCLEAR</h1>
                             <h1 id="topLine2" class="overlayText tlt101">ARMS</h1>
@@ -348,7 +201,7 @@ gtag('config', 'UA-17154729-1');
 
                         <div class="parent content-bottom transparent">
                           <a style="font-size:14px" href="maintenance.php" onclick="ga('send', 'event', 'Go to Maintenance page', 'click', 'Acquisition Page');">
-                          <img src="images5/maintenance.png" class="img-responsive i8 child">
+                          <img src="images5/maintenance.png" class="img-responsive i8 child" alt="Maintenance Link Button Image">
                           <div style="left: 12% !important;" class="funThing">
                             <h1 id="topLine2" class="overlayText tlt102">MAINTENANCE</h1>
                             <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow10">
@@ -358,7 +211,7 @@ gtag('config', 'UA-17154729-1');
 
                         <div class="parent content-last transparent">
                           <a style="font-size:14px" href="lifecycle.php" onclick="ga('send', 'event', 'Go to Research and Development page', 'click', 'Acquisition Page');">
-                            <img src="images5/research.png" class="img-responsive i4 child">
+                            <img src="images5/research.png" class="img-responsive i4 child" alt="Research and Development Link Button Image">
                               <div style="left: 12% !important;" class="funThing">
                                 <h1 id="topLine5" class="overlayText tlt103">RESEARCH &</h1>
                                 <h1 id="topLine2" class="overlayText tlt103">DEVELOPMENT</h1>
@@ -369,7 +222,7 @@ gtag('config', 'UA-17154729-1');
 
                         <div class="parent content-secondLast transparent">
                           <a style="font-size:14px;" href="smsc.php" onclick="ga('send', 'event', 'Go to Space and Missiles page', 'click', 'Acquisition Page');">
-                          <img src="images5/space.png" class="img-responsive i5 child">
+                          <img src="images5/space.png" class="img-responsive i5 child" alt="Space and Missiles Link Button Image">
                             <div style="left: 12% !important;" class="funThing">
                               <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1>
                               <h1 id="topLine2" class="overlayText tlt104">MISSILES</h1>
@@ -956,7 +809,7 @@ gtag('config', 'UA-17154729-1');
 
             <div class="content-top transparent" style="-webkit-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);-moz-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);">
 
-              <img src="images5/diversity.png" class="img-responsive" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              <img src="images5/diversity.png" class="img-responsive" alt="Diversity image - Asian student wearing glasses and smiling" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
