@@ -479,6 +479,21 @@ h1.acq.two {
 
 
 @media (max-width:767px) {
+
+  p.small2 {
+    font-size: 16px;
+    font-weight: 100 !important;
+    text-align: center;
+    line-height: 33px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100 !important;
+    color: white;
+    margin-bottom: -3em;
+    padding-bottom: 0em;
+    letter-spacing: .04em;
+}
+
+
   .whiteLine3.mobile {
     margin-top:3em;
     margin-bottom: 20px;
