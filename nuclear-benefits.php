@@ -138,6 +138,10 @@ a.small {
     left:14%;
   }
 
+  .hero-slide {
+        background-position: center !important;
+  }
+
 
   .funThing.new3 {
     left:19% !important;

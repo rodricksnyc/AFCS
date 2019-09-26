@@ -15,13 +15,15 @@ if(!isset($events)) {
     events: [
     <?php while ($events->have_posts()) : $events->the_post(); ?>
         {
-            title: "<?php the_title(); ?>",
-            url: "<?php the_permalink(); ?>",
+            title: "<?php echo the_title(); ?>",
+            url: "<?php echo the_permalink() ?>",
             allDay: true,
+            id: 'newTab',
             start: '<?php echo tribe_get_start_date(null, true, 'Y-m-d'); ?>',
             end: '<?php echo tribe_get_end_date(null, true, 'Y-m-d'); ?>',
 
         },
+
     <?php endwhile; ?>
     ],
 

@@ -72,7 +72,7 @@ a[href^="https://www.google.com/maps"] {
     transition: all .3s ease-in-out;
     margin-right: 1em;
     margin-left: 1em;
-    width: 170px;
+    width: 162px;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flexbox;
@@ -423,7 +423,7 @@ h1.acq {
 #slideUpLiner3 {
     height: 3px;
     width: 90px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     margin-top: 25px;
 }
 p.register.two {

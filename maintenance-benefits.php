@@ -267,7 +267,7 @@ h1.acq.two, h1.acq {
             <div class="col-xs-12 col-lg-12">
               <div class="content-top transparent">
                 <h1 class="acq">Work-Life Balance</h1>
-                <p class="small mb0">Are you ready to balance a rewarding career protecting your nation with a fulfilling personal life? At AFTC, we offer resources and tools that help you enjoy everything you put into your work – and your time away from it, as well. These are just some of the work-life benefits offered by the Air Force, regardless of your location:</p>
+                <p class="small">Are you ready to balance a rewarding career protecting your nation with a fulfilling personal life? At AFTC, we offer resources and tools that help you enjoy everything you put into your work – and your time away from it, as well. These are just some of the work-life benefits offered by the Air Force, regardless of your location:</p>
               </div>
               <div class="content-middle transparent">
                   <p class="small"><u class="strong">Flexible Work Schedules:</u> Helping you balance time between work and family.</p>

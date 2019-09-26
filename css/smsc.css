@@ -184,6 +184,10 @@ a.white {
 
 @media (max-width: 767px) {
 
+  .blocks4 {
+    padding-top:0px;
+  }
+
   .center2.bluish2 {
     -webkit-align-items: center;
     -moz-align-items: center;

@@ -210,7 +210,7 @@ nav.secondNav ul li ul li a {
 
 
   .navigation {
-    height: 70px;
+    max-height: 62px;
     background: #0f1932 !important;
     position:fixed;
     z-index:999;

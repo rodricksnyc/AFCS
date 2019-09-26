@@ -396,7 +396,7 @@ gtag('config', 'UA-17154729-1');
                   <h4 style='text-align:left;margin-bottom:10px;'><?php the_date();  ?></h4>
                   <div class="hideOnClick"><?php the_excerpt(); ?></div>
 
-                  <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>">LEARN MORE</a></h2>
+                  <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>" onclick="ga('send', 'event', 'User is clicking on a blog post to go to page to view them', 'click', 'Index Page');" target="_blank">LEARN MORE</a></h2>
 
                   <div class='hideInitial'>
                     <?php the_content(); ?>
@@ -740,6 +740,16 @@ gtag('config', 'UA-17154729-1');
           <script>
 
 
+          $(".fc-list-item-title a").on('click', function(){
+
+
+            $(this).attr("target", "_blank");
+
+          })
+
+          $(".fc-list-item-title a").attr("target", "_blank");
+
+
           //render calendar
 
           // var calendarEl = document.getElementById('calendar');
@@ -781,9 +791,24 @@ gtag('config', 'UA-17154729-1');
 
             <?php include('event-calendar-script.php'); ?>
 
+            eventClick: function(info) {
+              info.jsEvent.preventDefault(); // don't let the browser navigate
+
+              if (info.event.url) {
+                window.open(info.event.url);
+              }
+            }
           });
 
           calendar.render();
+
+
+          var event = calendar.getEventById('newTab');
+          console.log(event)
+
+          $(event).attr("target", "_blank");
+
+
 
 
           // if ($(document).innerWidth() >= 768) {

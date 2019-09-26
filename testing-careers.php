@@ -624,7 +624,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
 <section class="blocks10">
   <center>
-    <div class="container-fluid w800 second" style="padding-top:0px;padding-bottom:0px">
+    <div class="container-fluid w800 second" style="padding-top:0px;">
 
       <div class="row heros">
 
@@ -635,7 +635,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           <p class="small content-bottom transparent">This site provides several ways to help you find the right AFCS job. Use one of our helpful search tools:<p>
 
             <ul class="whiteList content-last transparent">
-              <li class="whiteList">Our <a class="white" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job', 'click', 'Testing Careers page');">Jobs Discovery App</a> will line up your education, skills, and experience with positions that need people with your background. You might be surprised at the variety of options you discover.</li>
+              <li class="whiteList">Our <a class="whiteStrong" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job', 'click', 'Testing Careers page');">Jobs Discovery App</a> will line up your education, skills, and experience with positions that need people with your background. You might be surprised at the variety of options you discover.</li>
               <li class="whiteList">Our Jobs Map lets you find positions that are available at every base and installation in the United States and around the world. </li>
               <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'Second USAJOBS link', 'click', 'Testing Careers page');">airforce.usajobs.gov</a></li>
             </ul>
