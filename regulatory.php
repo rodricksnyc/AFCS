@@ -2,32 +2,32 @@
 <html>
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css5/animate.css">
-<link rel="stylesheet" href="css5/bootstrap-edited.css">
-<link rel="stylesheet" href="css5/bootstrap-theme.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
-<link rel="stylesheet" href="css5/normalize.css">
-<link type="image/png" href="images5/afcs-favicon.png" rel="icon">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css5/animate.css">
+  <link rel="stylesheet" href="css5/bootstrap-edited.css">
+  <link rel="stylesheet" href="css5/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+  <link rel="stylesheet" href="css5/normalize.css">
+  <link type="image/png" href="images5/afcs-favicon.png" rel="icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel=stylesheet href="css/calendar.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel=stylesheet href="css/calendar.css">
 
-<link rel=stylesheet href="css/acquisition.css">
-<link rel=stylesheet href="css/videos.css">
-<link rel=stylesheet href="css/navbar.css">
-<link rel="stylesheet" href="css/afcs-new.css">
-<link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <link rel=stylesheet href="css/acquisition.css">
+  <link rel=stylesheet href="css/videos.css">
+  <link rel=stylesheet href="css/navbar.css">
+  <link rel="stylesheet" href="css/afcs-new.css">
+  <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
   <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -36,44 +36,44 @@
 </script>
 
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 
 </head>
 <style>
 
 
 .whiteList {
-    color: white;
-    list-style-type: disc !important;
-    font-size: 19px !important;
-    text-align: left;
-    margin-left: -.2em;
+  color: white;
+  list-style-type: disc !important;
+  font-size: 19px !important;
+  text-align: left;
+  margin-left: -.2em;
 }
 li.whiteList {
-    height: auto !important;
+  height: auto !important;
 }
 
 ul.whiteList {
-    margin-bottom:55px;
+  margin-bottom:55px;
 }
 
 a.small {
-    font-size: 1em;
-    font-weight: 100 !important;
-    text-align: left;
-    text-decoration: underline;
-    line-height: 30px;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 100 !important;
-    color: white;
-    margin-bottom: 2em;
-    letter-spacing: .04em;
+  font-size: 1em;
+  font-weight: 100 !important;
+  text-align: left;
+  text-decoration: underline;
+  line-height: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 100 !important;
+  color: white;
+  margin-bottom: 2em;
+  letter-spacing: .04em;
 }
 .w800 {
   padding-top:0px;
@@ -102,7 +102,7 @@ a.small {
 
 
 <body>
-    <a href='#content' class='skipNav'>Skip to main content</a>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -111,37 +111,37 @@ a.small {
     </div>
   </div>
 
-<div style="background: #0f1932 !important;" id="site-wrapper">
-<a href="#veryBottom" id="veryTop"></a>
-<?php include("nav-include/index-navbar.php"); ?>
+  <div style="background: #0f1932 !important;" id="site-wrapper">
+    <a href="#veryBottom" id="veryTop"></a>
+    <?php include("nav-include/index-navbar.php"); ?>
 
-<div id="tipModal">
-</div>
+    <div id="tipModal">
+    </div>
 
-<div id="bigThing">
+    <div id="bigThing">
 
-  <div style="position:relative;">
-      <a name="topHomeAnchor" style="position:absolute;top:-50px;"></a>
-  </div>
+      <div style="position:relative;">
+        <a name="topHomeAnchor" style="position:absolute;top:-50px;"></a>
+      </div>
 
       <div id="anchorPoint"></div>
 
-  <a name='content'></a>
-        <section class="blocksTop4" style="margin-top:10em;">
-          <center>
+      <a name='content'></a>
+      <section class="blocksTop4" style="margin-top:10em;">
+        <center>
 
-            <div class="container-fluid w800">
+          <div class="container-fluid w800">
 
-              <div class="row heros">
+            <div class="row heros">
 
-                <div class="col-xs-12 col-lg-12">
-                  <div class="content-top transparent">
-                    <img src="images5/liner.jpg" id="slideUpLiner2">
-                    <h1 class="acq">REGULATORY GUIDANCE</h1>
-                  </div>
-                  <div class="content-middle transparent">
-                    <ul class="whiteList">
-                      <li class="whiteList"><a class="small strong" href="#top" id="bottom"><u>Air Force Civilian Employment Overseas: The Exceptional Family Member Program (EFMP)</u><a></li>
+              <div class="col-xs-12 col-lg-12">
+                <div class="content-top transparent">
+                  <img src="images5/liner.jpg" id="slideUpLiner2">
+                  <h1 class="acq">REGULATORY GUIDANCE</h1>
+                </div>
+                <div class="content-middle transparent">
+                  <ul class="whiteList">
+                    <li class="whiteList"><a class="small strong" href="#top" id="bottom"><u>Air Force Civilian Employment Overseas: The Exceptional Family Member Program (EFMP)</u><a></li>
                       <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/AFD-100409-007.pdf" target="_blank" onclick="ga('send', 'event', 'Disabled Veterans Affirmative Action Program (DVAAP) Plan PDF', 'click', 'Regulatory page');">Disabled Veterans Affirmative Action Program (DVAAP) Plan Link</a></u></li>
                       <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/AF_Civilian_Employment_Eligibility_Guide.pdf" target="_blank" onclick="ga('send', 'event', 'Air Force Civilian Employment Eligibility Guide PDF', 'click', 'Regulatory page');">Air Force Civilian Employment Eligibility Guide</a></u></li>
                       <li class="whiteList"><a class="small strong" href="#lastTop" id="lastBottom"><u>Disabled Veterans</u></a></li>
@@ -155,10 +155,10 @@ a.small {
                   </div>
                   <div class="content-last transparent">
                     <p class="whiteList">NOTE: If you are currently PCS status or will be in the near future, please be sure to  "SAVE" or ""PRINT" a copy of the PCS briefing(s) that apply to your status for referencing should questions arise.</p>
-                </div>
+                  </div>
 
-                    <br>
-                    <div class="content-secondLast transparent">
+                  <br>
+                  <div class="content-secondLast transparent">
                     <ul class="whiteList">
                       <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/CONUS%20to%20CONUS.pdf" target="_blank" onclick="ga('send', 'event', 'CONUS to CONUS (Continental United States) Civilian PCS Briefing PDF', 'click', 'Regulatory page');">CONUS to CONUS (Continental United States) Civilian PCS Briefing</a></u></li>
                       <li class="whiteList"><u><a class="small strong" href="https://www.afciviliancareers.com/pdf/CONUS%20to%20F%20OCONUS.pdf" target="_blank" onclick="ga('send', 'event', 'CONUS to Foreign OCONUS Civilian PCS Briefing PDF', 'click', 'Regulatory page');">CONUS to Foreign OCONUS Civilian PCS Briefing</a></u></li>
@@ -196,79 +196,79 @@ a.small {
         </section>
 
 
-                  <section class="blocks12">
-                    <center>
+        <section class="blocks12">
+          <center>
 
-                      <div class="container-fluid w800" style="max-width:1200px;">
+            <div class="container-fluid w800" style="max-width:1200px;">
 
-                        <div class="row heros">
+              <div class="row heros">
 
-                          <div class="col-xs-12 col-lg-12">
+                <div class="col-xs-12 col-lg-12">
 
 
                   <div class="content-top transparent">
 
-                        <div class="row">
-                          <div class="col-xs-12 col-lg-12">
-                            <section class="videos" id="featured-videos">
-                              <div class="video-grid front-page" id="front-page-videos">
-                                <ul class="video-list featured">
-                                  <li style="height:auto !important;" class="video featured">
-                                    <a data-fancybox href="https://www.youtube.com/embed/La0iKEDC-q8" class="featured-video">
-                                      <figure style="background-image: url(https://img.youtube.com/vi/La0iKEDC-q8/hqdefault.jpg);">
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
-                                        <figcaption>Aircraft Maintenance</figcaption>
-                                      </figure>
-                                    </a>
-                                  </li>
-                                  <li style="height:auto !important;" class="video featured">
-                                    <a data-fancybox href="https://www.youtube.com/embed/oAVkZOvaKBk" class="featured-video">
-                                      <figure style="background-image: url(https://img.youtube.com/vi/oAVkZOvaKBk/hqdefault.jpg);">
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
-                                        <figcaption>Audit</figcaption>
-                                      </figure>
-                                    </a>
-                                  </li>
-                                  <li style="height:auto !important;" class="video featured">
-                                    <a data-fancybox href="https://www.youtube.com/embed/rdHYeL1BVTI" class="featured-video">
-                                      <figure style="background-image: url(https://img.youtube.com/vi/rdHYeL1BVTI/hqdefault.jpg);">
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
-                                        <figcaption>Civil Engineering</figcaption>
-                                      </figure>
-                                    </a>
-                                  </li>
-                                  <li style="height:auto !important;" class="video featured">
-                                    <a data-fancybox href="https://www.youtube.com/embed/fptVNrPA7pU" class="featured-video">
-                                      <figure style="background-image: url(https://img.youtube.com/vi/fptVNrPA7pU/hqdefault.jpg);">
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
-                                        <figcaption>Communications & Information</figcaption>
-                                      </figure>
-                                    </a>
-                                  </li>
-                                  <li style="height:auto !important;" class="video featured">
-                                    <a data-fancybox href="https://www.youtube.com/embed/K0_DL4VDbDg" class="featured-video">
-                                      <figure style="background-image: url(https://img.youtube.com/vi/K0_DL4VDbDg/hqdefault.jpg);">
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
-                                        <figcaption>Contracting</figcaption>
-                                      </figure>
-                                    </a>
-                                  </li>
-                                  <li style="height:auto !important;" class="video featured">
-                                    <a data-fancybox href="https://www.youtube.com/embed/7k5xcqwTSOM" class="featured-video">
-                                      <figure style="background-image: url(https://img.youtube.com/vi/7k5xcqwTSOM/hqdefault.jpg);">
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
-                                        <figcaption>Financial Management</figcaption>
-                                      </figure>
-                                    </a>
-                                  </li>
+                    <div class="row">
+                      <div class="col-xs-12 col-lg-12">
+                        <section class="videos" id="featured-videos">
+                          <div class="video-grid front-page" id="front-page-videos">
+                            <ul class="video-list featured">
+                              <li style="height:auto !important;" class="video featured">
+                                <a data-fancybox href="https://www.youtube.com/embed/La0iKEDC-q8" class="featured-video">
+                                  <figure style="background-image: url(https://img.youtube.com/vi/La0iKEDC-q8/hqdefault.jpg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Aircraft Maintenance</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                              <li style="height:auto !important;" class="video featured">
+                                <a data-fancybox href="https://www.youtube.com/embed/oAVkZOvaKBk" class="featured-video">
+                                  <figure style="background-image: url(https://img.youtube.com/vi/oAVkZOvaKBk/hqdefault.jpg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Audit</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                              <li style="height:auto !important;" class="video featured">
+                                <a data-fancybox href="https://www.youtube.com/embed/rdHYeL1BVTI" class="featured-video">
+                                  <figure style="background-image: url(https://img.youtube.com/vi/rdHYeL1BVTI/hqdefault.jpg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Civil Engineering</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                              <li style="height:auto !important;" class="video featured">
+                                <a data-fancybox href="https://www.youtube.com/embed/fptVNrPA7pU" class="featured-video">
+                                  <figure style="background-image: url(https://img.youtube.com/vi/fptVNrPA7pU/hqdefault.jpg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Communications & Information</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                              <li style="height:auto !important;" class="video featured">
+                                <a data-fancybox href="https://www.youtube.com/embed/K0_DL4VDbDg" class="featured-video">
+                                  <figure style="background-image: url(https://img.youtube.com/vi/K0_DL4VDbDg/hqdefault.jpg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Contracting</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
+                              <li style="height:auto !important;" class="video featured">
+                                <a data-fancybox href="https://www.youtube.com/embed/7k5xcqwTSOM" class="featured-video">
+                                  <figure style="background-image: url(https://img.youtube.com/vi/7k5xcqwTSOM/hqdefault.jpg);">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                    <figcaption>Financial Management</figcaption>
+                                  </figure>
+                                </a>
+                              </li>
 
 
-                                </ul>
-                              </div>
-                            </section>
+                            </ul>
                           </div>
+                        </section>
+                      </div>
 
-                        </div>
+                    </div>
 
                   </div>
 
@@ -277,7 +277,7 @@ a.small {
             </div>
           </center>
         </section>
-          <a href="#bottom" id="top"></a>
+        <a href="#bottom" id="top"></a>
         <br><br>
         <section class="blocks">
           <center>
@@ -323,27 +323,27 @@ a.small {
                 <div class="content-top transparent">
 
 
-                    <p class="whiteList">Special Needs Family Member Overseas Travel and Guidance: Applies to overseas PCS entitlements: Authorizing Special Needs Family Member Travel Overseas at Government Expense: DoD Instruction 1315.19 Section E6.2.1.3:</p>
-                    <p class="whiteList">E6.2.1.3.1. “If an employee brings a child to an overseas location and that child is entitled to attend the DoDDS on a space-required basis under DoD Directive 1342.13, the DoDDS and the Military Department responsible for providing related services shall ensure that the child, if eligible for special education under DoD Instruction 1342.12, receives a free appropriate public education, including special education and related services.”</p>
+                  <p class="whiteList">Special Needs Family Member Overseas Travel and Guidance: Applies to overseas PCS entitlements: Authorizing Special Needs Family Member Travel Overseas at Government Expense: DoD Instruction 1315.19 Section E6.2.1.3:</p>
+                  <p class="whiteList">E6.2.1.3.1. “If an employee brings a child to an overseas location and that child is entitled to attend the DoDDS on a space-required basis under DoD Directive 1342.13, the DoDDS and the Military Department responsible for providing related services shall ensure that the child, if eligible for special education under DoD Instruction 1342.12, receives a free appropriate public education, including special education and related services.”</p>
 
-               </div>
+                </div>
 
-               <div class="content-middle transparent">
+                <div class="content-middle transparent">
 
-                    <p class="whiteList">E6.2.1.3.2. “If an employee brings an infant or toddler (birth through age 2 years of age) to an overseas location, and that infant or toddler, but for age, is entitled to attend the DoDDS on a space-required basis under DoD Directive 1342.13, the Military Department responsible for providing early intervention services (EIS) shall ensure that the infant or toddler, if eligible for EIS under DoD Instruction 1342.12, receives the required EIS.”</p>
+                  <p class="whiteList">E6.2.1.3.2. “If an employee brings an infant or toddler (birth through age 2 years of age) to an overseas location, and that infant or toddler, but for age, is entitled to attend the DoDDS on a space-required basis under DoD Directive 1342.13, the Military Department responsible for providing early intervention services (EIS) shall ensure that the infant or toddler, if eligible for EIS under DoD Instruction 1342.12, receives the required EIS.”</p>
 
-                  </div>
-              <div class="content-bottom transparent">
+                </div>
+                <div class="content-bottom transparent">
 
-                <p class="whiteList">E6.2.1.3.3. “If an employee brings a family member to an overseas location who requires medical or dental care, the employee will be responsible for obtaining and paying for such care. Access for civilian employees and their families to military medical and dental treatment facilities is on a space-available and reimbursable basis only.”</p>
-                <p class="whiteList">For information on overseas DoD Dependent Schools and Educational and Developmental Intervention Services, go to <a class="stronger" href="https://www.dodea.edu/index.cfm" target="_blank" onclick="ga('send', 'event', 'DoD Dependent Schools and Educational and Developmental Intervention Services', 'click', 'Regulatory page');">this link.</a></p>
+                  <p class="whiteList">E6.2.1.3.3. “If an employee brings a family member to an overseas location who requires medical or dental care, the employee will be responsible for obtaining and paying for such care. Access for civilian employees and their families to military medical and dental treatment facilities is on a space-available and reimbursable basis only.”</p>
+                  <p class="whiteList">For information on overseas DoD Dependent Schools and Educational and Developmental Intervention Services, go to <a class="stronger" href="https://www.dodea.edu/index.cfm" target="_blank" onclick="ga('send', 'event', 'DoD Dependent Schools and Educational and Developmental Intervention Services', 'click', 'Regulatory page');">this link.</a></p>
 
                 </div>
 
                 <a href="#lastBottom" id="lastTop"></a>
 
                 <div class="content-bottom transparent">
-                    <p class="whiteList"><span class="strong">Positions at Lajes:</span> If selected for a position at Lajes Field, the applicant must be able to satisfactorily complete a physical. A physical is a condition of employment overseas and Lajes has a medical clinic on base that provides basic medical care and is available to civilian employees for a fee. There is a Portuguese hospital on the island that will accept American patients. Applicants with medical conditions are advised to carefully research the availability of specific medical care when selected for a position.</p>
+                  <p class="whiteList"><span class="strong">Positions at Lajes:</span> If selected for a position at Lajes Field, the applicant must be able to satisfactorily complete a physical. A physical is a condition of employment overseas and Lajes has a medical clinic on base that provides basic medical care and is available to civilian employees for a fee. There is a Portuguese hospital on the island that will accept American patients. Applicants with medical conditions are advised to carefully research the availability of specific medical care when selected for a position.</p>
 
                 </div>
 
@@ -369,18 +369,18 @@ a.small {
 
                 <div class="content-top transparent">
 
-                      <h1 class="acq two">DISABLED VETERANS</h1>
+                  <h1 class="acq two">DISABLED VETERANS</h1>
 
-                      <p class="whiteList">In accordance with U.S. codes, federal agencies are required to have an Affirmative program for the recruitment, employment and advancement of disabled veterans.</p>
+                  <p class="whiteList">In accordance with U.S. codes, federal agencies are required to have an Affirmative program for the recruitment, employment and advancement of disabled veterans.</p>
 
-               </div>
+                </div>
 
 
-              <div class="content-middle transparent">
+                <div class="content-middle transparent">
 
                   <p class="whiteList" style="margin-bottom: 45px;">The Department of the Air Force strives to provide to qualified disabled Veteran applicants and employees affirmative employment in recruitment, hiring, placement, advancement, training, career development and, when appropriate, reasonable accommodation with a special emphasis on those veterans with disabilities rated at 30 percent or more.</p>
 
-                <img src="images5/liner.jpg" id="slideUpLiner3">
+                  <img src="images5/liner.jpg" id="slideUpLiner3">
 
                 </div>
 
@@ -391,58 +391,58 @@ a.small {
       </section>
 
       <section class="blocks9">
-          <div class="container-fluid blacker3">
-            <div class="row heros">
-              <div class="col-xs-12 col-lg-12">
-                <div style="margin-top:1em;" class="center content-top transparent">
-                  <p style="margin-bottom:0em;" class="register two">Register here and we’ll keep you informed about the latest job openings.</p>
-                </div>
+        <div class="container-fluid blacker3">
+          <div class="row heros">
+            <div class="col-xs-12 col-lg-12">
+              <div style="margin-top:1em;" class="center content-top transparent">
+                <p style="margin-bottom:0em;" class="register two">Register here and we’ll keep you informed about the latest job openings.</p>
+              </div>
 
-                <div class="bluish3 content-middle transparent">
-                  <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Regulatory page');">Register</a></div>
-                  <div class="bluishButton"><a class="white" href="careers.php" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Regulatory page');">Careers</a></div>
-                  <div class="bluishButton"><a class="white" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job page', 'click', 'Regulatory page');">Find A Job</a></div>
-                </div>
+              <div class="bluish3 content-middle transparent">
+                <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Regulatory page');">Register</a></div>
+                <div class="bluishButton"><a class="white" href="careers.php" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Regulatory page');">Careers</a></div>
+                <div class="bluishButton"><a class="white" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job page', 'click', 'Regulatory page');">Find A Job</a></div>
               </div>
             </div>
           </div>
-    </section>
+        </div>
+      </section>
 
-<?php include("footer-include/footer.php"); ?>
+      <?php include("footer-include/footer.php"); ?>
 
-      </div>
-
-
-      <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
-
-      <script src="js5/bootstrap.min.js"></script>
-
-      <script src="js5/slick.min.js"></script>
-
-      <script src="js5/TweenMax.min.js"></script>
-
-      <script src="js5/lettering.min.js"></script>
-
-      <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    </div>
 
 
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <script src="js5/bootstrap.min.js"></script>
+
+    <script src="js5/slick.min.js"></script>
+
+    <script src="js5/TweenMax.min.js"></script>
+
+    <script src="js5/lettering.min.js"></script>
+
+    <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 
 
-      <script src="calendar-js/list-main.js"></script>
-
-      <script src="js5/afcs-homepage2.js"></script>
-      <script src="js5/scrollTop.js"></script>
-
-      <script src="tipuesearch/tipuesearch_set.js"></script>
-      <script src="tipuesearch/tipuesearch_content.js"></script>
-      <script src="tipuesearch/tipuesearch.js"></script>
 
 
-    </body>
-    </html>
+    <script src="calendar-js/list-main.js"></script>
+
+    <script src="js5/afcs-homepage2.js"></script>
+    <script src="js5/scrollTop.js"></script>
+
+    <script src="tipuesearch/tipuesearch_set.js"></script>
+    <script src="tipuesearch/tipuesearch_content.js"></script>
+    <script src="tipuesearch/tipuesearch.js"></script>
+
+
+  </body>
+  </html>

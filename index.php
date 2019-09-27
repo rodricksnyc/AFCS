@@ -33,31 +33,31 @@ include 'blog2/wp-load.php';
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
-<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-gtag('config', 'UA-17154729-1');
+  gtag('config', 'UA-17154729-1');
 </script>
 
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 
 </head>
 
 <body>
-    <a href='#content' class='skipNav'>Skip to main content</a>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -73,7 +73,7 @@ gtag('config', 'UA-17154729-1');
     </div>
 
 
-<a name='content'></a>
+    <a name='content'></a>
     <div id="bigThing">
       <div class="container-fluid">
         <div class="row">
@@ -694,254 +694,254 @@ gtag('config', 'UA-17154729-1');
                 </div>
 
                 <?php include("footer-include/index-footer.php"); ?>
-          </div>
+              </div>
 
 
-          <script
-          src="http://code.jquery.com/jquery-3.3.1.min.js"
-          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-          crossorigin="anonymous"></script>
+              <script
+              src="http://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
 
-          <script src="js5/bootstrap.min.js"></script>
-          <script src="js5/scrollTop.js"></script>
+              <script src="js5/bootstrap.min.js"></script>
+              <script src="js5/scrollTop.js"></script>
 
-          <script src="js5/slick.min.js"></script>
+              <script src="js5/slick.min.js"></script>
 
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-          <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+              <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
 
-          <script src="js5/TweenMax.min.js"></script>
+              <script src="js5/TweenMax.min.js"></script>
 
-          <script src="js5/lettering.min.js"></script>
+              <script src="js5/lettering.min.js"></script>
 
-          <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+              <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
 
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
-          <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+              <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-          <!-- <script src="calendar-js/core-main.js"></script>
-          <script src="calendar-js/daygrid-main.js"></script>
-          <script src="calendar-js/list-main.js"></script> -->
-
-
-          <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.min.js'></script>
-          <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.js'></script>
-          <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.js'></script>
-
-          <!-- <script src="calendar-js/list-main.js"></script> -->
-
-          <script src="js5/afcs-homepage2.js"></script>
+              <!-- <script src="calendar-js/core-main.js"></script>
+              <script src="calendar-js/daygrid-main.js"></script>
+              <script src="calendar-js/list-main.js"></script> -->
 
 
-          <script src="tipuesearch/tipuesearch_set.js"></script>
-          <script src="tipuesearch/tipuesearch_content.js"></script>
-          <script src="tipuesearch/tipuesearch.js"></script>
-          <script>
+              <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.min.js'></script>
+              <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.min.js'></script>
+              <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.js'></script>
+
+              <!-- <script src="calendar-js/list-main.js"></script> -->
+
+              <script src="js5/afcs-homepage2.js"></script>
 
 
-          // $("a").on('click', '.fc-list-item-title',  function(){
-          //
-          //
-          //   $(this).attr("target", "_blank");
-          //
-          // })
-          //
-          // $(".fc-list-item-title a").attr("target", "_blank");
+              <script src="tipuesearch/tipuesearch_set.js"></script>
+              <script src="tipuesearch/tipuesearch_content.js"></script>
+              <script src="tipuesearch/tipuesearch.js"></script>
+              <script>
 
 
-          //render calendar
-
-          // var calendarEl = document.getElementById('calendar');
-          //
-          // var calendar = new FullCalendar.Calendar(calendarEl, {
-          //     plugins: [ 'dayGrid', 'list' ],
-          //     header: {
-          //     left: 'prev,next today',
-          //     center: 'title',
-          //     right: 'dayGridMonth,listYear'
-          //   },
-          //
-          //
-          //
-          // });
-          //
-          //
-          // calendar.render();
+              // $("a").on('click', '.fc-list-item-title',  function(){
+              //
+              //
+              //   $(this).attr("target", "_blank");
+              //
+              // })
+              //
+              // $(".fc-list-item-title a").attr("target", "_blank");
 
 
-          var calendarEl = document.getElementById('calendar');
+              //render calendar
 
-          var calendar = new FullCalendar.Calendar(calendarEl, {
-            plugins: [ 'list', 'dayGrid' ],
-            timeZone: 'UTC',
-            defaultView: 'listMonth',
-
-            views: {
-
-              listWeek: { buttonText: 'list week' },
-              listMonth: { buttonText: 'list month' }
-            },
-
-            header: {
-              left: 'prev,next today',
-              right: 'dayGridMonth,listYear'
-            },
-
-
-            <?php include('event-calendar-script.php'); ?>
-
-            eventClick: function(info) {
-              info.jsEvent.preventDefault(); // don't let the browser navigate
-
-              if (info.event.url) {
-                window.open(info.event.url);
-              }
-            }
-          });
-
-          calendar.render();
+              // var calendarEl = document.getElementById('calendar');
+              //
+              // var calendar = new FullCalendar.Calendar(calendarEl, {
+              //     plugins: [ 'dayGrid', 'list' ],
+              //     header: {
+              //     left: 'prev,next today',
+              //     center: 'title',
+              //     right: 'dayGridMonth,listYear'
+              //   },
+              //
+              //
+              //
+              // });
+              //
+              //
+              // calendar.render();
 
 
-          var event = calendar.getEventById('newTab');
-          console.log(event)
+              var calendarEl = document.getElementById('calendar');
 
-          $(event).attr("target", "_blank");
+              var calendar = new FullCalendar.Calendar(calendarEl, {
+                plugins: [ 'list', 'dayGrid' ],
+                timeZone: 'UTC',
+                defaultView: 'listMonth',
+
+                views: {
+
+                  listWeek: { buttonText: 'list week' },
+                  listMonth: { buttonText: 'list month' }
+                },
+
+                header: {
+                  left: 'prev,next today',
+                  right: 'dayGridMonth,listYear'
+                },
 
 
+                <?php include('event-calendar-script.php'); ?>
+
+                eventClick: function(info) {
+                  info.jsEvent.preventDefault(); // don't let the browser navigate
+
+                  if (info.event.url) {
+                    window.open(info.event.url);
+                  }
+                }
+              });
+
+              calendar.render();
 
 
-          // if ($(document).innerWidth() >= 768) {
-          //
-          //   $('.main-news-box').click(function () {
-          //     if($(".hideInitial").is(':visible')) {
-          //
-          //       var par = $(this).parents('.expand');
-          //       par.find(".hideInitial").slideToggle();
-          //       // par.find(".clickMe").text('LEARN MORE');
-          //
-          //       par.find('.hideOnClick').show();
-          //
-          //       setTimeout(function() {
-          //         $('.circle').removeClass('circle2');
-          //       }, 400)
-          //
-          //       return false;
-          //
-          //     }
-          //
-          //     else if ($(".hideInitial").is(':hidden')){
-          //
-          //
-          //
-          //       var par = $(this).parents('.expand');
-          //       par.find(".hideInitial").slideToggle();
-          //
-          //
-          //       setTimeout(function() {
-          //         $('.circle').addClass('circle2');
-          //       }, 400)
-          //
-          //       // par.find(".clickMe").text('LESS');
-          //       par.find('.hideOnClick').hide();
-          //       return false;
-          //
-          //     }
-          //
-          //   });
-          //
-          //
-          //   $(".main-news-box a").mouseenter(function(){
-          //     $('a').click(function(e){
-          //       e.stopPropagation();
-          //     });
-          //
-          //    $('.circle').toggle();
-          //    $('#container2').css('cursor', 'auto');
-          //   });
-          //
-          //   $(".main-news-box a").mouseleave(function(){
-          //     $('.circle').toggle();
-          //     $('#container2').css('cursor', 'none');
-          //
-          //   });
-          //
-          //
-          //   $(".main-news-box a").attr("target", "_blank");
-          //
-          //
-          //
-          //   var container = document.getElementById("container2");
-          //   var circle = document.querySelector(".circle");
-          //
-          //
-          //    TweenMax.set(circle, { scale: 0, xPercent: -50, yPercent: -50 });
-          //
-          //   container.addEventListener("pointerenter", function(e) {
-          //     TweenMax.to(circle, 0.3, { scale: 1, opacity: 1 });
-          //     positionCircle(e);
-          //   });
-          //
-          //   container.addEventListener("pointerleave", function(e) {
-          //     TweenMax.to(circle, 0.3, { scale: 0, opacity: 0 });
-          //     positionCircle(e);
-          //   });
-          //
-          //   container.addEventListener("pointermove", function(e) {
-          //     positionCircle(e);
-          //   });
-          //
-          //   function positionCircle(e) {
-          //     var rect = container.getBoundingClientRect();
-          //     var relX = e.pageX - container.offsetLeft;
-          //     var relY = e.pageY - container.offsetTop;
-          //
-          //   TweenMax.to(circle, 0.3, { x: relX, y: relY });
-          //
-          //   }
-          //
-          //
-          //
-          //
-          // }
+              var event = calendar.getEventById('newTab');
+              console.log(event)
+
+              $(event).attr("target", "_blank");
 
 
 
 
-
-
-            // $('.clickMe').click(function () {
-            //   if($(".hideInitial").is(':visible')) {
-            //
-            //     var par = $(this).parents('.main-news-box');
-            //     par.find(".hideInitial").slideToggle();
-            //     par.find(".clickMe").text('LEARN MORE');
-            //     par.find('.hideOnClick').show();
-            //     return false;
-            //
-            //   }
-            //
-            //   else if ($(".hideInitial").is(':hidden')){
-            //
-            //     var par = $(this).parents('.main-news-box');
-            //     par.find(".hideInitial").slideToggle();
-            //     par.find(".clickMe").text('LESS');
-            //     par.find('.hideOnClick').hide();
-            //     return false;
-            //
-            //   }
-            //
-            // });
-
-            // $(".main-news-box a").attr("target", "_blank");
-            // $(".fc-widget-content a").attr("target", "_blank");
+              // if ($(document).innerWidth() >= 768) {
+              //
+              //   $('.main-news-box').click(function () {
+              //     if($(".hideInitial").is(':visible')) {
+              //
+              //       var par = $(this).parents('.expand');
+              //       par.find(".hideInitial").slideToggle();
+              //       // par.find(".clickMe").text('LEARN MORE');
+              //
+              //       par.find('.hideOnClick').show();
+              //
+              //       setTimeout(function() {
+              //         $('.circle').removeClass('circle2');
+              //       }, 400)
+              //
+              //       return false;
+              //
+              //     }
+              //
+              //     else if ($(".hideInitial").is(':hidden')){
+              //
+              //
+              //
+              //       var par = $(this).parents('.expand');
+              //       par.find(".hideInitial").slideToggle();
+              //
+              //
+              //       setTimeout(function() {
+              //         $('.circle').addClass('circle2');
+              //       }, 400)
+              //
+              //       // par.find(".clickMe").text('LESS');
+              //       par.find('.hideOnClick').hide();
+              //       return false;
+              //
+              //     }
+              //
+              //   });
+              //
+              //
+              //   $(".main-news-box a").mouseenter(function(){
+              //     $('a').click(function(e){
+              //       e.stopPropagation();
+              //     });
+              //
+              //    $('.circle').toggle();
+              //    $('#container2').css('cursor', 'auto');
+              //   });
+              //
+              //   $(".main-news-box a").mouseleave(function(){
+              //     $('.circle').toggle();
+              //     $('#container2').css('cursor', 'none');
+              //
+              //   });
+              //
+              //
+              //   $(".main-news-box a").attr("target", "_blank");
+              //
+              //
+              //
+              //   var container = document.getElementById("container2");
+              //   var circle = document.querySelector(".circle");
+              //
+              //
+              //    TweenMax.set(circle, { scale: 0, xPercent: -50, yPercent: -50 });
+              //
+              //   container.addEventListener("pointerenter", function(e) {
+              //     TweenMax.to(circle, 0.3, { scale: 1, opacity: 1 });
+              //     positionCircle(e);
+              //   });
+              //
+              //   container.addEventListener("pointerleave", function(e) {
+              //     TweenMax.to(circle, 0.3, { scale: 0, opacity: 0 });
+              //     positionCircle(e);
+              //   });
+              //
+              //   container.addEventListener("pointermove", function(e) {
+              //     positionCircle(e);
+              //   });
+              //
+              //   function positionCircle(e) {
+              //     var rect = container.getBoundingClientRect();
+              //     var relX = e.pageX - container.offsetLeft;
+              //     var relY = e.pageY - container.offsetTop;
+              //
+              //   TweenMax.to(circle, 0.3, { x: relX, y: relY });
+              //
+              //   }
+              //
+              //
+              //
+              //
+              // }
 
 
 
 
 
-        </script>
+
+              // $('.clickMe').click(function () {
+              //   if($(".hideInitial").is(':visible')) {
+              //
+              //     var par = $(this).parents('.main-news-box');
+              //     par.find(".hideInitial").slideToggle();
+              //     par.find(".clickMe").text('LEARN MORE');
+              //     par.find('.hideOnClick').show();
+              //     return false;
+              //
+              //   }
+              //
+              //   else if ($(".hideInitial").is(':hidden')){
+              //
+              //     var par = $(this).parents('.main-news-box');
+              //     par.find(".hideInitial").slideToggle();
+              //     par.find(".clickMe").text('LESS');
+              //     par.find('.hideOnClick').hide();
+              //     return false;
+              //
+              //   }
+              //
+              // });
+
+              // $(".main-news-box a").attr("target", "_blank");
+              // $(".fc-widget-content a").attr("target", "_blank");
 
 
-      </body>
-      </html>
+
+
+
+              </script>
+
+
+            </body>
+            </html>

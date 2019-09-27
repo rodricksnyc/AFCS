@@ -32,32 +32,32 @@
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/history.css">
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-gtag('config', 'UA-17154729-1');
+  gtag('config', 'UA-17154729-1');
 </script>
 
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 
 </head>
 
 
 <body>
-<a href='#content' class='skipNav'>Skip to main content</a>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -65,7 +65,7 @@ gtag('config', 'UA-17154729-1');
     </div>
   </div>
 
-<a name='content'></a>
+  <a name='content'></a>
 
   <div style="background: #0f1932 !important;" id="site-wrapper">
     <a href="#veryBottom" id="veryTop"></a>

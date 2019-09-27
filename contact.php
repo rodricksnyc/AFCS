@@ -28,27 +28,27 @@
   <link rel=stylesheet href="css/acquisition.css">
   <link rel=stylesheet href="css/contact.css">
   <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-gtag('config', 'UA-17154729-1');
+  gtag('config', 'UA-17154729-1');
 </script>
 
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 
 </head>
 
@@ -57,108 +57,108 @@ gtag('config', 'UA-17154729-1');
   <a href="#bottom" id="top"></a>
   <a href="#veryBottom" id="veryTop"></a>
   <div style="background: #262932 !important;" id="site-wrapper">
-  <?php include("nav-include/contact-navbar.php"); ?>
+    <?php include("nav-include/contact-navbar.php"); ?>
 
-  <div id="tipModal">
-  </div>
+    <div id="tipModal">
+    </div>
 
 
 
-<a name='content'></a>
-  <div class="container-fluid">
-    <div class="row bottomBoxShadow">
-      <div class="col-xs-12 col-lg-12">
-        <div id="hero-slider2">
-          <div class="hero-slide" style="background-image: url('./images5/contact-slider.png');" role="img" aria-label="Contact Landing Image - an African American woman smiling">
-            <div class="container">
-              <div class="row hero-content acq">
-                <div class="col-sm-12">
-                  <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
-                    <h1 class="slicker">CONTACT US</h1>
+    <a name='content'></a>
+    <div class="container-fluid">
+      <div class="row bottomBoxShadow">
+        <div class="col-xs-12 col-lg-12">
+          <div id="hero-slider2">
+            <div class="hero-slide" style="background-image: url('./images5/contact-slider.png');" role="img" aria-label="Contact Landing Image - an African American woman smiling">
+              <div class="container">
+                <div class="row hero-content acq">
+                  <div class="col-sm-12">
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
+                      <h1 class="slicker">CONTACT US</h1>
+                    </div>
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay=".9s">
+                      <h1 class="slicker two"></h1>
+                    </div>
+                    <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1s">
+                      <h1 class="slicker three"></h1>
+                    </div>
+                    <img src="images5/liner.jpg" id="slideUpLiner" class="img-responsive" data-animation="fadeInUpBig" data-delay="1.1s" />
                   </div>
-                  <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay=".9s">
-                    <h1 class="slicker two"></h1>
-                  </div>
-                  <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1s">
-                    <h1 class="slicker three"></h1>
-                  </div>
-                  <img src="images5/liner.jpg" id="slideUpLiner" class="img-responsive" data-animation="fadeInUpBig" data-delay="1.1s" />
                 </div>
               </div>
             </div>
+
+
           </div>
 
-
         </div>
-
       </div>
     </div>
-  </div>
 
-  <section class="blocksTop">
-    <center>
-      <div class="container-fluid w800 second">
+    <section class="blocksTop">
+      <center>
+        <div class="container-fluid w800 second">
 
-        <div class="row heros">
+          <div class="row heros">
 
-          <div class="col-xs-12 col-lg-12">
-            <div class="content-top transparent">
-              <img src="images5/liner.jpg" id="slideUpLiner2">
+            <div class="col-xs-12 col-lg-12">
+              <div class="content-top transparent">
+                <img src="images5/liner.jpg" id="slideUpLiner2">
 
-              <p class="small">If you have questions that are not answered on this site, please contact us directly at the Total Force Service Center.</p>
-            </div>
-            <p class="small content-middle transparent">We are available worldwide at <a class="small" href="tel:1-800-525-0102">800-525-0102</a>, through DSN <span class="small">665-0102</span>, or <a class="small" href="tel:1-210-565-0102">210-565-0102</a>, 24 hours a day, seven days a week.</p>
-
-            <p class="small content-bottom transparent">(Closed New Year's Day, Independence Day (July 4), Thanksgiving Day, and Christmas.)<p>
-
-              <div class="content-last transparent">
-                <p class="small noMargin2"><span class="strong">Postal Address:</span></p>
-                <p class="small noMargin">HQ AFPC/DPDXIDL</p>
-                <p class="small noMargin">550 C St West Ste 50</p>
-                <p class="small noMargin">JBSA-Randolph, TX 78150-4752</p>
+                <p class="small">If you have questions that are not answered on this site, please contact us directly at the Total Force Service Center.</p>
               </div>
-              <a href="#bottomLinks" id="topLinks"></a>
+              <p class="small content-middle transparent">We are available worldwide at <a class="small" href="tel:1-800-525-0102">800-525-0102</a>, through DSN <span class="small">665-0102</span>, or <a class="small" href="tel:1-210-565-0102">210-565-0102</a>, 24 hours a day, seven days a week.</p>
 
-              <div style="position:relative;">
-                <a name="linksAnchor" style="position:absolute;top:-150px;"></a>
-              </div>
+              <p class="small content-bottom transparent">(Closed New Year's Day, Independence Day (July 4), Thanksgiving Day, and Christmas.)<p>
+
+                <div class="content-last transparent">
+                  <p class="small noMargin2"><span class="strong">Postal Address:</span></p>
+                  <p class="small noMargin">HQ AFPC/DPDXIDL</p>
+                  <p class="small noMargin">550 C St West Ste 50</p>
+                  <p class="small noMargin">JBSA-Randolph, TX 78150-4752</p>
+                </div>
+                <a href="#bottomLinks" id="topLinks"></a>
+
+                <div style="position:relative;">
+                  <a name="linksAnchor" style="position:absolute;top:-150px;"></a>
+                </div>
 
 
 
-              <div class="content-secondLast transparent">
-                <p class="small noMargin">
-                  <a class="small strong" href="https://www.foia.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Freedom of Information Act (FOIA) link', 'click', 'Contact Page');">Freedom of Information Act (FOIA)</a>
-                </p>
-                <p class="small noMargin">
-                  <a class="small strong" href="https://www.afinspectorgeneral.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Air Force Inspector General (IG) link', 'click', 'Contact Page');">Air Force Inspector General (IG)</a>
-                </p>
-                <p class="small noMargin">
-                  <a class="small strong" href="https://www.adr.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Negotiation & Dispute Resolution link', 'click', 'Contact Page');">Negotiation & Dispute Resolution</a>
-                </p>
-                <p class="small noMargin">
-                  <a class="small strong" href="accessibility.php" onclick="ga('send', 'event', 'Go to Accessibility Page', 'click', 'Contact Page');">Accessibility Policy</a>
-                </p>
-                <p class="small noMargin">
+                <div class="content-secondLast transparent">
+                  <p class="small noMargin">
+                    <a class="small strong" href="https://www.foia.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Freedom of Information Act (FOIA) link', 'click', 'Contact Page');">Freedom of Information Act (FOIA)</a>
+                  </p>
+                  <p class="small noMargin">
+                    <a class="small strong" href="https://www.afinspectorgeneral.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Air Force Inspector General (IG) link', 'click', 'Contact Page');">Air Force Inspector General (IG)</a>
+                  </p>
+                  <p class="small noMargin">
+                    <a class="small strong" href="https://www.adr.af.mil/" target="_blank" onclick="ga('send', 'event', 'Go to Negotiation & Dispute Resolution link', 'click', 'Contact Page');">Negotiation & Dispute Resolution</a>
+                  </p>
+                  <p class="small noMargin">
+                    <a class="small strong" href="accessibility.php" onclick="ga('send', 'event', 'Go to Accessibility Page', 'click', 'Contact Page');">Accessibility Policy</a>
+                  </p>
+                  <p class="small noMargin">
 
-                  <a class="small strong" href="mailto:techsupport@afciviliancareers.com?Subject='AF Civilian Careers Website Question/Issue'">Webmaster</a>
-                </p>
+                    <a class="small strong" href="mailto:techsupport@afciviliancareers.com?Subject='AF Civilian Careers Website Question/Issue'">Webmaster</a>
+                  </p>
 
-              </div>
+                </div>
 
-              <div class="content-thirdLast transparent">
-                <p class="small noMargin">
-                  <a class="small strong" href="https://www.defense.gov/our-story/" target="_blank" onclick="ga('send', 'event', 'Go to About Us (Department of Defense) link', 'click', 'Contact Page');">About Us (Department of Defense)</a>
-                </p>
-                <p class="small noMargin">
-                  <a class="small strong" href="https://cmo.defense.gov/Home/" target="_blank" onclick="ga('send', 'event', 'Go to Department of Defense Annual Performance Plan and Report link', 'click', 'Contact Page');">Department of Defense Annual Performance Plan and Report</a>
-                </p>
-                <p class="small noMargin">
-                  <a class="small strong" href="legal.php" onclick="ga('send', 'event', 'Go to Legal Page', 'click', 'Contact Page');">Legal Policies</a>
-                </p>
-                <p class="small noMargin">
-                  <a class="small strong" href="regulatory.php" onclick="ga('send', 'event', 'Go to Regulatory Page', 'click', 'Contact Page');">Regulatory Guidance</a>
-                </p>
-                <!-- <p class="small noMargin">
+                <div class="content-thirdLast transparent">
+                  <p class="small noMargin">
+                    <a class="small strong" href="https://www.defense.gov/our-story/" target="_blank" onclick="ga('send', 'event', 'Go to About Us (Department of Defense) link', 'click', 'Contact Page');">About Us (Department of Defense)</a>
+                  </p>
+                  <p class="small noMargin">
+                    <a class="small strong" href="https://cmo.defense.gov/Home/" target="_blank" onclick="ga('send', 'event', 'Go to Department of Defense Annual Performance Plan and Report link', 'click', 'Contact Page');">Department of Defense Annual Performance Plan and Report</a>
+                  </p>
+                  <p class="small noMargin">
+                    <a class="small strong" href="legal.php" onclick="ga('send', 'event', 'Go to Legal Page', 'click', 'Contact Page');">Legal Policies</a>
+                  </p>
+                  <p class="small noMargin">
+                    <a class="small strong" href="regulatory.php" onclick="ga('send', 'event', 'Go to Regulatory Page', 'click', 'Contact Page');">Regulatory Guidance</a>
+                  </p>
+                  <!-- <p class="small noMargin">
                   <a class="small strong" href="https://www.nafjobs.org/" target="_blank">Additional Jobs at Air Force Bases</a>
                 </p> -->
                 <img src="images5/liner.jpg" id="slideUpLiner3">

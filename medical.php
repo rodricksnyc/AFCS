@@ -10,9 +10,7 @@
   <link rel="stylesheet" href="css5/bootstrap-theme.min.css">
   <!-- <link rel="stylesheet" href="css5/bootstrap.min.css"> -->
 
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
-
 
   <link rel="stylesheet" href="css/afcs.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
@@ -37,8 +35,8 @@
   <link rel=stylesheet href="css/finance.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -47,21 +45,21 @@
 </script>
 
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 
-  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
 </head>
 
 <body>
-<a href='#content' class='skipNav'>Skip to main content</a>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -77,98 +75,98 @@
     <div id="tipModal">
     </div>
 
-  <a name='content'></a>
-        <div class="container-fluid">
-          <div class="row bottomBoxShadow">
-            <div class="col-xs-12 col-lg-12">
-              <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/medical.png');" role="img" aria-label="Medical and Mental Health Landing Image - a doctor with scrubs on">
-                  <div class="container">
-                    <div class="row hero-content acq">
-                      <div class="col-sm-12">
-                        <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
-                          <h1 class="sNew">MEDICAL &</h1>
-                        </div>
-                        <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.9s">
-                          <h1 class="sNew2">MENTAL HEALTH</h1>
-                        </div>
-                        <!-- <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1s">
-                          <h1 class="sNew2">TECHNOLOGY</h1>
-                        </div> -->
-                        <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1.1s">
-                          <h1 class="slicker four">Focus On Your Calling</h1>
-                        </div>
-                        <img src="images5/liner.jpg" id="slideUpLiner" class="img-responsive" data-animation="fadeInUpBig" data-delay="1.2s" />
-                      </div>
+    <a name='content'></a>
+    <div class="container-fluid">
+      <div class="row bottomBoxShadow">
+        <div class="col-xs-12 col-lg-12">
+          <div id="hero-slider2">
+            <div class="hero-slide" style="background-image: url('./images5/medical.png');" role="img" aria-label="Medical and Mental Health Landing Image - a doctor with scrubs on">
+              <div class="container">
+                <div class="row hero-content acq">
+                  <div class="col-sm-12">
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
+                      <h1 class="sNew">MEDICAL &</h1>
                     </div>
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.9s">
+                      <h1 class="sNew2">MENTAL HEALTH</h1>
+                    </div>
+                    <!-- <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1s">
+                    <h1 class="sNew2">TECHNOLOGY</h1>
+                  </div> -->
+                  <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1.1s">
+                    <h1 class="slicker four">Focus On Your Calling</h1>
                   </div>
+                  <img src="images5/liner.jpg" id="slideUpLiner" class="img-responsive" data-animation="fadeInUpBig" data-delay="1.2s" />
                 </div>
-
               </div>
-
             </div>
           </div>
+
         </div>
+
+      </div>
+    </div>
+  </div>
 
 
   <section class="blocksTop">
-      <center>
-        <div class="container-fluid w800">
-          <div class="row heros">
+    <center>
+      <div class="container-fluid w800">
+        <div class="row heros">
 
-            <div class="col-xs-12 col-lg-12">
-              <div class="content-top transparent">
-                <img src="images5/liner.jpg" id="slideUpLiner2">
+          <div class="col-xs-12 col-lg-12">
+            <div class="content-top transparent">
+              <img src="images5/liner.jpg" id="slideUpLiner2">
 
-                <h1 class="acq">Make a Difference</h1>
-              </div>
-              <!-- <h1 class="acq noMargin content-middle transparent">right place at the right time</h1> -->
-
-              <p class="small content-middle transparent">Practicing medicine and providing quality health care is your calling. But like many in the profession the distractions of extensive paperwork and reporting in today’s health care environment keep you from fully appreciating the satisfaction that comes with the job</p>
-
-              <p class="small content-bottom transparent">Air Force Civilian Service (AFCS) offers an alternative. It’s attractive on every level and makes it possible to keep the focus on what you love, not on the paperwork.</p>
-
-              <p class="small content-last transparent">Work side by side with highly qualified medical professionals in an effective and efficient health care system — a system dedicated to the health and well-being of 2.5 million beneficiaries: our nation’s Airmen and their families.</p>
-
-
-              <p class="small content-secondLast transparent">The system relies on 75 state-of-the-art treatment facilities, out-patient clinics, and support centers around the country and around the world.</p>
-
+              <h1 class="acq">Make a Difference</h1>
             </div>
+            <!-- <h1 class="acq noMargin content-middle transparent">right place at the right time</h1> -->
+
+            <p class="small content-middle transparent">Practicing medicine and providing quality health care is your calling. But like many in the profession the distractions of extensive paperwork and reporting in today’s health care environment keep you from fully appreciating the satisfaction that comes with the job</p>
+
+            <p class="small content-bottom transparent">Air Force Civilian Service (AFCS) offers an alternative. It’s attractive on every level and makes it possible to keep the focus on what you love, not on the paperwork.</p>
+
+            <p class="small content-last transparent">Work side by side with highly qualified medical professionals in an effective and efficient health care system — a system dedicated to the health and well-being of 2.5 million beneficiaries: our nation’s Airmen and their families.</p>
+
+
+            <p class="small content-secondLast transparent">The system relies on 75 state-of-the-art treatment facilities, out-patient clinics, and support centers around the country and around the world.</p>
+
           </div>
         </div>
-      </center>
-    </section>
-
-
-    <section class="blocks300">
-      <center>
-        <div class="container-fluid" style="max-width:1000px;">
-          <div class="row heros">
-
-            <div class="col-xs-12 col-lg-12">
-              <div class="content-top transparent">
-              <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-    -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-    box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-                <iframe src="https://www.youtube.com/embed/jdF9TF1s8Js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-
-              </div>
-            </div>
-          </div>
       </div>
     </center>
-    </section>
+  </section>
+
+
+  <section class="blocks300">
+    <center>
+      <div class="container-fluid" style="max-width:1000px;">
+        <div class="row heros">
+
+          <div class="col-xs-12 col-lg-12">
+            <div class="content-top transparent">
+              <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
+              <iframe src="https://www.youtube.com/embed/jdF9TF1s8Js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+</section>
 
 
 
-  <section class="blocks22">
-      <center>
-        <div class="container-fluid w800">
-          <div class="row heros">
-            <div class="col-xs-12 col-lg-12">
+<section class="blocks22">
+  <center>
+    <div class="container-fluid w800">
+      <div class="row heros">
+        <div class="col-xs-12 col-lg-12">
 
-              <h1 class="acq small content-top transparent">Find Balance</h1>
+          <h1 class="acq small content-top transparent">Find Balance</h1>
 
           <p class="small content-middle transparent"><span class="strong">Preventive care is a priority. Equipment is the very latest. Treat patients without restrictions on time.</span></p>
 
@@ -178,30 +176,30 @@
 
             <p class="small">Professionally, you couldn’t ask for a better and more rewarding experience.</p>
 
-         </div>
+          </div>
 
-           <h1 class="acq small content-last transparent" style="margin-bottom:1em;">But Wait, There's More.</h1>
-
-
-           <div class="content-secondLast transparent">
-             <p class="small noMargin2">Salaries that defy expectations</p>
-             <p class="small noMargin">Scheduled raises</p>
-             <p class="small noMargin">Access to premier fitness facilities</p>
-             <p class="small noMargin">Work-life balance</p>
-             <p class="small noMargin">Signing bonuses may be offered</p>
-             <p class="small noMargin">Student loan repayment may be considered</p>
-
-             <p class="small noMargin"><span class="strong">And, there's no need to carry malpractice insurance</span></p>
-           </div>
+          <h1 class="acq small content-last transparent" style="margin-bottom:1em;">But Wait, There's More.</h1>
 
 
-           <div class="content-thirdLast transparent">
-             <p class="new3">Annual Paid Time Off</p>
-             <p class="small noMargin">Up to 23 days including Federal Holidays and sick days</p>
+          <div class="content-secondLast transparent">
+            <p class="small noMargin2">Salaries that defy expectations</p>
+            <p class="small noMargin">Scheduled raises</p>
+            <p class="small noMargin">Access to premier fitness facilities</p>
+            <p class="small noMargin">Work-life balance</p>
+            <p class="small noMargin">Signing bonuses may be offered</p>
+            <p class="small noMargin">Student loan repayment may be considered</p>
 
-             <p class="new3">Annual Paid Vacation</p>
+            <p class="small noMargin"><span class="strong">And, there's no need to carry malpractice insurance</span></p>
+          </div>
 
-             <p class="small noMargin">Up to 26 days depending on tenure</p>
+
+          <div class="content-thirdLast transparent">
+            <p class="new3">Annual Paid Time Off</p>
+            <p class="small noMargin">Up to 23 days including Federal Holidays and sick days</p>
+
+            <p class="new3">Annual Paid Vacation</p>
+
+            <p class="small noMargin">Up to 26 days depending on tenure</p>
 
 
             <p class="new3">Insurance for You and Your Family</p>
@@ -219,84 +217,84 @@
             </ul>
 
             <p class="new3" style="margin-top:2em;">Committed to Physical, Mental, and Social Well Being</p>
-         </div>
-
-
-
-<!--
-              <div class="small colast transparent">
-                <img src="images5/liner.jpg" id="slideUpLiner3">
-              </div> -->
-            </div>
           </div>
-        </div>
-      </center>
+
+
+
+          <!--
+          <div class="small colast transparent">
+          <img src="images5/liner.jpg" id="slideUpLiner3">
+        </div> -->
+      </div>
+    </div>
+  </div>
+</center>
 </section>
 
 <section class="blocks500" style="margin-top:6em;">
 
-    <div class="container-fluid">
-      <div class="row heros">
+  <div class="container-fluid">
+    <div class="row heros">
 
-        <div class="col-xs-12 col-lg-12">
-          <div class="content-top transparent">
+      <div class="col-xs-12 col-lg-12">
+        <div class="content-top transparent">
 
 
-  <div class="row bottomFlickity">
-    <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
+          <div class="row bottomFlickity">
+            <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
 
-      <div class="topBoxShadow">
-        <div class="m-carousel">
-          <div class="m-carousel__item one">
-            <img id="myImg" class="m-carousel__image" data-flickity-lazyload="images5/medical0.jpg" alt="Patient with eye test machine">
-            <div class="custCaption1"><p class="endDescription">Patient with eye test machine</p></div>
+              <div class="topBoxShadow">
+                <div class="m-carousel">
+                  <div class="m-carousel__item one">
+                    <img id="myImg" class="m-carousel__image" data-flickity-lazyload="images5/medical0.jpg" alt="Patient with eye test machine">
+                    <div class="custCaption1"><p class="endDescription">Patient with eye test machine</p></div>
+                  </div>
+
+                  <div class="m-carousel__item two">
+                    <img id="myImg2" class="m-carousel__image" data-flickity-lazyload="images5/medical1.jpg" alt="Doctor consults with patient">
+                    <div class="custCaption2"><p class="endDescription">Doctor consults with patient</p></div>
+                  </div>
+
+                  <div class="m-carousel__item three">
+                    <img id="myImg3" class="m-carousel__image" data-flickity-lazyload="images5/medical2.jpg" alt="Nurse Gonzales">
+                    <div class="custCaption3"><p class="endDescription">Nurse Gonzales</p></div>
+                  </div>
+
+                  <div class="m-carousel__item four">
+                    <img id="myImg4" class="m-carousel__image" data-flickity-lazyload="images5/medical3.jpg" alt="Newborn & parents with medical team">
+                    <div class="custCaption4"><p class="endDescription">Newborn & parents with medical team</p></div>
+                  </div>
+
+                  <div class="m-carousel__item five">
+                    <img id="myImg5" class="m-carousel__image" data-flickity-lazyload="images5/medical4.jpg" alt="Lab technician drawing blood from a donor">
+                    <div class="custCaption5"><p class="endDescription">Lab technician drawing blood from a donor</p></div>
+                  </div>
+
+                  <div class="m-carousel__item six">
+                    <img id="myImg6" class="m-carousel__image" data-flickity-lazyload="images5/medical5.jpg" alt="Pre-natal care">
+                    <div class="custCaption6"><p class="endDescription">Pre-natal care</p></div>
+                  </div>
+
+                  <div class="m-carousel__item seven">
+                    <img id="myImg7" class="m-carousel__image" data-flickity-lazyload="images5/medical6.jpg" alt="Dental surgery being performed">
+                    <div class="custCaption7"><p class="endDescription">Dental surgery being performed</p></div>
+                  </div>
+
+                  <div class="m-carousel__item eight">
+                    <img id="myImg8" class="m-carousel__image" data-flickity-lazyload="images5/medical7.jpg" alt="Tending Eye Injury">
+                    <div class="custCaption8"><p class="endDescription">Tending Eye Injury</p></div>
+                  </div>
+
+
+                </div>
+              </div>
+
+            </div>
           </div>
-
-          <div class="m-carousel__item two">
-            <img id="myImg2" class="m-carousel__image" data-flickity-lazyload="images5/medical1.jpg" alt="Doctor consults with patient">
-            <div class="custCaption2"><p class="endDescription">Doctor consults with patient</p></div>
-          </div>
-
-          <div class="m-carousel__item three">
-            <img id="myImg3" class="m-carousel__image" data-flickity-lazyload="images5/medical2.jpg" alt="Nurse Gonzales">
-            <div class="custCaption3"><p class="endDescription">Nurse Gonzales</p></div>
-          </div>
-
-          <div class="m-carousel__item four">
-            <img id="myImg4" class="m-carousel__image" data-flickity-lazyload="images5/medical3.jpg" alt="Newborn & parents with medical team">
-            <div class="custCaption4"><p class="endDescription">Newborn & parents with medical team</p></div>
-          </div>
-
-          <div class="m-carousel__item five">
-            <img id="myImg5" class="m-carousel__image" data-flickity-lazyload="images5/medical4.jpg" alt="Lab technician drawing blood from a donor">
-            <div class="custCaption5"><p class="endDescription">Lab technician drawing blood from a donor</p></div>
-          </div>
-
-          <div class="m-carousel__item six">
-            <img id="myImg6" class="m-carousel__image" data-flickity-lazyload="images5/medical5.jpg" alt="Pre-natal care">
-            <div class="custCaption6"><p class="endDescription">Pre-natal care</p></div>
-          </div>
-
-          <div class="m-carousel__item seven">
-            <img id="myImg7" class="m-carousel__image" data-flickity-lazyload="images5/medical6.jpg" alt="Dental surgery being performed">
-            <div class="custCaption7"><p class="endDescription">Dental surgery being performed</p></div>
-          </div>
-
-          <div class="m-carousel__item eight">
-            <img id="myImg8" class="m-carousel__image" data-flickity-lazyload="images5/medical7.jpg" alt="Tending Eye Injury">
-            <div class="custCaption8"><p class="endDescription">Tending Eye Injury</p></div>
-          </div>
-
-
         </div>
       </div>
-
     </div>
   </div>
-</div>
-</div>
-</div>
-</div>
 </section>
 
 <div class="container-fluid">
@@ -611,147 +609,147 @@
 
           <p class="small content-top transparent">We are actively seeking highly qualified professionals in all occupations vital to a world-class health care system:</p>
 
-          </div>
         </div>
-
-        <div class="row content-middle transparent">
-          <div class="col-xs-12 col-lg-6">
-            <p class="small noMargin">Physicians</p>
-            <p class="small noMargin">Medical Specialists</p>
-            <p class="small noMargin">Nurses</p>
-            <p class="small noMargin">Physical Therapists</p>
-            <p class="small noMargin">Dietitians</p>
-            <p class="small noMargin">Radiologists</p>
-            <p class="small noMargin">Speech/Audiologists</p>
-            <p class="small noMargin">Medical Technicians</p>
-
-          </div>
-
-          <div class="col-xs-12 col-lg-6">
-            <p class="small noMargin">Pharmacists</p>
-            <p class="small noMargin">Optometrists</p>
-            <p class="small noMargin">Dentists</p>
-            <p class="small noMargin">Records Technicians</p>
-            <p class="small noMargin">Psychiatrists</p>
-            <p class="small noMargin">Psychologists</p>
-            <p class="small noMargin">Social Workers</p>
-            <p class="small noMargin">Administrators</p>
-
-          </div>
-        </div>
-
-        <div class="small content-bottom transparent">
-          <img src="images5/liner.jpg" id="slideUpLiner3">
-        </div>
-
-
       </div>
-    </center>
+
+      <div class="row content-middle transparent">
+        <div class="col-xs-12 col-lg-6">
+          <p class="small noMargin">Physicians</p>
+          <p class="small noMargin">Medical Specialists</p>
+          <p class="small noMargin">Nurses</p>
+          <p class="small noMargin">Physical Therapists</p>
+          <p class="small noMargin">Dietitians</p>
+          <p class="small noMargin">Radiologists</p>
+          <p class="small noMargin">Speech/Audiologists</p>
+          <p class="small noMargin">Medical Technicians</p>
+
+        </div>
+
+        <div class="col-xs-12 col-lg-6">
+          <p class="small noMargin">Pharmacists</p>
+          <p class="small noMargin">Optometrists</p>
+          <p class="small noMargin">Dentists</p>
+          <p class="small noMargin">Records Technicians</p>
+          <p class="small noMargin">Psychiatrists</p>
+          <p class="small noMargin">Psychologists</p>
+          <p class="small noMargin">Social Workers</p>
+          <p class="small noMargin">Administrators</p>
+
+        </div>
+      </div>
+
+      <div class="small content-bottom transparent">
+        <img src="images5/liner.jpg" id="slideUpLiner3">
+      </div>
+
+
     </div>
+  </center>
+</div>
 </section>
 
 
-  <section class="blocks9">
-      <div class="container-fluid blacker3">
-        <div class="row heros">
-          <div class="col-xs-12 col-lg-12">
-            <div style="margin-top:1em;" class="center content-top transparent">
-              <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
-            </div>
+<section class="blocks9">
+  <div class="container-fluid blacker3">
+    <div class="row heros">
+      <div class="col-xs-12 col-lg-12">
+        <div style="margin-top:1em;" class="center content-top transparent">
+          <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
+        </div>
 
-            <div class="bluish3 content-middle transparent">
-              <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareersl" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Medical page');">Register</a></div>
-              <div class="bluishButton new">
-                <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Medical page');">Back to Occupations</a>
-              </div>
-
-            </div>
+        <div class="bluish3 content-middle transparent">
+          <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareersl" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Medical page');">Register</a></div>
+          <div class="bluishButton new">
+            <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Medical page');">Back to Occupations</a>
           </div>
+
         </div>
       </div>
+    </div>
+  </div>
 </section>
 
 
 
 <?php include("footer-include/footer.php"); ?>
 
-  </div>
+</div>
 
 
-  <script src="js5/jquery-3.3.1.min.js"></script>
+<script src="js5/jquery-3.3.1.min.js"></script>
 
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+<script
+src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
 
-  <!-- <script src="js5/bootstrap.js"></script> -->
-  <script src="js5/bootstrap.min.js"></script>
+<!-- <script src="js5/bootstrap.js"></script> -->
+<script src="js5/bootstrap.min.js"></script>
 
-  <!-- <script src="js5/slick.js"></script> -->
-  <script src="js5/slick.min.js"></script>
-
-
-  <script src="js5/TweenMax.min.js"></script>
-  <script src="js5/Draggable.min.js"></script>
-
-  <script src="js5/lettering.min.js"></script>
+<!-- <script src="js5/slick.js"></script> -->
+<script src="js5/slick.min.js"></script>
 
 
-  <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+<script src="js5/TweenMax.min.js"></script>
+<script src="js5/Draggable.min.js"></script>
+
+<script src="js5/lettering.min.js"></script>
 
 
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-  <script src="tipuesearch/tipuesearch_set.js"></script>
-  <script src="tipuesearch/tipuesearch_content.js"></script>
-  <script src="tipuesearch/tipuesearch.js"></script>
+<script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
 
 
-  <script src="js5/medical.js"></script>
-  <script src="js5/scrollTop.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script src="tipuesearch/tipuesearch_set.js"></script>
+<script src="tipuesearch/tipuesearch_content.js"></script>
+<script src="tipuesearch/tipuesearch.js"></script>
 
 
-  <script>
+<script src="js5/medical.js"></script>
+<script src="js5/scrollTop.js"></script>
+
+
+<script>
 
 
 
-  $(document).ready(function() {
-      $('#hero-slider2').on('init', function(e, slick) {
-          var $firstAnimatingElements = $('div.hero-slide:first-child').find('[data-animation]');
-          doAnimations($firstAnimatingElements);
-          $('.hero-content.acq').show();
-      });
-      $('#hero-slider2').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
-                var $animatingElements = $('div.hero-slide[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-                doAnimations($animatingElements);
-                $('.hero-content.acq').show();
-      });
-      $('#hero-slider2').slick({
-         autoplay: false,
-         autoplaySpeed: 10000,
-         dots: false,
-         fade: true
-      });
-      function doAnimations(elements) {
-          var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-          elements.each(function() {
-              var $this = $(this);
-              var $animationDelay = $this.data('delay');
-              var $animationType = 'animated ' + $this.data('animation');
-              $this.css({
-                  'animation-delay': $animationDelay,
-                  '-webkit-animation-delay': $animationDelay
-              });
-              $this.addClass($animationType).one(animationEndEvents, function() {
-                  $this.removeClass($animationType);
-              });
-          });
-      }
+$(document).ready(function() {
+  $('#hero-slider2').on('init', function(e, slick) {
+    var $firstAnimatingElements = $('div.hero-slide:first-child').find('[data-animation]');
+    doAnimations($firstAnimatingElements);
+    $('.hero-content.acq').show();
   });
+  $('#hero-slider2').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
+    var $animatingElements = $('div.hero-slide[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+    doAnimations($animatingElements);
+    $('.hero-content.acq').show();
+  });
+  $('#hero-slider2').slick({
+    autoplay: false,
+    autoplaySpeed: 10000,
+    dots: false,
+    fade: true
+  });
+  function doAnimations(elements) {
+    var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+    elements.each(function() {
+      var $this = $(this);
+      var $animationDelay = $this.data('delay');
+      var $animationType = 'animated ' + $this.data('animation');
+      $this.css({
+        'animation-delay': $animationDelay,
+        '-webkit-animation-delay': $animationDelay
+      });
+      $this.addClass($animationType).one(animationEndEvents, function() {
+        $this.removeClass($animationType);
+      });
+    });
+  }
+});
 
 
-  </script>
+</script>
 </body>
 
 

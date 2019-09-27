@@ -43,32 +43,32 @@ include 'blog2/wp-load.php';
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/aftac.css">
   <link rel=stylesheet href="css/aftac-landing.css">
-<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-gtag('config', 'UA-17154729-1');
+  gtag('config', 'UA-17154729-1');
 </script>
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 
 </head>
 
 
 <body>
-<a href='#content' class='skipNav'>Skip to main content</a>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -88,7 +88,7 @@ gtag('config', 'UA-17154729-1');
     <div id="tipModal">
     </div>
 
-<a name='content'></a>
+    <a name='content'></a>
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
@@ -1108,30 +1108,30 @@ gtag('config', 'UA-17154729-1');
       // if ($(document).innerWidth() <= 1024) {
 
 
-        // $('.clickMe').click(function () {
-        //   if($(".hideInitial").is(':visible')) {
-        //
-        //     var par = $(this).parents('.main-news-box');
-        //     par.find(".hideInitial").slideToggle();
-        //     par.find(".clickMe").text('LEARN MORE');
-        //     par.find('.hideOnClick').show();
-        //     return false;
-        //
-        //   }
-        //
-        //   else if ($(".hideInitial").is(':hidden')){
-        //
-        //     var par = $(this).parents('.main-news-box');
-        //     par.find(".hideInitial").slideToggle();
-        //     par.find(".clickMe").text('LESS');
-        //     par.find('.hideOnClick').hide();
-        //     return false;
-        //
-        //   }
-        //
-        // });
-        //
-        // $(".main-news-box a").attr("target", "_blank");
+      // $('.clickMe').click(function () {
+      //   if($(".hideInitial").is(':visible')) {
+      //
+      //     var par = $(this).parents('.main-news-box');
+      //     par.find(".hideInitial").slideToggle();
+      //     par.find(".clickMe").text('LEARN MORE');
+      //     par.find('.hideOnClick').show();
+      //     return false;
+      //
+      //   }
+      //
+      //   else if ($(".hideInitial").is(':hidden')){
+      //
+      //     var par = $(this).parents('.main-news-box');
+      //     par.find(".hideInitial").slideToggle();
+      //     par.find(".clickMe").text('LESS');
+      //     par.find('.hideOnClick').hide();
+      //     return false;
+      //
+      //   }
+      //
+      // });
+      //
+      // $(".main-news-box a").attr("target", "_blank");
 
 
       // }

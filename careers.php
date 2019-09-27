@@ -33,8 +33,8 @@
   <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -42,17 +42,17 @@
   gtag('config', 'UA-17154729-1');
 </script>
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 </head>
 
 <body>
-<a href='#content' class='skipNav'>Skip to main content</a>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -63,218 +63,284 @@
 
   <div style="background: #0f1932 !important;" id="site-wrapper">
     <a href="#veryBottom" id="veryTop"></a>
-        <?php include("nav-include/career-navbar.php"); ?>
+    <?php include("nav-include/career-navbar.php"); ?>
 
 
-  <div id="tipModal">
-  </div>
-
-<a name='content'></a>
-<a href="#bottom" id="top"></a>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 col-lg-12">
-        <div id="hero-slider2" >
-          <div class="hero-slide" style="background-image: url('./images5/career-man1.png');" role="img" aria-label="Careers Landing Image - a man smiling with a suit">
-            <div class="container">
-              <div class="row hero-content acq">
-                <div class="col-sm-12 moveLeft">
-                  <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
-                    <h1 class="slicker">170,000 EMPLOYEES</h1>
-                  </div>
-                  <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.9s">
-                    <h1 class="slicker two">600 OCCUPATIONS</h1>
-                  </div>
-                  <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="1s">
-                    <h1 class="slicker four">ONE MISSION</h1>
-                  </div>
-                  <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1.1s">
-                    <h1 class="slicker three">Supporting the U.S. Air Force</h1>
-                  </div>
-                  <img src="images5/liner.jpg" id="slideUpLiner" class="img-responsive" data-animation="fadeInUpBig" data-delay="1.2s" />
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
+    <div id="tipModal">
     </div>
-  </div>
 
-
-
-  <section id="blocksTop3" class="blocksTop3 hideOnMobile">
+    <a name='content'></a>
+    <a href="#bottom" id="top"></a>
     <div class="container-fluid">
-      <div class="row heros">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <div id="hero-slider2" >
+            <div class="hero-slide" style="background-image: url('./images5/career-man1.png');" role="img" aria-label="Careers Landing Image - a man smiling with a suit">
+              <div class="container">
+                <div class="row hero-content acq">
+                  <div class="col-sm-12 moveLeft">
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
+                      <h1 class="slicker">170,000 EMPLOYEES</h1>
+                    </div>
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.9s">
+                      <h1 class="slicker two">600 OCCUPATIONS</h1>
+                    </div>
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="1s">
+                      <h1 class="slicker four">ONE MISSION</h1>
+                    </div>
+                    <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1.1s">
+                      <h1 class="slicker three">Supporting the U.S. Air Force</h1>
+                    </div>
+                    <img src="images5/liner.jpg" id="slideUpLiner" class="img-responsive" data-animation="fadeInUpBig" data-delay="1.2s" />
 
-        <div class="centerBlocks">
-          <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
-            <div class="parent content-top transparent">
-              <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'Careers Page');">
-                <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i1 new child" alt="Students and Graduates Link Button Image - a students studying with a computer">
-                <div class="funThing" id="b31">
-                  <h1 id="topLine3" class="overlayText tlt41">STUDENTS &</h1>
-                  <h1 id="topLine4" class="overlayText tlt41">GRADUATES</h1>
-                  <hr id="line" class="trans--grow hr1 grow10">
+                  </div>
+
                 </div>
-
-              </a>
-            </div>
-          </div>
-
-
-          <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
-            <div class="parent content-middle transparent">
-              <a style="font-size:14px;" href="#slideDown" id="slideUp">
-                <img id="mobileSmall" src="images5/baby-benefits.png" class="img-responsive i2 new child" alt="Benefits Link Button Image - a baby smiling">
-                <div class="funThing" id="b31">
-
-                  <h1 id="topLine4" class="overlayText tlt42">BENEFITS</h1>
-                  <hr id="line" class="trans--grow hr1">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
-            <div class="parent content-bottom transparent">
-              <a style="font-size:14px;" href="#slideDown" id="slideUp">
-                <img id="mobileSmall" src="images5/why-afcs.png" class="img-responsive i3 new child" alt="Why AFCS? Link Button Image - a woman smiling">
-                <div class="funThing" id="b31">
-                  <h1 id="topLine4" class="overlayText tlt41">WHY AFCS</h1>
-                  <hr id="line" class="trans--grow hr1">
-                </div>
-
-              </a>
-            </div>
-          </div>
-
-          <div class="cursor"></div>
-        </div>
-
-
-
-      </div>
-    </div>
-  </section>
-
-
-  <section id="blocksTop" class="blocksTop mobileHidden">
-    <div class="container-fluid">
-      <div class="row heros">
-
-        <div class="centerBlocks">
-          <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
-            <div class="parent content-top transparent">
-              <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'Careers Page');">
-              <img src="images5/students-graduates.png" class="img-responsive i1 child" alt="Students and Graduates Link Button Image - a students studying with a computer">
-              <div class="funThing" style="left:18%">
-                <h1 id="topLine3" class="overlayText tlt1">STUDENTS &</h1>
-                <h1 id="topLine4" class="overlayText tlt1">GRADUATES</h1>
-                <hr id="line" class="trans--grow hr1">
               </div>
-            </a>
-            </div>
-
-          </div>
-
-          <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
-
-            <div class="parent content-middle transparent">
-              <a style="font-size:14px;" href="#slideDown" id="slideUp">
-              <img src="images5/baby-benefits.png" class="img-responsive i2 child" alt="Benefits Link Button Image - a baby smiling">
-              <div class="funThing">
-                <h1 id="topLine4" class="overlayText tlt2">BENEFITS</h1>
-                <hr id="line" class="trans--grow hr1">
-              </div>
-            </a>
-            </div>
-
-
-          </div>
-
-          <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
-
-            <div class="parent content-bottom transparent">
-              <a style="font-size:14px;" href="#slideDown" id="slideUp">
-              <img src="images5/why-afcs.png" class="img-responsive i3 child" alt="Why AFCS? Link Button Image - a woman smiling">
-              <div class="funThing">
-                <h1 id="topLine4" class="overlayText tlt3">WHY AFCS</h1>
-                <hr id="line" class="trans--grow hr1">
-              </div>
-              </a>
             </div>
 
           </div>
 
         </div>
-
       </div>
     </div>
-  </section>
 
 
 
-  <section class="blocks02">
-    <center>
-      <div class="container-fluid w800">
-
+    <section id="blocksTop3" class="blocksTop3 hideOnMobile">
+      <div class="container-fluid">
         <div class="row heros">
 
-          <div class="col-xs-12 col-lg-12">
+          <div class="centerBlocks">
+            <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
+              <div class="parent content-top transparent">
+                <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'Careers Page');">
+                  <img id="mobileSmall" src="images5/career-slide3.png" class="img-responsive i1 new child" alt="Students and Graduates Link Button Image - a students studying with a computer">
+                  <div class="funThing" id="b31">
+                    <h1 id="topLine3" class="overlayText tlt41">STUDENTS &</h1>
+                    <h1 id="topLine4" class="overlayText tlt41">GRADUATES</h1>
+                    <hr id="line" class="trans--grow hr1 grow10">
+                  </div>
 
-
-            <div class="content-top transparent">
-
-              <img src="images5/liner.jpg" id="slideUpLiner2">
-
-              <h1 class="acq" style="margin-bottom:0px;">Work Should Mean Something</h1>
-              <h1 class="acq two">Here it means everything.</h1>
+                </a>
+              </div>
             </div>
-            <p class="small content-middle transparent">A career with AFCS offers everything you could want in a job: quality of life, career growth opportunities, competitive compensation and benefits, an Award Winning Workplace, and perhaps most importantly, personal satisfaction.</p>
 
-            <p class="small content-bottom transparent">With thousands of employment opportunities at more than 80 domestic and overseas locations, we’re sure there’s a place for you on our team.
-            </p>
 
-            <div class="content-last transparent">
+            <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
+              <div class="parent content-middle transparent">
+                <a style="font-size:14px;" href="#slideDown" id="slideUp">
+                  <img id="mobileSmall" src="images5/baby-benefits.png" class="img-responsive i2 new child" alt="Benefits Link Button Image - a baby smiling">
+                  <div class="funThing" id="b31">
 
-              <img src="images5/liner.jpg" id="slideUpLiner3" class="mobile20">
+                    <h1 id="topLine4" class="overlayText tlt42">BENEFITS</h1>
+                    <hr id="line" class="trans--grow hr1">
+                  </div>
+                </a>
+              </div>
+            </div>
 
-              <h1 class="acq three">Explore Occupations</h1>
+            <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 padding-0">
+              <div class="parent content-bottom transparent">
+                <a style="font-size:14px;" href="#slideDown" id="slideUp">
+                  <img id="mobileSmall" src="images5/why-afcs.png" class="img-responsive i3 new child" alt="Why AFCS? Link Button Image - a woman smiling">
+                  <div class="funThing" id="b31">
+                    <h1 id="topLine4" class="overlayText tlt41">WHY AFCS</h1>
+                    <hr id="line" class="trans--grow hr1">
+                  </div>
+
+                </a>
+              </div>
+            </div>
+
+            <div class="cursor"></div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="blocksTop" class="blocksTop mobileHidden">
+      <div class="container-fluid">
+        <div class="row heros">
+
+          <div class="centerBlocks">
+            <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
+              <div class="parent content-top transparent">
+                <a style="font-size:14px;" href="students-and-graduates.php" onclick="ga('send', 'event', 'Go to Students and Graduates Page', 'click', 'Careers Page');">
+                  <img src="images5/students-graduates.png" class="img-responsive i1 child" alt="Students and Graduates Link Button Image - a students studying with a computer">
+                  <div class="funThing" style="left:18%">
+                    <h1 id="topLine3" class="overlayText tlt1">STUDENTS &</h1>
+                    <h1 id="topLine4" class="overlayText tlt1">GRADUATES</h1>
+                    <hr id="line" class="trans--grow hr1">
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
+
+              <div class="parent content-middle transparent">
+                <a style="font-size:14px;" href="#slideDown" id="slideUp">
+                  <img src="images5/baby-benefits.png" class="img-responsive i2 child" alt="Benefits Link Button Image - a baby smiling">
+                  <div class="funThing">
+                    <h1 id="topLine4" class="overlayText tlt2">BENEFITS</h1>
+                    <hr id="line" class="trans--grow hr1">
+                  </div>
+                </a>
+              </div>
+
+
+            </div>
+
+            <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4 shrink padding-0">
+
+              <div class="parent content-bottom transparent">
+                <a style="font-size:14px;" href="#slideDown" id="slideUp">
+                  <img src="images5/why-afcs.png" class="img-responsive i3 child" alt="Why AFCS? Link Button Image - a woman smiling">
+                  <div class="funThing">
+                    <h1 id="topLine4" class="overlayText tlt3">WHY AFCS</h1>
+                    <hr id="line" class="trans--grow hr1">
+                  </div>
+                </a>
+              </div>
+
             </div>
 
           </div>
+
         </div>
       </div>
-
-    </center>
-  </section>
+    </section>
 
 
-  <div style="position:relative;">
-    <a name="occupations" style="position:absolute;top:-250px;"></a>
 
-  </div>
+    <section class="blocks02">
+      <center>
+        <div class="container-fluid w800">
 
-  <a href="#bottomOccupations" id="topOccupations"></a>
+          <div class="row heros">
 
-  <section id="blocks2" class="blocks2">
-    <div class="container-fluid">
-      <div id="hero" class="row heros">
+            <div class="col-xs-12 col-lg-12">
 
-        <div class="addShadow">
+
+              <div class="content-top transparent">
+
+                <img src="images5/liner.jpg" id="slideUpLiner2">
+
+                <h1 class="acq" style="margin-bottom:0px;">Work Should Mean Something</h1>
+                <h1 class="acq two">Here it means everything.</h1>
+              </div>
+              <p class="small content-middle transparent">A career with AFCS offers everything you could want in a job: quality of life, career growth opportunities, competitive compensation and benefits, an Award Winning Workplace, and perhaps most importantly, personal satisfaction.</p>
+
+              <p class="small content-bottom transparent">With thousands of employment opportunities at more than 80 domestic and overseas locations, we’re sure there’s a place for you on our team.
+              </p>
+
+              <div class="content-last transparent">
+
+                <img src="images5/liner.jpg" id="slideUpLiner3" class="mobile20">
+
+                <h1 class="acq three">Explore Occupations</h1>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </center>
+    </section>
+
+
+    <div style="position:relative;">
+      <a name="occupations" style="position:absolute;top:-250px;"></a>
+
+    </div>
+
+    <a href="#bottomOccupations" id="topOccupations"></a>
+
+    <section id="blocks2" class="blocks2">
+      <div class="container-fluid">
+        <div id="hero" class="row heros">
+
+          <div class="addShadow">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
+              <div class="parent content-top transparent">
+                <a href="acm.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to ACM Page', 'click', 'Careers Page');">
+                  <img src="images5/acq-her.png" class="img-responsive i1 child" alt="Acquisition Contract and Management Link Button Image">
+                  <div class="funThing new2" id="b30">
+                    <h1 id="topLine5" class="overlayText tlt5">ACQUISITION</h1>
+                    <h1 id="topLine5" class="overlayText tlt5">CONTRACT &</h1>
+                    <h1 id="topLine2" class="overlayText tlt5">MANAGEMENT</h1>
+                    <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
+              <div class="parent content-middle transparent">
+                <a href="administrative.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Administrative Page', 'click', 'Careers Page');">
+                  <img src="images5/admin.png" class="img-responsive i2 child" alt="Administrative Management Link Button Image">
+                  <div class="funThing" id="b30">
+                    <h1 id="topLine5" class="overlayText tlt6">ADMINISTRATIVE</h1>
+                    <h1 id="topLine2" class="overlayText tlt6">& MANAGEMENT</h1>
+                    <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
+              <div class="parent content-bottom transparent">
+                <a href="aircraft.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Aircraft Page', 'click', 'Careers Page');">
+                  <img src="images5/aircraft-new.png" class="img-responsive i3 child" alt="Aircraft Maintenance Link Button Image">
+                  <div class="funThing" id="b30">
+                    <h1 id="topLine5" class="overlayText tlt7">AIRCRAFT</h1>
+                    <h1 id="topLine2" class="overlayText tlt7">MAINTENANCE</h1>
+                    <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
+              <div class="parent content-last transparent">
+                <a href="veterinarian.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Veterinarian Page', 'click', 'Careers Page');">
+                  <img src="images5/vet.png" class="img-responsive i88 child" alt="Animal Care and Veterinarian Link Button Image">
+                  <div class="funThing" id="b30">
+                    <h1 id="topLine5" class="overlayText tlt8">ANIMAL CARE &</h1>
+                    <h1 id="topLine2" class="overlayText tlt8">VETERINARIAN</h1>
+                    <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="cursor"></div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="blocks5" class="blocks5">
+      <div class="container-fluid">
+        <div class="row heros">
+
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-top transparent">
-              <a href="acm.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to ACM Page', 'click', 'Careers Page');">
-                <img src="images5/acq-her.png" class="img-responsive i1 child" alt="Acquisition Contract and Management Link Button Image">
+              <a href="auditing.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Audit Page', 'click', 'Careers Page');">
+                <img src="images5/audit.png" class="img-responsive i1 child" alt="Auditing Link Button Image">
                 <div class="funThing new2" id="b30">
-                  <h1 id="topLine5" class="overlayText tlt5">ACQUISITION</h1>
-                  <h1 id="topLine5" class="overlayText tlt5">CONTRACT &</h1>
-                  <h1 id="topLine2" class="overlayText tlt5">MANAGEMENT</h1>
+                  <h1 id="topLine2" class="overlayText tlt9">AUDITING</h1>
+
                   <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
                 </div>
               </a>
@@ -283,82 +349,16 @@
 
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
             <div class="parent content-middle transparent">
-              <a href="administrative.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Administrative Page', 'click', 'Careers Page');">
-                <img src="images5/admin.png" class="img-responsive i2 child" alt="Administrative Management Link Button Image">
+              <a href="chaplain.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Chaplain Page', 'click', 'Careers Page');">
+                <img src="images5/chaplain-square.png" class="img-responsive i2 child" alt="Chaplain Link Button Image">
                 <div class="funThing" id="b30">
-                  <h1 id="topLine5" class="overlayText tlt6">ADMINISTRATIVE</h1>
-                  <h1 id="topLine2" class="overlayText tlt6">& MANAGEMENT</h1>
+                  <h1 id="topLine2" class="overlayText tlt10">CHAPLAIN</h1>
                   <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
                 </div>
               </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
-            <div class="parent content-bottom transparent">
-              <a href="aircraft.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Aircraft Page', 'click', 'Careers Page');">
-                <img src="images5/aircraft-new.png" class="img-responsive i3 child" alt="Aircraft Maintenance Link Button Image">
-                <div class="funThing" id="b30">
-                  <h1 id="topLine5" class="overlayText tlt7">AIRCRAFT</h1>
-                  <h1 id="topLine2" class="overlayText tlt7">MAINTENANCE</h1>
-                  <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
-            <div class="parent content-last transparent">
-              <a href="veterinarian.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Veterinarian Page', 'click', 'Careers Page');">
-                <img src="images5/vet.png" class="img-responsive i88 child" alt="Animal Care and Veterinarian Link Button Image">
-                <div class="funThing" id="b30">
-                  <h1 id="topLine5" class="overlayText tlt8">ANIMAL CARE &</h1>
-                  <h1 id="topLine2" class="overlayText tlt8">VETERINARIAN</h1>
-                  <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="cursor"></div>
-        </div>
-
-
-      </div>
-
-
-    </div>
-  </section>
-
-  <section id="blocks5" class="blocks5">
-    <div class="container-fluid">
-      <div class="row heros">
-
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
-          <div class="parent content-top transparent">
-            <a href="auditing.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Audit Page', 'click', 'Careers Page');">
-              <img src="images5/audit.png" class="img-responsive i1 child" alt="Auditing Link Button Image">
-              <div class="funThing new2" id="b30">
-                <h1 id="topLine2" class="overlayText tlt9">AUDITING</h1>
-
-                <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
-              </div>
             </a>
           </div>
         </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
-          <div class="parent content-middle transparent">
-            <a href="chaplain.php" style="font-size:14px;" onclick="ga('send', 'event', 'Go to Chaplain Page', 'click', 'Careers Page');">
-              <img src="images5/chaplain-square.png" class="img-responsive i2 child" alt="Chaplain Link Button Image">
-              <div class="funThing" id="b30">
-                <h1 id="topLine2" class="overlayText tlt10">CHAPLAIN</h1>
-                <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
-              </div>
-            </a>
-          </a>
-        </div>
-      </div>
 
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 padding-0">
           <div class="parent content-bottom transparent">

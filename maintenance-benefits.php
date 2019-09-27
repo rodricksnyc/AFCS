@@ -16,38 +16,38 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
   <link href="css5/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css5/normalize.css">
-<link type="image/png" href="images5/afcs-favicon.png" rel="icon">
+  <link type="image/png" href="images5/afcs-favicon.png" rel="icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 
-<link rel=stylesheet href="css/maintenance.css">
+  <link rel=stylesheet href="css/maintenance.css">
   <link rel=stylesheet href="css/calendar.css">
   <link rel=stylesheet href="css/navbar.css">
   <link rel=stylesheet href="css/acquisition.css">
 
-<link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+  <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-gtag('config', 'UA-17154729-1');
+  gtag('config', 'UA-17154729-1');
 </script>
 
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 </head>
 
 <style>
@@ -73,14 +73,14 @@ h1.acq.two, h1.acq {
 }
 
 .hero-slide {
-      background-position: 0px 10% !important;
+  background-position: 0px 10% !important;
 }
 
 @media (max-width:1024px) and (min-width:768px) {
   .i6, .i7, .i8, .i5 {
     margin-top: 0em;
     margin-bottom: 0em;
-}
+  }
 }
 @media (max-width:767px) {
   .funThing.new2 {
@@ -89,7 +89,7 @@ h1.acq.two, h1.acq {
 
   .hero-slide {
     background-position: center !important;
-}
+  }
 
 
   .funThing.new3 {
@@ -107,7 +107,7 @@ h1.acq.two, h1.acq {
 </style>
 
 <body>
-<a href='#content' class='skipNav'>Skip to main content</a>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -116,16 +116,16 @@ h1.acq.two, h1.acq {
     </div>
   </div>
 
-<a href="#bottom" id="top"></a>
+  <a href="#bottom" id="top"></a>
 
   <div style="background: #0f1932 !important;" id="site-wrapper">
     <a href="#veryBottom" id="veryTop"></a>
-      <?php include("nav-include/acquisition-navbar.php"); ?>
+    <?php include("nav-include/acquisition-navbar.php"); ?>
 
     <div id="tipModal">
     </div>
 
-<a name='content'></a>
+    <a name='content'></a>
     <div class="container-fluid" id="mt67">
       <div class="row">
         <div class="col-xs-12 col-lg-12">
@@ -155,58 +155,58 @@ h1.acq.two, h1.acq {
 
 
     <section class="blocksTop">
-        <div class="container-fluid">
-          <div class="row heros">
+      <div class="container-fluid">
+        <div class="row heros">
 
-              <div id="addTheShadow" class="centerBlocks">
+          <div id="addTheShadow" class="centerBlocks">
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
-                <div class="parent content-top transparent">
-                  <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquistion Home page', 'click', 'Maintenance page');">
+              <div class="parent content-top transparent">
+                <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquistion Home page', 'click', 'Maintenance page');">
                   <img src="images5/acqhome.png" class="img-responsive i6 child" alt="Acquisition Home Link Button Image">
                   <div class="funThing new3">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
                     <h1 id="topLine2" class="overlayText tlt100">HOME</h1>
                     <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
                   </div>
-                  </a>
-                </div>
+                </a>
               </div>
+            </div>
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
-                <div class="parent content-middle transparent">
-                  <a style="font-size:14px" href="maintenance-careers.php" onclick="ga('send', 'event', 'Go to Maintenance Careers page', 'click', 'Maintenance page');">
+              <div class="parent content-middle transparent">
+                <a style="font-size:14px" href="maintenance-careers.php" onclick="ga('send', 'event', 'Go to Maintenance Careers page', 'click', 'Maintenance page');">
                   <img src="images5/careers-button.png" class="img-responsive i7 child" alt="Air Force Sustainment Center Careers Link Button Image">
                   <div class="funThing">
                     <!-- <h1 id="topLine5" class="overlayText tlt101">NUCLEAR</h1> -->
                     <h1 id="topLine2" class="overlayText tlt101">CAREERS</h1>
                     <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
                   </div>
-                  </a>
-                </div>
+                </a>
               </div>
+            </div>
 
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
-                <div class="parent content-last transparent">
-                  <a style="font-size:14px" href="maintenance-locations.php" onclick="ga('send', 'event', 'Go to Maintenance Locations page', 'click', 'Maintenance page');">
+              <div class="parent content-last transparent">
+                <a style="font-size:14px" href="maintenance-locations.php" onclick="ga('send', 'event', 'Go to Maintenance Locations page', 'click', 'Maintenance page');">
                   <img src="images5/locations-button.png" class="img-responsive i5 child" alt="Air Force Sustainment Center Locations Link Button Image">
-                    <div class="funThing">
-                      <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
-                      <h1 id="topLine2" class="overlayText tlt104">LOCATIONS</h1>
-                      <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
-                    </div>
-                  </a>
-                </div>
-              </div>
-                <div class="cursor"></div>
-
+                  <div class="funThing">
+                    <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
+                    <h1 id="topLine2" class="overlayText tlt104">LOCATIONS</h1>
+                    <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
+                  </div>
+                </a>
               </div>
             </div>
-          </div>
-      </section>
+            <div class="cursor"></div>
 
-  <section class="blocks02">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blocks02">
       <center>
         <div class="container-fluid w800">
           <div class="row heros">
@@ -219,11 +219,11 @@ h1.acq.two, h1.acq {
 
                 <p class="small">The AFSC and Air Force benefits programs are designed to keep you healthy, productive and safe. As a civilian employee with AFSC, you’ll have the security of knowing you’re part of a work environment that supports a healthy <a class="small strong" href="careers.php#careerSecondAnchor">work-life balance</a>.</p>
 
-             </div>
+              </div>
 
-             <div class="content-middle transparent">
-              <p class="small mb0">From a competitive salary to a flexible work schedule as well as continuous learning opportunities and career advancement, our various plan options and benefits rival – and often exceed – those offered in the private sector. As a civilian member of the Air Force Acquisitions workforce, you can enjoy outstanding federal benefits. Starting the moment you begin a career at AFSC, here are just a few benefits to expect:</p>
-            </div>
+              <div class="content-middle transparent">
+                <p class="small mb0">From a competitive salary to a flexible work schedule as well as continuous learning opportunities and career advancement, our various plan options and benefits rival – and often exceed – those offered in the private sector. As a civilian member of the Air Force Acquisitions workforce, you can enjoy outstanding federal benefits. Starting the moment you begin a career at AFSC, here are just a few benefits to expect:</p>
+              </div>
 
             </div>
           </div>
@@ -231,16 +231,16 @@ h1.acq.two, h1.acq {
       </center>
     </section>
     <section class="blocks3">
-        <center>
-          <div class="container-fluid w800" style="padding-top:0px">
-            <div class="row heros">
-              <div class="col-xs-12 col-lg-12">
-                <div class="content-top transparent">
+      <center>
+        <div class="container-fluid w800" style="padding-top:0px">
+          <div class="row heros">
+            <div class="col-xs-12 col-lg-12">
+              <div class="content-top transparent">
                 <p class="small"><u class="strong">Comprehensive Health Coverage</u> We offer the widest selection of health plans in the country, and all employees are eligible for free health screenings.</p>
                 <p class="small"><u class="strong">Dental and Vision Coverage</u> Tax-advantaged dental and vision benefits are available to eligible federal employees, retirees and their eligible family members on an enrollee-pay-all basis, with competitive premiums and no pre-existing condition limitations.</p>
-               </div>
+              </div>
 
-               <div class="content-middle transparent">
+              <div class="content-middle transparent">
                 <p class="small"><u class="strong">Flexible Spending Account (FSA)</u> Eligible employees can deposit funds into a health savings account that enables them to pay for many out-of-pocket health and dependent care expenses with pretax dollars.</p>
 
                 <p class="small"><u class="strong">Long-Term Care Insurance</u> This insurance helps pay for medical and non-medical needs of enrollees with a chronic illness or disability that affects their day-to-day activity over long periods of time.</p>
@@ -255,12 +255,12 @@ h1.acq.two, h1.acq {
 
               </div>
 
-                </div>
-              </div>
             </div>
-        </center>
-  </section>
-  <section class="blocks2">
+          </div>
+        </div>
+      </center>
+    </section>
+    <section class="blocks2">
       <center>
         <div class="container-fluid w800" style="padding-top:0px;">
           <div class="row heros">
@@ -270,44 +270,44 @@ h1.acq.two, h1.acq {
                 <p class="small">Are you ready to balance a rewarding career protecting your nation with a fulfilling personal life? At AFTC, we offer resources and tools that help you enjoy everything you put into your work – and your time away from it, as well. These are just some of the work-life benefits offered by the Air Force, regardless of your location:</p>
               </div>
               <div class="content-middle transparent">
-                  <p class="small"><u class="strong">Flexible Work Schedules:</u> Helping you balance time between work and family.</p>
-                  <p class="small"><u class="strong">Telecommuting:</u> Employees in certain positions can work from home. Certain restrictions may apply.</p>
-                  <p class="small"><u class="strong">Civilian Fitness and Wellness Policy:</u> Full-time employees can use up to three hours of their workday per week, without using leave or vacation time, for fitness and wellness activities, pending approval. A physical exam is required for participation</p>
+                <p class="small"><u class="strong">Flexible Work Schedules:</u> Helping you balance time between work and family.</p>
+                <p class="small"><u class="strong">Telecommuting:</u> Employees in certain positions can work from home. Certain restrictions may apply.</p>
+                <p class="small"><u class="strong">Civilian Fitness and Wellness Policy:</u> Full-time employees can use up to three hours of their workday per week, without using leave or vacation time, for fitness and wellness activities, pending approval. A physical exam is required for participation</p>
               </div>
 
               <div class="content-bottom transparent">
-                  <p class="small"><u class="strong">Recreational Activities:</u> Easy access to various activities, including numerous recreational and cultural destinations in the surrounding areas.</p>
-                  <img src="images5/liner.jpg" id="slideUpLiner3">
+                <p class="small"><u class="strong">Recreational Activities:</u> Easy access to various activities, including numerous recreational and cultural destinations in the surrounding areas.</p>
+                <img src="images5/liner.jpg" id="slideUpLiner3">
               </div>
 
-             </div>
             </div>
           </div>
+        </div>
 
       </center>
-</section>
+    </section>
 
-<section class="modalBlock">
-    <div class="container-fluid blacker3">
-      <div class="row heros">
-        <div class="col-xs-12 col-lg-12">
-          <div style="margin-top:1em;" class="center content-top transparent">
-            <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
-          </div>
-
-          <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance page');">Register</a></div>
-            <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Maintenance page');">Back to Occupations</a>
+    <section class="modalBlock">
+      <div class="container-fluid blacker3">
+        <div class="row heros">
+          <div class="col-xs-12 col-lg-12">
+            <div style="margin-top:1em;" class="center content-top transparent">
+              <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
             </div>
 
+            <div class="bluish3 content-middle transparent">
+              <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance page');">Register</a></div>
+              <div class="bluishButton new">
+                <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Maintenance page');">Back to Occupations</a>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
-    </div>
-</section>
+    </section>
 
-<?php include("footer-include/footer.php"); ?>
+    <?php include("footer-include/footer.php"); ?>
 
   </div>
 
@@ -364,37 +364,37 @@ h1.acq.two, h1.acq {
 
 
   $(document).ready(function() {
-      $('#hero-slider2').on('init', function(e, slick) {
-          var $firstAnimatingElements = $('div.hero-slide:first-child').find('[data-animation]');
-          doAnimations($firstAnimatingElements);
-          $('.hero-content.acq').show();
+    $('#hero-slider2').on('init', function(e, slick) {
+      var $firstAnimatingElements = $('div.hero-slide:first-child').find('[data-animation]');
+      doAnimations($firstAnimatingElements);
+      $('.hero-content.acq').show();
+    });
+    $('#hero-slider2').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
+      var $animatingElements = $('div.hero-slide[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+      doAnimations($animatingElements);
+      $('.hero-content.acq').show();
+    });
+    $('#hero-slider2').slick({
+      autoplay: false,
+      autoplaySpeed: 10000,
+      dots: false,
+      fade: true
+    });
+    function doAnimations(elements) {
+      var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+      elements.each(function() {
+        var $this = $(this);
+        var $animationDelay = $this.data('delay');
+        var $animationType = 'animated ' + $this.data('animation');
+        $this.css({
+          'animation-delay': $animationDelay,
+          '-webkit-animation-delay': $animationDelay
+        });
+        $this.addClass($animationType).one(animationEndEvents, function() {
+          $this.removeClass($animationType);
+        });
       });
-      $('#hero-slider2').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
-                var $animatingElements = $('div.hero-slide[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-                doAnimations($animatingElements);
-                $('.hero-content.acq').show();
-      });
-      $('#hero-slider2').slick({
-         autoplay: false,
-         autoplaySpeed: 10000,
-         dots: false,
-         fade: true
-      });
-      function doAnimations(elements) {
-          var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-          elements.each(function() {
-              var $this = $(this);
-              var $animationDelay = $this.data('delay');
-              var $animationType = 'animated ' + $this.data('animation');
-              $this.css({
-                  'animation-delay': $animationDelay,
-                  '-webkit-animation-delay': $animationDelay
-              });
-              $this.addClass($animationType).one(animationEndEvents, function() {
-                  $this.removeClass($animationType);
-              });
-          });
-      }
+    }
   });
 
 

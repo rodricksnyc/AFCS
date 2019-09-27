@@ -28,27 +28,27 @@
   <link rel=stylesheet href="css/acquisition.css">
   <link rel=stylesheet href="css/testing.css">
 
-<link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-<title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
+  <link rel="stylesheet" href="tipuesearch/tipuesearch.css">
+  <title><?php echo "AFCS - Air Force Civilian Service"; ?></title>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17154729-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-gtag('config', 'UA-17154729-1');
+  gtag('config', 'UA-17154729-1');
 </script>
 
 <script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-   ga('create', 'UA-17154729-1', 'auto');
-   ga('send', 'pageview');
- </script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-17154729-1', 'auto');
+ga('send', 'pageview');
+</script>
 </head>
 
 <style>
@@ -75,7 +75,7 @@ h1.acq.two, h1.acq {
   .i6, .i7, .i8, .i5 {
     margin-top: 0em;
     margin-bottom: 0em;
-}
+  }
 }
 
 @media (max-width:767px) {
@@ -99,7 +99,7 @@ h1.acq.two, h1.acq {
 </style>
 
 <body>
-<a href='#content' class='skipNav'>Skip to main content</a>
+  <a href='#content' class='skipNav'>Skip to main content</a>
   <div class="preloader-wrap">
     <div class="preloader">
       <div class="loader">
@@ -108,99 +108,99 @@ h1.acq.two, h1.acq {
     </div>
   </div>
 
-<a href="#bottom" id="top"></a>
+  <a href="#bottom" id="top"></a>
 
   <div style="background: #262932 !important;" id="site-wrapper">
     <a href="#veryBottom" id="veryTop"></a>
-      <?php include("nav-include/acquisition-navbar.php"); ?>
+    <?php include("nav-include/acquisition-navbar.php"); ?>
 
     <div id="tipModal">
     </div>
 
-  <a name='content'></a>
-        <div class="container-fluid" id="mt67">
-          <div class="row">
-            <div class="col-xs-12 col-lg-12">
-              <div id="hero-slider2">
-                <div class="hero-slide" style="background-image: url('./images5/careers-background.png');" role="img" aria-label="Air Force Test Center Careers Landing Image - an African American woman smiling">
-                  <div class="container">
-                    <div class="row hero-content acq">
-                      <div class="col-sm-12">
-                        <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
-                          <h1 class="slicker">PROVING</h1>
-                        </div>
-                        <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
-                          <h1 class="slicker two">GROUND</h1>
-                        </div>
-                        <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1s">
-                          <h1 class="slicker three">Air Force Test Center</h1>
-                        </div>
-                        <img src="images5/liner.jpg" id="slideUpLiner" class="img-responsive" data-animation="fadeInUpBig" data-delay="1.1s" />
-                      </div>
+    <a name='content'></a>
+    <div class="container-fluid" id="mt67">
+      <div class="row">
+        <div class="col-xs-12 col-lg-12">
+          <div id="hero-slider2">
+            <div class="hero-slide" style="background-image: url('./images5/careers-background.png');" role="img" aria-label="Air Force Test Center Careers Landing Image - an African American woman smiling">
+              <div class="container">
+                <div class="row hero-content acq">
+                  <div class="col-sm-12">
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
+                      <h1 class="slicker">PROVING</h1>
                     </div>
+                    <div class="img-responsive slide-message" data-animation="fadeInUp" data-delay="0.8s">
+                      <h1 class="slicker two">GROUND</h1>
+                    </div>
+                    <div class="img-responsive slide-message"  data-animation="fadeInUp" data-delay="1s">
+                      <h1 class="slicker three">Air Force Test Center</h1>
+                    </div>
+                    <img src="images5/liner.jpg" id="slideUpLiner" class="img-responsive" data-animation="fadeInUpBig" data-delay="1.1s" />
                   </div>
                 </div>
-
               </div>
-
             </div>
+
           </div>
+
         </div>
+      </div>
+    </div>
 
 
     <section class="blocksTop2">
-        <div class="container-fluid">
-          <div class="row heros">
+      <div class="container-fluid">
+        <div class="row heros">
 
-              <div id="addTheShadow" class="centerBlocks">
+          <div id="addTheShadow" class="centerBlocks">
 
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
-                <div class="parent content-top transparent">
-                  <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'Testing Careers page');">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
+              <div class="parent content-top transparent">
+                <a style="font-size:14px" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'Testing Careers page');">
                   <img src="images5/acqhome.png" class="img-responsive i6 child" alt="Acquisition Home Link Button Image">
                   <div class="funThing new3">
                     <h1 id="topLine5" class="overlayText tlt100">ACQUISITION</h1>
                     <h1 id="topLine2" class="overlayText tlt100">HOME</h1>
                     <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
                   </div>
-                  </a>
-                </div>
+                </a>
               </div>
+            </div>
 
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
 
-                <div class="parent content-bottom transparent">
-                    <a style="font-size:14px" href="testing-benefits.php" onclick="ga('send', 'event', 'Go to Testing Benefits', 'click', 'Testing Careers page');">
-                    <img src="images5/benefits-button-square.png" class="img-responsive i8 child" alt="Air Force Test Center Benefits Link Button Image">
-                    <div class="funThing">
-                      <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
-                      <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow10">
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
-                <div class="parent content-last transparent">
-                  <a style="font-size:14px" href="testing-locations.php" onclick="ga('send', 'event', 'Go to Testing Locations', 'click', 'Testing Careers page');">
-                  <img src="images5/locations-button.png" class="img-responsive i5 child" alt="Air Force Test Center Locations Link Button Image">
-                    <div class="funThing">
-                      <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
-                      <h1 id="topLine2" class="overlayText tlt104">LOCATIONS</h1>
-                      <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
-                    </div>
-                  </a>
-                </div>
-              </div>
-                <div class="cursor"></div>
-
+              <div class="parent content-bottom transparent">
+                <a style="font-size:14px" href="testing-benefits.php" onclick="ga('send', 'event', 'Go to Testing Benefits', 'click', 'Testing Careers page');">
+                  <img src="images5/benefits-button-square.png" class="img-responsive i8 child" alt="Air Force Test Center Benefits Link Button Image">
+                  <div class="funThing">
+                    <h1 id="topLine2" class="overlayText tlt102">BENEFITS</h1>
+                    <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow10">
+                  </div>
+                </a>
               </div>
             </div>
-          </div>
-      </section>
 
-  <section class="blocks02">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-0">
+              <div class="parent content-last transparent">
+                <a style="font-size:14px" href="testing-locations.php" onclick="ga('send', 'event', 'Go to Testing Locations', 'click', 'Testing Careers page');">
+                  <img src="images5/locations-button.png" class="img-responsive i5 child" alt="Air Force Test Center Locations Link Button Image">
+                  <div class="funThing">
+                    <!-- <h1 id="topLine5" class="overlayText tlt104">SPACE &</h1> -->
+                    <h1 id="topLine2" class="overlayText tlt104">LOCATIONS</h1>
+                    <hr style="padding: 1px 0 !important;" id="line" class="trans--grow hr1 grow3">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="cursor"></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blocks02">
       <center>
         <div class="container-fluid w800">
           <div class="row heros">
@@ -210,7 +210,7 @@ h1.acq.two, h1.acq {
                 <img src="images5/liner.jpg" id="slideUpLiner2">
 
                 <h1 class="acq">Revolutions Start Here</h1>
-             </div>
+              </div>
               <p class="small content-middle transparent">Just about every major advance in aerospace design has been put through the paces at AFTC. Advances that are truly revolutionary, even mind-blowing. Advances like airframe design and guided munitions to revolutions in flight controls and avionics.</p>
 
               <p class="small content-bottom transparent">Working shoulder to shoulder with highly skilled civilians and with active duty military experts on cutting-edge military aviation technology and revolutionary advances in science and aviation technology ... does it get any better than that?</p>
@@ -226,323 +226,323 @@ h1.acq.two, h1.acq {
         </div>
       </center>
     </section>
-      <!-- youtube full width -->
+    <!-- youtube full width -->
 
-        <section class="blocks300">
-          <center>
-            <div class="container-fluid" style="max-width:1000px;">
-              <div class="row heros">
-
-                <div class="col-xs-12 col-lg-12">
-                  <div class="content-top transparent" style="-webkit-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);-moz-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);">
-                  <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-    -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-    box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-                    <iframe src="https://www.youtube.com/embed/j1AZcIbSf_g" title="Video: Test Center Work Environment" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-
-                  </div>
-                </div>
-              </div>
-          </div>
-        </center>
-      </section>
-
-  <section class="blocks3">
+    <section class="blocks300">
       <center>
-        <div class="container-fluid w800">
+        <div class="container-fluid" style="max-width:1000px;">
           <div class="row heros">
+
             <div class="col-xs-12 col-lg-12">
-              <p class="small content-top transparent">Working in a challenging and stimulating environment like AFTC would probably be pretty revolutionary for just about anyone. Throw in our commitment to real work-life balance and you have something not just revolutionary but truly transformative.</p>
-
-              <p class="small content-middle transparent" style="margin-bottom:15px;">Flexible work hours. Family leave. Generous vacation and paid time off. Access to fitness and recreation facilities. That’s REAL work-life balance. But that’s just part of the great benefits we offer. Click here to learn about other benefits and compensation.</p>
-
+              <div class="content-top transparent" style="-webkit-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);-moz-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);">
+                <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+                -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+                box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
+                <iframe src="https://www.youtube.com/embed/j1AZcIbSf_g" title="Video: Test Center Work Environment" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
+
             </div>
           </div>
-      </center>
-</section>
+        </div>
+      </div>
+    </center>
+  </section>
 
-<section class="blocks200">
-  <center>
-    <div class="container-fluid" style="max-width:1000px;">
-      <div class="row heros">
+  <section class="blocks3">
+    <center>
+      <div class="container-fluid w800">
+        <div class="row heros">
+          <div class="col-xs-12 col-lg-12">
+            <p class="small content-top transparent">Working in a challenging and stimulating environment like AFTC would probably be pretty revolutionary for just about anyone. Throw in our commitment to real work-life balance and you have something not just revolutionary but truly transformative.</p>
 
-        <div class="col-xs-12 col-lg-12">
-          <div class="content-top transparent" style="-webkit-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);-moz-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);">
-          <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
--moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-            <iframe src="https://www.youtube.com/embed/p-ibOGcil4c" title="Video: Test Center Work Life Balance" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+            <p class="small content-middle transparent" style="margin-bottom:15px;">Flexible work hours. Family leave. Generous vacation and paid time off. Access to fitness and recreation facilities. That’s REAL work-life balance. But that’s just part of the great benefits we offer. Click here to learn about other benefits and compensation.</p>
 
           </div>
         </div>
       </div>
+    </center>
+  </section>
+
+  <section class="blocks200">
+    <center>
+      <div class="container-fluid" style="max-width:1000px;">
+        <div class="row heros">
+
+          <div class="col-xs-12 col-lg-12">
+            <div class="content-top transparent" style="-webkit-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);-moz-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);">
+              <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+              box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
+              <iframe src="https://www.youtube.com/embed/p-ibOGcil4c" title="Video: Test Center Work Life Balance" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+</section>
+
+
+<section class="blocks">
+  <center>
+    <div class="container-fluid w800">
+      <div class="row heros">
+        <div class="col-xs-12 col-lg-12">
+          <div class="content-top transparent">
+            <h1 class="acq">Professional Growth</h1>
+          </div>
+
+          <p class="small content-middle transparent">To help you on your way to a long and varied career, AFTC offers extensive educational opportunities including on-site training, the chance to attend educational events and programs, and even tuition reimbursement and funding for advanced degrees. To help in planning your career, you will have access to extensive career path planning tools and guidance.</p>
+
+          <p class="small content-bottom transparent">As you grow with AFTC, your career can take you places you never imagined with abundant opportunities to expand your skills and put them to work keeping the Air Force successful.</p>
+
+          <div class="content-last transparent">
+            <h1 class="acq">Riches in Diversity</h1>
+            <p class="small">Because our mission of conducting and supporting flight research relies on creative thinking and problem solving, we invest in the value and strength that comes from a variety of backgrounds and experiences, from diverse perspectives and points of view, and abilities as diverse as the nation we serve.</p>
+
+            <p class="small">We rely on inspired thinking and cultivate a team from multicultural backgrounds, varied education, and life experiences—including those with disabilities— to fuel the innovation essential to the Air Force mission.</p>
+          </div>
+
+          <div class="content-secondLast transparent">
+
+            <p class="small">AFTC understands and supports attracting, developing, and retaining a diverse workforce which appreciates and understands other societies, cultures, and languages. Diversity is a powerful tool on the road to success.</p>
+            <p class="small" style="margin-bottom:15px;">We also embrace equal employment opportunity in all facets of our work environment regardless of race, religion, color, sex, national origin, age, disability, and/or sexual orientation.</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </center>
+</section>
+
+
+<section class="blocks1">
+  <center>
+    <div class="container-fluid w800" style="padding-top:0px">
+      <div class="row heros">
+        <div class="col-xs-12 col-lg-12">
+          <div class="content-top transparent">
+            <h1 class="acq mb0">You are smart, talented, and<br>ambitious.</h1>
+            <h1 class="acq two">Perfect for our team.</h1>
+          </div>
+
+          <p class="small content-middle transparent">Our greatest asset is a workforce made up of the most qualified and dedicated professionals who work in all areas of the test mission: from logistics to contracting and from engineering to the sciences.</p>
+
+          <p class="small content-bottom transparent">Sure, what we do is vital to the Air Force mission, but it’s also very exciting and challenging. That makes AFTC is a great place to start a career or to invest your professional experience in something far more important than the bottom line.</p>
+
+
+        </div>
+      </div>
+    </div>
+
+  </center>
+</section>
+
+
+<section class="blocks400">
+  <center>
+    <div style="max-width:960px" class="container-fluid">
+      <div class="row heros">
+        <div class="col-xs-12 col-lg-12">
+
+          <div class="content-top transparent" style="-webkit-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);-moz-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);">
+
+            <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+            -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
+            box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
+            <iframe src="https://www.youtube.com/embed/sM4Fk9y2B8I" title="Video: Test Center Opportunities" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
   </div>
 </center>
 </section>
 
 
-<section class="blocks">
-    <center>
-      <div class="container-fluid w800">
-        <div class="row heros">
-          <div class="col-xs-12 col-lg-12">
-            <div class="content-top transparent">
-              <h1 class="acq">Professional Growth</h1>
-            </div>
-
-            <p class="small content-middle transparent">To help you on your way to a long and varied career, AFTC offers extensive educational opportunities including on-site training, the chance to attend educational events and programs, and even tuition reimbursement and funding for advanced degrees. To help in planning your career, you will have access to extensive career path planning tools and guidance.</p>
-
-            <p class="small content-bottom transparent">As you grow with AFTC, your career can take you places you never imagined with abundant opportunities to expand your skills and put them to work keeping the Air Force successful.</p>
-
-            <div class="content-last transparent">
-                <h1 class="acq">Riches in Diversity</h1>
-                <p class="small">Because our mission of conducting and supporting flight research relies on creative thinking and problem solving, we invest in the value and strength that comes from a variety of backgrounds and experiences, from diverse perspectives and points of view, and abilities as diverse as the nation we serve.</p>
-
-              <p class="small">We rely on inspired thinking and cultivate a team from multicultural backgrounds, varied education, and life experiences—including those with disabilities— to fuel the innovation essential to the Air Force mission.</p>
-            </div>
-
-            <div class="content-secondLast transparent">
-
-              <p class="small">AFTC understands and supports attracting, developing, and retaining a diverse workforce which appreciates and understands other societies, cultures, and languages. Diversity is a powerful tool on the road to success.</p>
-              <p class="small" style="margin-bottom:15px;">We also embrace equal employment opportunity in all facets of our work environment regardless of race, religion, color, sex, national origin, age, disability, and/or sexual orientation.</p>
-
-            </div>
-
-           </div>
-          </div>
-        </div>
-
-    </center>
-</section>
-
-
-<section class="blocks1">
-    <center>
-      <div class="container-fluid w800" style="padding-top:0px">
-        <div class="row heros">
-          <div class="col-xs-12 col-lg-12">
-            <div class="content-top transparent">
-              <h1 class="acq mb0">You are smart, talented, and<br>ambitious.</h1>
-              <h1 class="acq two">Perfect for our team.</h1>
-            </div>
-
-            <p class="small content-middle transparent">Our greatest asset is a workforce made up of the most qualified and dedicated professionals who work in all areas of the test mission: from logistics to contracting and from engineering to the sciences.</p>
-
-            <p class="small content-bottom transparent">Sure, what we do is vital to the Air Force mission, but it’s also very exciting and challenging. That makes AFTC is a great place to start a career or to invest your professional experience in something far more important than the bottom line.</p>
-
-
-           </div>
-          </div>
-        </div>
-
-    </center>
-</section>
-
-
-<section class="blocks400">
-    <center>
-      <div style="max-width:960px" class="container-fluid">
-        <div class="row heros">
-          <div class="col-xs-12 col-lg-12">
-
-            <div class="content-top transparent" style="-webkit-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);-moz-box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);box-shadow: 0px -14px 40px -9px rgba(0,0,0,0.75);">
-
-              <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-  -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
-  box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-                <iframe src="https://www.youtube.com/embed/sM4Fk9y2B8I" title="Video: Test Center Opportunities" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </center>
-</section>
-
-
 
 <section class="blocks22">
-    <center>
-      <div class="container-fluid w800" style="padding-top:0px">
-        <div class="row heros">
-          <div class="col-xs-12 col-lg-12">
-            <div class="content-top transparent">
-              <h1 class="acq">Experience Matters</h1>
+  <center>
+    <div class="container-fluid w800" style="padding-top:0px">
+      <div class="row heros">
+        <div class="col-xs-12 col-lg-12">
+          <div class="content-top transparent">
+            <h1 class="acq">Experience Matters</h1>
 
-            </div>
-            <div class="content-middle transparent">
+          </div>
+          <div class="content-middle transparent">
             <p class="small" style="margin-bottom:0px;">Engineers, contract managers, financial specialists, IT professionals, and more—we are always on the lookout for smart and ambitious pros who can step in and make a contribution on day one conducting tests to push aircraft, rockets, missiles, and weapons systems to do things that may never have been done before.</p>
 
             <p class="small bt">Contract Management</p>
 
 
-            </div>
-
-            <div class="content-bottom transparent">
-              <p class="small" style="margin-bottom:0px;">AFTC contract managers direct all aspects of the acquisition process and critical planning decisions in support of our mission while getting the best value for the taxpayer. This job requires business skills as well as experience with contract oversight, negotiation, and administration.</p>
-
-              <p class="small bt">Finance & Budgeting</p>
-
-
-            </div>
-
-            <div class="content-last transparent">
-              <p class="small" style="margin-bottom:0px;">Financial and budget managers and analysts use solid economic and accounting principles and practices to ensure programs are progressing properly and that business practices comply with federal financial regulations. These jobs require financial and budget management experience from the private or public sector.</p>
-
-              <p class="small bt">Information Technology</p>
-              <p class="small">Rapidly changing IT principles, concepts and methods present a challenge to any organization. AFTC is no exception.</p>
-            </div>
-
-            <div class="content-secondLast transparent">
-
-              <p class="small" style="margin-bottom:0px;">Keeping our computers, network components, peripheral equipment, software, firmware, services, and related resource operating at peak efficiency is essential to the cutting-edge work we do.</p>
-
-              <p class="small bt">Science & Engineering</p>
-              <p class="small">Representatives of the STEM disciplines are in abundance at AFTC working in aerospace, computer/software, electrical/electronic mechanical specialties, and general engineering. These positions require creative problem-solving skills on critical, real-life projects that define the cutting-edge of flight test technology.</p>
-            </div>
-
-
-           </div>
-          </div>
-        </div>
-
-    </center>
-</section>
-
-<section class="blocks9">
-    <div class="container-fluid blacker3">
-      <div class="row heros">
-        <div class="col-xs-12 col-lg-12">
-          <div style="margin-top:1em;" class="center content-top transparent">
-            <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
           </div>
 
-          <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
-            <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
-            </div>
+          <div class="content-bottom transparent">
+            <p class="small" style="margin-bottom:0px;">AFTC contract managers direct all aspects of the acquisition process and critical planning decisions in support of our mission while getting the best value for the taxpayer. This job requires business skills as well as experience with contract oversight, negotiation, and administration.</p>
+
+            <p class="small bt">Finance & Budgeting</p>
+
 
           </div>
+
+          <div class="content-last transparent">
+            <p class="small" style="margin-bottom:0px;">Financial and budget managers and analysts use solid economic and accounting principles and practices to ensure programs are progressing properly and that business practices comply with federal financial regulations. These jobs require financial and budget management experience from the private or public sector.</p>
+
+            <p class="small bt">Information Technology</p>
+            <p class="small">Rapidly changing IT principles, concepts and methods present a challenge to any organization. AFTC is no exception.</p>
+          </div>
+
+          <div class="content-secondLast transparent">
+
+            <p class="small" style="margin-bottom:0px;">Keeping our computers, network components, peripheral equipment, software, firmware, services, and related resource operating at peak efficiency is essential to the cutting-edge work we do.</p>
+
+            <p class="small bt">Science & Engineering</p>
+            <p class="small">Representatives of the STEM disciplines are in abundance at AFTC working in aerospace, computer/software, electrical/electronic mechanical specialties, and general engineering. These positions require creative problem-solving skills on critical, real-life projects that define the cutting-edge of flight test technology.</p>
+          </div>
+
+
         </div>
       </div>
     </div>
+
+  </center>
+</section>
+
+<section class="blocks9">
+  <div class="container-fluid blacker3">
+    <div class="row heros">
+      <div class="col-xs-12 col-lg-12">
+        <div style="margin-top:1em;" class="center content-top transparent">
+          <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
+        </div>
+
+        <div class="bluish3 content-middle transparent">
+          <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
+          <div class="bluishButton new">
+            <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="blocks12">
-    <center>
-      <div class="container-fluid w800" style="padding-top:0px">
-        <div class="row heros">
-          <div class="col-xs-12 col-lg-12">
-            <div class="content-top transparent">
-              <p class="small bt" style="margin-top:0px !important;">Engineering</p>
-              <p class="small">The job of keeping our aircraft flying and support equipment functioning at peak performance is heavily reliant on the skills and experience of our engineers. They encounter complex problems and challenging circumstances that require great innovation and creativity.</p>
-              <p class="small">Because of the varied systems and equipment that require engineering attention, AFTC employs an equally varied and talented pool of engineers.</p>
-            </div>
+  <center>
+    <div class="container-fluid w800" style="padding-top:0px">
+      <div class="row heros">
+        <div class="col-xs-12 col-lg-12">
+          <div class="content-top transparent">
+            <p class="small bt" style="margin-top:0px !important;">Engineering</p>
+            <p class="small">The job of keeping our aircraft flying and support equipment functioning at peak performance is heavily reliant on the skills and experience of our engineers. They encounter complex problems and challenging circumstances that require great innovation and creativity.</p>
+            <p class="small">Because of the varied systems and equipment that require engineering attention, AFTC employs an equally varied and talented pool of engineers.</p>
+          </div>
 
-            <div class="content-middle transparent">
+          <div class="content-middle transparent">
             <p class="small bt">Aerospace Engineering</p>
             <p class="small">Our aerospace engineers do planning, R&D, design, test, analysis, production, fabrication, operation, type certification and/or maintenance of aerospace vehicles or integrally associated equipment.</p>
             <p class="small">They investigate phenomena encountered in aerospace flight; analyzing unknown or unfamiliar aerospace vehicles; piloting aerospace vehicles; developing aviation safety standards and regulations; and providing leadership and guidance on aerospace engineering programs.</p>
 
-            </div>
-
-            <div class="content-bottom transparent">
-
-              <p class="small bt">Chemical Engineering</p>
-              <p class="small" style="margin-bottom:0px;">AFTC chemical engineers analyze chemical processes to produce products and systems; and use mass, momentum, and energy transfers together with thermodynamics and chemical kinetics to explore, extend, improve and provide for existing and potential chemical and biochemical conversion processes.</p>
-              <p class="small bt">Civil Engineering</p>
-
-              <p class="small">Our civil engineers apply specialized knowledge of the mechanics of solids (e.g., soils), hydraulics, theory of structure, strength of materials, engineering geology and surveying to help support AFTC’s facilities, and research and development activities.</p>
-
-            </div>
-
-            <div class="content-last transparent">
-
-              <p class="small bt">Computer Engineering</p>
-              <p class="small" style="margin-bottom:0px;">AFTC computer engineers manage Air Force computer systems and networks, hardware, systems software, system architecture/integration while working on the research, design, development, testing, evaluation, and maintenance of computer hardware and software systems.</p>
-
-              <p class="small bt">Electrical Engineering</p>
-              <p class="small mb0">Electrical circuits, circuit elements, equipment, systems and associated phenomena concerned with electrical energy for purposes such as motive power, heating, illumination, chemical processes, or the production of localized electric or magnetic fields are the purview of AFTC electrical engineers.</p>
-            </div>
-
-           </div>
-          </div>
-        </div>
-
-    </center>
-</section>
-
-<section class="blocks4">
-    <center>
-      <div class="container-fluid w800" style="padding-top:0px">
-        <div class="row heros">
-          <div class="col-xs-12 col-lg-12">
-            <div class="content-top transparent">
-              <p class="small bt" style="margin-top:0px !important;">Electronics Engineering</p>
-              <p class="small">Our electronics engineers work on electromagnetic or acoustical wave energy, as well as electrical information for communication, computation, sensing, control, measurement and navigation purposes.</p>
-
-            </div>
-
-            <div class="content-middle transparent">
-            <p class="small bt">General Engineering</p>
-            <p class="small">AFTC general engineers advise on, administer, supervise or perform research or other engineering work on a variety of special or miscellaneous engineering tasks that involve professional work in several branches of engineering</p>
-            </div>
-
-            <div class="content-bottom transparent">
-
-              <p class="small bt">Industrial Engineering</p>
-              <p class="small" style="margin-bottom:0px;">Industrial engineers at AFTC determine, evaluate, predict and advise on effective ways an organization can use its production factors (i.e., people, equipment, materials, information, energy) to make or process a product or provide a service.</p>
-              <p class="small bt">Materials Engineering</p>
-
-              <p class="small">Our materials engineers determine the best materials for various uses in performance of the AFTC sustainment mission, and develop/apply a means of testing, evaluation, life prediction and standardization of materials and properties to engineering, architecture and scientific designs and projects</p>
-
-            </div>
-
-            <div class="content-last transparent">
-
-              <p class="small bt">Mechanical Engineering</p>
-              <p class="small" style="margin-bottom:0px;">Mechanical engineers at AFTC manage, supervise, lead and/or perform engineering and scientific work involving, among other things, the design, development, maintenance and disposal of mechanical devices and systems to ensure they function safely, reliably, efficiently and economically.</p>
-
-            </div>
-
-            <div class="content-secondLast transparent">
-
-              <p class="small bt">Safety Engineering</p>
-              <p class="small">AFTC safety engineers help eliminate or control hazardous conditions resulting from equipment and machine operations or human error that may lead to injury or property damage in or to our workforce, aircraft and facilities. The work requires the application of advanced engineering and math skills and safety principles, standards, practices and analytical techniques.</p>
-            </div>
-
-
-           </div>
-          </div>
-        </div>
-
-    </center>
-</section>
-
-<section class="blocks5">
-    <div class="container-fluid blacker3">
-      <div class="row heros">
-        <div class="col-xs-12 col-lg-12">
-          <div style="margin-top:1em;" class="center content-top transparent">
-            <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
           </div>
 
-          <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
-            <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
-            </div>
+          <div class="content-bottom transparent">
+
+            <p class="small bt">Chemical Engineering</p>
+            <p class="small" style="margin-bottom:0px;">AFTC chemical engineers analyze chemical processes to produce products and systems; and use mass, momentum, and energy transfers together with thermodynamics and chemical kinetics to explore, extend, improve and provide for existing and potential chemical and biochemical conversion processes.</p>
+            <p class="small bt">Civil Engineering</p>
+
+            <p class="small">Our civil engineers apply specialized knowledge of the mechanics of solids (e.g., soils), hydraulics, theory of structure, strength of materials, engineering geology and surveying to help support AFTC’s facilities, and research and development activities.</p>
 
           </div>
+
+          <div class="content-last transparent">
+
+            <p class="small bt">Computer Engineering</p>
+            <p class="small" style="margin-bottom:0px;">AFTC computer engineers manage Air Force computer systems and networks, hardware, systems software, system architecture/integration while working on the research, design, development, testing, evaluation, and maintenance of computer hardware and software systems.</p>
+
+            <p class="small bt">Electrical Engineering</p>
+            <p class="small mb0">Electrical circuits, circuit elements, equipment, systems and associated phenomena concerned with electrical energy for purposes such as motive power, heating, illumination, chemical processes, or the production of localized electric or magnetic fields are the purview of AFTC electrical engineers.</p>
+          </div>
+
         </div>
       </div>
     </div>
+
+  </center>
+</section>
+
+<section class="blocks4">
+  <center>
+    <div class="container-fluid w800" style="padding-top:0px">
+      <div class="row heros">
+        <div class="col-xs-12 col-lg-12">
+          <div class="content-top transparent">
+            <p class="small bt" style="margin-top:0px !important;">Electronics Engineering</p>
+            <p class="small">Our electronics engineers work on electromagnetic or acoustical wave energy, as well as electrical information for communication, computation, sensing, control, measurement and navigation purposes.</p>
+
+          </div>
+
+          <div class="content-middle transparent">
+            <p class="small bt">General Engineering</p>
+            <p class="small">AFTC general engineers advise on, administer, supervise or perform research or other engineering work on a variety of special or miscellaneous engineering tasks that involve professional work in several branches of engineering</p>
+          </div>
+
+          <div class="content-bottom transparent">
+
+            <p class="small bt">Industrial Engineering</p>
+            <p class="small" style="margin-bottom:0px;">Industrial engineers at AFTC determine, evaluate, predict and advise on effective ways an organization can use its production factors (i.e., people, equipment, materials, information, energy) to make or process a product or provide a service.</p>
+            <p class="small bt">Materials Engineering</p>
+
+            <p class="small">Our materials engineers determine the best materials for various uses in performance of the AFTC sustainment mission, and develop/apply a means of testing, evaluation, life prediction and standardization of materials and properties to engineering, architecture and scientific designs and projects</p>
+
+          </div>
+
+          <div class="content-last transparent">
+
+            <p class="small bt">Mechanical Engineering</p>
+            <p class="small" style="margin-bottom:0px;">Mechanical engineers at AFTC manage, supervise, lead and/or perform engineering and scientific work involving, among other things, the design, development, maintenance and disposal of mechanical devices and systems to ensure they function safely, reliably, efficiently and economically.</p>
+
+          </div>
+
+          <div class="content-secondLast transparent">
+
+            <p class="small bt">Safety Engineering</p>
+            <p class="small">AFTC safety engineers help eliminate or control hazardous conditions resulting from equipment and machine operations or human error that may lead to injury or property damage in or to our workforce, aircraft and facilities. The work requires the application of advanced engineering and math skills and safety principles, standards, practices and analytical techniques.</p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </center>
+</section>
+
+<section class="blocks5">
+  <div class="container-fluid blacker3">
+    <div class="row heros">
+      <div class="col-xs-12 col-lg-12">
+        <div style="margin-top:1em;" class="center content-top transparent">
+          <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
+        </div>
+
+        <div class="bluish3 content-middle transparent">
+          <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
+          <div class="bluishButton new">
+            <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="blocks500">
@@ -555,42 +555,42 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
 
             <h1 class="acq mb0">STUDENTS & RECENT GRADS</h1>
             <h1 class="acq two">READY TO CHANGE THE WORLD?<br>HOW TO APPLY</h2>
-            <p class="small">The application process for federal employment can be more arduous than applying for work in the private sector. That’s why we’ve put together a step-by-step overview of what you can expect. There are dozens of AFTC jobs available around the country and even some in overseas locations.</p>
+              <p class="small">The application process for federal employment can be more arduous than applying for work in the private sector. That’s why we’ve put together a step-by-step overview of what you can expect. There are dozens of AFTC jobs available around the country and even some in overseas locations.</p>
 
-            <p class="small" style="margin-bottom:25px;">Zoom in or out of the map to see more or less detail. Click on any marker to see current job openings.</p>
+              <p class="small" style="margin-bottom:25px;">Zoom in or out of the map to see more or less detail. Click on any marker to see current job openings.</p>
 
-          </div>
-      </div>
-    </div>
-  </div>
-  </center>
-</section>
-
-<section class="blocks88">
-  <center>
-    <div class="container-fluid">
-      <div class="row heros">
-
-        <div class="col-xs-12 col-lg-12">
-          <div class="content-top transparent">
-                  <div class="bottomBoxShadow" id="map-canvas"></div>
-
+            </div>
           </div>
         </div>
       </div>
     </center>
-</section>
+  </section>
+
+  <section class="blocks88">
+    <center>
+      <div class="container-fluid">
+        <div class="row heros">
+
+          <div class="col-xs-12 col-lg-12">
+            <div class="content-top transparent">
+              <div class="bottomBoxShadow" id="map-canvas"></div>
+
+            </div>
+          </div>
+        </div>
+      </center>
+    </section>
 
 
-  <section class="blocks14" style="padding-top:0px;">
+    <section class="blocks14" style="padding-top:0px;">
       <center>
         <div class="container-fluid w800">
           <div class="row heros">
             <div class="col-xs-12 col-lg-12">
               <div class="content-top transparent">
-              <p class="small">All AFCS job opportunities are also listed on the Federal Government’s official one-stop source for Federal jobs and employment information, USAJOBS.  Access AFCS Acquisition job opportunities at <a class="small strong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'First USAJOBS link', 'click', 'Testing Careers page');">https://airforce.usajobs.gov.</a></p>
+                <p class="small">All AFCS job opportunities are also listed on the Federal Government’s official one-stop source for Federal jobs and employment information, USAJOBS.  Access AFCS Acquisition job opportunities at <a class="small strong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'First USAJOBS link', 'click', 'Testing Careers page');">https://airforce.usajobs.gov.</a></p>
 
-              <p class="small">Follow the steps below to determine if you are qualified and eligible, and apply for a position with AFCS.</p>
+                <p class="small">Follow the steps below to determine if you are qualified and eligible, and apply for a position with AFCS.</p>
 
               </div>
 
@@ -620,366 +620,366 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           </div>
         </div>
       </center>
-</section>
+    </section>
 
-<section class="blocks10">
-  <center>
-    <div class="container-fluid w800 second" style="padding-top:0px;">
+    <section class="blocks10">
+      <center>
+        <div class="container-fluid w800 second" style="padding-top:0px;">
 
-      <div class="row heros">
+          <div class="row heros">
 
-        <div class="col-xs-12 col-lg-12">
+            <div class="col-xs-12 col-lg-12">
 
-          <h1 class="acq two content-top transparent">Step 1: Find the Right Job for You</h1>
-          <p class="small content-middle transparent">AFCS jobs are categorized as entry, mid, and senior levels, and are associated with different qualifications and pay grade levels. And, there are special categories of job opportunities, including jobs for students and recent graduates, veterans, military spouses, and individuals with disabilities.</p>
-          <p class="small content-bottom transparent">This site provides several ways to help you find the right AFCS job. Use one of our helpful search tools:<p>
+              <h1 class="acq two content-top transparent">Step 1: Find the Right Job for You</h1>
+              <p class="small content-middle transparent">AFCS jobs are categorized as entry, mid, and senior levels, and are associated with different qualifications and pay grade levels. And, there are special categories of job opportunities, including jobs for students and recent graduates, veterans, military spouses, and individuals with disabilities.</p>
+              <p class="small content-bottom transparent">This site provides several ways to help you find the right AFCS job. Use one of our helpful search tools:<p>
 
-            <ul class="whiteList content-last transparent">
-              <li class="whiteList">Our <a class="whiteStrong" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job', 'click', 'Testing Careers page');">Jobs Discovery App</a> will line up your education, skills, and experience with positions that need people with your background. You might be surprised at the variety of options you discover.</li>
-              <li class="whiteList">Our Jobs Map lets you find positions that are available at every base and installation in the United States and around the world. </li>
-              <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'Second USAJOBS link', 'click', 'Testing Careers page');">airforce.usajobs.gov</a></li>
-            </ul>
-            <br>
+                <ul class="whiteList content-last transparent">
+                  <li class="whiteList">Our <a class="whiteStrong" href="find-a-job.php" onclick="ga('send', 'event', 'Go to Find A Job', 'click', 'Testing Careers page');">Jobs Discovery App</a> will line up your education, skills, and experience with positions that need people with your background. You might be surprised at the variety of options you discover.</li>
+                  <li class="whiteList">Our Jobs Map lets you find positions that are available at every base and installation in the United States and around the world. </li>
+                  <li class="whiteList">Use text searches for AFCS job announcements on <a class="whiteStrong" href="https://airforce.usajobs.gov" target="_blank" onclick="ga('send', 'event', 'Second USAJOBS link', 'click', 'Testing Careers page');">airforce.usajobs.gov</a></li>
+                </ul>
+                <br>
 
-            <h1 class="acq two content-secondLast transparent">Step 2: Read the Job Announcement</h1>
-            <div class="content-thirdLast transparent">
-            <p class="small">Each AFCS position (Job Opportunity Announcement) will provide detailed information about job qualifications, duties, salary, location, benefits, and security requirements. These will help you determine if your interests, education, and professional background make you a candidate who qualifies for the job.</p>
+                <h1 class="acq two content-secondLast transparent">Step 2: Read the Job Announcement</h1>
+                <div class="content-thirdLast transparent">
+                  <p class="small">Each AFCS position (Job Opportunity Announcement) will provide detailed information about job qualifications, duties, salary, location, benefits, and security requirements. These will help you determine if your interests, education, and professional background make you a candidate who qualifies for the job.</p>
 
+                </div>
+
+                <div class="content-fourthLast transparent">
+                  <h1 class="acq two">Step 3: Apply for the Job</h1>
+                  <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="whiteStrong" target="_blank" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" onclick="ga('send', 'event', 'Third USAJOBS link', 'click', 'Testing Careers page');">USAJOBS.gov</a>.</p>
+
+                  <img src="images5/liner.jpg" id="slideUpLiner3">
+
+                </div>
+
+
+              </div>
             </div>
+          </div>
+        </center>
+      </section>
 
-            <div class="content-fourthLast transparent">
-              <h1 class="acq two">Step 3: Apply for the Job</h1>
-              <p class="small">Follow the instructions in the “How to Apply” section of each Job Opportunity Announcement. Instructions will guide you through the application process, providing you detailed information on the questions that must be addressed, and forms and format that must be used to present your resume and qualifications for the job. Help can be found at <a class="whiteStrong" target="_blank" href="https://www.usajobs.gov/Help/faq/application/documents/resume/what-to-include/" onclick="ga('send', 'event', 'Third USAJOBS link', 'click', 'Testing Careers page');">USAJOBS.gov</a>.</p>
 
-            <img src="images5/liner.jpg" id="slideUpLiner3">
+      <section class="modalBlock">
+        <div class="container-fluid blacker3">
+          <div class="row heros">
+            <div class="col-xs-12 col-lg-12">
+              <div style="margin-top:1em;" class="center content-top transparent">
+                <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
+              </div>
 
+              <div class="bluish3 content-middle transparent">
+                <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
+                <div class="bluishButton new">
+                  <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
+                </div>
+
+              </div>
             </div>
-
-
           </div>
         </div>
-      </div>
-    </center>
-  </section>
+      </section>
+
+      <?php include("footer-include/footer.php"); ?>
 
 
-<section class="modalBlock">
-    <div class="container-fluid blacker3">
-      <div class="row heros">
-        <div class="col-xs-12 col-lg-12">
-          <div style="margin-top:1em;" class="center content-top transparent">
-            <p style="margin-bottom:0em;" class="register two">Register here and we&rsquo;ll keep you informed about the latest job openings.</p>
-          </div>
 
-          <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'Testing Careers page');">Register</a></div>
-            <div class="bluishButton new">
-              <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers', 'click', 'Testing Careers page');">Back to Occupations</a>
-            </div>
-
-          </div>
-        </div>
-      </div>
     </div>
-</section>
-
-<?php include("footer-include/footer.php"); ?>
 
 
+    <script src="js5/jquery-3.3.1.min.js"></script>
 
-  </div>
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
+    <!-- <script src="js5/bootstrap.js"></script> -->
+    <script src="js5/bootstrap.min.js"></script>
 
-  <script src="js5/jquery-3.3.1.min.js"></script>
-
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
-  <!-- <script src="js5/bootstrap.js"></script> -->
-  <script src="js5/bootstrap.min.js"></script>
-
-  <!-- <script src="js5/slick.js"></script> -->
-  <script src="js5/slick.min.js"></script>
+    <!-- <script src="js5/slick.js"></script> -->
+    <script src="js5/slick.min.js"></script>
 
 
-  <script src="js5/TweenMax.min.js"></script>
-  <script src="js5/Draggable.min.js"></script>
+    <script src="js5/TweenMax.min.js"></script>
+    <script src="js5/Draggable.min.js"></script>
 
-  <script src="js5/lettering.min.js"></script>
-
-
-  <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
-
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js5/lettering.min.js"></script>
 
 
-  <script src="js5/acquisition.js"></script>
-  <script src="js5/scrollTop.js"></script>
-  <script src="tipuesearch/tipuesearch_set.js"></script>
-  <script src="tipuesearch/tipuesearch_content.js"></script>
-  <script src="tipuesearch/tipuesearch.js"></script>
+    <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY810Ql4ysaCFgHNFF2olzw3RpuNK1HbE&callback=initMap" async defer></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 
-  <script>
+    <script src="js5/acquisition.js"></script>
+    <script src="js5/scrollTop.js"></script>
+    <script src="tipuesearch/tipuesearch_set.js"></script>
+    <script src="tipuesearch/tipuesearch_content.js"></script>
+    <script src="tipuesearch/tipuesearch.js"></script>
 
-  $(document).ready(function(){
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY810Ql4ysaCFgHNFF2olzw3RpuNK1HbE&callback=initMap" async defer></script>
 
-    var host = 'data.usajobs.gov';
-    var userAgent = 'rodricksnyc@gmail.com';
-    var authKey = 'ZVRFnMsfJGJ+6jvGyznqQPRyhF9n5h9jSS259lekdgU=';
-    var apiUrl = "https://data.usajobs.gov/api/Search?ResultsPerPage=500&Organization=AF"
-    var content = "";
-    $.ajax({
+
+    <script>
+
+    $(document).ready(function(){
+
+      var host = 'data.usajobs.gov';
+      var userAgent = 'rodricksnyc@gmail.com';
+      var authKey = 'ZVRFnMsfJGJ+6jvGyznqQPRyhF9n5h9jSS259lekdgU=';
+      var apiUrl = "https://data.usajobs.gov/api/Search?ResultsPerPage=500&Organization=AF"
+      var content = "";
+      $.ajax({
         type: 'GET',
         url: apiUrl,
         headers: {
-            "Host": host,
-            "User-Agent": userAgent,
-            "Authorization-Key": authKey
+          "Host": host,
+          "User-Agent": userAgent,
+          "Authorization-Key": authKey
         },
         success: function (response) {
 
-            var results = response.SearchResult.SearchResultItems;
+          var results = response.SearchResult.SearchResultItems;
 
-            var locations = [];
+          var locations = [];
 
-            results.forEach(function (result) {
-                var jobInfo = result.MatchedObjectDescriptor;
-                var jobLocations = jobInfo.PositionLocation;
+          results.forEach(function (result) {
+            var jobInfo = result.MatchedObjectDescriptor;
+            var jobLocations = jobInfo.PositionLocation;
 
-                jobLocations.forEach(function (location) {
-                    var key = location.LocationName;
+            jobLocations.forEach(function (location) {
+              var key = location.LocationName;
 
-                    if (locations[key] == undefined) {
-                        var position = new google.maps.LatLng(location.Latitude, location.Longitude);
+              if (locations[key] == undefined) {
+                var position = new google.maps.LatLng(location.Latitude, location.Longitude);
 
-                        locations[key] = {
-                            position: position,
-                            title: location.LocationName,
-                            jobs: [],
-                        };
-                    }
+                locations[key] = {
+                  position: position,
+                  title: location.LocationName,
+                  jobs: [],
+                };
+              }
 
-                    var job = {
-                        PositionURI: jobInfo.PositionURI,
-                        PositionTitle: jobInfo.PositionTitle,
-                    };
+              var job = {
+                PositionURI: jobInfo.PositionURI,
+                PositionTitle: jobInfo.PositionTitle,
+              };
 
-                    locations[key].jobs.push(job);
-                });
-
+              locations[key].jobs.push(job);
             });
 
-            function initialize(locations) {
+          });
 
-                var icon = {
-                    url: "images5/blue-marker.png",
-                    scaledSize: new google.maps.Size(30, 46)
-                };
+          function initialize(locations) {
 
-                var coordinates = [{lat: 40.8005877, lng: -96.7609396}, {lat: 40.8005877, lng: -96.7609396}];
+            var icon = {
+              url: "images5/blue-marker.png",
+              scaledSize: new google.maps.Size(30, 46)
+            };
 
-                var map = new google.maps.Map(document.getElementById('map-canvas'), {
-                    center: coordinates[0],
-                    zoom: 5,
-                    styles: [
-                        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-                        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-                        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-                        {
-                            featureType: 'administrative.locality',
-                            elementType: 'labels.text.fill',
-                            stylers: [{color: '#d59563'}]
-                        },
-                        {
-                            featureType: 'poi',
-                            elementType: 'labels.text.fill',
-                            stylers: [{color: '#d59563'}]
-                        },
-                        {
-                            featureType: 'poi.park',
-                            elementType: 'geometry',
-                            stylers: [{color: '#263c3f'}]
-                        },
-                        {
-                            featureType: 'poi.park',
-                            elementType: 'labels.text.fill',
-                            stylers: [{color: '#6b9a76'}]
-                        },
-                        {
-                            featureType: 'road',
-                            elementType: 'geometry',
-                            stylers: [{color: '#38414e'}]
-                        },
-                        {
-                            featureType: 'road',
-                            elementType: 'geometry.stroke',
-                            stylers: [{color: '#212a37'}]
-                        },
-                        {
-                            featureType: 'road',
-                            elementType: 'labels.text.fill',
-                            stylers: [{color: '#9ca5b3'}]
-                        },
-                        {
-                            featureType: 'road.highway',
-                            elementType: 'geometry',
-                            stylers: [{color: '#746855'}]
-                        },
-                        {
-                            featureType: 'road.highway',
-                            elementType: 'geometry.stroke',
-                            stylers: [{color: '#1f2835'}]
-                        },
-                        {
-                            featureType: 'road.highway',
-                            elementType: 'labels.text.fill',
-                            stylers: [{color: '#f3d19c'}]
-                        },
-                        {
-                            featureType: 'transit',
-                            elementType: 'geometry',
-                            stylers: [{color: '#2f3948'}]
-                        },
-                        {
-                            featureType: 'transit.station',
-                            elementType: 'labels.text.fill',
-                            stylers: [{color: '#d59563'}]
-                        },
-                        {
-                            featureType: 'water',
-                            elementType: 'geometry',
-                            stylers: [{color: '#17263c'}]
-                        },
-                        {
-                            featureType: 'water',
-                            elementType: 'labels.text.fill',
-                            stylers: [{color: '#515c6d'}]
-                        },
-                        {
-                            featureType: 'water',
-                            elementType: 'labels.text.stroke',
-                            stylers: [{color: '#17263c'}]
-                        }
-                    ]
-                });
+            var coordinates = [{lat: 40.8005877, lng: -96.7609396}, {lat: 40.8005877, lng: -96.7609396}];
 
-                var infowindow = new google.maps.InfoWindow();
-
-                for (var key in locations) {
-                    var location = locations[key];
-                    var marker = new google.maps.Marker({
-                        position: location.position,
-                        map: map,
-                        icon: icon,
-                        title: location.title,
-                        animation: google.maps.Animation.DROP,
-                        jobs: location.jobs,
-                    });
-
-                    google.maps.event.addListener(marker, 'click', (function (marker, content, infowindow) {
-                        return function () {
-                            var content = `<div class="topText">Jobs In ${marker.title}</div>`;
-                            marker.jobs.forEach(function (job) {
-                                content = `${content} <div class="center2"><a href="${job.PositionURI}" target="_blank">${job.PositionTitle}</a>`
-
-                            });
-
-                            infowindow.setContent(content);
-                            infowindow.open(map, marker);
-                        };
-                    })(marker, content, infowindow));
+            var map = new google.maps.Map(document.getElementById('map-canvas'), {
+              center: coordinates[0],
+              zoom: 5,
+              styles: [
+                {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+                {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+                {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                {
+                  featureType: 'administrative.locality',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#d59563'}]
+                },
+                {
+                  featureType: 'poi',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#d59563'}]
+                },
+                {
+                  featureType: 'poi.park',
+                  elementType: 'geometry',
+                  stylers: [{color: '#263c3f'}]
+                },
+                {
+                  featureType: 'poi.park',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#6b9a76'}]
+                },
+                {
+                  featureType: 'road',
+                  elementType: 'geometry',
+                  stylers: [{color: '#38414e'}]
+                },
+                {
+                  featureType: 'road',
+                  elementType: 'geometry.stroke',
+                  stylers: [{color: '#212a37'}]
+                },
+                {
+                  featureType: 'road',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#9ca5b3'}]
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'geometry',
+                  stylers: [{color: '#746855'}]
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'geometry.stroke',
+                  stylers: [{color: '#1f2835'}]
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#f3d19c'}]
+                },
+                {
+                  featureType: 'transit',
+                  elementType: 'geometry',
+                  stylers: [{color: '#2f3948'}]
+                },
+                {
+                  featureType: 'transit.station',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#d59563'}]
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'geometry',
+                  stylers: [{color: '#17263c'}]
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'labels.text.fill',
+                  stylers: [{color: '#515c6d'}]
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'labels.text.stroke',
+                  stylers: [{color: '#17263c'}]
                 }
+              ]
+            });
+
+            var infowindow = new google.maps.InfoWindow();
+
+            for (var key in locations) {
+              var location = locations[key];
+              var marker = new google.maps.Marker({
+                position: location.position,
+                map: map,
+                icon: icon,
+                title: location.title,
+                animation: google.maps.Animation.DROP,
+                jobs: location.jobs,
+              });
+
+              google.maps.event.addListener(marker, 'click', (function (marker, content, infowindow) {
+                return function () {
+                  var content = `<div class="topText">Jobs In ${marker.title}</div>`;
+                  marker.jobs.forEach(function (job) {
+                    content = `${content} <div class="center2"><a href="${job.PositionURI}" target="_blank">${job.PositionTitle}</a>`
+
+                  });
+
+                  infowindow.setContent(content);
+                  infowindow.open(map, marker);
+                };
+              })(marker, content, infowindow));
             }
+          }
 
-            initialize(locations);
+          initialize(locations);
         }
 
 
-    });
+      });
 
 
-})
+    })
 
 
-var elem = document.querySelector('.m-carousel')
-if(elem) {
-  var flkty = new Flickity( elem, {
-    wrapAround: true,
-    pageDots: false,
-    imagesLoaded: true,
-    adaptiveHeight: false,
-    lazyLoad: 3,
-    arrowShape:'M27.1,46.45a5.07,5.07,0,0,0,0,7.12L55.74,82.21a5.08,5.08,0,0,0,7.14,0h0a5,5,0,0,0,0-7.14l-25-25,25-25a5.07,5.07,0,0,0,0-7.14h0a5,5,0,0,0-7.14,0Z'
-  });
-}
+    var elem = document.querySelector('.m-carousel')
+    if(elem) {
+      var flkty = new Flickity( elem, {
+        wrapAround: true,
+        pageDots: false,
+        imagesLoaded: true,
+        adaptiveHeight: false,
+        lazyLoad: 3,
+        arrowShape:'M27.1,46.45a5.07,5.07,0,0,0,0,7.12L55.74,82.21a5.08,5.08,0,0,0,7.14,0h0a5,5,0,0,0,0-7.14l-25-25,25-25a5.07,5.07,0,0,0,0-7.14h0a5,5,0,0,0-7.14,0Z'
+      });
+    }
 
-$(document).ready(function() {
-  $('#hero-slider2').on('init', function(e, slick) {
-    var $firstAnimatingElements = $('div.hero-slide:first-child').find('[data-animation]');
-    doAnimations($firstAnimatingElements);
-    $('.hero-content.acq').show();
-  });
-  $('#hero-slider2').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
-    var $animatingElements = $('div.hero-slide[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-    doAnimations($animatingElements);
-    $('.hero-content.acq').show();
-  });
-  $('#hero-slider2').slick({
-    autoplay: true,
-    autoplaySpeed: 5000,
-    dots: false,
-    fade: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
+    $(document).ready(function() {
+      $('#hero-slider2').on('init', function(e, slick) {
+        var $firstAnimatingElements = $('div.hero-slide:first-child').find('[data-animation]');
+        doAnimations($firstAnimatingElements);
+        $('.hero-content.acq').show();
+      });
+      $('#hero-slider2').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
+        var $animatingElements = $('div.hero-slide[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+        doAnimations($animatingElements);
+        $('.hero-content.acq').show();
+      });
+      $('#hero-slider2').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        dots: false,
+        fade: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      function doAnimations(elements) {
+        var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        elements.each(function() {
+          var $this = $(this);
+          var $animationDelay = $this.data('delay');
+          var $animationType = 'animated ' + $this.data('animation');
+          $this.css({
+            'animation-delay': $animationDelay,
+            '-webkit-animation-delay': $animationDelay
+          });
+          $this.addClass($animationType).one(animationEndEvents, function() {
+            $this.removeClass($animationType);
+          });
+        });
       }
-    ]
-  });
-  function doAnimations(elements) {
-    var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-    elements.each(function() {
-      var $this = $(this);
-      var $animationDelay = $this.data('delay');
-      var $animationType = 'animated ' + $this.data('animation');
-      $this.css({
-        'animation-delay': $animationDelay,
-        '-webkit-animation-delay': $animationDelay
-      });
-      $this.addClass($animationType).one(animationEndEvents, function() {
-        $this.removeClass($animationType);
-      });
     });
-  }
-});
 
 
-  </script>
-</body>
+    </script>
+  </body>
 
 
-</html>
+  </html>
