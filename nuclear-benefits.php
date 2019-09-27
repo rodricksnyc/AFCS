@@ -292,7 +292,7 @@ a.small {
               <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
   -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
   box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-                <iframe src="https://www.youtube.com/embed/vxv90nB8LMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/vxv90nB8LMU" title="Video: Logistics" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
               </div>

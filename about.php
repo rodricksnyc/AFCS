@@ -193,7 +193,7 @@
             <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);
             -moz-box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);
             box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);">
-            <iframe src="https://www.youtube.com/embed/soxXOff3bLw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/soxXOff3bLw" title="Satisfaction Video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
         </div>
@@ -244,7 +244,7 @@
             <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);
             -moz-box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);
             box-shadow: 0px -1px 21px 7px rgba(0,0,0,0.81);">
-            <iframe src="https://www.youtube.com/embed/Bj7jVHAJflg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/Bj7jVHAJflg" title="Occupation Video: Science & Engineering" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
         </div>

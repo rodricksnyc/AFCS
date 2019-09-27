@@ -715,7 +715,7 @@
         <div class="col-xs-12 col-lg-12">
           <div class="content-top transparent">
             <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);-moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-              <iframe src="https://www.youtube.com/embed/eZD80wrSugk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/eZD80wrSugk" title="Video: Air Force Salutes Civilians" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
           </div>

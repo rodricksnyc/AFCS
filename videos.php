@@ -206,7 +206,6 @@ opacity:0;
 
   <a name='content'></a>
 
-
             <div class="container">
 
                 <div class="row">
@@ -215,122 +214,122 @@ opacity:0;
                       <div class="video-grid front-page" id="front-page-videos">
                         <ul class="video-list featured">
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/PKtxZJ83Nnc" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/PKtxZJ83Nnc/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/PKtxZJ83Nnc" class="featured-video" alt="Aircraft Maintenance Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/PKtxZJ83Nnc/hqdefault.jpg);" role="img" aria-label="Aircraft Maintenance Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Aircraft Maintenance Video">
                                 <figcaption>Aircraft Maintenance</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/sm9pmSKMNPg" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/sm9pmSKMNPg/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/sm9pmSKMNPg" class="featured-video" alt="Auditing Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/sm9pmSKMNPg/hqdefault.jpg);" role="img" aria-label="Auditing Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Auditing Video">
                                 <figcaption>Audit</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/AZDUf2q3Qp0" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/AZDUf2q3Qp0/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/AZDUf2q3Qp0" class="featured-video" alt="Civil Engineering Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/AZDUf2q3Qp0/hqdefault.jpg);" role="img" aria-label="Civil Engineering Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Civil Engineering Video">
                                 <figcaption>Civil Engineering</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/YkzXUXWVJ4o" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/YkzXUXWVJ4o/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/YkzXUXWVJ4o" class="featured-video" alt="Communications and Information Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/YkzXUXWVJ4o/hqdefault.jpg);" role="img" aria-label="Communications and Information Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Communications and Information Video">
                                 <figcaption>Communications & Information</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/z5QwpFXrx_E" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/z5QwpFXrx_E/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/z5QwpFXrx_E" class="featured-video" alt="Contracting Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/z5QwpFXrx_E/hqdefault.jpg);" role="img" aria-label="Contracting Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Contracting Video">
                                 <figcaption>Contracting</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/_ecx6rEj6U0" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/_ecx6rEj6U0/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/_ecx6rEj6U0" class="featured-video" alt="Financial Management Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/_ecx6rEj6U0/hqdefault.jpg);" role="img" aria-label="Financial Management Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Financial Management Video">
                                 <figcaption>Financial Management</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/DrqeFPSt9Yc" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/DrqeFPSt9Yc/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/DrqeFPSt9Yc" class="featured-video" alt="Force Support Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/DrqeFPSt9Yc/hqdefault.jpg);" role="img" aria-label="Force Support Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Force Support Video">
                                 <figcaption>Force Support</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/Fi23Aektbi0" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/Fi23Aektbi0/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/Fi23Aektbi0" class="featured-video" alt="Logistics Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/Fi23Aektbi0/hqdefault.jpg);" role="img" aria-label="Logistics Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Logistics Video">
                                 <figcaption>Logistics</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/jdF9TF1s8Js" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/jdF9TF1s8Js/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/jdF9TF1s8Js" class="featured-video" alt="Medical Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/jdF9TF1s8Js/hqdefault.jpg);" role="img" aria-label="Medical Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Medical Video">
                                 <figcaption>Medical</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/kNqS2WyA5hE" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/kNqS2WyA5hE/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/kNqS2WyA5hE" class="featured-video" alt="Nuclear Weapons Center Jobs Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/kNqS2WyA5hE/hqdefault.jpg);" role="img" aria-label="Nuclear Weapons Center Jobs Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Nuclear Weapons Center Jobs Video">
                                 <figcaption>Nuclear Weapons Center Jobs</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/Bj7jVHAJflg" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/Bj7jVHAJflg/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/Bj7jVHAJflg" class="featured-video" alt="Science and Engineering Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/Bj7jVHAJflg/hqdefault.jpg);" role="img" aria-label="Science and Engineering Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Science and Engineering Video">
                                 <figcaption>Science & Engineering</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/gGMfmUjZBsw" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/gGMfmUjZBsw/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/gGMfmUjZBsw" class="featured-video" alt="Security and Law Enforcement Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/gGMfmUjZBsw/hqdefault.jpg);" role="img" aria-label="Security and Law Enforcement Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Security and Law Enforcement Video">
                                 <figcaption>Security & Law Enforcement</figcaption>
                               </figure>
                             </a>
                           </li>
 
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/lXtiez6ZCbY" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/lXtiez6ZCbY/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/lXtiez6ZCbY" class="featured-video" alt="Forces Joined Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/lXtiez6ZCbY/hqdefault.jpg);" role="img" aria-label="Forces Joined Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Forces Joined Video">
                                 <figcaption>Forces. Joined.</figcaption>
                               </figure>
                             </a>
                           </li>
                           <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/soxXOff3bLw" class="featured-video">
-                              <figure style="background-image: url(https://img.youtube.com/vi/soxXOff3bLw/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                            <a data-fancybox href="https://www.youtube.com/embed/soxXOff3bLw" class="featured-video" alt="Satisfaction Video">
+                              <figure style="background-image: url(https://img.youtube.com/vi/soxXOff3bLw/hqdefault.jpg);" role="img" aria-label="Satisfaction Video">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="Satisfaction Video">
                                 <figcaption>Satisfaction</figcaption>
                               </figure>
                             </a>
                           </li>
-                          <li style="height:auto !important;" class="video featured">
-                            <a data-fancybox href="https://www.youtube.com/embed/eZD80wrSugk" class="featured-video">
+                          <li style="height:auto !important;" class="video featured" alt="USAF Salutes AFCS Video">
+                            <a data-fancybox href="https://www.youtube.com/embed/eZD80wrSugk" class="featured-video" role="img" aria-label="USAF Salutes AFCS Video">
                               <figure style="background-image: url(https://img.youtube.com/vi/eZD80wrSugk/hqdefault.jpg);">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" />
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/50598/video-thumb-placeholder-16-9.png" alt="USAF Salutes AFCS Video">
                                 <figcaption>USAF Salutes AFCS</figcaption>
                               </figure>
                             </a>

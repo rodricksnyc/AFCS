@@ -469,7 +469,7 @@
             <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-              <iframe src="https://www.youtube.com/embed/PerN17xzxPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/PerN17xzxPs" title="Video: Nuclear Weapons Center Overview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             </div>
@@ -510,7 +510,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-            <iframe src="https://www.youtube.com/embed/kNqS2WyA5hE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/kNqS2WyA5hE" title="Occupation video: Nuclear Engineering" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           </div>

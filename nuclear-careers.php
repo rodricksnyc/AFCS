@@ -315,7 +315,7 @@ h1.acq.two, h1.acq {
                   <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
     -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
     box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-                    <iframe src="https://www.youtube.com/embed/2WC1QEG0Etk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/2WC1QEG0Etk" title="Occupation Video: Program Management" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
 
                   </div>
@@ -358,7 +358,7 @@ h1.acq.two, h1.acq {
           <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-            <iframe src="https://www.youtube.com/embed/WJ6YwX89yuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/WJ6YwX89yuA" title="Occupation video: Contracting" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           </div>
@@ -435,7 +435,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-            <iframe src="https://www.youtube.com/embed/-Ti1QCo6zNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/-Ti1QCo6zNg" title="Occupation video: Financial Management" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           </div>
@@ -539,7 +539,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
           <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-            <iframe src="https://www.youtube.com/embed/Uel2WhX3KC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/Uel2WhX3KC8" title="Occupation video: Electrical Engineer" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           </div>

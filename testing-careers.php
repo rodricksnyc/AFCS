@@ -238,7 +238,7 @@ h1.acq.two, h1.acq {
                   <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
     -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
     box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-                    <iframe src="https://www.youtube.com/embed/j1AZcIbSf_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/j1AZcIbSf_g" title="Video: Test Center Work Environment" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
 
                   </div>
@@ -273,7 +273,7 @@ h1.acq.two, h1.acq {
           <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
 box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-            <iframe src="https://www.youtube.com/embed/p-ibOGcil4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/p-ibOGcil4c" title="Video: Test Center Work Life Balance" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           </div>
@@ -353,7 +353,7 @@ box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
               <div class="videoWrapperACQ" style="-webkit-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
   -moz-box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);
   box-shadow: 0px 10px 17px 3px rgba(0,0,0,0.56);">
-                <iframe src="https://www.youtube.com/embed/sM4Fk9y2B8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/sM4Fk9y2B8I" title="Video: Test Center Opportunities" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
             </div>

@@ -789,7 +789,7 @@ gtag('config', 'UA-17154729-1');
                 <h4 style='text-align:left;margin-bottom:10px;'><?php the_date();  ?></h4>
                 <div class="hideOnClick"><?php the_excerpt(); ?></div>
 
-                <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>">LEARN MORE</a></h2>
+                <h2 class="clickMe"><a href="<?php echo  the_permalink() ?>" target="_blank">LEARN MORE</a></h2>
 
                 <div class='hideInitial'>
                   <?php the_content(); ?>
@@ -995,6 +995,14 @@ gtag('config', 'UA-17154729-1');
 
 
         <?php include('event-calendar-script.php'); ?>
+
+        eventClick: function(info) {
+          info.jsEvent.preventDefault(); // don't let the browser navigate
+
+          if (info.event.url) {
+            window.open(info.event.url);
+          }
+        }
 
       });
 
