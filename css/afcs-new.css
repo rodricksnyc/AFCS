@@ -2545,6 +2545,11 @@ button {
     margin-bottom:.5em;
   }
 
+  .mobileHidden {
+    display: block;
+  
+  }
+
   #mobileSmall {
     max-height:340px !important;
     width:100% !important;
