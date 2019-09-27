@@ -376,7 +376,7 @@ gtag('config', 'UA-17154729-1');
 
 
               <?php
-              $number_of_posts = 100;
+              $number_of_posts = 12;
               $args = array(
                 'numberposts' => $number_of_posts,
                 'category_name' => 'AFCS',
