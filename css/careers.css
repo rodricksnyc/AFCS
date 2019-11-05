@@ -1136,7 +1136,7 @@ input {
 }
 
 .i1.new, .i2.new, .i3.new {
-  margin-top:-8em;
+  margin-top:-6em;
 }
 .funThing {
   display: -webkit-flex;

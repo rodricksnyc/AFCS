@@ -2604,15 +2604,15 @@ p.small:last-of-type {
       background-repeat: no-repeat;
       background-position: center;
       padding: 3em;
-      max-height:700px !important;
+      max-height:900px !important;
     }
 
     #hero-slider2 {
-      max-height:700px !important;
+      max-height:900px !important;
     }
 
     #hero-slider {
-      max-height:700px !important;
+      max-height:900px !important;
     }
 
   }

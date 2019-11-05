@@ -160,6 +160,243 @@ console.log("2")
 $( window ).on("load", function() {
 
   setTimeout(function() {
+    $('.blocksTop').addClass('bottomBoxShadow');
+  }, 1000);
+
+
+
+  setTimeout(function() {
+  $('.blocksTop .content-top').removeClass('transparent').addClass('animated fadeInUp')
+
+      $('.blocksTop .content-top').removeClass('transparent');
+      var $tlt1 = $('.tlt1').textillate({
+        autoStart: true,
+        selector: '.tlt1',
+        loop: false,
+        minDisplayTime: 1000,
+        initialDelay: 200,
+        in: {
+          effect: 'fadeInLeft',
+          delayScale: 5,
+          delay: 15,
+          sync: false,
+          shuffle: true,
+          reverse: false,
+          callback: function () {}
+        },
+        type: 'char'
+      });
+
+
+  })
+
+  setTimeout(function() {
+    $('.blocksTop .content-middle').removeClass('transparent').addClass('animated fadeInUp')
+
+
+    var $tlt2 = $('.tlt2').textillate({
+      autoStart: true,
+      selector: '.tlt2',
+      loop: false,
+      minDisplayTime: 1000,
+      initialDelay: 200,
+      in: {
+        effect: 'fadeInLeft',
+        delayScale: 5,
+        delay: 15,
+        sync: false,
+        shuffle: true,
+        reverse: false,
+        callback: function () {}
+      },
+      type: 'char'
+    });
+
+
+
+  }, 100)
+
+  setTimeout(function() {
+    $('.blocksTop .content-bottom').removeClass('transparent').addClass('animated fadeInUp')
+
+
+    var $tlt2 = $('.tlt3').textillate({
+      autoStart: true,
+      selector: '.tlt3',
+      loop: false,
+      minDisplayTime: 1000,
+      initialDelay: 200,
+      in: {
+        effect: 'fadeInLeft',
+        delayScale: 5,
+        delay: 15,
+        sync: false,
+        shuffle: true,
+        reverse: false,
+        callback: function () {}
+      },
+      type: 'char'
+    });
+
+  }, 200)
+
+  setTimeout(function() {
+    $('.blocksTop .content-last').removeClass('transparent').addClass('animated fadeInUp')
+    var $tlt2 = $('.tlt4').textillate({
+      autoStart: true,
+      selector: '.tlt4',
+      loop: false,
+      minDisplayTime: 1000,
+      initialDelay: 200,
+      in: {
+        effect: 'fadeInLeft',
+        delayScale: 5,
+        delay: 15,
+        sync: false,
+        shuffle: true,
+        reverse: false,
+        callback: function () {}
+      },
+      type: 'char'
+    });
+
+  }, 600)
+
+  setTimeout(function() {
+    $('.blocksTop .content-secondLast').removeClass('transparent').addClass('animated fadeInUp')
+    var $tlt2 = $('.tlt5').textillate({
+      autoStart: true,
+      selector: '.tlt5',
+      loop: false,
+      minDisplayTime: 1000,
+      initialDelay: 200,
+      in: {
+        effect: 'fadeInLeft',
+        delayScale: 5,
+        delay: 15,
+        sync: false,
+        shuffle: true,
+        reverse: false,
+        callback: function () {}
+      },
+      type: 'char'
+    });
+
+  }, 1200)
+
+  setTimeout(function() {
+    $('.blocksTop .content-thirdLast').removeClass('transparent').addClass('animated fadeInUp')
+
+  }, 1500)
+
+
+
+  setTimeout(function() {
+    $('.blocksTop2').addClass('bottomBoxShadow');
+  }, 1000);
+
+
+
+      setTimeout(function() {
+      $('.blocksTop2 .content-top').removeClass('transparent').addClass('animated slit-in-vertical')
+          var $tlt31 = $('.tlt31').textillate({
+            autoStart: true,
+            selector: '.tlt31',
+            loop: false,
+            minDisplayTime: 1000,
+            initialDelay: 300,
+            in: {
+              effect: 'fadeInLeft',
+              delayScale: 5,
+              delay: 15,
+              sync: false,
+              shuffle: true,
+              reverse: false,
+              callback: function () {}
+            },
+            type: 'char'
+          });
+
+      })
+
+      setTimeout(function() {
+        $('.blocksTop2 .content-middle').removeClass('transparent').addClass('animated slit-in-vertical')
+        var $tlt32 = $('.tlt32').textillate({
+          autoStart: true,
+          selector: '.tlt32',
+          loop: false,
+          minDisplayTime: 1000,
+          initialDelay: 300,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 5,
+            delay: 15,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+        });
+
+
+
+      }, 50)
+
+      setTimeout(function() {
+        $('.blocksTop2 .content-bottom').removeClass('transparent').addClass('animated slit-in-vertical')
+
+        var $tlt33 = $('.tlt33').textillate({
+          autoStart: true,
+          selector: '.tlt33',
+          loop: false,
+          minDisplayTime: 1000,
+          initialDelay: 300,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 5,
+            delay: 15,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+        });
+
+      }, 100)
+
+
+      setTimeout(function() {
+        $('.blocksTop2 .content-last').removeClass('transparent').addClass('animated slit-in-vertical')
+
+        var $tlt34 = $('.tlt34').textillate({
+          autoStart: true,
+          selector: '.tlt34',
+          loop: false,
+          minDisplayTime: 1000,
+          initialDelay: 300,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 5,
+            delay: 15,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+        });
+
+      }, 200)
+
+      setTimeout(function() {
+        $('.trans--grow.hr1').addClass('grow');
+      }, 1300);
+
+
+
+  setTimeout(function() {
     $('.addShadow').addClass('topShadow');
   }, 1800);
 
@@ -2408,21 +2645,142 @@ if ($('.blocks800').hasClass('active2')) {
 
 })
 
-$( window ).on("load", function() {
+$(window).on('scroll', function() {
+var screenTop = $(window).scrollTop();
+var screenBottom = $(window).scrollTop() + window.innerHeight;
 
+$('section').each(function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = $(this).offset().top + $(this).outerHeight();
+
+    if ((screenBottom > elementTop + ($(this).find('.heros').height() / 2)) && (screenTop < elementBottom)) {
+        $('section').removeClass('active2')
+        $(this).addClass('active2')
+    } else {
+        $(this).removeClass('active2')
+    }
+})
+
+
+if ($('.blocksTop2').hasClass('active2')) {
 
 
   setTimeout(function() {
     $('.blocksTop2').addClass('bottomBoxShadow');
   }, 1000);
 
+
+
+      setTimeout(function() {
+      $('.blocksTop2 .content-top').removeClass('transparent').addClass('animated slit-in-vertical')
+          var $tlt31 = $('.tlt31').textillate({
+            autoStart: true,
+            selector: '.tlt31',
+            loop: false,
+            minDisplayTime: 1000,
+            initialDelay: 300,
+            in: {
+              effect: 'fadeInLeft',
+              delayScale: 5,
+              delay: 15,
+              sync: false,
+              shuffle: true,
+              reverse: false,
+              callback: function () {}
+            },
+            type: 'char'
+          });
+
+      })
+
+      setTimeout(function() {
+        $('.blocksTop2 .content-middle').removeClass('transparent').addClass('animated slit-in-vertical')
+        var $tlt32 = $('.tlt32').textillate({
+          autoStart: true,
+          selector: '.tlt32',
+          loop: false,
+          minDisplayTime: 1000,
+          initialDelay: 300,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 5,
+            delay: 15,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+        });
+
+
+
+      }, 50)
+
+      setTimeout(function() {
+        $('.blocksTop2 .content-bottom').removeClass('transparent').addClass('animated slit-in-vertical')
+
+        var $tlt33 = $('.tlt33').textillate({
+          autoStart: true,
+          selector: '.tlt33',
+          loop: false,
+          minDisplayTime: 1000,
+          initialDelay: 300,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 5,
+            delay: 15,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+        });
+
+      }, 100)
+
+
+      setTimeout(function() {
+        $('.blocksTop2 .content-last').removeClass('transparent').addClass('animated slit-in-vertical')
+
+        var $tlt34 = $('.tlt34').textillate({
+          autoStart: true,
+          selector: '.tlt34',
+          loop: false,
+          minDisplayTime: 1000,
+          initialDelay: 300,
+          in: {
+            effect: 'fadeInLeft',
+            delayScale: 5,
+            delay: 15,
+            sync: false,
+            shuffle: true,
+            reverse: false,
+            callback: function () {}
+          },
+          type: 'char'
+        });
+
+      }, 200)
+
+      setTimeout(function() {
+        $('.trans--grow.hr1').addClass('grow');
+      }, 1300);
+
+
+  }
+
+
+
+
+  if ($('.blocksTop').hasClass('active2')) {
+
   setTimeout(function() {
     $('.blocksTop').addClass('bottomBoxShadow');
   }, 1000);
 
-  setTimeout(function() {
-    $('.blocksTop3').addClass('bottomBoxShadow');
-  }, 1000);
+
 
   setTimeout(function() {
   $('.blocksTop .content-top').removeClass('transparent').addClass('animated fadeInUp')
@@ -2554,100 +2912,15 @@ $( window ).on("load", function() {
   }, 1300);
 
 
+}
 
 
-    setTimeout(function() {
-    $('.blocksTop2 .content-top').removeClass('transparent').addClass('animated slit-in-vertical')
-        var $tlt31 = $('.tlt31').textillate({
-          autoStart: true,
-          selector: '.tlt31',
-          loop: false,
-          minDisplayTime: 1000,
-          initialDelay: 300,
-          in: {
-            effect: 'fadeInLeft',
-            delayScale: 5,
-            delay: 15,
-            sync: false,
-            shuffle: true,
-            reverse: false,
-            callback: function () {}
-          },
-          type: 'char'
-        });
+  if ($('.blocksTop3').hasClass('active2')) {
 
-    })
+setTimeout(function() {
+  $('.blocksTop3').addClass('bottomBoxShadow');
+}, 1000);
 
-    setTimeout(function() {
-      $('.blocksTop2 .content-middle').removeClass('transparent').addClass('animated slit-in-vertical')
-      var $tlt32 = $('.tlt32').textillate({
-        autoStart: true,
-        selector: '.tlt32',
-        loop: false,
-        minDisplayTime: 1000,
-        initialDelay: 300,
-        in: {
-          effect: 'fadeInLeft',
-          delayScale: 5,
-          delay: 15,
-          sync: false,
-          shuffle: true,
-          reverse: false,
-          callback: function () {}
-        },
-        type: 'char'
-      });
-
-
-
-    }, 50)
-
-    setTimeout(function() {
-      $('.blocksTop2 .content-bottom').removeClass('transparent').addClass('animated slit-in-vertical')
-
-      var $tlt33 = $('.tlt33').textillate({
-        autoStart: true,
-        selector: '.tlt33',
-        loop: false,
-        minDisplayTime: 1000,
-        initialDelay: 300,
-        in: {
-          effect: 'fadeInLeft',
-          delayScale: 5,
-          delay: 15,
-          sync: false,
-          shuffle: true,
-          reverse: false,
-          callback: function () {}
-        },
-        type: 'char'
-      });
-
-    }, 100)
-
-
-    setTimeout(function() {
-      $('.blocksTop2 .content-last').removeClass('transparent').addClass('animated slit-in-vertical')
-
-      var $tlt34 = $('.tlt34').textillate({
-        autoStart: true,
-        selector: '.tlt34',
-        loop: false,
-        minDisplayTime: 1000,
-        initialDelay: 300,
-        in: {
-          effect: 'fadeInLeft',
-          delayScale: 5,
-          delay: 15,
-          sync: false,
-          shuffle: true,
-          reverse: false,
-          callback: function () {}
-        },
-        type: 'char'
-      });
-
-    }, 200)
 
     setTimeout(function() {
     $('.blocksTop3 .content-top').removeClass('transparent').addClass('animated fadeInUp')
@@ -2744,6 +3017,16 @@ $( window ).on("load", function() {
     }, 800)
 
     setTimeout(function() {
+      $('.trans--grow.hr1').addClass('grow');
+    }, 1300);
+
+
+  }
+
+
+    if ($('.blocksTop4').hasClass('active2')) {
+
+    setTimeout(function() {
     $('.blocksTop4 .content-top').removeClass('transparent').addClass('animated fadeInUp')
 
     }, 0)
@@ -2766,5 +3049,8 @@ setTimeout(function() {
 $('.blocksTop4 .content-secondLast').removeClass('transparent').addClass('animated fadeInUp')
 
 }, 1000)
+
+
+}
 
 });
