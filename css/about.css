@@ -22,6 +22,10 @@ h1.slicker {
   margin-bottom: 0px !important;
 }
 
+.i1, .i2, .i3 {
+  margin-bottom: -6em;
+}
+
 
 .whiteLine3 {
   width: 90px;
@@ -633,7 +637,7 @@ h1.acq {
 }
 
   .i1, .i2, .i3 {
-    margin-bottom:-6em;
+    margin-bottom:0em;
   }
 
   #slideUpLiner3 {
