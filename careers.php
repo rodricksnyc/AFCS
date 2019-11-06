@@ -107,7 +107,7 @@ ga('send', 'pageview');
 
 
 
-    <section id="blocksTop3" class="blocksTop3 hideOnMobile">
+    <section class="blocksTop hideOnMobile">
       <div class="container-fluid">
         <div class="row heros">
 
