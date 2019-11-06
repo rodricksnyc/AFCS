@@ -827,7 +827,7 @@ ga('send', 'pageview');
                 </div>
 
                 <div class="center2 bluish2 content-middle transparent">
-                  <div class="bluishButton two"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers">Register</a></div>
+                  <div class="bluishButton two"><a class="white" href="roa.php">Register</a></div>
                   <div class="bluishButton two"><a class="white" href="careers.php#occupations">Back to Occupations</a></div>
 
                 </div>

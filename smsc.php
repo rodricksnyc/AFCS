@@ -301,7 +301,7 @@ ga('send', 'pageview');
             <p class="register" style="margin-bottom:0px !important;" class="small">Register here and we’ll keep you informed about the latest job openings.</p>
           </div>
           <div class="center2 bluish2 content-middle transparent">
-            <div class="bluishButton two"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC page');">Register</a></div>
+            <div class="bluishButton two"><a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC page');">Register</a></div>
             <div class="bluishButton two"><a class="white" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'SMSC page');">Acquisition Home</a></div>
           </div>
         </div>
@@ -757,7 +757,7 @@ ga('send', 'pageview');
 
           <div class="center2 bluish2 content-middle transparent">
             <div class="bluishButton two">
-              <a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC page');">Register</a>
+              <a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC page');">Register</a>
             </div>
             <div class="bluishButton two"><a class="white" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'SMSC page');">Acquisition Home</a></div>
 

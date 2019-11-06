@@ -875,7 +875,7 @@ a.small{
                   </div>
 
                   <div class="center2 bluish2 content-middle transparent">
-                    <div class="bluishButton two"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'AFTAC Careers Page');">Register</a></div>
+                    <div class="bluishButton two"><a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'AFTAC Careers Page');">Register</a></div>
                     <div class="bluishButton two"><a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'AFTAC Careers Page');">Back to Occupations</a></div>
 
                   </div>

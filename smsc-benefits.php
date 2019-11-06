@@ -346,7 +346,7 @@ ga('send', 'pageview');
 
             <div class="center2 bluish2 content-middle transparent">
               <div class="bluishButton two">
-                <a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'SMSC Benefits page');">Register</a>
+                <a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'SMSC Benefits page');">Register</a>
               </div>
               <div class="bluishButton two"><a class="white" href="acquisition.php" onclick="ga('send', 'event', 'Go to Acquisition page', 'click', 'SMSC Benefits page');">Acquisition Home</a></div>
 

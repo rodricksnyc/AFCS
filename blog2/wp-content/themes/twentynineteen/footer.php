@@ -487,7 +487,7 @@ jQuery(document).ready(function( $ ){
 											     {'url': 'http://v4.afciviliancareers.com/careers.php', 'score': 60},
 											     {'url': 'http://v4.afciviliancareers.com/contact.php', 'score': 60},
 													 {'url': 'http://v4.afciviliancareers.com/find-job.php', 'score': 60},
-													 {'url': 'http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers', 'score': 60}
+													 {'url': 'http://v4.afciviliancareers.com/roa.php', 'score': 60}
 											]};
 
 
@@ -675,51 +675,51 @@ var tipuesearch = {"pages": [
 
      {"title": "Social Services", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/careers.php#occupations"},
 
-     {"title": "Acquisition Contract and Management", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Acquisition Contract and Management", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Administrative and Management", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Administrative and Management", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Administration", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Administration", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Aircraft Maintenance", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Aircraft Maintenance", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Animal Care and Veterinarian", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Animal Care and Veterinarian", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Auditing", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Auditing", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Civil Engineering", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Civil Engineering", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Civil Engineer", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Civil Engineer", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Civil Engineers", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Civil Engineers", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Cyber and Information Technology", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Cyber and Information Technology", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Finance and Accounting", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Finance and Accounting", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-    {"title": "Accountant", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+    {"title": "Accountant", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Fire Protection", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Fire Protection", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Law Enforcement and Security", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Law Enforcement and Security", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Logistics", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Logistics", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Medical and Mental Health", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Medical and Mental Health", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Pilot and Simulator Instructors", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Pilot and Simulator Instructors", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Trade", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Trade", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Skills", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Skills", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Skilled Trades", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Skilled Trades", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "STEM Disciplines", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "STEM Disciplines", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Science", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Science", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Social Services", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Social Services", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
 
      {"title": "Acquisition Contract and Management", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/acm.php"},
@@ -922,43 +922,43 @@ var tipuesearch = {"pages": [
 
       {"title": "Acquisition", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/smsc-locations.php"},
 
-     {"title": "Register", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Register", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Career", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Career", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Careers", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Careers", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Jobs", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Jobs", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Education", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Education", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Students", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Students", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Student", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Student", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Graduate", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Graduate", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Graduates", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Graduates", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "College", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "College", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "University", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "University", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Locations", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Locations", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Veteran", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Veteran", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Professional", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Professional", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Military", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Military", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Civilian Jobs", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Civilian Jobs", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Internships", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Internships", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-     {"title": "Scholarships", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+     {"title": "Scholarships", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
-      {"title": "ROTC", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/https://www.afciviliancareers.com/afciviliancareers"},
+      {"title": "ROTC", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/roa.php"},
 
       {"title": "Department of Defense DoD", "text": "Air Force Civilian Service", "url": "http://v4.afciviliancareers.com/contact.php"},
 

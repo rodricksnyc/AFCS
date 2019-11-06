@@ -274,7 +274,7 @@ h1.acq.two, h1.acq {
             </div>
 
             <div class="bluish3 content-middle transparent">
-              <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance Careers page');">Register</a></div>
+              <div class="bluishButton"><a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance Careers page');">Register</a></div>
               <div class="bluishButton new">
                 <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Maintenance Careers page');">Back to Occupations</a>
               </div>
@@ -510,7 +510,7 @@ h1.acq.two, h1.acq {
             </div>
 
             <div class="bluish3 content-middle transparent">
-              <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance Careers page');">Register</a></div>
+              <div class="bluishButton"><a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance Careers page');">Register</a></div>
               <div class="bluishButton new">
                 <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Maintenance Careers page');">Back to Occupations</a>
               </div>
@@ -649,7 +649,7 @@ h1.acq.two, h1.acq {
                   </div>
 
                   <div class="bluish3 content-middle transparent">
-                    <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance Careers page');">Register</a></div>
+                    <div class="bluishButton"><a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'Maintenance Careers page');">Register</a></div>
                     <div class="bluishButton new">
                       <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'Maintenance Careers page');">Back to Occupations</a>
                     </div>

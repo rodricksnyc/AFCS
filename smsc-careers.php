@@ -339,7 +339,7 @@ ga('send', 'pageview');
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'SMSC Careers page');">Register</a></div>
+            <div class="bluishButton"><a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'SMSC Careers page');">Register</a></div>
             <div class="bluishButton new">
               <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'SMSC Careers page');">Back to Occupations</a>
             </div>
@@ -523,7 +523,7 @@ ga('send', 'pageview');
           </div>
 
           <div class="bluish3 content-middle transparent">
-            <div class="bluishButton"><a class="white" href="https://www.afciviliancareers.com/afciviliancareers" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'SMSC Careers page');">Register</a></div>
+            <div class="bluishButton"><a class="white" href="roa.php" onclick="ga('send', 'event', 'Go to ROA page', 'click', 'SMSC Careers page');">Register</a></div>
             <div class="bluishButton new">
               <a class="white" href="careers.php#occupations" onclick="ga('send', 'event', 'Go to Careers page', 'click', 'SMSC Careers page');">Back to Occupations</a>
             </div>
@@ -664,7 +664,7 @@ ga('send', 'pageview');
 
                 <div class="center2 bluish2 content-middle transparent">
                   <div class="bluishButton two">
-                    <a class="white" href="https://www.afciviliancareers.com/afciviliancareers" target="_blank" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC Careers page');">Register</a>
+                    <a class="white" href="roa.php" target="_blank" onclick="ga('send', 'event', 'Go to ROA', 'click', 'SMSC Careers page');">Register</a>
                   </div>
                   <div class="bluishButton two"><a class="white" href="acquisition.php" target="_blank" onclick="ga('send', 'event', 'Go to Acquisition', 'click', 'SMSC Careers page');">Acquisition Home</a></div>
 
